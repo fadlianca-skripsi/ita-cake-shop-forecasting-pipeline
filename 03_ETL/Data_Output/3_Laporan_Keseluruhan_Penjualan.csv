@@ -1,0 +1,3696 @@
+#ringkasan diskon,unnamed: 1,unnamed: 2,unnamed: 3,unnamed: 4,unnamed: 5
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,DISCOUNT ITEMS,,,10000,2
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     DINE IN,,,,58000,4
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Mille Crepes,,,,3060000,157
+     Macaron,,,,475000,42
+     Menu,,,,572000,35
+     Cookies,,,,180000,24
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mille Crepes Slice,,,,3060000,157
+     Macaron Reguler,,,,264000,33
+     Pop Cake,,,,140000,20
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,5467000
+         - SALES - POINT OF SALE,,,5467000,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,5467000
+     D. Pengeluaran,,,,,10000
+      - belanja,,,,,10000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,5457000
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Cake,,,,360000,7
+     Cookies,,,,180000,24
+     CUSTOM,,,,800000,15
+     Dessert box,,,,20000,1
+     Macaron,,,,475000,42
+     Menu,,,,572000,35
+     Mille Crepes,,,,3060000,157
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     DP,,,, ,12000
+     QRIS BCA,,,, ,793000
+     Kartu Debit,,,, ,526000
+     CASH,,,, ,4194000
+     QRIS BCA,,,, ,-12000
+     CASH,,,, ,-22000
+     QRIS BCA,,,, ,-12000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 4.172.000,00"
+      Void Tunai,,,,,"IDR 22.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR 0,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,25000,3
+     POINT OF SALE,DISCOUNT ITEMS,,,48000,12
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Mille Crepes,,,,2036000,114
+     Menu,,,,916500,35
+     Cookies,,,,402000,37
+     Macaron,,,,710000,33
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mille Crepes Slice,,,,2012000,113
+     Soft cookies,,,,250000,25
+     Macaron Reguler,,,,152000,19
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,5770500
+         - SALES - POINT OF SALE,,,6166500,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,396000
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,5770500
+     D. Pengeluaran,,,,,9000
+      - beli saos,,,,,9000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,5761500
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,35000,1
+     Cake,,,,640000,12
+     Cookies,,,,402000,37
+     Cup cake,,,,25000,1
+     CUSTOM,,,,941000,14
+     Dessert box,,,,80000,4
+     Macaron,,,,710000,33
+     Menu,,,,916500,35
+     Mille Crepes,,,,2000000,112
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Kartu Debit,,,, ,1023500
+     QRIS BCA,,,, ,722000
+     CASH,,,, ,4421000
+     CASH (R),,,, ,-396000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 4.421.000,00"
+      Void Tunai,,,,,"IDR 0,00"
+      Pengembalian Tunai,,,,,"IDR 396.000,00"
+      Kas Selisih (Shift),,,,,"IDR 0,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,30000,1
+     POINT OF SALE,DISCOUNT ITEMS,,,92000,8
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Mille Crepes,,,,9872000,464
+     Macaron,,,,9188000,256
+     Cookies,,,,2327000,225
+     Menu,,,,4285000,181
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mille Crepes Slice,,,,7632000,424
+     Soft cookies,,,,1735000,177
+     DEPOSIT,,,,6215000,112
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,37902000
+         - SALES - POINT OF SALE,,,37902000,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,37902000
+     D. Pengeluaran,,,,,35500
+      - belanja,,,,,35500
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,37866500
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,700000,11
+     Cake,,,,4705000,90
+     Cookies,,,,2327000,225
+     Cup cake,,,,290000,14
+     CUSTOM,,,,6215000,112
+     Dessert box,,,,350000,16
+     Macaron,,,,9188000,256
+     Menu,,,,4285000,181
+     Mille Crepes,,,,9872000,464
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Kartu Debit,,,, ,14422000
+     QRIS BCA,,,, ,5946000
+     CASH,,,, ,17534000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 17.534.000,00"
+      Void Tunai,,,,,"IDR 0,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR 0,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,DISCOUNT ITEMS,,,25000,3
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,76000,2
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Menu,,,,6710000,535
+     Mille Crepes,,,,9704000,419
+     Macaron,,,,4069000,171
+     Cookies,,,,1412000,165
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mille Crepes Slice,,,,6804000,378
+     Cup cake pcs,,,,890000,178
+     Rice Choco Jar,,,,2235000,149
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,42215100
+         - SALES - POINT OF SALE,,,41779000,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,64000
+    - Total Deposit yang ditebus,,,,,0
+      - tunai,,,,,500100
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,42215100
+     D. Pengeluaran,,,,,1562600
+      - tunai,,,,,1562600
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,40652500
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,570000,12
+     Cake,,,,10485000,157
+     Cookies,,,,1412000,165
+     Cup cake,,,,240000,12
+     CUSTOM,,,,5227500,55
+     Dessert box,,,,530000,24
+     Japanese,,,,2700000,54
+     Lilin,,,,67500,27
+     Macaron,,,,4069000,171
+     Menu,,,,6710000,535
+     Mille Crepes,,,,9704000,419
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     QRIS BCA,,,, ,3596000
+     Kartu Debit,,,, ,12516000
+     Gofood,,,, ,397500
+     Grabfood,,,, ,40000
+     Transfer Manual,,,, ,460000
+     CASH,,,, ,24845500
+     Kartu Debit,,,, ,-50000
+     CASH,,,, ,-26000
+     CASH (R),,,, ,-64000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 24.819.500,00"
+      Void Tunai,,,,,"IDR 26.000,00"
+      Pengembalian Tunai,,,,,"IDR 64.000,00"
+      Kas Selisih (Shift),,,,,"IDR -14.923.700,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,DISCOUNT ITEMS,,,57000,11
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,538000,7
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Menu,,,,5455500,561
+     CUSTOM,,,,9660500,389
+     Mille Crepes,,,,9240000,383
+     Cookies,,,,1846000,232
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     DEPOSIT,,,,9660500,389
+     Mille Crepes Slice,,,,5940000,330
+     Cup cake pcs,,,,1060000,212
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,49642000
+         - SALES - POINT OF SALE,,,49642000,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,49642000
+     D. Pengeluaran,,,,,4335800
+      - beli susu cair,,,,,158300
+      - tunai,,,,,404700
+      - minyak tunai,,,,,34300
+      - iuran Rt bulanan toko,,,,,50000
+      - SKM carnation,,,,,47000
+"      - sapu,pengki",,,,,55000
+"      - terigu Cakra, baking powder,garam",,,,,37500
+      - Air Aqua,,,,,96800
+      - kresek bening,,,,,126000
+      - isi gas besar,,,,,2054000
+"      - paku beton, cepetan tikus",,,,,17000
+      - service AC,,,,,75000
+      - minyak,,,,,213000
+      - gula,,,,,13500
+      - kembali uang grabfood,,,,,23000
+"      - susu cair, minyak,sabun cuci piring",,,,,77000
+      - sendok puding,,,,,7000
+"      - kertas termal ,struk",,,,,18000
+      - ongkir lalamove,,,,,15000
+      - plastik wwn,,,,,63000
+      - bensin,,,,,60000
+      - bensin motor vera,,,,,60000
+      - lilin,,,,,3000
+      - botol spray,,,,,5000
+      - mika  besar Bangkok/Strawberry,,,,,37000
+      - ongkir lalamove stiker,,,,,9400
+      - kembali grabfood,,,,,2000
+      - Abang ambil,,,,,150000
+      - saringan,,,,,4000
+      - semprotan air,,,,,14000
+"      - minyak,susu cair",,,,,76500
+"      - minyak,telur",,,,,55800
+      - air Aqua gelas,,,,,35900
+      - dus putih 25,,,,,75000
+"      - tepung Cakra, segitiga biru,baking powder",,,,,71600
+"      - Royco,soklin",,,,,23500
+      - terigu kunci,,,,,31000
+      - refiil galon,,,,,14000
+      - tinta spidol,,,,,14000
+      - ongkir in driver kirim spanduk,,,,,9000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,45306200
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,267000,6
+     Cake,,,,10545000,149
+     Cookies,,,,1846000,232
+     Cup cake,,,,306000,14
+     CUSTOM,,,,9660500,389
+     Dessert box,,,,445000,20
+     Japanese,,,,8725000,170
+     Lilin,,,,290000,116
+     Macaron,,,,2862000,104
+     Menu,,,,5455500,561
+     Mille Crepes,,,,9240000,383
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Gofood,,,, ,2678500
+     QRIS BCA,,,, ,7599000
+     Kartu Debit,,,, ,9993500
+     Transfer Manual,,,, ,1790000
+     Grabfood,,,, ,2482000
+     CASH,,,, ,25637000
+     QRIS BCA,,,, ,-203000
+     CASH,,,, ,-335000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 25.302.000,00"
+      Void Tunai,,,,,"IDR 335.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -43.270.701,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,DISCOUNT ITEMS,,,125500,31
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,604000,11
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Menu,,,,8314500,880
+     Mille Crepes,,,,16091000,808
+     Cookies,,,,3356000,409
+     Japanese,,,,18205000,359
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mille Crepes Slice,,,,13367000,744
+     Cup cake pcs,,,,1490000,298
+     Bento Cake polos,,,,11393000,228
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,87067800
+         - SALES - POINT OF SALE,,,87103800,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,36000
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,87067800
+     D. Pengeluaran,,,,,4987090
+      - Bulanan Sampah,,,,,80000
+      - double tape,,,,,5000
+      - bensin motor vera,,,,,90000
+      - maizenaku,,,,,75200
+      - isi gas besar,,,,,1800000
+      - iuran Rt bulanan toko,,,,,50000
+      - marshmallow,,,,,39700
+      - mika bangkok,,,,,117000
+      - belanja,,,,,3000
+      - bayar PDAM 2 bulan,,,,,287200
+      - refiil galon,,,,,56000
+      - korek api,,,,,5000
+      - bayar bulanan wifi,,,,,383790
+      - terigu kunci,,,,,96500
+      - chi chocho,,,,,19000
+      - Tisue besar,,,,,76400
+      - kresek bening,,,,,48000
+      - sabun cuci piring,,,,,25500
+      - Air Aqua,,,,,21000
+      - Ongki lalamove,,,,,40400
+      - ongkir lalamove,,,,,233700
+"      - SBN cc piring, soklin,daia",,,,,35300
+      - biopacenton,,,,,27000
+"      - kran,saltip",,,,,28000
+      - pemantik gas,,,,,18000
+      - lemon,,,,,22400
+      - lem power glue,,,,,5000
+      - sari minang,,,,,136000
+      - Strawberry,,,,,44000
+      - beli susu cair,,,,,72000
+      - minyak,,,,,53800
+      - daia,,,,,19500
+      - telur,,,,,23000
+      - ongkir gosend,,,,,32000
+      - ongkir grab car,,,,,15000
+      - kopi Nescafe,,,,,34400
+"      - marshmallow,royco",,,,,53000
+"      - Ongkir, gosend byr tf",,,,,22500
+      - kopi point baper,,,,,34000
+      - nota kontan,,,,,9000
+      - kertas struk termal otani,,,,,75000
+      - duplex putih,,,,,16000
+      - plastik sampah,,,,,14000
+      - stater MTR vera,,,,,55000
+"      - daia,super pel,spon,kawat cuci piring",,,,,42800
+      - meses,,,,,36000
+      - bayar pangsit,,,,,70000
+      - service motor,,,,,20000
+      - lampu d jasa mas salman,,,,,120000
+      - ongkir gocar,,,,,17000
+"      - daia,mm lemon,garam,royco",,,,,45000
+      - Tepung Segitiga Biru,,,,,140000
+      - Tukang mang sodik,,,,,100000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,82080710
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,453000,12
+     Cake,,,,22118000,332
+     Cookies,,,,3356000,409
+     Cup cake,,,,1537000,200
+     CUSTOM,,,,8268300,100
+     Dessert box,,,,815000,37
+     Japanese,,,,18205000,359
+     Lilin,,,,362000,143
+     Macaron,,,,6703000,253
+     Menu,,,,8314500,880
+     Mille Crepes,,,,16091000,808
+     Puding,,,,845000,13
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Gofood,,,, ,7129000
+     QRIS BCA,,,, ,11300500
+     Grabfood,,,, ,2571000
+     Kartu Debit,,,, ,16870500
+     Transfer Manual,,,, ,4972500
+     Qris Manual BRI,,,, ,216000
+     CASH,,,, ,44648300
+     QRIS BCA,,,, ,-105000
+     Kartu Debit,,,, ,-88000
+     CASH,,,, ,-411000
+     CASH (R),,,, ,-36000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 44.237.300,00"
+      Void Tunai,,,,,"IDR 411.000,00"
+      Pengembalian Tunai,,,,,"IDR 36.000,00"
+      Kas Selisih (Shift),,,,,"IDR -55.704.310,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,Voucher 5.000,,,65000,13
+     POINT OF SALE,DISCOUNT ITEMS,,,225000,44
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,730000,10
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Mille Crepes,,,,14508000,671
+     Menu,,,,5835000,508
+     Japanese,,,,23350000,458
+     Cookies,,,,3355000,394
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mille Crepes Slice,,,,10288000,572
+     Cup cake mika bulat pcs,,,,1758000,293
+     Bento Cake polos,,,,13550000,271
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,95554500
+         - SALES - POINT OF SALE,,,95554500,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,95554500
+     D. Pengeluaran,,,,,29474550
+      - Bulanan Sampah,,,,,200000
+      - Ongki lalamove,,,,,10000
+      - ongkir gosend,,,,,41000
+      - ongkir lalamove,,,,,228700
+      - refiil galon,,,,,77000
+      - iuran Rt bulanan toko,,,,,50000
+      - Jumat berkah mesjid,,,,,50000
+      - yoghurt,,,,,10000
+      - bayar PDAM,,,,,106200
+      - isi gas besar,,,,,1575000
+      - bulanan PDAM,,,,,106500
+      - self lebel,,,,,5000
+      - cetak Sticker,,,,,324300
+"      - daia,mm lemon, minyak Sania, Royco",,,,,69400
+      - Tisue besar,,,,,86400
+      - bensin motor vera,,,,,104000
+      - air Aqua gelas,,,,,21000
+"      - kresek 15,18",,,,,51000
+      - Air Aqua,,,,,14000
+      - sticker,,,,,180000
+      - sandal swaloww,,,,,15000
+      - batre abc,,,,,13700
+      - ongkir gocar,,,,,75500
+"      - marshmallow,SBN cuci piring,royco",,,,,41000
+      - cup kertas,,,,,25000
+      - Token listrik,,,,,102500
+      - Topper,,,,,6650
+      - coklat buat hiasan brownies,,,,,9500
+      - kit kat,,,,,9900
+      - bayar pangsit,,,,,56000
+"      - kertas stru,bon nota,buku,blpn",,,,,88000
+      - Abang ambil,,,,,24400000
+      - double tape,,,,,6900
+      - daia,,,,,18500
+      - jajan,,,,,30000
+      - Cimory yoghurt,,,,,25300
+      - yupi,,,,,17500
+      - steker colokan broco,,,,,20000
+      - refund gofood,,,,,22000
+      - bensin motor abang,,,,,50000
+      - Tarik Tunai,,,,,15000
+      - SKM carnation,,,,,23500
+      - marshmallow,,,,,46200
+      - spon cuci piring,,,,,7800
+      - jasa perbaiki AC,,,,,55000
+      - Tips kurir,,,,,5000
+      - bayar listrik,,,,,200000
+      - lemon,,,,,14000
+      - refiil tinta,,,,,40000
+      - tepung cakra,,,,,16500
+"      - Cadbury, Kitkat,nescafe",,,,,58500
+      - mika bangkok,,,,,16000
+      - duplex putih,,,,,16000
+      - Strawberry,,,,,66000
+      - sabun deterjen,,,,,34600
+      - plastik wwn,,,,,21000
+      - Stiker dan Topper,,,,,117000
+      - bayar internet,,,,,380000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,66079950
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,689000,18
+     Cake,,,,25850000,387
+     Cookies,,,,3355000,394
+     Cup cake,,,,2325000,316
+     CUSTOM,,,,8310000,113
+     Dessert box,,,,725000,33
+     Japanese,,,,23350000,458
+     Lilin,,,,890500,326
+     Macaron,,,,5397000,188
+     Menu,,,,5835000,508
+     Mille Crepes,,,,14508000,671
+     Puding,,,,4385000,68
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Grabfood,,,, ,3126500
+     Kartu Debit,,,, ,25734500
+     Gofood,,,, ,4810000
+     QRIS BCA,,,, ,4152500
+     Transfer Manual,,,, ,6803000
+     Shoppe food,,,, ,497000
+     Qris Manual BRI,,,, ,139000
+     CASH,,,, ,51022000
+     Kartu Debit,,,, ,-201000
+     Gofood,,,, ,-150000
+     QRIS BCA,,,, ,-50000
+     CASH,,,, ,-329000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 50.693.000,00"
+      Void Tunai,,,,,"IDR 329.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -39.861.150,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,113200,3
+     POINT OF SALE,Voucher 5.000,,,20000,4
+     POINT OF SALE,DISCOUNT ITEMS,,,202000,55
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,882000,13
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Mochi,,,,5945000,622
+     Mille Crepes,,,,12924000,621
+     Menu,,,,6942000,564
+     Cup cake,,,,2984000,453
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mille Crepes Slice,,,,9784000,544
+     Mochi Daifuku pcs pouch,,,,3338000,477
+     Cup cake mika bulat pcs,,,,2634000,439
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,96081300
+         - SALES - POINT OF SALE,,,96081300,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,96081300
+     D. Pengeluaran,,,,,9861200
+      - iuran Rt bulanan toko,,,,,50000
+      - Air Aqua,,,,,1500000
+      - topper,,,,,13500
+      - ongkir gosend,,,,,54000
+      - Abang ambil,,,,,4350000
+      - batre alkaline,,,,,19900
+      - ongkir lalamove,,,,,317000
+      - isi gas besar,,,,,860000
+      - refiil galon,,,,,63000
+      - jasa perbaiki mixer,,,,,150000
+      - bensin motor vera,,,,,117000
+      - bulanan PDAM,,,,,330900
+      - stiker Subaru,,,,,17500
+      - lebel tempel,,,,,7000
+      - Stiker dan Topper,,,,,288000
+      - bayar Air mineral TGM,,,,,436500
+      - marshmallow,,,,,20000
+"      - Pocky ,Royco",,,,,21000
+      - nasi,,,,,5000
+      - mika  besar Bangkok/Strawberry,,,,,38000
+      - kresek bening,,,,,14000
+      - lemon,,,,,16400
+      - bayar pangsit,,,,,120000
+      - cetak Sticker,,,,,7500
+      - piring kertas,,,,,5000
+      - Tarik Tunai debit cancel brownies,,,,,37000
+      - stiker,,,,,211500
+      - daia,,,,,29400
+      - Tisue besar,,,,,44900
+      - bolpen,,,,,5000
+      - kertas struk termal,,,,,75000
+      - mika puding,,,,,45000
+      - jasa Mas salman,,,,,100000
+      - susu carnation,,,,,23800
+      - kembali uang grabfood,,,,,2000
+      - infaq,,,,,12000
+      - stiker dan spanduk,,,,,83000
+"      - skm carnation, marshmallow",,,,,56400
+      - keju prochiz,,,,,26800
+      - kecap,,,,,11200
+      - ongkir gocar,,,,,21000
+      - refund gofood,,,,,38000
+      - Partisipasi RT pentas seni,,,,,50000
+      - bensin,,,,,30000
+"      - Regulator, claim",,,,,71000
+"      - Royco,pewangi lantai,kecap,",,,,,33000
+"      - kresek putih,15,18",,,,,34000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,86220100
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,299000,8
+     Cake,,,,24830000,367
+     Cookies,,,,2965000,344
+     Cup cake,,,,2984000,453
+     CUSTOM,,,,5693500,59
+     Dessert box,,,,930000,41
+     Japanese,,,,21380000,418
+     Lilin,,,,939000,302
+     Macaron,,,,5603000,191
+     Menu,,,,6942000,564
+     Mille Crepes,,,,12924000,621
+     Mochi,,,,5945000,622
+     Puding,,,,4780000,74
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Kartu Debit,,,, ,19789300
+     Grabfood,,,, ,3875000
+     Gofood,,,, ,6532500
+     Shoppe food,,,, ,2692000
+     Transfer Manual,,,, ,4288500
+     QRIS BCA,,,, ,11471500
+     CASH,,,, ,48314500
+     Kartu Debit,,,, ,-394000
+     QRIS BCA,,,, ,-229000
+     Gofood,,,, ,-54000
+     CASH,,,, ,-205000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 48.109.500,00"
+      Void Tunai,,,,,"IDR 205.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -53.327.300,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,36000,7
+     POINT OF SALE,DISCOUNT ITEMS,,,68500,22
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,1027000,12
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Mochi,,,,21092000,1681
+     Mille Crepes,,,,15786000,713
+     Japanese,,,,31330000,618
+     Menu,,,,7010500,605
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mochi box isi 3 (Harga Promo),,,,15270000,849
+     Mochi Daifuku pcs pouch,,,,5822000,832
+     Mille Crepes Slice,,,,10746000,597
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,136074000
+         - SALES - POINT OF SALE,,,136074000,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,136074000
+     D. Pengeluaran,,,,,5080600
+      - Bulanan Sampah,,,,,200000
+      - ongkir lalamove,,,,,200100
+      - Tisue besar,,,,,41900
+      - batre alkaline,,,,,19900
+      - marshmallow,,,,,26600
+"      - mika, plastik,sendok",,,,,48000
+      - stiker,,,,,545100
+      - Air Aqua,,,,,14000
+"      - pewangi lantai, nescafe",,,,,62300
+      - cetak Sticker,,,,,209700
+      - bensin,,,,,83000
+      - plastik wwn,,,,,42000
+      - ongkir gosend,,,,,76000
+      - pelantikan Rw,,,,,30000
+      - kembali uang grabfood,,,,,1000
+      - stiker dan spanduk,,,,,325500
+      - bensin motor vera,,,,,103000
+      - refiil galon,,,,,77000
+      - sari minang,,,,,31000
+      - duplex putih,,,,,24000
+      - nota dan kertas,,,,,34000
+      - deterjen,,,,,61800
+      - tarik Tunai,,,,,2000
+      - batu batre timbangan abc,,,,,14500
+      - ongkir gocar,,,,,10000
+      - Strawberry,,,,,725000
+      - lemon,,,,,40500
+      - refund gofood,,,,,4000
+"      - Tepung cakra,Tbm,prochiz",,,,,60400
+      - kecap,,,,,11400
+      - isi gas besar,,,,,630000
+      - deterjen dana royco,,,,,44500
+      - kertas struk termal,,,,,110000
+      - kresek dan tusuk sate,,,,,61500
+      - strawberry fresh dan frozen,,,,,195000
+"      - coklat chic, Cadbury,kitkat",,,,,34700
+      - karet,,,,,14000
+      - stapler,,,,,10000
+      - refil galon farm,,,,,12000
+      - TBM,,,,,15500
+      - diskon,,,,,2000
+      - topper,,,,,27000
+      - youghhurt dan marshmellow,,,,,29200
+      - Sari Bundo,,,,,62000
+      - bayar pangsit,,,,,104000
+      - Tissue besar dan kecap,,,,,52800
+      - telur dan sunlight,,,,,44400
+      - mika bangkok,,,,,32000
+      - nota kontan,,,,,5000
+"      - royco,teh sariwangi",,,,,20300
+      - Bayar bolen pisang,,,,,46000
+      - piring kertas,,,,,5000
+      - ongkir lalamove mobil,,,,,33000
+      - Token listrik,,,,,202500
+      - sunlight dan garam,,,,,35300
+      - kresek putih 15,,,,,28000
+"      - royco,spon sabut",,,,,66600
+      - kartu ucapan,,,,,34600
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,130993400
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,866000,23
+     Cake,,,,30995000,472
+     Cookies,,,,3404000,410
+     Cup cake,,,,2977000,455
+     CUSTOM,,,,10432500,99
+     Dessert box,,,,1175000,52
+     Japanese,,,,31330000,618
+     Lilin,,,,1281000,411
+     Macaron,,,,6381000,234
+     Menu,,,,7010500,605
+     Mille Crepes,,,,15786000,713
+     Mochi,,,,21092000,1681
+     Puding,,,,3380000,52
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     QRIS BCA,,,, ,23518000
+     Kartu Debit,,,, ,25182500
+     Grabfood,,,, ,2196500
+     Gofood,,,, ,4099000
+     Shoppe food,,,, ,2790000
+     Transfer Manual,,,, ,7741000
+     Qris Manual BRI,,,, ,169000
+     CASH,,,, ,71405000
+     Kartu Debit,,,, ,-355000
+     QRIS BCA,,,, ,-204000
+     CASH,,,, ,-468000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 70.937.000,00"
+      Void Tunai,,,,,"IDR 468.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -67.376.200,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,9000,2
+     POINT OF SALE,DISCOUNT ITEMS,,,93500,30
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,866500,10
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Mochi,,,,20149000,1540
+     Mille Crepes,,,,16767000,769
+     Japanese,,,,33420000,660
+     Menu,,,,6351500,602
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mochi box isi 3 (Harga Promo),,,,15333000,852
+     Mochi Daifuku pcs pouch,,,,4816000,688
+     Mille Crepes Slice,,,,11967000,665
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,140607000
+         - SALES - POINT OF SALE,,,140672000,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,65000
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,140607000
+     D. Pengeluaran,,,,,7788700
+      - Strawberry,,,,,672500
+      - Jumat berkah mesjid,,,,,50000
+      - iuran Rt bulanan toko,,,,,100000
+"      - daia,sunlight coklat",,,,,49900
+"      - oreo,cadbury",,,,,35400
+      - Bayar bolen pisang,,,,,690000
+      - bulanan PDAM,,,,,302000
+      - refiil galon,,,,,70000
+      - ongkir lalamove,,,,,193200
+      - ongkir gosend,,,,,121500
+"      - TBM,baking powder",,,,,31400
+      - perbaiki Ac,,,,,100000
+      - kembali uang gofood,,,,,37500
+      - kanebo,,,,,10000
+      - kembalian rubah kelebihan tf qris,,,,,7000
+      - plastik wawan,,,,,70000
+      - kresek 18,,,,,80000
+      - lemon,,,,,27800
+      - cash back  kelebihan tf,,,,,100000
+      - bayar pangsit,,,,,104000
+      - sunlight,,,,,50000
+      - isi gas besar,,,,,1025000
+      - daia  dan marsmelow,,,,,49700
+      - Tisue besar,,,,,91900
+      - sendok dessert,,,,,30000
+      - pocky dan yupi,,,,,18800
+      - baking powder,,,,,45600
+      - cetak Sticker,,,,,346500
+      - bensin motor vera,,,,,70000
+      - Token listrik,,,,,607500
+"      - kecap,Royco,sunlight",,,,,40000
+      - kertas struk termal otani,,,,,70000
+      - refund custumer,,,,,15000
+      - refund shopee,,,,,19000
+      - bensin motor rinati,,,,,30000
+      - telur,,,,,59400
+      - marshmallow,,,,,29700
+      - stiker,,,,,516500
+      - ongkir gocar,,,,,55000
+      - baud,,,,,4000
+      - Air Aqua,,,,,28000
+      - tambal ban motor rina,,,,,15000
+      - kresek putih 15,,,,,91000
+"      - kit kat,cadbury,choco",,,,,35500
+      - mama lemon& Sabun boom,,,,,19900
+      - mika bangkok,,,,,15000
+"      - sunlight,boom",,,,,19100
+      - marshmallow dan nescafe,,,,,53500
+      - refund gofood,,,,,5000
+      - bayar bulanan wifi,,,,,287500
+"      - sponge,soklin lantai",,,,,20000
+      - pemantik gas,,,,,36000
+"      - kitkat,chicchoc,detergen",,,,,29500
+      - sabun cuci piring,,,,,20000
+      - jasa perbaiki mixer,,,,,100000
+"      - marshmelow,baking powder",,,,,27000
+"      - royco,nescafe",,,,,31800
+      - kertas roti,,,,,5000
+      - mika dan plastik,,,,,66000
+      - pisang,,,,,30000
+      - kertas struk termal,,,,,70000
+      - Tinta,,,,,40000
+      - bonus crew lembur,,,,,340000
+"      - coklat chic, Cadbury,kitkat",,,,,34000
+      - cash back,,,,,5000
+      - kresek bening,,,,,15000
+"      - soklin lantai,mama lemon",,,,,19900
+      - salonpas,,,,,8200
+      - jas hujan,,,,,56100
+      - bensin Motor Rina,,,,,30000
+      - strawberry frozen,,,,,140500
+"      - detergen,mama lemon",,,,,19400
+      - jasa kerja part time,,,,,50000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,132818300
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,1531000,34
+     Cake,,,,33535000,496
+     Cookies,,,,4244500,535
+     Cup cake,,,,3242000,496
+     CUSTOM,,,,9313000,161
+     Dessert box,,,,1390000,61
+     Japanese,,,,33420000,660
+     Lilin,,,,1385000,378
+     Macaron,,,,6558000,350
+     Menu,,,,6351500,602
+     Mille Crepes,,,,16767000,769
+     Mochi,,,,20149000,1540
+     Puding,,,,2730000,42
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Kartu Debit,,,, ,26006000
+     QRIS BCA,,,, ,17454500
+     Transfer Manual,,,, ,5357000
+     Qris Manual BRI,,,, ,13448000
+     CASH,,,, ,79273000
+     Kartu Debit,,,, ,-348000
+     QRIS BCA,,,, ,-187500
+     CASH,,,, ,-331000
+     CASH (R),,,, ,-65000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 78.942.000,00"
+      Void Tunai,,,,,"IDR 331.000,00"
+      Pengembalian Tunai,,,,,"IDR 65.000,00"
+      Kas Selisih (Shift),,,,,"IDR -104.778.700,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,90500,15
+     POINT OF SALE,DISCOUNT ITEMS,,,92500,27
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,849500,13
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Mochi,,,,28326000,2427
+     Japanese,,,,39540000,783
+     Mille Crepes,,,,17249000,730
+     Menu,,,,7249000,719
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mochi Daifuku pcs pouch,,,,7502000,1072
+     Mochi box isi 3 (Harga Promo),,,,17982000,999
+     Mille Crepes Slice,,,,10849000,603
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,163769500
+         - SALES - POINT OF SALE,,,163759500,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+      - kas tambahan,,,,,10000
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,163769500
+     D. Pengeluaran,,,,,6645100
+      - Token listrik,,,,,407500
+      - royco,,,,,23400
+      - jadwal jumat berkah mesj8d,,,,,50000
+      - Bayar bolen pisang,,,,,483000
+      - ongkir gocar,,,,,30000
+      - Bulanan Sampah,,,,,100000
+      - refiil tinta,,,,,14000
+      - cash back kelebihan tf,,,,,2000
+      - deterjen,,,,,43800
+      - bensin motor vera,,,,,88500
+      - jasa perbaiki mixer,,,,,150000
+"      - ganti minje,",,,,,2000
+      - jasa kerja part time,,,,,525000
+      - ongkir lalamove,,,,,168000
+      - bulanan PDAM,,,,,402900
+      - baking powder,,,,,38800
+"      - detergen,mama lemon",,,,,61700
+      - Strawberry,,,,,671000
+"      - kit kat,cho chip",,,,,29800
+      - refil galon farm,,,,,24000
+      - Air Aqua,,,,,14000
+      - ongkir gosend,,,,,46000
+      - marshmallow,,,,,56400
+      - mika dan plastik,,,,,42000
+      - stiker,,,,,673300
+      - dus roko,,,,,5000
+      - kertas struk termal,,,,,70000
+"      - detergen,sos,mm lmon marshmelow",,,,,63000
+      - isi gas besar,,,,,630000
+      - refiil galon,,,,,35000
+      - bensin motor rinati,,,,,55000
+      - karet,,,,,35000
+      - refund gofood,,,,,4000
+"      - isi stapler SDI, duplex putih, nota kontan",,,,,52500
+      - plastik wwn,,,,,20000
+      - salonpas dumin,,,,,17000
+      - topper,,,,,60000
+      - batre bell,,,,,16300
+      - stiker Subaru,,,,,160000
+      - dumin,,,,,15000
+      - Cash back uang,,,,,150000
+      - Tisue besar,,,,,41800
+      - tutup BT 21,,,,,61000
+      - Tolak angin,,,,,5500
+      - doble tape,,,,,6900
+      - stapler,,,,,15000
+      - mika bangkok,,,,,28000
+      - gunting,,,,,12000
+      - duss,,,,,20000
+"      - garam,royco,kecap,teh",,,,,49000
+      - bayar PDAM 2 bulan,,,,,40000
+      - ongkir grab car,,,,,20000
+"      - kresek putih,15,18",,,,,55000
+      - batu batre timbangan abc,,,,,14500
+      - tips kurir nunnguin,,,,,5000
+"      - kesekian putih 24,26",,,,,29500
+"      - coklat, yupi",,,,,15600
+      - keju procheez,,,,,22000
+      - tarik Tunai,,,,,5000
+      - tips driver,,,,,10000
+"      - kertas termal ,struk",,,,,70000
+      - susu carnation,,,,,23500
+      - sabun deterjen,,,,,9900
+      - telur,,,,,30000
+      - pisau bento,,,,,15000
+      - baygon,,,,,29500
+      - Sari Bundo,,,,,21000
+      - nota kontan,,,,,9000
+      - infaq,,,,,3000
+      - daia,,,,,10000
+      - kitkat &cadbuty,,,,,38000
+      - pemantik gas,,,,,18000
+      - spidol,,,,,8000
+      - bayar bulanan wifi,,,,,287500
+      - lakban,,,,,5000
+      - tepung cakra,,,,,17000
+      - cash back,,,,,60000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,157124400
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,1933000,47
+     Cake,,,,37542000,575
+     Cookies,,,,4716000,562
+     Cup cake,,,,3482000,555
+     CUSTOM,,,,9085000,110
+     Dessert box,,,,795000,35
+     Japanese,,,,39540000,783
+     Lilin,,,,1721000,471
+     Macaron,,,,6788000,298
+     Menu,,,,7249000,719
+     Mille Crepes,,,,17249000,730
+     Mochi,,,,28326000,2427
+     Puding,,,,5424000,84
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Qris Manual BRI,,,, ,33382000
+     Transfer Manual,,,, ,10394000
+     Kartu Debit,,,, ,22506000
+     QRIS BCA,,,, ,6845000
+     Shoppe food,,,, ,72000
+     CASH,,,, ,91410000
+     Qris Manual BRI,,,, ,-177000
+     Kartu Debit,,,, ,-246500
+     QRIS BCA,,,, ,-343000
+     CASH,,,, ,-83000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 91.327.000,00"
+      Void Tunai,,,,,"IDR 83.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -138.308.200,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,17000,2
+     POINT OF SALE,DISCOUNT ITEMS,,,68000,11
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,419000,8
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Mochi,,,,19147000,1552
+     Mille Crepes,,,,11122000,498
+     Cake,,,,30329000,462
+     Japanese,,,,23370000,460
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mochi box isi 3 (Harga Promo),,,,13243000,736
+     Mochi Daifuku pcs pouch,,,,4368000,624
+     Mille Crepes Slice,,,,7467000,415
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,117553500
+         - SALES - POINT OF SALE,,,117553500,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,117553500
+     D. Pengeluaran,,,,,4913219.8
+      - ongkir lalamove,,,,,373200
+      - susu carnation,,,,,23600
+      - ongkir gosend,,,,,114500
+"      - detergen,mama lemon",,,,,57300
+      - bensin motor vera,,,,,120000
+      - isi gas besar,,,,,840000
+      - Bulanan Sampah,,,,,100000
+      - iuran Rt bulanan toko,,,,,100000
+      - selai nanas,,,,,80000
+      - refiil galon,,,,,70000
+      - susu cair,,,,,54300
+      - label exp,,,,,35000
+      - Plastik bening 24 dan wawan,,,,,50000
+      - cash back  kelebihan tf,,,,,7000
+      - Tisue besar,,,,,45900
+      - karet,,,,,34000
+      - kresek bening,,,,,30000
+      - jasa kerja part time,,,,,100000
+"      - detergen,mamalemon",,,,,64100
+      - jumat berkah,,,,,30000
+      - Bayar bolen pisang,,,,,388000
+      - stiker,,,,,481500
+"      - kertas termal ,struk",,,,,70000
+      - buku,,,,,25000
+      - jasa perbaiki mixer,,,,,100000
+      - Air Aqua,,,,,35000
+      - marshmallow,,,,,19.8
+      - Sari bunda ka ica,,,,,31000
+      - royco&sasa msg,,,,,31500
+      - cash back,,,,,39500
+      - ongkir gocar,,,,,53000
+      - bensin motor rinati,,,,,50000
+      - tambal ban motor rinati,,,,,15000
+      - jasa mas salaman,,,,,100000
+      - double tape,,,,,10200
+"      - kresek,karet,plastik ,spidol",,,,,70000
+      - parkir driver,,,,,2000
+      - asbak,,,,,13000
+"      - sabun bom, sb sabut, spons",,,,,26000
+      - cetak Sticker,,,,,176000
+      - piring kertas,,,,,2000
+      - Sari Bundo,,,,,23000
+      - Token listrik,,,,,202500
+"      - garam, sabun boom, tisu besar",,,,,62500
+      - botol spray,,,,,5000
+      - bensin,,,,,50000
+"      - royco,marshmalow",,,,,25900
+      - susu cair&sasa,,,,,24200
+"      - Royco,pewangi lantai,kecap,",,,,,37000
+      - bayar bulanan wifi,,,,,287500
+      - sendok kecil,,,,,12000
+      - parkir,,,,,2000
+      - bayar pangsit,,,,,104000
+      - bensin Motor Rina,,,,,30000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,112640280.2
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,1599000,41
+     Cake,,,,30329000,462
+     Cookies,,,,3577000,451
+     Cup cake,,,,2343000,355
+     CUSTOM,,,,12045000,112
+     Dessert box,,,,640000,29
+     Japanese,,,,23370000,460
+     Lilin,,,,1633500,436
+     Macaron,,,,3440000,167
+     Menu,,,,5340000,431
+     Mille Crepes,,,,11122000,498
+     Mochi,,,,19147000,1552
+     Puding,,,,2985000,46
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Transfer Manual,,,, ,10514500
+     Qris Manual BRI,,,, ,23607000
+     Kartu Debit,,,, ,16323000
+     QRIS BCA,,,, ,3171000
+     CASH,,,, ,64357000
+     Kartu Debit,,,, ,-242000
+     Qris Manual BRI,,,, ,-84000
+     CASH,,,, ,-93000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 64.264.000,00"
+      Void Tunai,,,,,"IDR 93.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -94.207.680,20"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,58000,11
+     POINT OF SALE,DISCOUNT ITEMS,,,65000,15
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,982000,14
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Mochi,,,,15343000,1289
+     Cookies,,,,3711000,501
+     Mille Crepes,,,,9993000,454
+     Japanese,,,,22840000,449
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mochi box isi 3 (Harga Promo),,,,9702000,539
+     Cup cake mika bulat pcs,,,,2484000,414
+     Mille Crepes Slice,,,,6583000,366
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,113213500
+         - SALES - POINT OF SALE,,,113263500,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,50000
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,113213500
+     D. Pengeluaran,,,,,5446600
+      - stiker,,,,,121000
+      - ongkir gosend,,,,,123500
+      - Bulanan Sampah,,,,,100000
+      - iuran Rt bulanan toko,,,,,100000
+      - cash back,,,,,22000
+      - marshmallow,,,,,74900
+      - saus,,,,,9000
+      - mas salman,,,,,50000
+      - ongkir lalamove,,,,,264500
+      - Sari Bundo,,,,,25000
+      - Cash back uang,,,,,6000
+      - nota kontan,,,,,15000
+      - ongkir gocar,,,,,37500
+      - royco,,,,,12200
+"      - blom,mama lemon",,,,,18800
+      - SKM carnation,,,,,47000
+      - PDAM 2 bulan,,,,,672400
+      - mika,,,,,4000
+"      - kertas termal ,struk",,,,,80000
+      - Stiker dan Topper,,,,,395500
+      - jasa Mas salman,,,,,400000
+      - mika bangkok,,,,,30000
+"      - Cadbury, Kitkat,nescafe",,,,,31900
+      - keju procheese,,,,,41000
+"      - kresek 15,18",,,,,45000
+      - isi gas besar,,,,,840000
+"      - sabun boom, SOS Orange, mama lemon, kopi nescaffe",,,,,45700
+      - lemon,,,,,16700
+      - Strawberry,,,,,22000
+      - Bayar bolen pisang,,,,,92000
+      - gayung&saringan,,,,,25000
+      - Tisue besar,,,,,45900
+      - refiil galon,,,,,42000
+      - bensin motor rinati,,,,,30000
+      - pisau bento,,,,,20000
+"      - sasa, garam,  royco",,,,,31500
+      - spidol,,,,,1500
+      - hansaplast,,,,,6500
+      - bensin motor vera,,,,,33000
+      - detergen,,,,,45900
+      - parkir driver,,,,,2000
+      - kemasan tutup lebaran,,,,,153000
+      - pematik,,,,,18000
+      - refleksi air galon,,,,,21000
+      - parkir mobil,,,,,5000
+      - sabun cuci piring,,,,,8900
+      - plastik wwn,,,,,50000
+      - struk spermal,,,,,80000
+      - coklat dan cookies,,,,,20000
+      - Tutup box lebaran,,,,,15000
+      - soklin,,,,,10900
+      - Stiker ap 260,,,,,140300
+      - bensin Motor Rina,,,,,35000
+      - kecap,,,,,12900
+      - Putih Telur,,,,,60000
+      - cheese cuit dan parkir,,,,,68000
+      - jadwal jumat berkah mesj8d,,,,,30000
+      - Pulsa masa aktif,,,,,27000
+"      - kresek 15,18,50",,,,,88000
+"      - repil label, buku catatan,nota,stikinot,pulpen",,,,,42000
+      - batu batre,,,,,39700
+      - marsmello&mama lemon,,,,,37000
+      - ban motor rinati,,,,,5000
+      - natsbee,,,,,12000
+      - karet,,,,,20000
+      - nescafe,,,,,35000
+      - Tisu besar,,,,,38000
+"      - deter,soklin",,,,,37200
+      - bayar bulanan wifi,,,,,287500
+      - teh,,,,,10300
+      - Air Aqua,,,,,14000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,107766900
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,1246000,34
+     Cake,,,,26788000,410
+     Cookies,,,,3711000,501
+     Cup cake,,,,2841000,423
+     CUSTOM,,,,13426500,176
+     Dessert box,,,,730000,32
+     Japanese,,,,22840000,449
+     Lilin,,,,1586000,444
+     Macaron,,,,3324000,169
+     Menu,,,,5784000,402
+     Milk bun,,,,224000,7
+     Mille Crepes,,,,9993000,454
+     Mochi,,,,15343000,1289
+     Puding,,,,5435000,94
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Qris Manual BRI,,,, ,30088000
+     Transfer Manual,,,, ,9930500
+     Kartu Debit,,,, ,15357500
+     QRIS BCA,,,, ,707000
+     CASH,,,, ,58162500
+     Kartu Debit,,,, ,-50000
+     Qris Manual BRI,,,, ,-682000
+     Transfer Manual,,,, ,-71000
+     CASH,,,, ,-179000
+     CASH (R),,,, ,-50000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 57.983.500,00"
+      Void Tunai,,,,,"IDR 179.000,00"
+      Pengembalian Tunai,,,,,"IDR 50.000,00"
+      Kas Selisih (Shift),,,,,"IDR -93.740.700,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,38500,7
+     POINT OF SALE,DISCOUNT ITEMS,,,18500,6
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,1418000,14
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Mochi,,,,13126000,1184
+     Cookies,,,,5621000,599
+     Milk bun,,,,13282000,541
+     Mille Crepes,,,,9708000,489
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mochi Daifuku pcs pouch,,,,3682000,526
+     Mochi box isi 3 (Harga Promo),,,,7524000,418
+     Soft cookies,,,,4120000,412
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,124071500
+         - SALES - POINT OF SALE,,,124071500,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,124071500
+     D. Pengeluaran,,,,,6724300
+      - bensin motor vera,,,,,115000
+      - ongkir lalamove,,,,,327500
+      - Bulanan Sampah,,,,,100000
+      - Bulanan toko RT,,,,,100000
+      - Piring kertas dan mika bangkok,,,,,17000
+      - jasa dan beli bahan Mas salman,,,,,350000
+      - cash back,,,,,219000
+      - ongkir gosend,,,,,191000
+      - refleksi air galon,,,,,14000
+      - Putih Telur,,,,,100000
+      - Pisau plastik,,,,,28000
+"      - kesekian putih 24,26",,,,,44000
+"      - coklat kita kat,chip cho",,,,,18000
+      - skm,,,,,65500
+"      - detergen,mama lemon,Roy",,,,,56600
+      - mas salman,,,,,300000
+      - stiker,,,,,165000
+      - kembali uang gofood,,,,,25000
+      - Bayar bolen pisang,,,,,322000
+      - lem korea,,,,,12000
+      - servis veron Ac,,,,,350000
+      - kertas struk termal,,,,,70000
+      - ganti ban motor dalam rinati,,,,,50000
+"      - cadbury,bengbeng",,,,,51200
+      - salonpas,,,,,25000
+"      - obat dumin,bodrex,mefinal",,,,,29000
+      - stiker Subaru,,,,,131500
+      - spanduk,,,,,77000
+      - susu cair,,,,,55700
+      - jasa kerja part time,,,,,50000
+      - sticker,,,,,113000
+"      - sabun,mama lime",,,,,25400
+      - bulanan PDAM,,,,,330900
+      - tepung cakra,,,,,40400
+      - kresek 15,,,,,48000
+      - Jadwal Takjil Mesjid,,,,,100000
+      - kresesk UK 50,,,,,40000
+      - Marshmalow,,,,,19800
+      - telur,,,,,22500
+      - Air Aqua,,,,,14000
+      - isi gas besar 2,,,,,420000
+      - tutup kemasan lebaran dan toppe5,,,,,166100
+"      - detergen, soklin",,,,,35300
+      - bensin motor rinati,,,,,30000
+      - sebut cuci piring,,,,,15600
+      - kresek kecil,,,,,9000
+      - Tisu besar,,,,,45900
+"      - stiker,kartu ucapan",,,,,148000
+"      - Cadbury, Kitkat,nescafe",,,,,47600
+      - royco,,,,,17800
+      - refiil galon,,,,,28000
+      - sari bundo ka ica,,,,,82000
+      - ongkir skin care,,,,,15000
+      - struk bon,,,,,80000
+"      - detergen, mama lemon,marshmalow",,,,,50300
+      - dus besar,,,,,14000
+"      - stiker,tutup  macaron lebaran",,,,,322000
+      - mika bangkok,,,,,30000
+      - perangkap tikus,,,,,12000
+      - hansaflast,,,,,18500
+      - detergen,,,,,16900
+      - bayar bulanan wifi,,,,,287500
+      - isi gas besar,,,,,210000
+      - vitamin c,,,,,17000
+      - Tutup lebaran dan stiker,,,,,265000
+      - Jasa part time,,,,,100000
+      - soklin,,,,,27800
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,117347200
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,808000,21
+     Cake,,,,26496000,400
+     Cookies,,,,5621000,599
+     Cup cake,,,,2669000,395
+     CUSTOM,,,,11762500,124
+     Dessert box,,,,475000,21
+     Japanese,,,,21705000,427
+     Lilin,,,,1226500,372
+     Macaron,,,,5000000,183
+     Menu,,,,5959000,393
+     Milk bun,,,,13282000,541
+     Mille Crepes,,,,9708000,489
+     Mochi,,,,13126000,1184
+     Puding,,,,6272000,117
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Qris Manual BRI,,,, ,28211500
+     Kartu Debit,,,, ,18291500
+     Transfer Manual,,,, ,10610500
+     QRIS BCA,,,, ,2913000
+     Gofood,,,, ,40000
+     CASH,,,, ,65423000
+     Transfer Manual,,,, ,-215000
+     Qris Manual BRI,,,, ,-77000
+     Kartu Debit,,,, ,-469000
+     CASH,,,, ,-657000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 64.766.000,00"
+      Void Tunai,,,,,"IDR 657.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -92.429.500,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,101500,11
+     POINT OF SALE,DISCOUNT ITEMS,,,101000,13
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,1170000,12
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Mochi,,,,6731000,547
+     Japanese,,,,23370000,463
+     Lilin,,,,1134500,361
+     Cookies,,,,3355000,338
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mochi box isi 3 (Harga Promo),,,,4680000,260
+     Soft cookies,,,,2490000,249
+     Mochi Daifuku pcs pouch,,,,1718000,246
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,97239000
+         - SALES - POINT OF SALE,,,97239000,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,97239000
+     D. Pengeluaran,,,,,6373200
+      - Bulanan Sampah,,,,,100000
+      - Bulanan toko RT,,,,,100000
+      - ongkir lalamove,,,,,733000
+      - kresek 50 dan karet,,,,,50000
+      - pelan dragon,,,,,26000
+"      - kresek, 30,28,24,18",,,,,176000
+      - ongkir gosend,,,,,120500
+      - skm,,,,,87600
+      - sari bundo ka ica,,,,,70000
+      - cash back,,,,,79000
+"      - detergen, mama lemon",,,,,39000
+      - bensin Motor Rina,,,,,30000
+"      - tepung tani,santan,marshmalow",,,,,63000
+      - kara,,,,,8800
+      - Air galon,,,,,42000
+      - Kresek 24,,,,,26000
+"      - pastri,wijen",,,,,139000
+      - kresek bening UK 24,,,,,24000
+      - stiker dan tutup lebaran,,,,,230500
+      - isi gas besar,,,,,420000
+      - cash back  kelebihan tf,,,,,16000
+      - THR kang sampah,,,,,50000
+      - amplop,,,,,1000
+      - infak,,,,,2000
+      - Sari Bundo,,,,,82000
+      - Bayar bolen pisang,,,,,322000
+      - box puding,,,,,110000
+      - air,,,,,21000
+      - telur,,,,,57000
+      - stiker subaru dan ita cake,,,,,212000
+"      - detergen, soklin, mama lemon",,,,,40500
+      - Air Aqua,,,,,14000
+      - bensin motor vera,,,,,75000
+      - mas salman,,,,,200000
+      - minyk,,,,,19800
+      - kresek bening,,,,,60000
+      - lontong padang,,,,,22000
+      - plastik wawan,,,,,16000
+      - Stiker dan Topper,,,,,111200
+      - pematik,,,,,18000
+      - cobek kayu,,,,,20000
+      - Tisu besar,,,,,46900
+      - bensin motor nia,,,,,75000
+      - tf tarik tunai,,,,,50000
+      - bayar PDAM,,,,,316500
+      - nota dan kertas struk,,,,,45000
+      - lampu evergreen dan farm,,,,,60000
+      - isi gas,,,,,100000
+      - Strawberry,,,,,204500
+      - cetak dus sample,,,,,6000
+      - jasa perbaiki mixer,,,,,100000
+      - buku catatan toko arcamanik,,,,,13000
+"      - dumin,vitamin c,tolak angin",,,,,48500
+"      - kresek 18,15,mika bangkok",,,,,87000
+      - karung petshop,,,,,20000
+      - karet,,,,,20000
+      - tepung cakra,,,,,14800
+      - stiker,,,,,72500
+      - cimol Bogot ka ica,,,,,12000
+      - detergen mama lemon,,,,,18400
+      - spidol,,,,,2000
+      - Marshmalow,,,,,26900
+      - kertas struk,,,,,70000
+      - ongkir gocar,,,,,101500
+      - garam,,,,,3500
+      - Pulsa hp toko,,,,,23500
+      - cake hp admin,,,,,30000
+      - sticky note,,,,,10000
+      - dus besar,,,,,20000
+      - topper dan sticker,,,,,120500
+      - topper,,,,,16000
+      - Mas salman perbaiki kompor evergren,,,,,50000
+      - kecap dan saos,,,,,22500
+"      - rinso, mama lemon",,,,,18800
+      - uang lembur crew,,,,,100000
+"      - kita kat ,choklat",,,,,41000
+      - bayar bulanan wifi,,,,,287500
+      - kresek UK 15,,,,,35000
+      - sticker,,,,,50500
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,90865800
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,891000,21
+     Cake,,,,20778000,308
+     Cookies,,,,3355000,338
+     Cup cake,,,,1918000,224
+     CUSTOM,,,,10777000,117
+     Dessert box,,,,125000,5
+     Japanese,,,,23370000,463
+     Lilin,,,,1134500,361
+     Macaron,,,,6855000,213
+     Menu,,,,4927000,331
+     Milk bun,,,,3962000,146
+     Mille Crepes,,,,5790000,262
+     Mochi,,,,6731000,547
+     Puding,,,,6727000,111
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Qris Manual BRI,,,, ,23683000
+     Transfer Manual,,,, ,13081500
+     Kartu Debit,,,, ,17416500
+     QRIS BCA,,,, ,497000
+     CASH,,,, ,43731000
+     Qris Manual BRI,,,, ,-555000
+     Transfer Manual,,,, ,-50000
+     CASH,,,, ,-565000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 43.166.000,00"
+      Void Tunai,,,,,"IDR 565.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -76.399.700,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,23000,4
+     POINT OF SALE,DISCOUNT ITEMS,,,82000,19
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,1076500,20
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Mochi,,,,9553000,826
+     Lilin,,,,2416500,778
+     Japanese,,,,22679000,531
+     Cake,,,,28318000,458
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Mochi Daifuku pcs pouch,,,,2978000,426
+     Mochi box isi 3 (Harga Promo),,,,6009000,334
+     Lilin spiral,,,,803000,326
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,112712000
+         - SALES - POINT OF SALE,,,112712000,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,112712000
+     D. Pengeluaran,,,,,7151190
+      - royco dan sasa,,,,,18000
+      - cash back,,,,,50500
+      - bulanan rt dan sampah,,,,,200000
+      - mas salman,,,,,350000
+      - topper,,,,,118000
+      - isi gas besar,,,,,420000
+      - bon cabe,,,,,13900
+      - ongkir lalamove,,,,,537100
+      - tambahan ongkir,,,,,10000
+      - pisang ambon,,,,,27000
+      - plastik wawan,,,,,42000
+      - mama lemon dan detergen,,,,,19300
+      - karung dan ongkir,,,,,30000
+      - kertas struk thermal,,,,,140000
+      - ongkir grab car,,,,,49500
+      - karung atletik dan ongkir,,,,,25000
+      - tf ongkir,,,,,20000
+      - Strawberry,,,,,192500
+      - ongkir gosend,,,,,105000
+      - air,,,,,28000
+"      - sabun boom,soklin lantai",,,,,21800
+      - sticker dan topper,,,,,55200
+      - bensin motor rinati,,,,,70000
+      - Cash back uang,,,,,6000
+      - Marshmalow,,,,,20400
+      - lap kanebo,,,,,10000
+      - iuran jumat berkah,,,,,350000
+      - soda kue,,,,,12300
+      - ongkir gocar,,,,,93000
+"      - marshmalow, oreo",,,,,47100
+"      - topper,stiker, katalog",,,,,117200
+"      - tisu besar ,mama lemon",,,,,48800
+      - Bayar bolen pisang,,,,,276000
+      - sari bundo ka ica,,,,,73000
+      - vitamin c,,,,,30000
+      - nalangin lalamove mobil,,,,,50000
+      - bensin motor vera,,,,,64000
+      - bayar PDAM,,,,,233800
+      - Token listrik,,,,,102500
+      - terminal colokan,,,,,35000
+"      - mm lemon,royco,teh,detergen",,,,,44000
+      - keju pro chiz,,,,,13500
+      - stiker milk bun,,,,,9000
+      - stiker milkbun,,,,,26500
+      - Air galon,,,,,44000
+      - jumat berkah,,,,,35000
+      - saos,,,,,13700
+      - stiker Subaru,,,,,200000
+"      - gunting,sesuk kayu stainles",,,,,25000
+"      - mika bangkok, kresek 15&18",,,,,82000
+      - Topper dan stiker,,,,,169200
+      - kopi Nescafe,,,,,34400
+"      - sabun rinso sayang, mm lemon, soklin lantai",,,,,30400
+      - ka ita ambil,,,,,20000
+      - Sari Bundo,,,,,29000
+      - kresek bening UK 24,,,,,90000
+      - sapu dan saringan,,,,,53000
+      - ongkir lalamove mobil,,,,,92000
+      - telur,,,,,22000
+      - tepung cakra,,,,,31000
+      - gas besar,,,,,420000
+      - kembalian tf,,,,,4000
+      - plastik bening UK 24,,,,,45000
+      - mika bangkok,,,,,40000
+      - cash back  kelebihan tf,,,,,28000
+      - baygon vave cihapit,,,,,32900
+      - sticker,,,,,114000
+      - royco&sasa msg,,,,,31000
+      - karet,,,,,20000
+      - obeng,,,,,12500
+      - icha,,,,,20000
+      - kresek bening,,,,,30000
+      - bensin motor nia,,,,,100000
+      - tarik Tunai,,,,,46000
+      - tambah ban,,,,,15000
+      - perbaiki mixer,,,,,100000
+      - topper mik bun,,,,,13500
+      - kuota toko arcamanik,,,,,68000
+      - marmellow,,,,,20400
+      - lalamove,,,,,15000
+      - nasgor,,,,,26000
+      - nasi ica,,,,,29000
+      - ica,,,,,85000
+      - sunlight soklin lantai,,,,,17800
+      - kesalahan,,,,,33100
+      - tisu,,,,,45900
+      - ongkir SKII,,,,,15000
+      - tambal ban motor rinati,,,,,15000
+      - ganti ban dlm rina,,,,,35000
+      - saribundo ica,,,,,26000
+      - ongkir cust,,,,,25000
+      - nota bon,,,,,20000
+      - paku rivet,,,,,3000
+      - detergen  dan mama lemon,,,,,29000
+      - Bayar WIFI,,,,,287490
+      - cabe,,,,,5000
+"      - Mary regal, salonpas koyo",,,,,28500
+      - beras,,,,,74500
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,105560810
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,1083000,28
+     Cake,,,,28318000,458
+     Cookies,,,,3803000,445
+     Cup cake,,,,2699000,288
+     CUSTOM,,,,18236500,203
+     Dessert box,,,,265000,12
+     Japanese,,,,22679000,531
+     Lilin,,,,2416500,778
+     Macaron,,,,3311000,123
+     Menu,,,,3281000,255
+     Milk bun,,,,6132000,281
+     Mille Crepes,,,,7063000,308
+     Mochi,,,,9553000,826
+     Puding,,,,3895000,60
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Kartu Debit,,,, ,12644000
+     Qris Manual BRI,,,, ,27831500
+     Transfer Manual,,,, ,11692000
+     Gofood,,,, ,18000
+     QRIS BCA,,,, ,532000
+     CASH,,,, ,61071000
+     Qris Manual BRI,,,, ,-390000
+     QRIS BCA,,,, ,-12000
+     Kartu Debit,,,, ,-127000
+     CASH,,,, ,-547500
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 60.523.500,00"
+      Void Tunai,,,,,"IDR 547.500,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -96.527.410,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,DISCOUNT ITEMS,,,33500,7
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,885500,15
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Lilin,,,,2749000,881
+     Mochi,,,,8829000,718
+     Japanese,,,,27828000,701
+     Cake,,,,33208000,563
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Cup cake mika bulat pcs,,,,2454000,409
+     Mochi Daifuku pcs pouch,,,,2429000,347
+     Lilin spiral,,,,866500,347
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,126520000
+         - SALES - POINT OF SALE,,,126520000,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,126520000
+     D. Pengeluaran,,,,,7901900
+      - cash back,,,,,132500
+      - bulanan rt dan sampah,,,,,200000
+      - Abang ambil,,,,,200000
+      - Air galon,,,,,42000
+      - stiker,,,,,51500
+      - ongkir gosend,,,,,178500
+      - Marshmalow,,,,,25900
+      - ongkir lalamove,,,,,476500
+      - ayam,,,,,8000
+      - Bayar bolen pisang,,,,,92000
+      - oreo,,,,,21300
+      - keresek UK 15 &18,,,,,55000
+      - Strawberry,,,,,722000
+      - PDAM,,,,,302000
+      - sapu lidi,,,,,20000
+      - jumat berkah,,,,,35000
+      - abang ambil service ac,,,,,150000
+      - sticker subaru,,,,,192000
+"      - detergen, mama lemon",,,,,19800
+      - ayam pakan tikus,,,,,15000
+      - minyak,,,,,17200
+      - sikat,,,,,41000
+      - sticker,,,,,176700
+      - soklin lantai,,,,,19000
+      - lebel halal,,,,,6000
+"      - mama lime,  spon",,,,,33700
+      - gunting,,,,,15000
+      - Strawberry Fresh and Frozen,,,,,200000
+      - bensin motor vera,,,,,75000
+      - royco,,,,,11700
+      - topper dan stiker milk bun,,,,,60000
+      - tisu,,,,,45900
+      - air,,,,,42000
+      - hansaplast,,,,,7900
+"      - mama lime, susu uht, sabun sayang,  marshmalow",,,,,48500
+      - Piring kertas + Sendok teh,,,,,18000
+      - telur,,,,,22000
+      - keresek 50,,,,,40000
+      - ongkir gocar,,,,,156000
+      - sari bundo ka ica,,,,,29000
+      - jasa parttime,,,,,50000
+      - refund gofood,,,,,15000
+"      - stop kontak, lampu,speaker, dudukan lampu",,,,,88000
+      - batre abc,,,,,15200
+      - skm,,,,,86800
+      - gas besar,,,,,210000
+      - marshmallow,,,,,46300
+      - mas salman,,,,,250000
+      - refund shopee food,,,,,53500
+      - bensin motor rinati,,,,,35000
+      - perbaiki mixer,,,,,100000
+      - baking powder,,,,,7900
+      - topper,,,,,46200
+"      - mama lime, sabun sayang",,,,,22000
+      - ongkir lalamove mobil,,,,,64500
+      - part time,,,,,50000
+      - isi gas besar,,,,,210000
+      - cadbury kit kat,,,,,37500
+      - daia  dan marsmelow,,,,,42500
+      - bulanan rt dan sampah jumat berkah,,,,,235000
+"      - mika,kresek 15&18",,,,,66000
+      - stiker subaru dan ita cake,,,,,303000
+      - tarik Tunai,,,,,40000
+      - mainan karakter,,,,,55000
+      - pastri dan abang ambil,,,,,100000
+      - bakso crew,,,,,120000
+      - kresek,,,,,16000
+      - Topper dan stiker,,,,,107500
+      - tambal ban motor rnt,,,,,10000
+      - gojek ica,,,,,12000
+      - ongkir mile,,,,,23000
+      - Sari Bundo,,,,,29000
+      - sari minang crew,,,,,290000
+      - parkir,,,,,2000
+"      - mama lime,  soklin lantai, spons",,,,,25900
+      - ongkir kirim showcase jelato,,,,,500000
+      - bensin Motor Rina,,,,,35000
+      - nasi ic,,,,,29000
+      - ongkir gojek,,,,,24000
+      - icha,,,,,10000
+      - lalamove,,,,,20000
+      - Tisu besar,,,,,42000
+      - bulanan wifi,,,,,287500
+      - tambal ban motor rinati,,,,,15000
+      - selotif,,,,,15000
+      - nasi ica,,,,,29000
+      - ica,,,,,20000
+      - belanja,,,,,7000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,118618100
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,846000,21
+     Cake,,,,33208000,563
+     Cookies,,,,3885000,478
+     Cup cake,,,,4666000,447
+     CUSTOM,,,,18113000,204
+     Dessert box,,,,85000,4
+     Japanese,,,,27828000,701
+     Lilin,,,,2749000,881
+     Macaron,,,,4124000,151
+     Menu,,,,1993000,202
+     Milk bun,,,,4676000,225
+     Mille Crepes,,,,9213000,388
+     Mochi,,,,8829000,718
+     Puding,,,,6305000,97
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Transfer Manual,,,, ,15166500
+     Qris Manual BRI,,,, ,33633500
+     Kartu Debit,,,, ,14103000
+     QRIS BCA,,,, ,3882000
+     CASH,,,, ,60620500
+     Qris Manual BRI,,,, ,-80000
+     QRIS BCA,,,, ,-137500
+     CASH,,,, ,-668000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 59.952.500,00"
+      Void Tunai,,,,,"IDR 668.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -89.640.800,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,100000,4
+     POINT OF SALE,DISCOUNT ITEMS,,,39000,10
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,713000,12
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Mochi,,,,10467000,843
+     Lilin,,,,2522500,815
+     Japanese,,,,24155000,642
+     Cake,,,,34263000,559
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Lilin spiral,,,,1037500,415
+     Mochi box isi 3 (Harga Promo),,,,7360000,409
+     Mochi Daifuku pcs pouch,,,,2786000,398
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,129211500
+         - SALES - POINT OF SALE,,,129211500,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,129211500
+     D. Pengeluaran,,,,,7262100
+      - plastik wawan,,,,,21000
+      - ongkir lalamove,,,,,638600
+      - pengamen,,,,,1000
+      - stiker,,,,,101500
+      - perbaiki mixer,,,,,130000
+"      - kresek uk 151,8",,,,,51000
+      - cash back,,,,,47000
+      - air Aqua gelas,,,,,21000
+      - topper,,,,,50500
+      - kopi Nescafe,,,,,17200
+"      - mama lemon,royco",,,,,27800
+      - topper gelato,,,,,120000
+      - service mixer evergreen,,,,,150000
+      - gas besar,,,,,210000
+"      - cadbury,kitkat",,,,,27500
+      - ongkir gojek,,,,,36000
+      - Bayar bolen pisang,,,,,322000
+      - Cash back gofood,,,,,2000
+"      - kresek uk 15&18, mika",,,,,81000
+      - detergen dan sabun,,,,,17400
+      - abang ambil service,,,,,100000
+      - jasa dan servis mas salman,,,,,300000
+      - nasi ica,,,,,58000
+      - jumat berkah,,,,,35000
+      - ap 260,,,,,19000
+      - amplop,,,,,2000
+      - uang gajih dina,,,,,400000
+      - ongkir lalamove mobil,,,,,96000
+      - coklat dan kita kat,,,,,29200
+      - detergen,,,,,14000
+      - ongkir gosend,,,,,42000
+      - spray dan hekter,,,,,20000
+      - service hp vera,,,,,125000
+      - Abang ambil,,,,,250000
+      - ongkir,,,,,34500
+      - yupii,,,,,10500
+      - icha nasi,,,,,29000
+      - ica,,,,,25000
+      - sticker,,,,,227000
+      - bensin motor vera,,,,,42000
+      - marshmalow dan nescafe,,,,,27400
+      - Air galon,,,,,70000
+      - jasa angkut frezer,,,,,10000
+      - tinta refill,,,,,20000
+      - kartu perdana hp blkng,,,,,24000
+      - bulanan atletik,,,,,70000
+      - pematik dan sikat,,,,,30000
+      - mama lemon,,,,,28700
+      - lalamove,,,,,10000
+      - Cash back ongkir,,,,,6500
+      - Cash back goofood,,,,,1000
+      - bensin motor nia,,,,,50000
+      - bensin Motor Rina,,,,,80000
+      - Strawberry,,,,,150000
+      - mas salman,,,,,150000
+      - Tisu besar,,,,,46000
+      - service mixer,,,,,150000
+      - nescafe,,,,,34400
+      - gas 2,,,,,420000
+      - mama lime dan sabun,,,,,24800
+      - coklat hiasan cake,,,,,32700
+      - bayar PDAM,,,,,388500
+      - abang ambil uang,,,,,50000
+      - jasa Mas salman,,,,,100000
+      - tambal ban,,,,,2000
+      - sticker mochi dan brownies,,,,,69500
+"      - kresek 18,30",,,,,37000
+      - plastik & karet,,,,,41000
+      - onkir,,,,,14000
+      - lakamove,,,,,40000
+      - keresek UK 15 &18,,,,,51000
+      - striker,,,,,67500
+      - bensin nia,,,,,30000
+      - bensin vera,,,,,33000
+"      - kecap,royko,sasa msg",,,,,31000
+      - air,,,,,14000
+"      - detergen, mama lemon,",,,,,38000
+      - Sari Bundo,,,,,100000
+      - coklat hias cake,,,,,36000
+      - susu carnation,,,,,20100
+      - uang lembur crew,,,,,80000
+"      - buku,pulpen, spon",,,,,25500
+      - bakso crew,,,,,60000
+      - tambal ban bakso crew,,,,,25000
+      - lalamove mobil,,,,,27000
+      - skm,,,,,20000
+      - jasa angkut ambiante,,,,,20000
+      - obat obatan,,,,,30000
+      - coklat cake hias,,,,,54800
+      - nasi ic,,,,,29000
+      - Cash ic,,,,,10000
+      - nasi dd,,,,,24000
+      - kresek bening UK 24,,,,,15000
+      - cireng,,,,,28000
+      - nasi buat drumah,,,,,75000
+"      - detergen, soklin,mm lemon,garam,royco,kecap,sasa",,,,,70000
+      - kresek sama mika,,,,,44000
+      - mas salman perbaiki blower,,,,,50000
+      - bayar bolen,,,,,46000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,121949400
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,621000,15
+     Cake,,,,34263000,559
+     Cookies,,,,4905000,551
+     Cup cake,,,,3358000,348
+     CUSTOM,,,,21635000,231
+     Dessert box,,,,155000,7
+     Gelato es krim,,,,2809000,186
+     Japanese,,,,24155000,642
+     Lilin,,,,2522500,815
+     Macaron,,,,3638000,176
+     Menu,,,,2826000,222
+     Milk bun,,,,3510000,187
+     Mille Crepes,,,,10417000,409
+     Mochi,,,,10467000,843
+     Puding,,,,4030000,62
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Qris Manual BRI,,,, ,34775500
+     Transfer Manual,,,, ,12891500
+     Kartu Debit,,,, ,12304500
+     QRIS BCA,,,, ,4546500
+     CASH,,,, ,65406500
+     Qris Manual BRI,,,, ,-249000
+     CASH,,,, ,-464000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 64.942.500,00"
+      Void Tunai,,,,,"IDR 464.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -95.595.200,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,83200,4
+     POINT OF SALE,DISCOUNT ITEMS,,,72200,13
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,1257000,21
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Lilin,,,,2838500,919
+     Mochi,,,,10048800,806
+     Cookies,,,,6496000,740
+     Japanese,,,,28150000,714
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Soft cookies,,,,4970000,497
+     Lilin spiral,,,,1042500,417
+     Mochi box isi 3 (Harga Promo),,,,7106800,395
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,139053100
+         - SALES - POINT OF SALE,,,139193100,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,140000
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,139053100
+     D. Pengeluaran,,,,,7122800
+      - ongkir lalamove,,,,,414000
+      - bulanan rt dan sampah,,,,,200000
+      - Bayar bolen pisang,,,,,184000
+      - lalamove mobil,,,,,28000
+      - sapu rumah anak2,,,,,38000
+      - terigu segitiga,,,,,223000
+      - Air galon,,,,,91000
+"      - mama lemon, sabun boom, royko",,,,,29800
+      - topper,,,,,35700
+      - coklat hias cake,,,,,62000
+      - ongkir gosend,,,,,80500
+      - gas besar,,,,,420000
+      - soklin lantai,,,,,13900
+      - perbaikan mixer,,,,,270000
+      - sticker dan topper,,,,,171500
+      - coklat cake hias,,,,,27300
+      - jasa Mas salman,,,,,120000
+      - bensin motor vera,,,,,98500
+      - bensin motor rinati,,,,,31000
+      - jumat berkah,,,,,60000
+      - kresek putih 15,,,,,42000
+      - abang ambil beli kabel,,,,,100000
+      - pembayaran xl home,,,,,287500
+"      - mama lemon, nescafe, marshmalow",,,,,39800
+      - karet,,,,,25000
+      - sticker,,,,,268500
+"      - detergen,soklin, kecap",,,,,33000
+      - Abang ambil,,,,,50000
+      - partisipasi agustusan,,,,,30000
+      - biskuit pie bis,,,,,11500
+      - Tisu besa,,,,,45000
+      - tisu,,,,,45000
+      - mama lemon,,,,,8500
+      - jasa perbaikan pembuangan,,,,,100000
+      - perbaiki mixer,,,,,100000
+      - Marshmalow,,,,,39600
+      - pocki biscuit,,,,,9500
+      - minyak,,,,,39700
+      - ongkir lalamove mobil,,,,,27500
+"      - royco,kecap",,,,,24600
+      - coklat kita kat,,,,,33500
+      - nota vitacimin,,,,,35000
+      - cash back,,,,,235000
+      - sabun mama lime soklin lantai,,,,,35400
+      - ongkir gosend mobil,,,,,31000
+      - A ongkir lalamove,,,,,306000
+      - cadbury dan coklat,,,,,44000
+      - PDAM,,,,,233900
+      - Topper dan stiker,,,,,163000
+      - skm dan sabut,,,,,18200
+      - nasi icha,,,,,29000
+      - botol spray,,,,,14000
+      - kabel listrik,,,,,100000
+      - ica,,,,,30000
+      - spidol permanen,,,,,5000
+      - icha nasi,,,,,29000
+      - pengamen,,,,,2000
+      - bayar bulanan wifi,,,,,337400
+      - royco dan sasa,,,,,27700
+      - kelebihan tf,,,,,4000
+      - ongkir gocar,,,,,29000
+      - ica nasi,,,,,29000
+"      - rinso,mamalime,soklinlantai",,,,,46400
+      - stiker,,,,,137500
+      - ic,,,,,10000
+      - susu,,,,,34800
+      - nasi ica,,,,,36000
+      - ongkir,,,,,15000
+      - larutan penyebaran ica,,,,,8800
+      - bensin rinati,,,,,38000
+      - sikap wc  dan vixal,,,,,28500
+      - larutan ica,,,,,8500
+      - Tisu besar,,,,,45000
+      - mika,,,,,32000
+      - Refil air,,,,,21000
+      - ojeg ka ica,,,,,10000
+      - Ambil abang,,,,,100000
+      - gas,,,,,210000
+      - kresek UK 15,,,,,38000
+"      - detergen, mama lemon",,,,,32200
+      - Belanja Mas Salman,,,,,311500
+      - bensin motor nia,,,,,50000
+      - sabut cuci piring,,,,,15600
+      - kresek bening UK 24,,,,,30000
+      - kresek bening 24,,,,,60000
+      - Token listrik,,,,,102500
+      - tarik Tunai,,,,,5500
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,131930300
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,1468000,38
+     Cake,,,,39599000,667
+     Cookies,,,,6496000,740
+     Cup cake,,,,5117000,427
+     CUSTOM,,,,20898000,246
+     Dessert box,,,,110000,5
+     Gelato es krim,,,,2236000,140
+     Japanese,,,,28150000,714
+     Lilin,,,,2838500,919
+     Macaron,,,,2607000,132
+     Menu,,,,3830000,268
+     Milk bun,,,,1785000,88
+     Mille Crepes,,,,9454000,395
+     Mochi,,,,10048800,806
+     Puding,,,,4499000,71
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Transfer Manual,,,, ,15314000
+     Qris Manual BRI,,,, ,46420000
+     Kartu Debit,,,, ,13254000
+     QRIS BCA,,,, ,236500
+     CASH,,,, ,65225600
+     Qris Manual BRI,,,, ,-593500
+     Kartu Debit,,,, ,-130000
+     CASH,,,, ,-533500
+     Kartu Debit (R),,,, ,-140000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 64.692.100,00"
+      Void Tunai,,,,,"IDR 533.500,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -94.628.000,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,83100,5
+     POINT OF SALE,DISCOUNT ITEMS,,,31000,4
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,1802000,26
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Lilin,,,,2331000,732
+     Mochi,,,,9084000,716
+     Cake,,,,36562000,621
+     Japanese,,,,19999000,562
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Soft cookies,,,,3600000,360
+     Mochi Daifuku pcs pouch,,,,2240000,320
+     Mochi box isi 3 (Harga Promo),,,,5616000,312
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,118676900
+         - SALES - POINT OF SALE,,,118676900,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,118676900
+     D. Pengeluaran,,,,,6088000
+      - A ongkir lalamove,,,,,719000
+      - semen,,,,,59000
+      - Cash back gofood,,,,,51500
+      - di ambil abang,,,,,150000
+      - bulanan rt dan sampah,,,,,200000
+      - refill air,,,,,14000
+"      - mama lime, kecap",,,,,29800
+      - Topper bulat bca,,,,,7000
+      - salonpas hansaplast,,,,,32300
+      - kresek dan karet,,,,,20000
+      - Abang ambil,,,,,250000
+      - topper,,,,,40500
+      - royco,,,,,11700
+      - nescafe dan marshmalow,,,,,27400
+      - sabun,,,,,32300
+"      - cat,Tiger,koas",,,,,122500
+      - jumat berkah,,,,,30000
+      - cash back,,,,,47000
+      - ongkir gosend,,,,,35500
+      - karet dan spidol,,,,,25000
+      - Air galon,,,,,70000
+      - kresek uk 15&18,,,,,50000
+      - stiker,,,,,309500
+      - cat dan tinner,,,,,80000
+      - air,,,,,28000
+      - stiker dan spanduk,,,,,90000
+      - tisu,,,,,45900
+      - minyak,,,,,34500
+      - solatifff,,,,,5000
+      - tarik Tunai,,,,,20000
+      - nota&buku,,,,,16000
+"      - royko,garam.sasa",,,,,41300
+      - ongkir lalamove mobil,,,,,38000
+      - PDAM,,,,,331000
+"      - kresek 35,40,50",,,,,80000
+      - kresek putih uk 30,,,,,20000
+      - topper dan sticker,,,,,46000
+      - persabunan,,,,,33500
+      - gas,,,,,220000
+      - ongkir grab car,,,,,14000
+      - bensin motor nia,,,,,132500
+      - bensin motor rinati,,,,,30000
+      - ica nasi,,,,,12000
+      - larutan ica,,,,,17500
+      - keresek&mika,,,,,44000
+      - royco mama lemon,,,,,37000
+      - bulanan wifi,,,,,337000
+      - bensin vera,,,,,34000
+      - lalamove mobil,,,,,42500
+      - keresek uk 15&18,,,,,85000
+      - service motor nia,,,,,348000
+      - minyak goreng,,,,,17000
+      - batu batre,,,,,43700
+      - hansaplast,,,,,15500
+      - ongkir cust,,,,,10000
+      - icha nasi,,,,,29000
+      - sabun dll,,,,,49500
+      - icha,,,,,107000
+      - gojek icha,,,,,15000
+      - tisu dan mamalem,,,,,54900
+      - nasi ic,,,,,47000
+      - ojek icha,,,,,10000
+      - kanebo,,,,,10000
+      - baygon,,,,,28000
+      - nasi ica,,,,,40000
+      - lalamove,,,,,35200
+      - bayar bolen,,,,,46000
+      - ongkir,,,,,20000
+      - ica,,,,,50000
+      - infaq,,,,,2000
+      - Bayar bolen pisang,,,,,69000
+      - coklat hias cake,,,,,46300
+      - gas besar,,,,,210000
+      - galon,,,,,14000
+"      - persabunan&nescafe, marshmalow",,,,,92000
+      - spons,,,,,21300
+      - bolen x2,,,,,46000
+"      - pocky,coklat",,,,,24400
+      - beras,,,,,149000
+      - perbaiki mixer,,,,,100000
+      - toper,,,,,13500
+      - bolen pisang,,,,,23000
+"      - persabunan,royko saus",,,,,36800
+      - ongkir lalamove,,,,,11200
+      - karet,,,,,5000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,112588900
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,1234000,56
+     Cake,,,,36562000,621
+     Coklat,,,,160000,6
+     Cookies,,,,4870000,546
+     Cup cake,,,,3448000,286
+     CUSTOM,,,,20691000,219
+     Dessert box,,,,110000,5
+     Gelato es krim,,,,1757000,109
+     Japanese,,,,19999000,562
+     Lilin,,,,2331000,732
+     Macaron,,,,2680000,118
+     Menu,,,,1829000,174
+     Milk bun,,,,1321000,82
+     Mille Crepes,,,,8394000,332
+     Mochi,,,,9084000,716
+     Puding,,,,4290000,66
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Qris Manual BRI,,,, ,35906000
+     Kartu Debit,,,, ,10947500
+     Transfer Manual,,,, ,17444900
+     Gofood,,,, ,27000
+     CASH,,,, ,56153500
+     Transfer Manual,,,, ,-218000
+     Kartu Debit,,,, ,-637000
+     Qris Manual BRI,,,, ,-287000
+     CASH,,,, ,-660000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 55.493.500,00"
+      Void Tunai,,,,,"IDR 660.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -79.241.900,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,54000,4
+     POINT OF SALE,DISCOUNT ITEMS,,,64500,5
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,1127500,25
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Cookies,,,,8273000,782
+     Lilin,,,,2399000,763
+     Cake,,,,39572500,672
+     Japanese,,,,23202000,626
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Soft cookies,,,,3640000,364
+     Lilin spiral,,,,880000,352
+     DEPOSIT,,,,28242000,347
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,144261500
+         - SALES - POINT OF SALE,,,144261500,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,144261500
+     D. Pengeluaran,,,,,7669200
+      - A ongkir lalamove,,,,,492000
+      - air,,,,,177000
+      - Tisu besar,,,,,45000
+      - iuran bulanan,,,,,200000
+"      - kresek uk 15&24, mika",,,,,70000
+      - bon nota,,,,,20000
+      - bensin motor rinati,,,,,42000
+"      - marshmalow, tehsariwangi",,,,,18400
+      - lalamove,,,,,20000
+      - icha,,,,,49000
+      - lakamove,,,,,10000
+      - ica,,,,,100000
+      - persabunan,,,,,91300
+      - ongkir lalamove,,,,,111000
+      - kertas air mas,,,,,6000
+      - stiker,,,,,168900
+      - Abang ambil,,,,,200000
+      - karet,,,,,40000
+      - isi gas besar,,,,,210000
+      - ongkir gosend,,,,,12000
+      - bensin motor vera,,,,,30000
+      - Strawberry,,,,,1727000
+      - obat dan vitamin,,,,,47000
+      - ongkir mobil lalamove,,,,,40000
+      - bayar bolen,,,,,184000
+      - royko&dolpin,,,,,25000
+      - minyak,,,,,38000
+      - front loops,,,,,27800
+      - Air galon,,,,,56000
+      - tissue besar,,,,,44000
+      - bayar PDAM,,,,,260000
+      - nescafe dan marshmalow,,,,,38200
+      - keresek uk 15,,,,,28000
+      - topper,,,,,136500
+      - lalamove mobil,,,,,46000
+"      - detergen, sunlight,garam,royco",,,,,55500
+      - hsanflas,,,,,7900
+      - soklin,,,,,10500
+      - topper stiker,,,,,166000
+      - bayar bulanan wifi,,,,,337400
+      - bapa mixer,,,,,150000
+      - A i drive-in,,,,,30000
+      - ongkir in driver,,,,,52000
+      - regal,,,,,13500
+      - ongkir maxim,,,,,5000
+      - Topper dan stiker,,,,,290000
+      - batu batre ABC,,,,,22200
+      - kresek,,,,,30000
+      - persabunan kecap kopi marshmalow,,,,,101000
+      - kresek dan mika,,,,,73000
+      - ongkir gocar,,,,,30000
+      - icha nasi,,,,,26000
+      - lebihh,,,,,1000
+      - nasi ica,,,,,46000
+      - Tisue besar,,,,,41900
+      - minyak vera,,,,,44000
+      - kuas,,,,,5000
+      - koas,,,,,5000
+      - ongkir in drive,,,,,13000
+"      - skm,Royco",,,,,30800
+      - beras,,,,,222400
+      - spidol,,,,,2000
+      - mas salman,,,,,100000
+      - Aaa ongkir in driver,,,,,10000
+      - gas besar,,,,,210000
+"      - sunlight , spons",,,,,21000
+      - bolen pisang,,,,,115000
+      - skm,,,,,21000
+"      - detergen, mama lemon",,,,,25300
+      - vitacimin,,,,,50000
+      - ongkir driver,,,,,5000
+      - coklat  kita kat beng beng,,,,,35200
+      - bensin motor,,,,,50000
+      - cashback,,,,,6000
+      - gas,,,,,210000
+      - galon,,,,,14000
+      - tarik Tunai,,,,,40000
+      - cash back,,,,,6000
+      - sabun dkk,,,,,81400
+      - spons,,,,,8100
+"      - nota , hektare,tusuk gigi",,,,,40000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,136592300
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,1712000,74
+     Cake,,,,39572500,672
+     Coklat,,,,8313000,256
+     Cookies,,,,8273000,782
+     Cup cake,,,,3613000,288
+     CUSTOM,,,,28242000,347
+     Dessert box,,,,90000,4
+     Gelato es krim,,,,2341000,146
+     Japanese,,,,23202000,626
+     Lilin,,,,2399000,763
+     Macaron,,,,2953000,108
+     Menu,,,,1951000,218
+     Milk bun,,,,1024000,50
+     Mille Crepes,,,,9128000,361
+     Mochi,,,,6952000,553
+     Puding,,,,4550000,70
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Kartu Debit,,,, ,9688500
+     Transfer Manual,,,, ,21298000
+     Qris Manual BRI,,,, ,50376000
+     Gofood,,,, ,33000
+     CASH,,,, ,63993500
+     Qris Manual BRI,,,, ,-486500
+     Transfer Manual,,,, ,-90000
+     Kartu Debit,,,, ,-54000
+     CASH,,,, ,-497000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 63.496.500,00"
+      Void Tunai,,,,,"IDR 497.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -86.237.400,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,123500,3
+     POINT OF SALE,DISCOUNT ITEMS,,,21500,3
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,1629500,23
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Coklat,,,,39523000,975
+     Cookies,,,,9611000,945
+     Lilin,,,,2370000,805
+     Japanese,,,,26479500,701
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+"     Coklat dubai kunafa mini uk 8,5x4,5",,,,15043000,531
+     Soft cookies,,,,4250000,425
+     Lilin spiral,,,,865000,346
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,180255000
+         - SALES - POINT OF SALE,,,180255000,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,180255000
+     D. Pengeluaran,,,,,11342600
+      - Strawberry,,,,,2158000
+      - bensin motor rinati,,,,,81000
+      - tissue besar,,,,,180900
+      - corong es cream,,,,,10000
+      - beras,,,,,589300
+      - service motor rinati,,,,,212000
+      - A i drive-in,,,,,22000
+      - iuran sampah& bulanan,,,,,200000
+      - stiker,,,,,54000
+      - bensin motor vera,,,,,66500
+      - amplop,,,,,2300
+      - ka ita ambil,,,,,150000
+      - A ongkir lalamove,,,,,246500
+      - ongkir lalamove,,,,,237000
+      - lalamove mobil,,,,,52000
+      - Air galon,,,,,77000
+      - topper,,,,,73000
+      - hansa5,,,,,15800
+      - bayar bolen 2x,,,,,92000
+"      - kartu perdana ,toko du",,,,,30000
+      - sate,,,,,19000
+      - fl topping es cream,,,,,49500
+      - ongkir in driver,,,,,40000
+      - stiker dubai,,,,,42600
+      - ongkir,,,,,17000
+      - ongkir gosend,,,,,103500
+      - detergen,,,,,36500
+      - minyak refa,,,,,40000
+      - belanja,,,,,104800
+      - icha,,,,,445000
+      - bayar bolen,,,,,322000
+      - struk,,,,,63000
+      - sapu lidi,,,,,25000
+      - kresek uk 15&18 & karet,,,,,61000
+      - bojot ka ita,,,,,10000
+      - strawberry fresh dan frozen,,,,,125000
+      - Abang ambil,,,,,150000
+      - froot loop,,,,,39300
+      - sedotan,,,,,14000
+      - Cash back..tdk jd order,,,,,170000
+      - persabunan,,,,,137300
+      - lalamove,,,,,21500
+      - telur,,,,,39000
+      - bayar bolen 4,,,,,92000
+      - Air Aqua,,,,,14000
+      - ongkir gosend mobil,,,,,52000
+      - mie Royco,,,,,26000
+      - gojek,,,,,10000
+      - sikat,,,,,12000
+      - ongkir driver,,,,,10000
+      - soklin lantai,,,,,12000
+      - bayar listrik,,,,,103000
+      - stroberi dkk,,,,,229000
+      - mineral utk gelato,,,,,4000
+      - galon,,,,,21000
+      - print edible jesiecake,,,,,80000
+      - sate abang,,,,,13000
+      - ongkir 3,,,,,20000
+      - baygon,,,,,44900
+      - air,,,,,42000
+      - kertas struk,,,,,121000
+      - alat pompa,,,,,12500
+      - kran,,,,,25000
+      - sedekah,,,,,2000
+      - minyak,,,,,18800
+      - ongkir maxim,,,,,10000
+      - nescafe,,,,,27500
+      - ongkir lalamove mobil,,,,,117000
+      - kuota,,,,,37000
+      - keresek 15,,,,,42000
+"      - detergen, kecap,penyedap",,,,,60000
+      - tambal ban,,,,,5000
+      - ganti ban verin,,,,,55000
+      - percoklatan,,,,,85000
+"      - mama lemon, royko",,,,,20000
+      - alas mille,,,,,100000
+      - gas besar,,,,,210000
+"      - lem korea,ring & jasa massalman",,,,,50000
+      - bayar bulanan wifi,,,,,337500
+"      - detergen,super pel",,,,,27200
+      - bolen pisang,,,,,23000
+      - nota&spidol,,,,,23000
+      - double foam,,,,,12500
+      - Ambil abang,,,,,100000
+      - bensin motor anggi,,,,,120000
+      - gas,,,,,210000
+      - kartu perdana,,,,,30000
+      - pengki,,,,,8000
+      - mika,,,,,24000
+      - sunlight,,,,,8500
+      - jas hujan,,,,,126200
+      - mas salman,,,,,100000
+      - tisue,,,,,45000
+"      - regal,chic choc",,,,,32900
+      - gosend kerumah,,,,,12000
+      - a ongkir maxim,,,,,35500
+      - tarik Tunai,,,,,104500
+      - PDAM,,,,,50000
+      - royco,,,,,11700
+      - air mobil,,,,,100000
+      - cashback,,,,,23000
+      - gocar barang,,,,,30000
+      - onkir,,,,,12000
+      - bonus anak2,,,,,180000
+      - ongkir gojek,,,,,20000
+      - tambah ban,,,,,15000
+      - nasi anak anak,,,,,160000
+      - cadbury dan coklat,,,,,64500
+      - peralatan cisangkuy,,,,,100000
+      - kresek uk 15&18,,,,,68000
+      - Sari Bundo,,,,,21000
+      - tissue besar & marsmellow,,,,,93500
+      - cash back,,,,,30000
+      - parkir,,,,,2000
+      - ongkir gocar,,,,,36000
+      - maizena,,,,,19000
+      - servis motor vera,,,,,155000
+      - koas,,,,,10000
+      - sari bundo ka ica,,,,,17000
+"      - buku tulis,nota",,,,,64200
+      - mama lemon,,,,,8900
+      - alas mile,,,,,100000
+      - bolen 2,,,,,46000
+      - cashback cake,,,,,80000
+      - anggur muscat,,,,,39000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,168912400
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,1292000,67
+     Cake,,,,42991000,673
+     Coklat,,,,39523000,975
+     Cookies,,,,9611000,945
+     Cup cake,,,,4344000,257
+     CUSTOM,,,,25738000,218
+     Dessert box,,,,125000,6
+     Gelato es krim,,,,2053000,127
+     Japanese,,,,26479500,701
+     Lilin,,,,2370000,805
+     Macaron,,,,3186000,106
+     Menu,,,,2818000,212
+     Milk bun,,,,987000,52
+     Mille Crepes,,,,9382000,375
+     Mochi,,,,5377000,439
+     Puding,,,,4102000,64
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Qris Manual BRI,,,, ,66595000
+     Transfer Manual,,,, ,30123000
+     Kartu Debit,,,, ,10929500
+     QRIS BCA,,,, ,50000
+     CASH,,,, ,74187000
+     Kartu Debit,,,, ,-209000
+     Qris Manual BRI,,,, ,-584000
+     Transfer Manual,,,, ,-120000
+     CASH,,,, ,-716500
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 73.470.500,00"
+      Void Tunai,,,,,"IDR 716.500,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -99.683.300,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,DISCOUNT ITEMS,,,44000,5
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,2703000,34
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Coklat,,,,77048000,1893
+     Cookies,,,,8937000,856
+     Cake,,,,47865000,795
+     Japanese,,,,28727000,771
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+"     Coklat dubai kunafa mini uk 8,5x4,5",,,,39660000,1322
+     Soft cookies,,,,4820000,482
+     Coklat dubai kunafa medium uk 11x5,,,,24836000,414
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,227536500
+         - SALES - POINT OF SALE,,,227536500,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,227536500
+     D. Pengeluaran,,,,,15318450
+      - ongkir,,,,,33000
+      - A ongkir lalamove,,,,,1123000
+      - Strawberry,,,,,4018500
+      - service AC,,,,,200000
+      - anak anak baso,,,,,175000
+      - beras,,,,,293800
+      - icha,,,,,591000
+      - kertas struk thermal,,,,,140000
+      - Bayar bolen pisang,,,,,69000
+      - a ongkir maxim,,,,,30000
+      - Air galon,,,,,91000
+      - persabunan,,,,,116600
+      - ongkir in driver,,,,,10000
+      - Tisu besar,,,,,127700
+      - abang ambil uang,,,,,150000
+      - frootLoops,,,,,49000
+      - kresek uk 15&18,,,,,249000
+      - bensin motor rinati,,,,,40000
+"      - soklin, sunlight, Royco",,,,,42000
+      - minyak,,,,,19800
+      - tissue besar,,,,,134300
+      - obengg,,,,,20000
+      - koas,,,,,10000
+      - air,,,,,28000
+      - iuran bulanan,,,,,200000
+      - spidol,,,,,8000
+      - mika,,,,,16000
+      - baygon,,,,,32800
+      - gas besar,,,,,420000
+      - pengamen,,,,,2000
+      - bensin,,,,,55700
+      - top up,,,,,1000
+      - cachback cupcake,,,,,160000
+      - sabun sunlight,,,,,23400
+      - kertas hvs,,,,,4500
+      - duplikat kunci,,,,,60000
+      - gosend DU,,,,,20000
+      - uang untuk anak@,,,,,210000
+      - bensin motor vera,,,,,68000
+      - bensin motor anggi,,,,,90000
+      - gula pasir,,,,,17500
+      - bayar bolen,,,,,161000
+      - telur,,,,,129050
+      - vanish,,,,,30000
+      - sendok dessert,,,,,42500
+      - ongkir cisangkuy ke du,,,,,20000
+      - sapu,,,,,30000
+      - buku,,,,,19900
+      - keresek uk 15&18,,,,,79000
+      - gas,,,,,210000
+      - cashback,,,,,10000
+      - sikat,,,,,30000
+      - ongkir 3,,,,,10000
+      - ongkir lalamove,,,,,121000
+      - jumat berkah,,,,,30000
+      - ongkir lalamove du,,,,,16500
+"      - tisue,saos,garam,royco,sasa",,,,,95200
+      - kunci gembok,,,,,32000
+      - ongkir gosend,,,,,29500
+      - salonpas,,,,,48000
+      - sapu pengki,,,,,53000
+      - ayam,,,,,24000
+      - royco,,,,,23200
+      - soklin&sunlight,,,,,30000
+      - bulanan PDAM,,,,,607000
+      - spons,,,,,14000
+      - gosend cisangkuy ke du,,,,,10000
+      - bayar bolen 2,,,,,46000
+      - cobek,,,,,19000
+      - bayar internet,,,,,337500
+      - servis motor anggi,,,,,116000
+      - skm,,,,,41000
+      - nasi syarif,,,,,25000
+      - oreo n kopi,,,,,31000
+      - sunlight,,,,,27300
+      - kertas struk,,,,,271000
+      - kelloggs toping gelato,,,,,49300
+      - hexter,,,,,20000
+      - topper,,,,,5000
+      - sedekah,,,,,35000
+      - ongkir driver,,,,,41000
+      - bangkok mika,,,,,48000
+      - gembok ? & lampu,,,,,89900
+      - stroberi dkk,,,,,60000
+"      - tisu besar ,mama lemon",,,,,79500
+      - percoklatkan,,,,,61500
+      - ka ica,,,,,25000
+      - bensin motor syarif,,,,,25000
+      - stroberi,,,,,350000
+      - kuas,,,,,30000
+      - cash back,,,,,45000
+      - bolen 2 box,,,,,46000
+      - bayar wifi du,,,,,270800
+      - ketoprak,,,,,16000
+      - Bolen pisang box 3,,,,,69000
+      - sate,,,,,52000
+      - racun tikus,,,,,9000
+      - obat dan vitamin,,,,,35000
+      - obat,,,,,45000
+      - wipol,,,,,24500
+      - racun tikus ?,,,,,32000
+      - bolen 4 box,,,,,92000
+      - sabun cuci piring,,,,,17000
+      - karet,,,,,20000
+      - vape,,,,,30900
+      - perangkat tikus ?,,,,,19000
+      - topeng gelato,,,,,49300
+      - pematik,,,,,18000
+      - bayar bolen 3,,,,,138000
+      - pewangi,,,,,27500
+      - ongkir driver dini,,,,,18500
+      - glade,,,,,12900
+      - bolen,,,,,69000
+      - ban motor rinati,,,,,45000
+      - susu,,,,,75800
+"      - sabun,mama lime",,,,,14900
+      - kresek uk 15&18 50,,,,,100000
+      - kecap,,,,,11400
+      - cashback bento,,,,,60000
+      - ica,,,,,20000
+      - Bensin Motor syrf,,,,,10000
+      - cling,,,,,13900
+      - cashback cake,,,,,82500
+      - rokok abang,,,,,28000
+      - plastik topper,,,,,15000
+      - Marshmalow,,,,,20800
+      - sabun daia,,,,,16500
+      - mas salman,,,,,300000
+      - double tipe,,,,,20000
+      - materai,,,,,11500
+      - ncb dan jasa pln,,,,,135000
+      - nasi dedek dejan,,,,,24000
+      - paku payung,,,,,4000
+      - front loops,,,,,49300
+      - tambahan mas salman,,,,,17000
+      - saribundo,,,,,80000
+      - bensin motor,,,,,15000
+      - part time,,,,,100000
+      - maxim,,,,,5000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,212218050
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,2891000,119
+     Cake,,,,47865000,795
+     Coklat,,,,77048000,1893
+     Cookies,,,,8937000,856
+     Cup cake,,,,5172000,323
+     CUSTOM,,,,24653000,250
+     Dessert box,,,,85000,4
+     Gelato es krim,,,,2500000,166
+     Japanese,,,,28727000,771
+     Lilin,,,,2257500,768
+     Macaron,,,,2230000,83
+     Menu,,,,3466000,246
+     Mille Crepes,,,,9320000,434
+     Mochi,,,,6730000,552
+     Puding,,,,5655000,87
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Qris Manual BRI,,,, ,82721000
+     Transfer Manual,,,, ,33405000
+     Kartu Debit,,,, ,16274500
+     QRIS BCA,,,, ,6666000
+     CASH,,,, ,91173000
+     Qris Manual BRI,,,, ,-950500
+     Kartu Debit,,,, ,-206500
+     CASH,,,, ,-1546000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 89.627.000,00"
+      Void Tunai,,,,,"IDR 1.546.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -117.708.950,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,DISCOUNT ITEMS,,,50000,6
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,1663000,14
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Cookies,,,,7622000,829
+     Lilin,,,,2004000,628
+     Cake,,,,37517000,589
+     Coklat,,,,18901000,473
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Soft cookies,,,,4428000,443
+"     Coklat dubai kunafa mini uk 8,5x4,5",,,,9835000,328
+     Lilin spiral,,,,765000,306
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,136262500
+         - SALES - POINT OF SALE,,,136262500,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,136262500
+     D. Pengeluaran,,,,,11916700
+      - Strawberry,,,,,3906000
+      - A ongkir lalamove,,,,,213500
+      - bensin motor anggi,,,,,150000
+      - strofoam,,,,,10000
+"      - kresek bening dan putih uk 24,28,30,35",,,,,145000
+      - saribundo,,,,,221000
+      - icha,,,,,292000
+      - tissue besar,,,,,45900
+      - iuran bulanan Rt dan sampah,,,,,200000
+      - spidol,,,,,23500
+      - bensin,,,,,10000
+      - persabunan,,,,,160400
+      - karet,,,,,20000
+      - Air galon,,,,,77000
+      - gas,,,,,210000
+      - telur,,,,,93500
+      - kresek bening UK 24,,,,,45000
+      - ongkir lalamove,,,,,68000
+      - Ka ica,,,,,25000
+      - Mcb listrik,,,,,90000
+      - cash back kelebihan tf,,,,,180000
+      - bensin motor vera,,,,,119000
+      - perbaikan kunci jok vera,,,,,25000
+      - susu  cair,,,,,61500
+      - material 10000,,,,,11500
+      - tissu&perangkat tikuss,,,,,61000
+      - obat vitacimin,,,,,70000
+      - servis  & ganti oli motor vera,,,,,196000
+      - ayam buat perangkat ?,,,,,8000
+      - driver,,,,,6000
+      - kresek,,,,,81000
+      - kanebo,,,,,20000
+      - kuali& ssdk,,,,,32000
+      - Servis motor vera,,,,,215000
+      - bubur,,,,,11000
+      - beras,,,,,74500
+      - tarik Tunai,,,,,5500
+      - ongkir lalmove,,,,,17000
+      - ongkir maxim,,,,,5000
+      - cookie buat cake,,,,,11500
+      - ongkir,,,,,5000
+      - bolen pisang box,,,,,25000
+      - jumat berkah crew,,,,,80000
+      - cash back  kelebihan tf,,,,,5000
+      - bensin motor rinati,,,,,50000
+      - kaos kaki k ita,,,,,16500
+      - keresek UK 30,,,,,30000
+      - bulanan PDAM,,,,,465000
+      - tissu,,,,,90500
+"      - solatif,doubletife,Mika",,,,,64000
+      - bensin motor,,,,,55500
+      - mama lime,,,,,12500
+      - bayar bolen 2x,,,,,100000
+      - wifol,,,,,29500
+      - bulanan kebersihan,,,,,50000
+      - galon,,,,,28000
+      - air,,,,,90000
+"      - kertas label,nota,double tife",,,,,42300
+      - bayar bolen,,,,,25000
+      - sajadah plastik,,,,,20000
+      - marshmalow dan nescafe,,,,,79800
+      - keresek 15&24,,,,,40000
+      - spons,,,,,16000
+      - ongkir&stiker double cheesecake,,,,,16000
+      - ongkir ahsan,,,,,12000
+      - jumat berkah,,,,,30000
+      - gas besar,,,,,210000
+      - bolen x2,,,,,50000
+      - vixal,,,,,15500
+"      - persabunan,royko saus",,,,,61000
+      - saribundo dede,,,,,24000
+      - mas salman,,,,,100000
+      - perangkap tikus,,,,,15600
+      - Bayar bolen,,,,,175000
+      - ongkir maxim,,,,,16000
+      - keresek UK 15&18,,,,,48000
+      - boncabee,,,,,11500
+      - Air galon,,,,,70000
+      - A ongkir lalamove,,,,,264000
+      - percoklatan,,,,,52500
+      - bensin motor anggi,,,,,100000
+      - gula,,,,,17500
+      - icha,,,,,231000
+      - bayar wifi,,,,,337500
+      - wifi DU,,,,,340500
+      - persabunan&tissu,,,,,141500
+      - mika bangkok,,,,,28000
+      - Bensin Motor,,,,,17500
+      - beras,,,,,74500
+      - cobek kayu mini,,,,,16000
+      - topper,,,,,13000
+"      - kresek UK 15,18",,,,,52000
+      - jumat berkah anak anak,,,,,80000
+      - persabunan,,,,,88800
+      - beras,,,,,148500
+      - pulpen,,,,,15000
+      - cling,,,,,4000
+      - ongkir gosend,,,,,27000
+      - cashback,,,,,48000
+      - Tisue besar,,,,,75900
+      - wipol dkk,,,,,40800
+      - obat flutamol dan degirol,,,,,20000
+      - tong sampah,,,,,14000
+      - royco&sauss,,,,,22500
+      - Bensin Motor,,,,,22000
+      - Sapu awi,,,,,4500
+      - sambal,,,,,16600
+      - carger,,,,,35000
+      - Baterai remote AC,,,,,14100
+      - ongkir,,,,,12000
+      - selotip hitam,,,,,9000
+      - marshmallow,,,,,43000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,124345800
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,1930000,73
+     Cake,,,,37517000,589
+     Coklat,,,,18901000,473
+     Cookies,,,,7622000,829
+     Cup cake,,,,3050000,245
+     CUSTOM,,,,21226500,196
+     Gelato es krim,,,,1666000,111
+     Japanese,,,,16541000,452
+     Lilin,,,,2004000,628
+     Macaron,,,,2019000,67
+     Menu,,,,7935000,272
+     Milk bun,,,,522000,26
+     Mille Crepes,,,,7046000,290
+     Mochi,,,,4798000,384
+     Puding,,,,3485000,54
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Transfer Manual,,,, ,23261500
+     Qris Manual BRI,,,, ,48703500
+     Kartu Debit,,,, ,11845500
+     QRIS BCA,,,, ,172000
+     CASH,,,, ,53943000
+     Qris Manual BRI,,,, ,-666000
+     Transfer Manual,,,, ,-758000
+     Kartu Debit,,,, ,-89000
+     CASH,,,, ,-150000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 53.793.000,00"
+      Void Tunai,,,,,"IDR 150.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -88.259.200,00"
+     Sumber Penjualan ,Nama Diskon,,,Jumlah Diskon,Qty Pesanan
+     POINT OF SALE,,,,296500,7
+     POINT OF SALE,DISCOUNT ITEMS,,,17000,5
+,,,,,
+#Ringkasan Loyalti Point,,,,,
+     Tipe Nama,Tebus Poin,Tebus Diskon,Tebus Item Gratis,Qty Item Gratis,Total Redeem
+,,,,,
+#Pesanan Dibatalkan,,,,,
+     Sumber Penjualan,,Total Pesanan,Qty Pesanan,,
+     POINT OF SALE,,,,1275500,13
+,,,,,
+#Top Grup Produk,,,,,
+     Group product,,Total pesanan,Qty,,
+     Cookies,,,,6431000,695
+     Lilin,,,,1782000,542
+     Cake,,,,30669000,499
+     Japanese,,,,15337000,402
+,,,,,
+#Top Produk,,,,,
+     Product,,Total pesanan,Qty,,
+     Soft cookies,,,,3640000,364
+     Cup cake mika bulat pcs,,,,1960000,280
+     Lilin spiral,,,,614000,246
+,,,,,
+#Laba/Rugi,,,,,
+     A. Pendapatan,,,,,113153500
+         - SALES - POINT OF SALE,,,113153500,,
+    - Pajak (excluded),,,,,0
+    - Pajak (included),,,,,(0)
+    - Pembulatan,,,,,0
+    - Pengembalian,,,,,0
+    - Total Deposit yang ditebus,,,,,0
+     B. Harga Pokok Penjualan,,,,,0
+         - Total Penjualan (Harga Modal),,,,,0
+         - Total Penjualan (Harga Modal Addons),,,,,0
+         - Pengembalian,,,,,0
+         - Total Pengembalian (Harga Modal Addons),,,,,0
+     C. Laba Kotor,,,,,113153500
+     D. Pengeluaran,,,,,9550000
+      - Strawberry,,,,,2504000
+      - iuran Rt bulanan toko,,,,,100000
+      - Bulanan Sampah,,,,,100000
+      - Bensin Motor Syrf,,,,,25000
+      - icha,,,,,697000
+      - Air galon,,,,,133000
+      - beras,,,,,74500
+      - telur,,,,,79000
+      - tarik Tunai,,,,,264000
+      - A ongkir lalamove,,,,,353000
+      - persabunan,,,,,306800
+      - gosend,,,,,105000
+      - Bayar bolen,,,,,625000
+      - cup gelas,,,,,30000
+      - Tisue besar,,,,,86400
+      - ongkir maxim,,,,,25000
+      - Royco dan saos,,,,,24500
+      - bensin rinati,,,,,46500
+      - bubur abang,,,,,11000
+      - bulanan sampah kost,,,,,50000
+      - plastik wawan&karet,,,,,33000
+      - obat dan vitamin,,,,,107000
+      - sabut cuci piring,,,,,16200
+      - larutan,,,,,25400
+      - salonpas,,,,,33200
+      - Tisu besar,,,,,120900
+      - popcorn,,,,,18300
+      - jumat berkah anak anak,,,,,70000
+      - obat flutamol dan degirol,,,,,47000
+      - bye bye fiver,,,,,41300
+      - bensin asyar,,,,,24000
+      - spidol,,,,,16500
+      - larutan dkk,,,,,35400
+      - perangkap tikus,,,,,31500
+      - ongkir ahsan paket,,,,,11500
+      - salonpas byk fiver dora racun tikus,,,,,35600
+      - tisu besar dkk,,,,,114700
+      - Spon,,,,,16000
+      - Terigu segitiga biru,,,,,215000
+      - byby viver,,,,,27400
+      - maka bangkok,,,,,32000
+      - majelis talim bukber,,,,,25000
+      - sedekah,,,,,4000
+      - kapur ajaib,,,,,21500
+      - gas besar,,,,,430000
+      - Bensin Motor,,,,,99000
+      - Barco dan spoon,,,,,54600
+      - marshmallow,,,,,86500
+      - bulanan PDAM,,,,,454500
+      - Baterai remote AC,,,,,22000
+"      - nota,& vitamin",,,,,35000
+      - Ongkir driver,,,,,30000
+      - Dus Packing,,,,,10000
+      - cashback,,,,,30000
+      - bubur anak anak,,,,,33000
+      - plastik,,,,,10000
+      - kupat tahu petis abang,,,,,8000
+      - bensin motor anggi,,,,,100000
+      - topper,,,,,23000
+      - bensin motor vera,,,,,50000
+      - Ka ica,,,,,26000
+"      - kresek UK 15,18",,,,,45000
+      - obat pera,,,,,42500
+      - kuota,,,,,12000
+      - obat antangin,,,,,25500
+      - wifi antapani,,,,,337400
+      - wifi DU,,,,,337500
+      - topping gelato,,,,,20000
+      - petis tahu,,,,,8000
+      - Reffil Air,,,,,21000
+      - roti&pocari sweet dina,,,,,28900
+      - kresek,,,,,72000
+      - gocar,,,,,40000
+      - esbatuu,,,,,20000
+      - saribundo abang,,,,,24000
+      - Bensin Motor rinati,,,,,40000
+      - maxim,,,,,10000
+      - vermin,,,,,27500
+      - botol susu,,,,,12000
+      - botol kopi,,,,,30000
+      - botol&corong,,,,,24000
+      - sendok nasi,,,,,9000
+      - ka ita,,,,,100000
+     E. Stok,,,,,
+    - Stok Keluar,0,,,,
+    - Opname Stok,0,,,,
+     F. Pembelian,,0,,,
+    - Diskon,0,,,,
+    - Pengiriman,0,,,,
+    - Pajak,0,,,,
+     G. Biaya pengiriman makanan,,0,,,
+     H. Laba Bersih,,,,,103603500
+#Penjualan berdasarkan Kategori,,,,,
+     Group product,,,,Total pesanan,Qty
+     Brownies,,,,2320000,103
+     Cake,,,,30669000,499
+     Coklat,,,,14217000,343
+     Cookies,,,,6431000,695
+     Cup cake,,,,3770000,308
+     CUSTOM,,,,18812000,162
+     Dessert box,,,,50000,2
+     Gelato es krim,,,,1273000,87
+     Japanese,,,,15337000,402
+     kopi,,,,74000,7
+     Lilin,,,,1782000,542
+     Macaron,,,,1610000,70
+     Menu,,,,2200000,164
+     Milk bun,,,,741000,31
+     Mille Crepes,,,,6980000,278
+     Mochi,,,,3609000,261
+     Puding,,,,3575000,55
+,,,,,
+#Ringkasan Metode Pembayaran,,,,,
+     Cara pembayaran,,,,Akun bank,Total penjualan
+     Transfer Manual,,,, ,19284500
+     Qris Manual BRI,,,, ,41827000
+     QRIS BCA,,,, ,14000
+     Kartu Debit,,,, ,7905500
+     CASH,,,, ,45398000
+     Qris Manual BRI,,,, ,-352500
+     Transfer Manual,,,, ,-328000
+     CASH,,,, ,-595000
+,,,,,
+Transaksi Tunai,,,,,
+      Penjualan Tunai,,,,,"IDR 44.803.000,00"
+      Void Tunai,,,,,"IDR 595.000,00"
+      Pengembalian Tunai,,,,,"IDR 0,00"
+      Kas Selisih (Shift),,,,,"IDR -97.493.400,00"

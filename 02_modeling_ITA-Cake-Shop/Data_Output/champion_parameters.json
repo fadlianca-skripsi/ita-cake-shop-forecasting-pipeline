@@ -1,0 +1,44 @@
+{
+    "Cake": {
+        "category": "Cake",
+        "model": "Holt-Winters Mul",
+        "m": 26,
+        "trend": null,
+        "seasonal": "mul",
+        "alpha": 0.4489,
+        "beta": 0.0,
+        "gamma": 0.0,
+        "initialization_method": "estimated",
+        "composite_wmape": 16.5,
+        "wmape_holdout": 19.26,
+        "wmape_cv": 13.75
+    },
+    "Japanese": {
+        "category": "Japanese",
+        "model": "Holt-Winters Mul",
+        "m": 26,
+        "trend": null,
+        "seasonal": "mul",
+        "alpha": 0.3995,
+        "beta": 0.0,
+        "gamma": 0.0,
+        "initialization_method": "estimated",
+        "composite_wmape": 19.87,
+        "wmape_holdout": 15.33,
+        "wmape_cv": 24.42
+    },
+    "Mille Crepes": {
+        "category": "Mille Crepes",
+        "model": "Holt-Winters Mul",
+        "m": 8,
+        "trend": null,
+        "seasonal": "mul",
+        "alpha": 0.4977,
+        "beta": 0.0,
+        "gamma": 0.0,
+        "initialization_method": "estimated",
+        "composite_wmape": 18.0,
+        "wmape_holdout": 21.68,
+        "wmape_cv": 14.32
+    }
+}

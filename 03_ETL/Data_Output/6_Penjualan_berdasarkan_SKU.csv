@@ -1,0 +1,2249 @@
+product,alternative_name,variant,group,sku,barcode,brand,sold qty,currency,subtotal sales amount,discount item amount,total sales return,total sales amount,total cost price,profit,total sales order,average qty sold
+Bento Cake polos,,,Cake,,,,5,IDR,250000,0,0,250000,0,250000,5,1.0
+Comic cake,,,Cake,,,,2,IDR,110000,0,0,110000,0,110000,2,1.0
+Pop Cake,,,Cookies,,,,20,IDR,140000,0,0,140000,0,140000,13,1.54
+Soft cookies,,Biscof Tiramisu,Cookies,,,,1,IDR,10000,0,0,10000,0,10000,1,1.0
+Soft cookies,,Nutela,Cookies,,,,3,IDR,30000,0,0,30000,0,30000,3,1.0
+Custom,,,CUSTOM,,,,15,IDR,800000,0,0,800000,0,800000,15,1.0
+Dessert Box mini Triple Choco,,,Dessert box,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Macaron isi 18,,,Macaron,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Macaron isi 8,,,Macaron,,,,5,IDR,125000,0,0,125000,0,125000,5,1.0
+Macaron shell,,,Macaron,,,,3,IDR,36000,0,0,36000,0,36000,3,1.0
+Macaron Reguler,,Coklat,Macaron,,,,3,IDR,24000,0,0,24000,0,24000,3,1.0
+Macaron Reguler,,Greentea,Macaron,,,,6,IDR,48000,0,0,48000,0,48000,4,1.5
+Macaron Reguler,,Mint,Macaron,,,,3,IDR,24000,0,0,24000,0,24000,3,1.0
+Macaron Reguler,,Orange,Macaron,,,,2,IDR,16000,0,0,16000,0,16000,2,1.0
+Macaron Reguler,,Oreo,Macaron,,,,2,IDR,16000,0,0,16000,0,16000,2,1.0
+Macaron Reguler,,Red Velvet,Macaron,,,,3,IDR,24000,0,0,24000,0,24000,3,1.0
+Macaron Reguler,,Salt Caramel,Macaron,,,,2,IDR,16000,0,0,16000,0,16000,1,2.0
+Macaron Reguler,,Strawberry,Macaron,,,,6,IDR,48000,0,0,48000,0,48000,6,1.0
+Macaron Reguler,,Taro,Macaron,,,,6,IDR,48000,0,0,48000,0,48000,6,1.0
+Balck forest Slice,,,Menu,,,,2,IDR,36000,0,0,36000,0,36000,2,1.0
+Banana cake chocolate,,,Menu,,,,1,IDR,30000,0,0,30000,0,30000,1,1.0
+Bangkok Crepes,,,Menu,,,,3,IDR,60000,0,0,60000,0,60000,3,1.0
+Brownies Fudgy Pcs,,,Menu,,,,3,IDR,12000,0,0,12000,0,12000,2,1.5
+Meringue,,,Menu,,,,1,IDR,12000,0,0,12000,0,12000,1,1.0
+Butter cookies Red velvet/Oreo/Matcha,,Red Velvet,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Florentine Cookies,,Pouch,Menu,,,,2,IDR,60000,0,0,60000,0,60000,2,1.0
+Hokkaido,,Cheece,Menu,,,,2,IDR,10000,0,0,10000,0,10000,1,2.0
+Hokkaido,,Coklat,Menu,,,,2,IDR,10000,0,0,10000,0,10000,1,2.0
+Hokkaido,,Strawberry,Menu,,,,1,IDR,5000,0,0,5000,0,5000,1,1.0
+Mille Crepes New Prdk,,"Green tea,",Menu,,,,7,IDR,126000,0,0,126000,0,126000,7,1.0
+Mille Crepes New Prdk,,Red velvet,Menu,,,,2,IDR,36000,0,0,36000,0,36000,2,1.0
+Rice Choco Jar,,Nutela,Menu,,,,6,IDR,120000,10000,0,110000,0,110000,5,1.2
+Rice Choco Jar,,Strawberry,Menu,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Rice Choco Jar,,Tiramisu,Menu,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Mille Crepes Slice,,Cheese,Mille Crepes,,,,27,IDR,522000,0,0,522000,0,522000,25,1.08
+Mille Crepes Slice,,Coklat,Mille Crepes,,,,21,IDR,416000,0,0,416000,0,416000,19,1.11
+Mille Crepes Slice,,Greentea,Mille Crepes,,,,15,IDR,294000,0,0,294000,0,294000,13,1.15
+Mille Crepes Slice,,Oreo,Mille Crepes,,,,30,IDR,580000,0,0,580000,0,580000,26,1.15
+Mille Crepes Slice,,Red Velvet,Mille Crepes,,,,12,IDR,232000,0,0,232000,0,232000,10,1.2
+Mille Crepes Slice,,Strawberry,Mille Crepes,,,,17,IDR,336000,0,0,336000,0,336000,15,1.13
+Mille Crepes Slice,,Taro,Mille Crepes,,,,6,IDR,118000,0,0,118000,0,118000,6,1.0
+Mille Crepes Slice,,Tiramisu,Mille Crepes,,,,29,IDR,562000,0,0,562000,0,562000,27,1.07
+Brownies Fudgy Box isi 10,,,Brownies,,,,1,IDR,35000,0,0,35000,0,35000,1,1.0
+Bento Cake polos,,,Cake,,,,8,IDR,400000,0,0,400000,0,400000,7,1.14
+Comic cake,,,Cake,,,,4,IDR,255000,15000,0,240000,0,240000,4,1.0
+Kastengel kotak420 gr,,,Cookies,,,,1,IDR,75000,0,0,75000,0,75000,1,1.0
+Pop Cake,,,Cookies,,,,11,IDR,77000,0,0,77000,0,77000,7,1.57
+Soft cookies,,Biscof Tiramisu,Cookies,,,,4,IDR,40000,0,0,40000,0,40000,3,1.33
+Soft cookies,,Greentea,Cookies,,,,7,IDR,70000,0,0,70000,0,70000,4,1.75
+Soft cookies,,Nutela,Cookies,,,,8,IDR,80000,0,0,80000,0,80000,8,1.0
+Soft cookies,,Oreo,Cookies,,,,3,IDR,30000,0,0,30000,0,30000,3,1.0
+Soft cookies,,Red Velvet,Cookies,,,,3,IDR,30000,0,0,30000,0,30000,3,1.0
+Cup cake birthday 4 pcs,,,Cup cake,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Custom,,,CUSTOM,,,,14,IDR,1071000,0,-130000,941000,0,941000,15,0.93
+Dessert Box mini Triple Choco,,,Dessert box,,,,4,IDR,80000,0,0,80000,0,80000,3,1.33
+Macaron baby isi 20 pcs,,,Macaron,,,,1,IDR,48000,0,0,48000,0,48000,1,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,2,IDR,30000,0,0,30000,0,30000,2,1.0
+Macaron isi 18,,,Macaron,,,,3,IDR,150000,0,0,150000,0,150000,3,1.0
+Macaron isi 27,,,Macaron,,,,1,IDR,70000,0,0,70000,0,70000,1,1.0
+Macaron isi 50 toples,,,Macaron,,,,1,IDR,85000,0,0,85000,0,85000,1,1.0
+Macaron isi 8,,,Macaron,,,,5,IDR,125000,0,0,125000,0,125000,5,1.0
+Macaron super baby isi 50,,,Macaron,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Macaron Reguler,,Greentea,Macaron,,,,4,IDR,32000,0,0,32000,0,32000,3,1.33
+Macaron Reguler,,Oreo,Macaron,,,,5,IDR,40000,0,0,40000,0,40000,3,1.67
+Macaron Reguler,,Salt Caramel,Macaron,,,,2,IDR,16000,0,0,16000,0,16000,2,1.0
+Macaron Reguler,,Strawberry,Macaron,,,,3,IDR,24000,0,0,24000,0,24000,2,1.5
+Macaron Reguler,,Taro,Macaron,,,,5,IDR,40000,0,0,40000,0,40000,3,1.67
+Almond Cookies,,,Menu,,,,1,IDR,65000,0,0,65000,0,65000,1,1.0
+Bangkok Crepes,,,Menu,,,,8,IDR,64000,1000,0,63000,0,63000,6,1.33
+Bangkok Crepes 2,,,Menu,,,,9,IDR,67500,0,0,67500,0,67500,5,1.8
+Black forest UK 16 cm,,,Menu,,,,3,IDR,640000,0,-160000,480000,0,480000,4,0.75
+Brownies Fudgy Pcs,,,Menu,,,,4,IDR,16000,0,0,16000,0,16000,4,1.0
+Puding Puyo,,,Menu,,,,1,IDR,30000,0,-20000,10000,0,10000,2,0.5
+Butter cookies Red velvet/Oreo/Matcha,,Red Velvet,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Pancake Durian,,Box,Menu,,,,1,IDR,120000,0,-60000,60000,0,60000,2,0.5
+Rice Choco Jar,,Greentea,Menu,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Rice Choco Jar,,Mango,Menu,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Rice Choco Jar,,Nutela,Menu,,,,3,IDR,60000,10000,0,50000,0,50000,3,1.0
+Rice Choco Jar,,Taro,Menu,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Rice Choco Jar,,Tiramisu,Menu,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,3,IDR,60000,0,0,60000,0,60000,3,1.0
+Mille Crepes Slice,,Cheese,Mille Crepes,,,,21,IDR,414000,4000,-36000,374000,0,374000,17,1.24
+Mille Crepes Slice,,Coklat,Mille Crepes,,,,17,IDR,306000,2000,0,304000,0,304000,15,1.13
+Mille Crepes Slice,,Greentea,Mille Crepes,,,,28,IDR,504000,4000,0,500000,0,500000,24,1.17
+Mille Crepes Slice,,Oreo,Mille Crepes,,,,10,IDR,180000,2000,0,178000,0,178000,9,1.11
+Mille Crepes Slice,,Red Velvet,Mille Crepes,,,,5,IDR,90000,2000,0,88000,0,88000,5,1.0
+Mille Crepes Slice,,Strawberry,Mille Crepes,,,,9,IDR,162000,2000,0,160000,0,160000,7,1.29
+Mille Crepes Slice,,Taro,Mille Crepes,,,,5,IDR,90000,2000,0,88000,0,88000,5,1.0
+Mille Crepes Slice,,Tiramisu,Mille Crepes,,,,16,IDR,288000,4000,0,284000,0,284000,13,1.23
+Brownies Fuddgy box isi 20,,,Brownies,,,,10,IDR,700000,35000,0,665000,0,665000,4,2.5
+Brownies Fudgy Box isi 10,,,Brownies,,,,1,IDR,35000,0,0,35000,0,35000,1,1.0
+Bento Cake polos,,,Cake,,,,76,IDR,3800000,5000,0,3795000,0,3795000,73,1.04
+Comic cake,,,Cake,,,,14,IDR,910000,0,0,910000,0,910000,13,1.08
+Kastengel kotak420 gr,,,Cookies,,,,4,IDR,300000,0,0,300000,0,300000,3,1.33
+Meringue tangkai,,,Cookies,,,,4,IDR,12000,0,0,12000,0,12000,2,2.0
+Pop Cake,,,Cookies,,,,40,IDR,280000,0,0,280000,0,280000,25,1.6
+Soft cookies,,Biscof Tiramisu,Cookies,,,,23,IDR,230000,0,0,230000,0,230000,13,1.77
+Soft cookies,,Greentea,Cookies,,,,58,IDR,580000,0,0,580000,0,580000,25,2.32
+Soft cookies,,Nutela,Cookies,,,,70,IDR,700000,35000,0,665000,0,665000,18,3.89
+Soft cookies,,Oreo,Cookies,,,,8,IDR,80000,0,0,80000,0,80000,7,1.14
+Soft cookies,,Red Velvet,Cookies,,,,18,IDR,180000,0,0,180000,0,180000,10,1.8
+Cup cake birthday 4 pcs,,,Cup cake,,,,14,IDR,290000,0,0,290000,0,290000,12,1.17
+Custom,,,CUSTOM,,,,112,IDR,6215000,0,0,6215000,0,6215000,69,1.62
+Dessert Box mini Triple Choco,,,Dessert box,,,,10,IDR,200000,0,0,200000,0,200000,10,1.0
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,6,IDR,150000,0,0,150000,0,150000,6,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,4,IDR,192000,0,0,192000,0,192000,3,1.33
+macaron baby isi 30,,,Macaron,,,,1,IDR,63000,0,0,63000,0,63000,1,1.0
+Macaron gift 18 pcs,,,Macaron,,,,3,IDR,210000,5000,0,205000,0,205000,3,1.0
+Macaron gift 25,,,Macaron,,,,3,IDR,255000,0,0,255000,0,255000,3,1.0
+Macaron gift 32,,,Macaron,,,,4,IDR,440000,0,0,440000,0,440000,3,1.33
+Macaron isi 18,,,Macaron,,,,31,IDR,1550000,0,0,1550000,0,1550000,8,3.88
+Macaron isi 18 edisi Lebaran,,,Macaron,,,,45,IDR,2250000,0,0,2250000,0,2250000,14,3.21
+Macaron isi 27,,,Macaron,,,,1,IDR,70000,0,0,70000,0,70000,1,1.0
+Macaron isi 48,,,Macaron,,,,6,IDR,600000,0,0,600000,0,600000,6,1.0
+Macaron isi 50 toples,,,Macaron,,,,9,IDR,765000,0,0,765000,0,765000,9,1.0
+Macaron isi 8,,,Macaron,,,,6,IDR,150000,0,0,150000,0,150000,6,1.0
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,66,IDR,1650000,0,0,1650000,0,1650000,22,3.0
+Macaron shell,,,Macaron,,,,1,IDR,12000,0,0,12000,0,12000,1,1.0
+Macaron super baby isi 50,,,Macaron,,,,9,IDR,450000,0,0,450000,0,450000,8,1.13
+Macaron Reguler,,Coklat,Macaron,,,,10,IDR,80000,0,0,80000,0,80000,6,1.67
+Macaron Reguler,,Greentea,Macaron,,,,25,IDR,200000,0,0,200000,0,200000,14,1.79
+Macaron Reguler,,Mint,Macaron,,,,6,IDR,48000,0,0,48000,0,48000,4,1.5
+Macaron Reguler,,Orange,Macaron,,,,15,IDR,120000,0,0,120000,0,120000,9,1.67
+Macaron Reguler,,Oreo,Macaron,,,,2,IDR,16000,0,0,16000,0,16000,2,1.0
+Macaron Reguler,,Red Velvet,Macaron,,,,2,IDR,16000,0,0,16000,0,16000,1,2.0
+Macaron Reguler,,Salt Caramel,Macaron,,,,5,IDR,40000,0,0,40000,0,40000,3,1.67
+Macaron Reguler,,Strawberry,Macaron,,,,2,IDR,16000,0,0,16000,0,16000,1,2.0
+Almond Cookies,,,Menu,,,,5,IDR,325000,5000,0,320000,0,320000,4,1.25
+Banana cake coklat,,,Menu,,,,16,IDR,557000,0,0,557000,0,557000,10,1.6
+Banana cake keju,,,Menu,,,,3,IDR,111000,2000,0,109000,0,109000,3,1.0
+Bangkok Crepes,,,Menu,,,,17,IDR,136000,0,0,136000,0,136000,16,1.06
+Bangkok Crepes 2,,,Menu,,,,54,IDR,405000,0,0,405000,0,405000,25,2.16
+Black forest UK 16 cm,,,Menu,,,,1,IDR,160000,0,0,160000,0,160000,1,1.0
+Cookies karakter,,,Menu,,,,6,IDR,300000,0,0,300000,0,300000,3,2.0
+Cookies satuan,,,Menu,,,,6,IDR,30000,0,0,30000,0,30000,2,3.0
+Florentine cookies toples kotak,,,Menu,,,,2,IDR,150000,0,0,150000,0,150000,2,1.0
+Macaron Cracky,,,Menu,,,,2,IDR,50000,0,0,50000,0,50000,2,1.0
+Macaron isi 48 edisi Lebaran,,,Menu,,,,3,IDR,300000,0,0,300000,0,300000,3,1.0
+Macaron toples kotak isi 36,,,Menu,,,,6,IDR,390000,0,0,390000,0,390000,1,6.0
+Meringue toples,,,Menu,,,,3,IDR,75000,0,0,75000,0,75000,3,1.0
+Nastar box premium,,,Menu,,,,4,IDR,240000,0,0,240000,0,240000,3,1.33
+Puding Puyo,,,Menu,,,,3,IDR,30000,0,0,30000,0,30000,3,1.0
+Sagu keju,,,Menu,,,,4,IDR,200000,0,0,200000,0,200000,3,1.33
+Sagu keju (bulat 205 gr),,,Menu,,,,1,IDR,40000,5000,0,35000,0,35000,1,1.0
+Butter cookies Red velvet/Oreo/Matcha,,Red Velvet,Menu,,,,11,IDR,275000,0,0,275000,0,275000,7,1.57
+Florentine Cookies,,Pcs,Menu,,,,7,IDR,28000,0,0,28000,0,28000,4,1.75
+Pancake Durian,,Box,Menu,,,,2,IDR,120000,0,0,120000,0,120000,1,2.0
+Rice Choco Jar,,Greentea,Menu,,,,5,IDR,75000,0,0,75000,0,75000,4,1.25
+Rice Choco Jar,,Mango,Menu,,,,6,IDR,90000,0,0,90000,0,90000,3,2.0
+Rice Choco Jar,,Nutela,Menu,,,,7,IDR,105000,0,0,105000,0,105000,6,1.17
+Rice Choco Jar,,Taro,Menu,,,,4,IDR,60000,0,0,60000,0,60000,2,2.0
+Rice Choco Jar,,Tiramisu,Menu,,,,3,IDR,45000,0,0,45000,0,45000,3,1.0
+Mille Crepes loyang,,,Mille Crepes,,,,9,IDR,1620000,0,0,1620000,0,1620000,7,1.29
+Mille Crepes Rainbow,,,Mille Crepes,,,,31,IDR,620000,0,0,620000,0,620000,28,1.11
+Mille Crepes Slice,,Cheese,Mille Crepes,,,,73,IDR,1314000,0,0,1314000,0,1314000,40,1.83
+Mille Crepes Slice,,Coklat,Mille Crepes,,,,236,IDR,4248000,0,0,4248000,0,4248000,109,2.17
+Mille Crepes Slice,,Greentea,Mille Crepes,,,,66,IDR,1188000,0,0,1188000,0,1188000,40,1.65
+Mille Crepes Slice,,Oreo,Mille Crepes,,,,23,IDR,414000,0,0,414000,0,414000,15,1.53
+Mille Crepes Slice,,Red Velvet,Mille Crepes,,,,4,IDR,72000,0,0,72000,0,72000,4,1.0
+Mille Crepes Slice,,Strawberry,Mille Crepes,,,,14,IDR,252000,0,0,252000,0,252000,5,2.8
+Mille Crepes Slice,,Taro,Mille Crepes,,,,1,IDR,18000,0,0,18000,0,18000,1,1.0
+Mille Crepes Slice,,Tiramisu,Mille Crepes,,,,7,IDR,126000,0,0,126000,0,126000,7,1.0
+Brownies Fuddgy box isi 20,,,Brownies,,,,3,IDR,210000,0,0,210000,0,210000,3,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,9,IDR,360000,0,0,360000,0,360000,8,1.13
+Bento Cake polos,,,Cake,,,,107,IDR,5350000,0,0,5350000,0,5350000,100,1.07
+Cake 18 cm hiasan polos,,,Cake,,,,29,IDR,3770000,0,0,3770000,0,3770000,28,1.04
+Comic cake,,,Cake,,,,21,IDR,1365000,0,0,1365000,0,1365000,20,1.05
+Meringue tangkai,,,Cookies,,,,13,IDR,39000,0,0,39000,0,39000,7,1.86
+Pop Cake,,,Cookies,,,,49,IDR,343000,0,0,343000,0,343000,28,1.75
+Soft cookies,,,Cookies,,,,91,IDR,910000,0,0,910000,0,910000,53,1.72
+Soft cookies,,Greentea,Cookies,,,,4,IDR,40000,0,0,40000,0,40000,3,1.33
+Soft cookies,,Nutela,Cookies,,,,6,IDR,60000,0,0,60000,0,60000,2,3.0
+Soft cookies,,Red Velvet,Cookies,,,,2,IDR,20000,0,0,20000,0,20000,2,1.0
+Cup cake birthday 4 pcs,,,Cup cake,,,,12,IDR,240000,0,0,240000,0,240000,9,1.33
+Custom,,,CUSTOM,,,,55,IDR,5227500,0,0,5227500,0,5227500,44,1.25
+Dessert Box mini Triple Choco,,,Dessert box,,,,14,IDR,280000,0,0,280000,0,280000,13,1.08
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,10,IDR,250000,0,0,250000,0,250000,9,1.11
+Japanese cake cheese,,,Japanese,,,,1,IDR,55000,0,0,55000,0,55000,1,1.0
+Japanese cake tiramisu,,,Japanese,,,,4,IDR,220000,5000,0,215000,0,215000,4,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,26,IDR,1300000,10000,0,1290000,0,1290000,22,1.18
+Japanese greentea cake,,,Japanese,,,,10,IDR,490000,0,0,490000,0,490000,9,1.11
+Japanese strawberry,,,Japanese,,,,13,IDR,650000,0,0,650000,0,650000,13,1.0
+Lilin spiral,,,Lilin,,,,27,IDR,67500,0,0,67500,0,67500,11,2.45
+Macaron baby isi 20 pcs,,,Macaron,,,,10,IDR,480000,10000,0,470000,0,470000,10,1.0
+macaron baby isi 30,,,Macaron,,,,1,IDR,63000,0,0,63000,0,63000,1,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,62,IDR,930000,0,0,930000,0,930000,3,20.67
+Macaron gift 18 pcs,,,Macaron,,,,1,IDR,70000,0,0,70000,0,70000,1,1.0
+Macaron isi 18,,,Macaron,,,,4,IDR,200000,0,0,200000,0,200000,4,1.0
+Macaron isi 18 edisi Lebaran,,,Macaron,,,,3,IDR,150000,0,0,150000,0,150000,3,1.0
+Macaron isi 27,,,Macaron,,,,4,IDR,280000,0,0,280000,0,280000,4,1.0
+Macaron isi 48,,,Macaron,,,,3,IDR,300000,0,0,300000,0,300000,3,1.0
+Macaron isi 50 toples,,,Macaron,,,,4,IDR,340000,0,0,340000,0,340000,4,1.0
+Macaron isi 8,,,Macaron,,,,10,IDR,250000,0,0,250000,0,250000,10,1.0
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,14,IDR,350000,0,0,350000,0,350000,10,1.4
+Macaron Reguler,,,Macaron,,,,38,IDR,320000,0,-16000,304000,0,304000,24,1.58
+Macaron shell,,,Macaron,,,,4,IDR,96000,0,-48000,48000,0,48000,4,1.0
+Macaron super baby isi 50,,,Macaron,,,,5,IDR,250000,0,0,250000,0,250000,4,1.25
+Macaron Reguler,,Coklat,Macaron,,,,4,IDR,32000,0,0,32000,0,32000,2,2.0
+Macaron Reguler,,Greentea,Macaron,,,,3,IDR,24000,0,0,24000,0,24000,2,1.5
+Macaron Reguler,,Orange,Macaron,,,,1,IDR,8000,0,0,8000,0,8000,1,1.0
+Almond Cookies,,,Menu,,,,1,IDR,65000,0,0,65000,0,65000,1,1.0
+Banana cake cheese,,,Menu,,,,1,IDR,35000,0,0,35000,0,35000,1,1.0
+Banana cake coklat,,,Menu,,,,29,IDR,1015000,0,0,1015000,0,1015000,25,1.16
+Bangkok Crepes,,,Menu,,,,27,IDR,216000,0,0,216000,0,216000,25,1.08
+Bangkok Crepes 2,,,Menu,,,,60,IDR,450000,0,0,450000,0,450000,28,2.14
+Black forest UK 16 cm,,,Menu,,,,1,IDR,160000,0,0,160000,0,160000,1,1.0
+Box kosong,,,Menu,,,,1,IDR,3000,0,0,3000,0,3000,1,1.0
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,8,IDR,200000,0,0,200000,0,200000,6,1.33
+Cake RED velvet/Matcha (Slice),,,Menu,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Cookies satuan,,,Menu,,,,25,IDR,125000,0,0,125000,0,125000,13,1.92
+Cup cake pcs,,,Menu,,,,178,IDR,890000,0,0,890000,0,890000,47,3.79
+Dessert Box  blueberry Cheese cake,,,Menu,,,,1,IDR,60000,0,0,60000,0,60000,1,1.0
+Dessert Box Lumer Triple Choco,,,Menu,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Florentine cookies Toples kc,,,Menu,,,,1,IDR,30000,0,0,30000,0,30000,1,1.0
+Florentine cookies toples kotak,,,Menu,,,,2,IDR,150000,0,0,150000,0,150000,2,1.0
+Hokkaido cookies,,,Menu,,,,4,IDR,20000,0,0,20000,0,20000,4,1.0
+Macaron Cracky,,,Menu,,,,2,IDR,50000,0,0,50000,0,50000,2,1.0
+Macaron isi 48 edisi Lebaran,,,Menu,,,,1,IDR,100000,0,0,100000,0,100000,1,1.0
+Meringue,,,Menu,,,,1,IDR,12000,0,0,12000,0,12000,1,1.0
+Meringue toples,,,Menu,,,,2,IDR,50000,0,0,50000,0,50000,2,1.0
+Rice Choco Jar,,,Menu,,,,142,IDR,2130000,0,0,2130000,0,2130000,33,4.3
+Shortcake Slice,,,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Butter cookies Red velvet/Oreo/Matcha,,Coklat,Menu,,,,3,IDR,75000,0,0,75000,0,75000,2,1.5
+Butter cookies Red velvet/Oreo/Matcha,,Red Velvet,Menu,,,,2,IDR,50000,0,0,50000,0,50000,2,1.0
+Florentine Cookies,,Pcs,Menu,,,,1,IDR,4000,0,0,4000,0,4000,1,1.0
+Pancake Durian,,Box,Menu,,,,6,IDR,360000,0,0,360000,0,360000,2,3.0
+Pancake Durian,,Satuan,Menu,,,,26,IDR,260000,0,0,260000,0,260000,20,1.3
+Rice Choco Jar,,Greentea,Menu,,,,1,IDR,15000,0,0,15000,0,15000,1,1.0
+Rice Choco Jar,,Mango,Menu,,,,1,IDR,15000,0,0,15000,0,15000,1,1.0
+Rice Choco Jar,,Nutela,Menu,,,,4,IDR,60000,0,0,60000,0,60000,4,1.0
+Rice Choco Jar,,Tiramisu,Menu,,,,1,IDR,15000,0,0,15000,0,15000,1,1.0
+Mille Crepes loyang,,,Mille Crepes,,,,13,IDR,2340000,0,0,2340000,0,2340000,12,1.08
+Mille Crepes Rainbow,,,Mille Crepes,,,,28,IDR,560000,0,0,560000,0,560000,27,1.04
+Mille Crepes Slice,,,Mille Crepes,,,,320,IDR,5760000,0,0,5760000,0,5760000,182,1.76
+Mille Crepes Slice,,Cheese,Mille Crepes,,,,19,IDR,342000,0,0,342000,0,342000,11,1.73
+Mille Crepes Slice,,Coklat,Mille Crepes,,,,24,IDR,432000,0,0,432000,0,432000,16,1.5
+Mille Crepes Slice,,Greentea,Mille Crepes,,,,11,IDR,198000,0,0,198000,0,198000,4,2.75
+Mille Crepes Slice,,Oreo,Mille Crepes,,,,1,IDR,18000,0,0,18000,0,18000,1,1.0
+Mille Crepes Slice,,Strawberry,Mille Crepes,,,,1,IDR,18000,0,0,18000,0,18000,1,1.0
+Mille Crepes Slice,,Tiramisu,Mille Crepes,,,,2,IDR,36000,0,0,36000,0,36000,2,1.0
+Brownies Fuddgy box isi 20,,,Brownies,,,,1,IDR,70000,0,0,70000,0,70000,1,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,5,IDR,200000,3000,0,197000,0,197000,4,1.25
+Bento cake Mahkota,,,Cake,,,,3,IDR,195000,0,0,195000,0,195000,3,1.0
+Bento Cake polos,,,Cake,,,,98,IDR,4900000,0,0,4900000,0,4900000,94,1.04
+Cake 18 cm hiasan polos,,,Cake,,,,30,IDR,4280000,0,0,4280000,0,4280000,30,1.0
+Comic cake,,,Cake,,,,18,IDR,1170000,0,0,1170000,0,1170000,17,1.06
+Cookies karakter ikat,,,Cookies,,,,2,IDR,12000,0,0,12000,0,12000,2,1.0
+Cookies tangkai,,,Cookies,,,,6,IDR,42000,0,0,42000,0,42000,2,3.0
+Meringue tangkai,,,Cookies,,,,28,IDR,84000,0,0,84000,0,84000,15,1.87
+Pop Cake,,,Cookies,,,,84,IDR,588000,0,0,588000,0,588000,41,2.05
+Soft cookies,,,Cookies,,,,112,IDR,1120000,0,0,1120000,0,1120000,78,1.44
+Cup cake birthday 4 pcs,,,Cup cake,,,,14,IDR,325000,19000,0,306000,0,306000,11,1.27
+Custom,,,CUSTOM,,,,389,IDR,9660500,0,0,9660500,0,9660500,63,6.17
+Dessert Box mini Triple Choco,,,Dessert box,,,,11,IDR,220000,0,0,220000,0,220000,11,1.0
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,9,IDR,225000,0,0,225000,0,225000,7,1.29
+Japanese cake cheese,,,Japanese,,,,13,IDR,715000,0,0,715000,0,715000,8,1.63
+Japanese cake tiramisu,,,Japanese,,,,18,IDR,1080000,5000,0,1075000,0,1075000,18,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,55,IDR,2750000,15000,0,2735000,0,2735000,49,1.12
+Japanese greentea cake,,,Japanese,,,,24,IDR,1200000,0,0,1200000,0,1200000,22,1.09
+Japanese strawberry,,,Japanese,,,,60,IDR,3000000,0,0,3000000,0,3000000,51,1.18
+Lilin spiral,,,Lilin,,,,116,IDR,290000,0,0,290000,0,290000,67,1.73
+Macaron baby isi 20 pcs,,,Macaron,,,,6,IDR,288000,0,0,288000,0,288000,6,1.0
+macaron baby isi 30,,,Macaron,,,,2,IDR,126000,0,0,126000,0,126000,2,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,4,IDR,60000,0,0,60000,0,60000,3,1.33
+Macaron gift 25,,,Macaron,,,,1,IDR,85000,0,0,85000,0,85000,1,1.0
+Macaron isi 18,,,Macaron,,,,3,IDR,150000,0,0,150000,0,150000,3,1.0
+Macaron isi 27,,,Macaron,,,,4,IDR,280000,0,0,280000,0,280000,2,2.0
+Macaron isi 48,,,Macaron,,,,4,IDR,400000,0,0,400000,0,400000,4,1.0
+Macaron isi 50 toples,,,Macaron,,,,4,IDR,340000,0,0,340000,0,340000,4,1.0
+Macaron isi 8,,,Macaron,,,,18,IDR,450000,0,0,450000,0,450000,14,1.29
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,5,IDR,125000,0,0,125000,0,125000,5,1.0
+Macaron Reguler,,,Macaron,,,,48,IDR,384000,0,0,384000,0,384000,29,1.66
+Macaron shell,,,Macaron,,,,2,IDR,24000,0,0,24000,0,24000,2,1.0
+Macaron super baby isi 50,,,Macaron,,,,3,IDR,150000,0,0,150000,0,150000,3,1.0
+Banana cake coklat,,,Menu,,,,21,IDR,735000,15000,0,720000,0,720000,14,1.5
+Banana cake keju,,,Menu,,,,2,IDR,74000,0,0,74000,0,74000,2,1.0
+Bangkok Crepes,,,Menu,,,,35,IDR,280000,0,0,280000,0,280000,32,1.09
+Bangkok Crepes 2,,,Menu,,,,87,IDR,652500,0,0,652500,0,652500,37,2.35
+Box kosong,,,Menu,,,,3,IDR,9000,0,0,9000,0,9000,3,1.0
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,4,IDR,100000,0,0,100000,0,100000,4,1.0
+Chiffon cake hias,,,Menu,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Cookies karakter,,,Menu,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Cookies satuan,,,Menu,,,,59,IDR,295000,0,0,295000,0,295000,25,2.36
+Cup cake pcs,,,Menu,,,,212,IDR,1060000,0,0,1060000,0,1060000,89,2.38
+Dessert Box Lumer Triple Choco,,,Menu,,,,5,IDR,250000,0,0,250000,0,250000,5,1.0
+Florentine cookies Toples kc,,,Menu,,,,6,IDR,180000,0,0,180000,0,180000,6,1.0
+Hokkaido cookies,,,Menu,,,,8,IDR,40000,0,0,40000,0,40000,5,1.6
+Macaron Cracky,,,Menu,,,,3,IDR,75000,0,0,75000,0,75000,3,1.0
+Meringue,,,Menu,,,,1,IDR,12000,0,0,12000,0,12000,1,1.0
+Meringue toples,,,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Puding coklat/buah,,,Menu,,,,7,IDR,90000,0,0,90000,0,90000,5,1.4
+Rice Choco Jar,,,Menu,,,,71,IDR,1065000,0,0,1065000,0,1065000,50,1.42
+Florentine Cookies,,Pcs,Menu,,,,2,IDR,8000,0,0,8000,0,8000,2,1.0
+Pancake Durian,,Box,Menu,,,,2,IDR,120000,0,0,120000,0,120000,2,1.0
+Pancake Durian,,Satuan,Menu,,,,30,IDR,300000,0,0,300000,0,300000,24,1.25
+Mille Crepes loyang,,,Mille Crepes,,,,14,IDR,2520000,0,0,2520000,0,2520000,14,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,39,IDR,780000,0,0,780000,0,780000,37,1.05
+Mille Crepes Slice,,,Mille Crepes,,,,330,IDR,5940000,0,0,5940000,0,5940000,234,1.41
+Brownies Fudgy Box isi 10,,,Brownies,,,,12,IDR,480000,27000,0,453000,0,453000,10,1.2
+Bento cake Mahkota,,,Cake,,,,17,IDR,1105000,0,0,1105000,0,1105000,17,1.0
+Bento Cake polos,,,Cake,,,,228,IDR,11400000,7000,0,11393000,0,11393000,218,1.05
+Cake 18 cm hiasan polos,,,Cake,,,,47,IDR,7050000,30000,0,7020000,0,7020000,46,1.02
+Comic cake,,,Cake,,,,40,IDR,2600000,0,0,2600000,0,2600000,36,1.11
+Cookies karakter ikat,,,Cookies,,,,46,IDR,276000,0,0,276000,0,276000,19,2.42
+Cookies tangkai,,,Cookies,,,,26,IDR,182000,0,0,182000,0,182000,16,1.63
+Meringue tangkai,,,Cookies,,,,13,IDR,39000,0,0,39000,0,39000,9,1.44
+Pop Cake,,,Cookies,,,,125,IDR,875000,1000,0,874000,0,874000,90,1.39
+Soft cookies,,,Cookies,,,,199,IDR,1990000,5000,0,1985000,0,1985000,131,1.52
+Cup cake birthday 4 pcs,,,Cup cake,,,,18,IDR,450000,5000,0,445000,0,445000,18,1.0
+Cup cake mika bulat pcs,,,Cup cake,,,,182,IDR,1092000,0,0,1092000,0,1092000,54,3.37
+Custom,,,CUSTOM,,,,100,IDR,8268300,0,0,8268300,0,8268300,89,1.12
+Dessert Box mini Triple Choco,,,Dessert box,,,,22,IDR,440000,0,0,440000,0,440000,21,1.05
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,4,IDR,100000,0,0,100000,0,100000,4,1.0
+Mini dessert box Tiramisu,,,Dessert box,,,,11,IDR,275000,0,0,275000,0,275000,10,1.1
+Japanese cake cheese,,,Japanese,,,,11,IDR,605000,5000,0,600000,0,600000,11,1.0
+Japanese cake tiramisu,,,Japanese,,,,22,IDR,1320000,0,0,1320000,0,1320000,21,1.05
+Japanese Choco Nougat cake,,,Japanese,,,,81,IDR,4050000,5000,0,4045000,0,4045000,73,1.11
+Japanese greentea cake,,,Japanese,,,,39,IDR,1950000,0,0,1950000,0,1950000,38,1.03
+Japanese strawberry,,,Japanese,,,,206,IDR,10300000,10000,0,10290000,0,10290000,195,1.06
+Lilin magic pack,,,Lilin,,,,1,IDR,7000,0,0,7000,0,7000,1,1.0
+Lilin spiral,,,Lilin,,,,142,IDR,355000,0,0,355000,0,355000,90,1.58
+Macaron baby isi 20 pcs,,,Macaron,,,,10,IDR,480000,0,0,480000,0,480000,10,1.0
+macaron baby isi 30,,,Macaron,,,,3,IDR,189000,0,0,189000,0,189000,3,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,17,IDR,255000,0,0,255000,0,255000,14,1.21
+Macaron gift 16,,,Macaron,,,,2,IDR,130000,0,0,130000,0,130000,2,1.0
+Macaron gift 18 pcs,,,Macaron,,,,6,IDR,420000,0,0,420000,0,420000,6,1.0
+Macaron gift 25,,,Macaron,,,,3,IDR,255000,0,0,255000,0,255000,3,1.0
+Macaron gift 32,,,Macaron,,,,2,IDR,220000,0,0,220000,0,220000,2,1.0
+Macaron gift isi 9,,,Macaron,,,,3,IDR,120000,0,0,120000,0,120000,3,1.0
+Macaron isi 18,,,Macaron,,,,15,IDR,750000,0,0,750000,0,750000,10,1.5
+Macaron isi 27,,,Macaron,,,,9,IDR,630000,0,0,630000,0,630000,9,1.0
+Macaron isi 48,,,Macaron,,,,4,IDR,400000,0,0,400000,0,400000,3,1.33
+Macaron isi 50 toples,,,Macaron,,,,4,IDR,340000,0,0,340000,0,340000,3,1.33
+Macaron isi 8,,,Macaron,,,,44,IDR,1100000,0,0,1100000,0,1100000,38,1.16
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,14,IDR,350000,0,0,350000,0,350000,13,1.08
+Macaron Reguler,,,Macaron,,,,104,IDR,832000,0,0,832000,0,832000,55,1.89
+Macaron shell,,,Macaron,,,,11,IDR,132000,0,0,132000,0,132000,10,1.1
+Macaron super baby isi 50,,,Macaron,,,,2,IDR,100000,0,0,100000,0,100000,2,1.0
+Banana cake coklat,,,Menu,,,,9,IDR,315000,0,0,315000,0,315000,8,1.13
+Bangkok Crepes,,,Menu,,,,74,IDR,592000,0,0,592000,0,592000,74,1.0
+Bangkok Crepes 2,,,Menu,,,,190,IDR,1425000,500,0,1424500,0,1424500,90,2.11
+Box kosong,,,Menu,,,,4,IDR,12000,1000,0,11000,0,11000,4,1.0
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,7,IDR,175000,0,0,175000,0,175000,7,1.0
+Cookies satuan,,,Menu,,,,49,IDR,245000,0,0,245000,0,245000,29,1.69
+Cup cake pcs,,,Menu,,,,298,IDR,1490000,0,0,1490000,0,1490000,125,2.38
+Dessert Box Lumer Triple Choco,,,Menu,,,,4,IDR,200000,0,0,200000,0,200000,4,1.0
+Florentine cookies Toples kc,,,Menu,,,,4,IDR,120000,0,0,120000,0,120000,4,1.0
+Florentine cookies toples kotak,,,Menu,,,,1,IDR,75000,4000,0,71000,0,71000,1,1.0
+Hokkaido cookies,,,Menu,,,,8,IDR,40000,0,0,40000,0,40000,6,1.33
+Japanese promo gofood,,,Menu,,,,15,IDR,618000,0,0,618000,0,618000,12,1.25
+Kartu capan,,,Menu,,,,4,IDR,12000,0,0,12000,0,12000,4,1.0
+Korean Bottle cake,,,Menu,,,,9,IDR,225000,0,0,225000,0,225000,8,1.13
+Korean Dessert box,,,Menu,,,,1,IDR,60000,0,0,60000,0,60000,1,1.0
+Macaron Cracky,,,Menu,,,,9,IDR,225000,0,0,225000,0,225000,9,1.0
+Meringue,,,Menu,,,,1,IDR,12000,0,0,12000,0,12000,1,1.0
+Pangsit batagor,,,Menu,,,,3,IDR,30000,0,0,30000,0,30000,3,1.0
+Puding buah UK 22 cm,,,Menu,,,,1,IDR,100000,0,0,100000,0,100000,1,1.0
+Rice Choco Jar,,,Menu,,,,103,IDR,1545000,0,0,1545000,0,1545000,83,1.24
+Rujak No Mehong,,,Menu,,,,14,IDR,210000,0,0,210000,0,210000,13,1.08
+Florentine Cookies,,Pcs,Menu,,,,21,IDR,84000,0,0,84000,0,84000,14,1.5
+Pancake Durian,,Satuan,Menu,,,,51,IDR,510000,0,0,510000,0,510000,40,1.28
+Mille Crepes loyang,,,Mille Crepes,,,,9,IDR,1620000,0,0,1620000,0,1620000,9,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,57,IDR,1140000,0,0,1140000,0,1140000,53,1.08
+Mille Crepes Slice,,,Mille Crepes,,,,742,IDR,13392000,25000,-36000,13331000,0,13331000,456,1.63
+Puding buah sedang,,,Puding,,,,13,IDR,845000,0,0,845000,0,845000,12,1.08
+Brownies Fudgy Box isi 10,,,Brownies,,,,18,IDR,720000,31000,0,689000,0,689000,14,1.29
+Bento cake Mahkota,,,Cake,,,,9,IDR,585000,0,0,585000,0,585000,9,1.0
+Bento Cake polos,,,Cake,,,,271,IDR,13550000,0,0,13550000,0,13550000,255,1.06
+Cake 18 cm hiasan polos,,,Cake,,,,56,IDR,8400000,0,0,8400000,0,8400000,55,1.02
+Comic cake,,,Cake,,,,51,IDR,3315000,0,0,3315000,0,3315000,50,1.02
+Cookies karakter ikat,,,Cookies,,,,45,IDR,270000,0,0,270000,0,270000,34,1.32
+Cookies tangkai,,,Cookies,,,,27,IDR,189000,2000,0,187000,0,187000,17,1.59
+Meringue tangkai,,,Cookies,,,,16,IDR,48000,0,0,48000,0,48000,10,1.6
+Pop Cake,,,Cookies,,,,70,IDR,490000,0,0,490000,0,490000,53,1.32
+Soft cookies,,,Cookies,,,,236,IDR,2360000,0,0,2360000,0,2360000,145,1.63
+Cup cake birthday 4 pcs,,,Cup cake,,,,23,IDR,575000,8000,0,567000,0,567000,21,1.1
+Cup cake mika bulat pcs,,,Cup cake,,,,293,IDR,1758000,0,0,1758000,0,1758000,120,2.44
+Custom,,,CUSTOM,,,,113,IDR,8311000,1000,0,8310000,0,8310000,97,1.16
+Dessert Box mini Triple Choco,,,Dessert box,,,,20,IDR,400000,0,0,400000,0,400000,20,1.0
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,4,IDR,100000,0,0,100000,0,100000,4,1.0
+Mini dessert box Tiramisu,,,Dessert box,,,,9,IDR,225000,0,0,225000,0,225000,9,1.0
+Japanese Blueberry,,,Japanese,,,,8,IDR,440000,0,0,440000,0,440000,8,1.0
+Japanese cake cheese,,,Japanese,,,,18,IDR,990000,0,0,990000,0,990000,17,1.06
+Japanese cake tiramisu,,,Japanese,,,,42,IDR,2520000,15000,0,2505000,0,2505000,42,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,126,IDR,6300000,65000,0,6235000,0,6235000,115,1.1
+Japanese greentea cake,,,Japanese,,,,43,IDR,2150000,5000,0,2145000,0,2145000,43,1.0
+Japanese strawberry,,,Japanese,,,,221,IDR,11050000,15000,0,11035000,0,11035000,209,1.06
+Dus putih besar,,,Lilin,,,,4,IDR,8000,0,0,8000,0,8000,3,1.33
+Lilin angka,,,Lilin,,,,5,IDR,12500,0,0,12500,0,12500,4,1.25
+Lilin kecil Pcs,,,Lilin,,,,35,IDR,35000,0,0,35000,0,35000,16,2.19
+Lilin magic pack,,,Lilin,,,,18,IDR,126000,0,0,126000,0,126000,18,1.0
+Lilin spiral,,,Lilin,,,,260,IDR,650000,1000,0,649000,0,649000,144,1.81
+Topper karakter,,,Lilin,,,,4,IDR,60000,0,0,60000,0,60000,4,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,9,IDR,432000,0,0,432000,0,432000,9,1.0
+macaron baby isi 30,,,Macaron,,,,4,IDR,252000,0,0,252000,0,252000,4,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,6,IDR,90000,0,0,90000,0,90000,5,1.2
+Macaron gift 18 pcs,,,Macaron,,,,7,IDR,490000,0,0,490000,0,490000,7,1.0
+Macaron gift 25,,,Macaron,,,,3,IDR,255000,0,0,255000,0,255000,3,1.0
+Macaron gift 32,,,Macaron,,,,3,IDR,330000,0,0,330000,0,330000,3,1.0
+Macaron gift isi 12,,,Macaron,,,,1,IDR,55000,0,0,55000,0,55000,1,1.0
+Macaron gift isi 6 pcs,,,Macaron,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Macaron gift isi 9,,,Macaron,,,,2,IDR,80000,0,0,80000,0,80000,2,1.0
+Macaron isi 18,,,Macaron,,,,6,IDR,300000,0,0,300000,0,300000,6,1.0
+Macaron isi 27,,,Macaron,,,,4,IDR,280000,5000,0,275000,0,275000,4,1.0
+Macaron isi 48,,,Macaron,,,,4,IDR,400000,0,0,400000,0,400000,4,1.0
+Macaron isi 50 toples,,,Macaron,,,,9,IDR,765000,0,0,765000,0,765000,6,1.5
+Macaron isi 8,,,Macaron,,,,27,IDR,675000,0,0,675000,0,675000,26,1.04
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,6,IDR,150000,0,0,150000,0,150000,6,1.0
+Macaron Reguler,,,Macaron,,,,81,IDR,648000,0,0,648000,0,648000,48,1.69
+Macaron shell,,,Macaron,,,,15,IDR,180000,0,0,180000,0,180000,11,1.36
+Banana cake coklat,,,Menu,,,,4,IDR,140000,0,0,140000,0,140000,3,1.33
+Bangkok Crepes,,,Menu,,,,50,IDR,400000,0,0,400000,0,400000,50,1.0
+Bangkok Crepes 2,,,Menu,,,,134,IDR,1005000,0,0,1005000,0,1005000,65,2.06
+Box kosong,,,Menu,,,,1,IDR,3000,0,0,3000,0,3000,1,1.0
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,8,IDR,200000,0,0,200000,0,200000,7,1.14
+Cookies satuan,,,Menu,,,,16,IDR,80000,0,0,80000,0,80000,12,1.33
+Cupcake toper bendera,,,Menu,,,,35,IDR,245000,0,0,245000,0,245000,2,17.5
+Florentine cookies Toples kc,,,Menu,,,,5,IDR,150000,0,0,150000,0,150000,5,1.0
+Hokkaido cookies,,,Menu,,,,19,IDR,95000,0,0,95000,0,95000,13,1.46
+Japanese promo gofood,,,Menu,,,,15,IDR,630000,0,0,630000,0,630000,14,1.07
+Kartu capan,,,Menu,,,,13,IDR,39000,0,0,39000,0,39000,11,1.18
+Korean Bottle cake,,,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Korean Strawberry milk,,,Menu,,,,24,IDR,310000,35000,0,275000,0,275000,22,1.09
+Korean tart fruit slice,,,Menu,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Korean tart slice,,,Menu,,,,3,IDR,75000,10000,0,65000,0,65000,3,1.0
+Macaron Cracky,,,Menu,,,,8,IDR,200000,0,0,200000,0,200000,7,1.14
+Marmer brownies wisman slice,,,Menu,,,,12,IDR,124000,2000,0,122000,0,122000,10,1.2
+Meringue,,,Menu,,,,3,IDR,36000,0,0,36000,0,36000,3,1.0
+Meringue toples,,,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Pancake durian pcs,,,Menu,,,,43,IDR,516000,0,0,516000,0,516000,39,1.1
+Pangsit batagor,,,Menu,,,,8,IDR,80000,2000,0,78000,0,78000,6,1.33
+Rice Choco Jar,,,Menu,,,,90,IDR,1350000,0,0,1350000,0,1350000,64,1.41
+Rujak No Mehong,,,Menu,,,,4,IDR,60000,0,0,60000,0,60000,4,1.0
+Florentine Cookies,,Pcs,Menu,,,,4,IDR,16000,0,0,16000,0,16000,4,1.0
+Pancake Durian,,Satuan,Menu,,,,6,IDR,60000,0,0,60000,0,60000,6,1.0
+Mille Crepes loyang,,,Mille Crepes,,,,14,IDR,2520000,0,0,2520000,0,2520000,14,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,85,IDR,1700000,0,0,1700000,0,1700000,73,1.16
+Mille Crepes Slice,,,Mille Crepes,,,,572,IDR,10296000,8000,0,10288000,0,10288000,373,1.53
+Puding buah sedang,,,Puding,,,,65,IDR,4225000,15000,0,4210000,0,4210000,59,1.1
+Puding coklat,,,Puding,,,,3,IDR,180000,5000,0,175000,0,175000,3,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,8,IDR,320000,21000,0,299000,0,299000,8,1.0
+Bento cake Mahkota,,,Cake,,,,6,IDR,390000,0,0,390000,0,390000,6,1.0
+Bento Cake polos,,,Cake,,,,258,IDR,12900000,0,0,12900000,0,12900000,244,1.06
+Cake 18 cm hiasan polos,,,Cake,,,,57,IDR,8550000,0,0,8550000,0,8550000,57,1.0
+Comic cake,,,Cake,,,,46,IDR,2990000,0,0,2990000,0,2990000,44,1.05
+Cookies karakter ikat,,,Cookies,,,,41,IDR,246000,0,0,246000,0,246000,22,1.86
+Cookies tangkai,,,Cookies,,,,5,IDR,35000,0,0,35000,0,35000,4,1.25
+Meringue tangkai,,,Cookies,,,,11,IDR,33000,0,0,33000,0,33000,8,1.38
+Pop Cake,,,Cookies,,,,73,IDR,511000,0,0,511000,0,511000,52,1.4
+Soft cookies,,,Cookies,,,,214,IDR,2140000,0,0,2140000,0,2140000,120,1.78
+Cup cake birthday 4 pcs,,,Cup cake,,,,14,IDR,350000,0,0,350000,0,350000,13,1.08
+Cup cake mika bulat pcs,,,Cup cake,,,,439,IDR,2634000,0,0,2634000,0,2634000,116,3.78
+Custom,,,CUSTOM,,,,59,IDR,5698500,5000,0,5693500,0,5693500,57,1.04
+Dessert Box mini Triple Choco,,,Dessert box,,,,19,IDR,380000,0,0,380000,0,380000,18,1.06
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,10,IDR,250000,0,0,250000,0,250000,10,1.0
+Mini dessert box Tiramisu,,,Dessert box,,,,12,IDR,300000,0,0,300000,0,300000,12,1.0
+Japanese Blueberry,,,Japanese,,,,25,IDR,1375000,0,0,1375000,0,1375000,24,1.04
+Japanese cake cheese,,,Japanese,,,,24,IDR,1320000,0,0,1320000,0,1320000,24,1.0
+Japanese cake tiramisu,,,Japanese,,,,30,IDR,1800000,5000,0,1795000,0,1795000,29,1.03
+Japanese Choco Nougat cake,,,Japanese,,,,111,IDR,5550000,15000,0,5535000,0,5535000,104,1.07
+Japanese greentea cake,,,Japanese,,,,38,IDR,1900000,0,0,1900000,0,1900000,38,1.0
+Japanese strawberry,,,Japanese,,,,190,IDR,9500000,45000,0,9455000,0,9455000,178,1.07
+Dus putih besar,,,Lilin,,,,4,IDR,8000,0,0,8000,0,8000,1,4.0
+Lilin angka,,,Lilin,,,,29,IDR,72500,0,0,72500,0,72500,17,1.71
+Lilin kecil Pcs,,,Lilin,,,,16,IDR,16000,0,0,16000,0,16000,8,2.0
+Lilin magic pack,,,Lilin,,,,30,IDR,210000,0,0,210000,0,210000,29,1.03
+Lilin spiral,,,Lilin,,,,217,IDR,542500,0,0,542500,0,542500,131,1.66
+Topper karakter,,,Lilin,,,,6,IDR,90000,0,0,90000,0,90000,6,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,7,IDR,336000,0,0,336000,0,336000,7,1.0
+macaron baby isi 30,,,Macaron,,,,3,IDR,189000,0,0,189000,0,189000,3,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,11,IDR,165000,0,0,165000,0,165000,10,1.1
+Macaron gift 16,,,Macaron,,,,1,IDR,65000,0,0,65000,0,65000,1,1.0
+Macaron gift 18 pcs,,,Macaron,,,,10,IDR,700000,0,0,700000,0,700000,8,1.25
+Macaron gift 25,,,Macaron,,,,2,IDR,170000,0,0,170000,0,170000,2,1.0
+Macaron gift 32,,,Macaron,,,,2,IDR,220000,0,0,220000,0,220000,2,1.0
+Macaron gift isi 12,,,Macaron,,,,2,IDR,110000,0,0,110000,0,110000,2,1.0
+Macaron gift isi 6 pcs,,,Macaron,,,,3,IDR,60000,0,0,60000,0,60000,3,1.0
+Macaron gift isi 9,,,Macaron,,,,1,IDR,40000,0,0,40000,0,40000,1,1.0
+Macaron isi 18,,,Macaron,,,,16,IDR,800000,0,0,800000,0,800000,14,1.14
+Macaron isi 27,,,Macaron,,,,2,IDR,140000,0,0,140000,0,140000,2,1.0
+Macaron isi 48,,,Macaron,,,,4,IDR,400000,0,0,400000,0,400000,4,1.0
+Macaron isi 50 toples,,,Macaron,,,,6,IDR,510000,0,0,510000,0,510000,6,1.0
+Macaron isi 8,,,Macaron,,,,37,IDR,925000,0,0,925000,0,925000,32,1.16
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,5,IDR,125000,0,0,125000,0,125000,2,2.5
+Macaron Reguler,,,Macaron,,,,75,IDR,600000,0,0,600000,0,600000,39,1.92
+Macaron shell,,,Macaron,,,,4,IDR,48000,0,0,48000,0,48000,4,1.0
+Air mineral botol,,,Menu,,,,14,IDR,28000,0,0,28000,0,28000,13,1.08
+Bangkok Crepes,,,Menu,,,,65,IDR,520000,1000,0,519000,0,519000,59,1.1
+Bangkok Crepes 2,,,Menu,,,,98,IDR,735000,0,0,735000,0,735000,42,2.33
+Box kosong,,,Menu,,,,1,IDR,3000,0,0,3000,0,3000,1,1.0
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,8,IDR,200000,0,0,200000,0,200000,8,1.0
+Chiffon cake hias,,,Menu,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Florentine cookies Toples kc,,,Menu,,,,3,IDR,90000,0,0,90000,0,90000,3,1.0
+Florentine cookies toples kotak,,,Menu,,,,1,IDR,75000,0,0,75000,0,75000,1,1.0
+Hokkaido cookies,,,Menu,,,,21,IDR,105000,0,0,105000,0,105000,10,2.1
+Kartu capan,,,Menu,,,,8,IDR,24000,0,0,24000,0,24000,8,1.0
+Korean Strawberry milk,,,Menu,,,,16,IDR,160000,0,0,160000,0,160000,11,1.45
+Macaron Cracky,,,Menu,,,,5,IDR,125000,0,0,125000,0,125000,5,1.0
+Marmer brownies wisman slice,,,Menu,,,,47,IDR,470000,0,0,470000,0,470000,33,1.42
+Meringue,,,Menu,,,,2,IDR,24000,0,0,24000,0,24000,2,1.0
+Mochi box isi 3,,,Menu,,,,122,IDR,2440000,98000,0,2342000,0,2342000,95,1.28
+Pancake durian box,,,Menu,,,,2,IDR,140000,0,0,140000,0,140000,2,1.0
+Pancake durian pcs,,,Menu,,,,51,IDR,612000,0,0,612000,0,612000,41,1.24
+Pangsit batagor,,,Menu,,,,5,IDR,50000,0,0,50000,0,50000,4,1.25
+Rice Choco Jar,,,Menu,,,,74,IDR,1110000,0,0,1110000,0,1110000,59,1.25
+Florentine Cookies,,Pcs,Menu,,,,20,IDR,80000,0,0,80000,0,80000,8,2.5
+Mille Crepes loyang,,,Mille Crepes,,,,10,IDR,1800000,0,0,1800000,0,1800000,9,1.11
+Mille Crepes Rainbow,,,Mille Crepes,,,,67,IDR,1340000,0,0,1340000,0,1340000,60,1.12
+Mille Crepes Slice,,,Mille Crepes,,,,544,IDR,9792000,8000,0,9784000,0,9784000,349,1.56
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,145,IDR,2610000,3000,0,2607000,0,2607000,112,1.29
+Mochi Daifuku pcs pouch,,,Mochi,,,,477,IDR,3339000,1000,0,3338000,0,3338000,235,2.03
+Puding buah sedang,,,Puding,,,,68,IDR,4420000,0,0,4420000,0,4420000,67,1.01
+Puding coklat,,,Puding,,,,6,IDR,360000,0,0,360000,0,360000,6,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,23,IDR,920000,54000,0,866000,0,866000,20,1.15
+Bento cake Mahkota,,,Cake,,,,14,IDR,910000,0,0,910000,0,910000,14,1.0
+Bento Cake polos,,,Cake,,,,340,IDR,17000000,0,0,17000000,0,17000000,325,1.05
+Cake 18 cm hiasan polos,,,Cake,,,,59,IDR,8850000,0,0,8850000,0,8850000,59,1.0
+Cake 18 Hiasan Topper,,,Cake,,,,4,IDR,660000,0,0,660000,0,660000,4,1.0
+Comic cake,,,Cake,,,,55,IDR,3575000,0,0,3575000,0,3575000,54,1.02
+Cookies karakter ikat,,,Cookies,,,,43,IDR,258000,0,0,258000,0,258000,10,4.3
+Cookies tangkai,,,Cookies,,,,33,IDR,231000,0,0,231000,0,231000,17,1.94
+Meringue tangkai,,,Cookies,,,,20,IDR,60000,0,0,60000,0,60000,10,2.0
+Pop Cake,,,Cookies,,,,95,IDR,665000,0,0,665000,0,665000,62,1.53
+Soft cookies,,,Cookies,,,,219,IDR,2190000,0,0,2190000,0,2190000,153,1.43
+Cup cake birthday 4 pcs,,,Cup cake,,,,13,IDR,325000,0,0,325000,0,325000,13,1.0
+Cup cake mika bulat pcs,,,Cup cake,,,,442,IDR,2652000,0,0,2652000,0,2652000,166,2.66
+Custom,,,CUSTOM,,,,99,IDR,10432500,0,0,10432500,0,10432500,87,1.14
+Dessert Box mini Triple Choco,,,Dessert box,,,,25,IDR,500000,0,0,500000,0,500000,23,1.09
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,16,IDR,400000,0,0,400000,0,400000,16,1.0
+Mini dessert box Tiramisu,,,Dessert box,,,,11,IDR,275000,0,0,275000,0,275000,11,1.0
+Japanese Blueberry,,,Japanese,,,,31,IDR,1705000,0,0,1705000,0,1705000,31,1.0
+Japanese cake cheese,,,Japanese,,,,13,IDR,715000,0,0,715000,0,715000,12,1.08
+Japanese cake tiramisu,,,Japanese,,,,21,IDR,1260000,0,0,1260000,0,1260000,20,1.05
+Japanese Choco Nougat cake,,,Japanese,,,,147,IDR,7350000,0,0,7350000,0,7350000,131,1.12
+Japanese greentea cake,,,Japanese,,,,53,IDR,2650000,0,0,2650000,0,2650000,52,1.02
+Japanese strawberry,,,Japanese,,,,353,IDR,17650000,0,0,17650000,0,17650000,328,1.08
+Dus putih besar,,,Lilin,,,,6,IDR,12000,0,0,12000,0,12000,5,1.2
+Korek api,,,Lilin,,,,7,IDR,35000,0,0,35000,0,35000,7,1.0
+Lilin angka,,,Lilin,,,,33,IDR,82500,0,0,82500,0,82500,22,1.5
+Lilin angka Gold,,,Lilin,,,,11,IDR,66000,0,0,66000,0,66000,10,1.1
+Lilin kecil Pcs,,,Lilin,,,,5,IDR,5000,0,0,5000,0,5000,2,2.5
+Lilin magic pack,,,Lilin,,,,38,IDR,266000,0,0,266000,0,266000,38,1.0
+Lilin spiral,,,Lilin,,,,308,IDR,770000,500,0,769500,0,769500,185,1.66
+Topper karakter,,,Lilin,,,,3,IDR,45000,0,0,45000,0,45000,3,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,13,IDR,624000,0,0,624000,0,624000,13,1.0
+macaron baby isi 30,,,Macaron,,,,4,IDR,252000,0,0,252000,0,252000,4,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,16,IDR,240000,0,0,240000,0,240000,16,1.0
+Macaron gift 32,,,Macaron,,,,2,IDR,220000,0,0,220000,0,220000,2,1.0
+Macaron gift isi 12,,,Macaron,,,,1,IDR,55000,0,0,55000,0,55000,1,1.0
+Macaron gift isi 6 pcs,,,Macaron,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Macaron isi 18,,,Macaron,,,,20,IDR,1000000,0,0,1000000,0,1000000,18,1.11
+Macaron isi 27,,,Macaron,,,,8,IDR,560000,0,0,560000,0,560000,8,1.0
+Macaron isi 48,,,Macaron,,,,6,IDR,600000,0,0,600000,0,600000,6,1.0
+Macaron isi 50 toples,,,Macaron,,,,8,IDR,680000,0,0,680000,0,680000,8,1.0
+Macaron isi 8,,,Macaron,,,,49,IDR,1225000,0,0,1225000,0,1225000,47,1.04
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Macaron Reguler,,,Macaron,,,,95,IDR,760000,0,0,760000,0,760000,59,1.61
+Macaron shell,,,Macaron,,,,10,IDR,120000,0,0,120000,0,120000,9,1.11
+Air mineral botol,,,Menu,,,,28,IDR,56000,0,0,56000,0,56000,23,1.22
+Banana cake coklat,,,Menu,,,,1,IDR,35000,0,0,35000,0,35000,1,1.0
+Bangkok Crepes,,,Menu,,,,96,IDR,768000,0,0,768000,0,768000,92,1.04
+Bangkok Crepes 2,,,Menu,,,,115,IDR,862500,0,0,862500,0,862500,52,2.21
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,11,IDR,275000,0,0,275000,0,275000,11,1.0
+Cupcake toper bendera,,,Menu,,,,4,IDR,28000,0,0,28000,0,28000,1,4.0
+Florentine cookies Toples kc,,,Menu,,,,5,IDR,150000,0,0,150000,0,150000,5,1.0
+Florentine cookies toples kotak,,,Menu,,,,2,IDR,150000,0,0,150000,0,150000,2,1.0
+Hokkaido cookies,,,Menu,,,,4,IDR,20000,0,0,20000,0,20000,4,1.0
+Kartu capan,,,Menu,,,,8,IDR,24000,0,0,24000,0,24000,8,1.0
+Macaron Cracky,,,Menu,,,,15,IDR,375000,0,0,375000,0,375000,11,1.36
+Marmer brownies wisman slice,,,Menu,,,,78,IDR,780000,0,0,780000,0,780000,62,1.26
+Meringue,,,Menu,,,,3,IDR,36000,0,0,36000,0,36000,3,1.0
+Meringue toples,,,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Mochi box isi 3,,,Menu,,,,33,IDR,660000,0,0,660000,0,660000,25,1.32
+Pancake durian box,,,Menu,,,,2,IDR,140000,0,0,140000,0,140000,2,1.0
+Pancake durian pcs,,,Menu,,,,60,IDR,720000,0,0,720000,0,720000,47,1.28
+Pangsit batagor,,,Menu,,,,7,IDR,70000,0,0,70000,0,70000,5,1.4
+Pisang Bolen box isi 10,,,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Rice Choco Jar,,,Menu,,,,117,IDR,1755000,0,0,1755000,0,1755000,89,1.31
+Florentine Cookies,,Pcs,Menu,,,,14,IDR,56000,0,0,56000,0,56000,8,1.75
+Mille Crepes loyang,,,Mille Crepes,,,,17,IDR,3060000,0,0,3060000,0,3060000,17,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,99,IDR,1980000,0,0,1980000,0,1980000,94,1.05
+Mille Crepes Slice,,,Mille Crepes,,,,597,IDR,10746000,0,0,10746000,0,10746000,461,1.3
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,849,IDR,15282000,12000,0,15270000,0,15270000,630,1.35
+Mochi Daifuku pcs pouch,,,Mochi,,,,832,IDR,5824000,2000,0,5822000,0,5822000,412,2.02
+Puding buah sedang,,,Puding,,,,52,IDR,3380000,0,0,3380000,0,3380000,51,1.02
+Brownies Fuddgy box isi 20,,,Brownies,,,,8,IDR,560000,0,0,560000,0,560000,2,4.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,26,IDR,1040000,69000,0,971000,0,971000,25,1.04
+Bento cake Mahkota,,,Cake,,,,17,IDR,1170000,0,-65000,1105000,0,1105000,18,0.94
+Bento Cake polos,,,Cake,,,,365,IDR,18250000,0,0,18250000,0,18250000,325,1.12
+Cake 18 cm hiasan polos,,,Cake,,,,64,IDR,9600000,0,0,9600000,0,9600000,63,1.02
+Cake 18 Hiasan Topper,,,Cake,,,,13,IDR,2175000,0,0,2175000,0,2175000,13,1.0
+Comic cake,,,Cake,,,,37,IDR,2405000,0,0,2405000,0,2405000,34,1.09
+Cookies karakter ikat,,,Cookies,,,,69,IDR,414000,0,0,414000,0,414000,37,1.86
+Cookies tangkai,,,Cookies,,,,17,IDR,119000,0,0,119000,0,119000,14,1.21
+Meringue tangkai,,,Cookies,,,,54,IDR,162000,0,0,162000,0,162000,24,2.25
+Pop Cake,,,Cookies,,,,133,IDR,931000,0,0,931000,0,931000,99,1.34
+Soft cookies,,,Cookies,,,,262,IDR,2620000,1500,0,2618500,0,2618500,179,1.46
+Cup cake birthday 4 pcs,,,Cup cake,,,,14,IDR,350000,0,0,350000,0,350000,10,1.4
+Cup cake mika bulat pcs,,,Cup cake,,,,482,IDR,2892000,0,0,2892000,0,2892000,163,2.96
+Custom,,,CUSTOM,,,,161,IDR,9313000,0,0,9313000,0,9313000,90,1.79
+Dessert Box mini Triple Choco,,,Dessert box,,,,27,IDR,540000,0,0,540000,0,540000,25,1.08
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,20,IDR,500000,0,0,500000,0,500000,20,1.0
+Mini dessert box Tiramisu,,,Dessert box,,,,14,IDR,350000,0,0,350000,0,350000,13,1.08
+Japanese Blueberry,,,Japanese,,,,23,IDR,1265000,0,0,1265000,0,1265000,22,1.05
+Japanese cake cheese,,,Japanese,,,,12,IDR,660000,0,0,660000,0,660000,11,1.09
+Japanese cake tiramisu,,,Japanese,,,,25,IDR,1500000,0,0,1500000,0,1500000,25,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,164,IDR,8200000,0,0,8200000,0,8200000,148,1.11
+Japanese greentea cake,,,Japanese,,,,62,IDR,3100000,0,0,3100000,0,3100000,61,1.02
+Japanese strawberry,,,Japanese,,,,374,IDR,18700000,5000,0,18695000,0,18695000,326,1.15
+Dus putih besar,,,Lilin,,,,5,IDR,10000,0,0,10000,0,10000,4,1.25
+Korek api,,,Lilin,,,,11,IDR,55000,0,0,55000,0,55000,11,1.0
+Lilin angka Gold,,,Lilin,,,,64,IDR,384000,0,0,384000,0,384000,54,1.19
+Lilin kecil Pcs,,,Lilin,,,,4,IDR,4000,0,0,4000,0,4000,1,4.0
+Lilin magic pack,,,Lilin,,,,35,IDR,245000,0,0,245000,0,245000,35,1.0
+Lilin spiral,,,Lilin,,,,252,IDR,630000,0,0,630000,0,630000,149,1.69
+Topper Birthday,,,Lilin,,,,6,IDR,42000,0,0,42000,0,42000,6,1.0
+Topper karakter,,,Lilin,,,,1,IDR,15000,0,0,15000,0,15000,1,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,13,IDR,624000,0,0,624000,0,624000,13,1.0
+macaron baby isi 30,,,Macaron,,,,8,IDR,504000,0,0,504000,0,504000,7,1.14
+Macaron gift  isi 4 pcs,,,Macaron,,,,11,IDR,165000,0,0,165000,0,165000,11,1.0
+Macaron gift 18 pcs,,,Macaron,,,,1,IDR,70000,0,0,70000,0,70000,1,1.0
+Macaron gift 25,,,Macaron,,,,4,IDR,340000,0,0,340000,0,340000,3,1.33
+Macaron gift isi 12,,,Macaron,,,,4,IDR,220000,0,0,220000,0,220000,3,1.33
+Macaron gift isi 9,,,Macaron,,,,2,IDR,80000,0,0,80000,0,80000,2,1.0
+Macaron isi 18,,,Macaron,,,,5,IDR,250000,0,0,250000,0,250000,5,1.0
+Macaron isi 18 edisi Lebaran,,,Macaron,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Macaron isi 27,,,Macaron,,,,3,IDR,210000,0,0,210000,0,210000,3,1.0
+Macaron isi 48,,,Macaron,,,,3,IDR,300000,0,0,300000,0,300000,3,1.0
+Macaron isi 50 toples,,,Macaron,,,,8,IDR,680000,0,0,680000,0,680000,5,1.6
+Macaron isi 8,,,Macaron,,,,32,IDR,800000,0,0,800000,0,800000,31,1.03
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Macaron Reguler,,,Macaron,,,,240,IDR,1920000,0,0,1920000,0,1920000,83,2.89
+Macaron shell,,,Macaron,,,,10,IDR,120000,0,0,120000,0,120000,7,1.43
+Macaron super baby isi 50,,,Macaron,,,,4,IDR,200000,0,0,200000,0,200000,4,1.0
+Air mineral botol,,,Menu,,,,46,IDR,92000,0,0,92000,0,92000,41,1.12
+Banana cake coklat,,,Menu,,,,1,IDR,35000,0,0,35000,0,35000,1,1.0
+Banana cake keju,,,Menu,,,,2,IDR,74000,0,0,74000,0,74000,1,2.0
+Bangkok Crepes,,,Menu,,,,86,IDR,688000,0,0,688000,0,688000,84,1.02
+Bangkok Crepes 2,,,Menu,,,,177,IDR,1327500,0,0,1327500,0,1327500,82,2.16
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,10,IDR,250000,0,0,250000,0,250000,9,1.11
+Cookies satuan,,,Menu,,,,1,IDR,5000,0,0,5000,0,5000,1,1.0
+Hokkaido cookies,,,Menu,,,,21,IDR,105000,0,0,105000,0,105000,14,1.5
+Kartu capan,,,Menu,,,,4,IDR,12000,0,0,12000,0,12000,4,1.0
+Keripik singkong rubik,,,Menu,,,,1,IDR,15000,0,0,15000,0,15000,1,1.0
+Macaron Cracky,,,Menu,,,,10,IDR,250000,10000,0,240000,0,240000,10,1.0
+Marmer brownies wisman slice,,,Menu,,,,52,IDR,520000,0,0,520000,0,520000,36,1.44
+Meringue,,,Menu,,,,2,IDR,24000,2000,0,22000,0,22000,2,1.0
+Meringue toples,,,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Pancake durian box,,,Menu,,,,2,IDR,160000,0,0,160000,0,160000,2,1.0
+Pancake durian pcs,,,Menu,,,,33,IDR,396000,0,0,396000,0,396000,29,1.14
+Pangsit batagor,,,Menu,,,,3,IDR,30000,0,0,30000,0,30000,3,1.0
+Pangsit batagor,,,Menu,,,,4,IDR,40000,0,0,40000,0,40000,1,4.0
+Pisang Bolen box isi 10,,,Menu,,,,18,IDR,450000,0,0,450000,0,450000,13,1.38
+Rice Choco Jar,,,Menu,,,,123,IDR,1845000,0,0,1845000,0,1845000,87,1.41
+Florentine Cookies,,Pcs,Menu,,,,5,IDR,20000,0,0,20000,0,20000,4,1.25
+Mille Crepes loyang,,,Mille Crepes,,,,17,IDR,3060000,0,0,3060000,0,3060000,17,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,87,IDR,1740000,0,0,1740000,0,1740000,73,1.19
+Mille Crepes Slice,,,Mille Crepes,,,,665,IDR,11970000,3000,0,11967000,0,11967000,481,1.38
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,852,IDR,15336000,3000,0,15333000,0,15333000,626,1.36
+Mochi Daifuku pcs pouch,,,Mochi,,,,688,IDR,4816000,0,0,4816000,0,4816000,388,1.77
+Puding buah sedang,,,Puding,,,,42,IDR,2730000,0,0,2730000,0,2730000,38,1.11
+Brownies Fuddgy box isi 20,,,Brownies,,,,6,IDR,420000,0,0,420000,0,420000,4,1.5
+Brownies Fudgy Box isi 10,,,Brownies,,,,41,IDR,1538000,25000,0,1513000,0,1513000,36,1.14
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,1,IDR,52000,0,0,52000,0,52000,1,1.0
+Bento cake Mahkota,,,Cake,,,,13,IDR,845000,0,0,845000,0,845000,13,1.0
+Bento Cake polos,,,Cake,,,,441,IDR,22050000,0,0,22050000,0,22050000,413,1.07
+Cake 18 cm hiasan polos,,,Cake,,,,63,IDR,9450000,0,0,9450000,0,9450000,61,1.03
+Cake 18 cm kupu-kupu,,,Cake,,,,2,IDR,310000,0,0,310000,0,310000,2,1.0
+Cake 18 Hiasan Topper,,,Cake,,,,12,IDR,2040000,0,0,2040000,0,2040000,12,1.0
+Comic cake,,,Cake,,,,43,IDR,2795000,0,0,2795000,0,2795000,42,1.02
+Cookies karakter ikat,,,Cookies,,,,33,IDR,198000,0,0,198000,0,198000,25,1.32
+Cookies tangkai,,,Cookies,,,,18,IDR,126000,0,0,126000,0,126000,12,1.5
+Meringue tangkai,,,Cookies,,,,28,IDR,84000,0,0,84000,0,84000,15,1.87
+Pop Cake,,,Cookies,,,,174,IDR,1218000,0,0,1218000,0,1218000,123,1.41
+Soft cookies,,,Cookies,,,,309,IDR,3090000,0,0,3090000,0,3090000,192,1.61
+Cup cake birthday 4 pcs,,,Cup cake,,,,8,IDR,200000,0,0,200000,0,200000,8,1.0
+Cup cake mika bulat pcs,,,Cup cake,,,,547,IDR,3282000,0,0,3282000,0,3282000,172,3.18
+Custom,,,CUSTOM,,,,110,IDR,9085000,0,0,9085000,0,9085000,91,1.21
+Dessert Box mini Triple Choco,,,Dessert box,,,,16,IDR,320000,0,0,320000,0,320000,12,1.33
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,12,IDR,300000,0,0,300000,0,300000,12,1.0
+Mini dessert box Tiramisu,,,Dessert box,,,,7,IDR,175000,0,0,175000,0,175000,7,1.0
+Japanese Blueberry,,,Japanese,,,,10,IDR,550000,0,0,550000,0,550000,10,1.0
+Japanese cake cheese,,,Japanese,,,,8,IDR,440000,0,0,440000,0,440000,8,1.0
+Japanese cake tiramisu,,,Japanese,,,,30,IDR,1800000,0,0,1800000,0,1800000,29,1.03
+Japanese Choco Nougat cake,,,Japanese,,,,263,IDR,13150000,0,0,13150000,0,13150000,207,1.27
+Japanese greentea cake,,,Japanese,,,,61,IDR,3050000,0,0,3050000,0,3050000,60,1.02
+Japanese strawberry,,,Japanese,,,,411,IDR,20550000,0,0,20550000,0,20550000,364,1.13
+Dus putih besar,,,Lilin,,,,9,IDR,18000,0,0,18000,0,18000,8,1.13
+Korek api,,,Lilin,,,,21,IDR,105000,0,0,105000,0,105000,21,1.0
+Lilin angka Gold,,,Lilin,,,,85,IDR,510000,0,0,510000,0,510000,73,1.16
+Lilin angka gold kecil,,,Lilin,,,,5,IDR,20000,0,0,20000,0,20000,4,1.25
+Lilin kecil Pcs,,,Lilin,,,,3,IDR,3000,0,0,3000,0,3000,1,3.0
+Lilin magic pack,,,Lilin,,,,27,IDR,189000,0,0,189000,0,189000,26,1.04
+Lilin spiral,,,Lilin,,,,310,IDR,775000,0,0,775000,0,775000,197,1.57
+Topper Birthday,,,Lilin,,,,8,IDR,56000,0,0,56000,0,56000,8,1.0
+Topper karakter,,,Lilin,,,,3,IDR,45000,0,0,45000,0,45000,3,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,9,IDR,432000,0,0,432000,0,432000,8,1.13
+macaron baby isi 30,,,Macaron,,,,4,IDR,252000,0,0,252000,0,252000,4,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,14,IDR,210000,0,0,210000,0,210000,14,1.0
+Macaron gift 18 pcs,,,Macaron,,,,3,IDR,210000,0,0,210000,0,210000,3,1.0
+Macaron gift 25,,,Macaron,,,,2,IDR,170000,0,0,170000,0,170000,2,1.0
+Macaron gift 32,,,Macaron,,,,1,IDR,110000,0,0,110000,0,110000,1,1.0
+Macaron gift isi 12,,,Macaron,,,,2,IDR,110000,0,0,110000,0,110000,1,2.0
+Macaron gift isi 6 pcs,,,Macaron,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Macaron gift isi 9,,,Macaron,,,,3,IDR,120000,0,0,120000,0,120000,3,1.0
+Macaron isi 18,,,Macaron,,,,21,IDR,1050000,0,0,1050000,0,1050000,20,1.05
+Macaron isi 18 edisi Lebaran,,,Macaron,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Macaron isi 27,,,Macaron,,,,8,IDR,560000,0,0,560000,0,560000,5,1.6
+Macaron isi 48,,,Macaron,,,,2,IDR,200000,0,0,200000,0,200000,2,1.0
+Macaron isi 50 toples,,,Macaron,,,,5,IDR,425000,0,0,425000,0,425000,4,1.25
+Macaron isi 8,,,Macaron,,,,53,IDR,1325000,0,0,1325000,0,1325000,50,1.06
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,2,IDR,50000,0,0,50000,0,50000,2,1.0
+Macaron Reguler,,,Macaron,,,,137,IDR,1096000,0,0,1096000,0,1096000,85,1.61
+Macaron shell,,,Macaron,,,,29,IDR,348000,0,0,348000,0,348000,23,1.26
+Macaron super baby isi 50,,,Macaron,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Air mineral botol,,,Menu,,,,27,IDR,67000,1000,0,66000,0,66000,23,1.17
+Banana cake coklat,,,Menu,,,,6,IDR,210000,0,0,210000,0,210000,2,3.0
+Bangkok Crepes,,,Menu,,,,85,IDR,680000,0,0,680000,0,680000,85,1.0
+Bangkok Crepes 2,,,Menu,,,,245,IDR,1837500,500,0,1837000,0,1837000,90,2.72
+Brownies Fudgy Pcs,,,Menu,,,,50,IDR,200000,0,0,200000,0,200000,1,50.0
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,8,IDR,200000,0,0,200000,0,200000,6,1.33
+Cookies satuan,,,Menu,,,,7,IDR,35000,0,0,35000,0,35000,3,2.33
+Florentine cookies Toples kc,,,Menu,,,,5,IDR,150000,0,0,150000,0,150000,5,1.0
+Hokkaido cookies,,,Menu,,,,12,IDR,60000,0,0,60000,0,60000,12,1.0
+Kartu capan,,,Menu,,,,7,IDR,21000,0,0,21000,0,21000,6,1.17
+Macaron Cracky,,,Menu,,,,10,IDR,250000,20000,0,230000,0,230000,8,1.25
+Marmer brownies wisman slice,,,Menu,,,,55,IDR,550000,0,0,550000,0,550000,41,1.34
+Meringue,,,Menu,,,,4,IDR,48000,0,0,48000,0,48000,4,1.0
+Pancake durian pcs,,,Menu,,,,44,IDR,528000,2000,0,526000,0,526000,38,1.16
+Pangsit batagor,,,Menu,,,,10,IDR,100000,0,0,100000,0,100000,9,1.11
+Pisang Bolen box isi 10,,,Menu,,,,29,IDR,725000,0,0,725000,0,725000,27,1.07
+Rice Choco Jar,,,Menu,,,,106,IDR,1590000,15000,0,1575000,0,1575000,83,1.28
+Florentine Cookies,,Pcs,Menu,,,,9,IDR,36000,0,0,36000,0,36000,7,1.29
+Mille Crepes loyang,,,Mille Crepes,,,,23,IDR,4240000,10000,0,4230000,0,4230000,23,1.0
+Mille Crepes Mix 5 Slice,,,Mille Crepes,,,,1,IDR,110000,0,0,110000,0,110000,1,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,103,IDR,2060000,0,0,2060000,0,2060000,85,1.21
+Mille Crepes Slice,,,Mille Crepes,,,,603,IDR,10854000,5000,0,10849000,0,10849000,426,1.42
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,999,IDR,17982000,0,0,17982000,0,17982000,704,1.42
+Mochi Daifuku pcs pouch,,,Mochi,,,,1072,IDR,7504000,2000,0,7502000,0,7502000,474,2.26
+Mochi durian,,,Mochi,,,,356,IDR,2848000,6000,0,2842000,0,2842000,207,1.72
+Puding buah sedang,,,Puding,,,,78,IDR,5070000,6000,0,5064000,0,5064000,63,1.24
+Puding coklat,,,Puding,,,,6,IDR,360000,0,0,360000,0,360000,4,1.5
+Brownies Fuddgy box isi 20,,,Brownies,,,,3,IDR,210000,0,0,210000,0,210000,3,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,38,IDR,1406000,17000,0,1389000,0,1389000,35,1.09
+Almond Choco Ganache 16 cm,,,Cake,,,,6,IDR,780000,0,0,780000,0,780000,6,1.0
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,47,IDR,2444000,0,0,2444000,0,2444000,46,1.02
+Bento cake Mahkota,,,Cake,,,,15,IDR,975000,0,0,975000,0,975000,15,1.0
+Bento Cake polos,,,Cake,,,,282,IDR,14100000,0,0,14100000,0,14100000,264,1.07
+Bento Hias Karakter,,,Cake,,,,18,IDR,990000,0,0,990000,0,990000,16,1.13
+Cake 18 cm hiasan polos,,,Cake,,,,31,IDR,4650000,0,0,4650000,0,4650000,31,1.0
+Cake 18 cm kupu-kupu,,,Cake,,,,18,IDR,2790000,0,0,2790000,0,2790000,18,1.0
+Cake 18 Hiasan Topper,,,Cake,,,,8,IDR,1360000,0,0,1360000,0,1360000,8,1.0
+Chiffon sandwich (hrg promo),,,Cake,,,,2,IDR,40000,0,0,40000,0,40000,2,1.0
+Choco ganache slice,,,Cake,,,,1,IDR,23000,3000,0,20000,0,20000,1,1.0
+Comic cake,,,Cake,,,,30,IDR,1950000,0,0,1950000,0,1950000,30,1.0
+Double framage cheese cake 16 cm,,,Cake,,,,1,IDR,170000,0,0,170000,0,170000,1,1.0
+Double framage cheese cake Slice,,,Cake,,,,3,IDR,75000,15000,0,60000,0,60000,3,1.0
+Cookies karakter ikat,,,Cookies,,,,64,IDR,384000,0,0,384000,0,384000,33,1.94
+Cookies tangkai,,,Cookies,,,,26,IDR,182000,0,0,182000,0,182000,18,1.44
+Meringue tangkai,,,Cookies,,,,29,IDR,87000,0,0,87000,0,87000,11,2.64
+Pop Cake,,,Cookies,,,,132,IDR,924000,0,0,924000,0,924000,97,1.36
+Soft cookies,,,Cookies,,,,200,IDR,2000000,0,0,2000000,0,2000000,128,1.56
+Cup cake birthday 4 pcs,,,Cup cake,,,,6,IDR,150000,0,0,150000,0,150000,6,1.0
+Cup cake mika bulat pcs,,,Cup cake,,,,348,IDR,2088000,0,0,2088000,0,2088000,115,3.03
+Paket bento dan 5 cupcake,,,Cup cake,,,,1,IDR,105000,0,0,105000,0,105000,1,1.0
+Custom,,,CUSTOM,,,,112,IDR,12050000,5000,0,12045000,0,12045000,101,1.11
+Dessert Box mini Triple Choco,,,Dessert box,,,,17,IDR,340000,0,0,340000,0,340000,17,1.0
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,5,IDR,125000,0,0,125000,0,125000,5,1.0
+Mini dessert box Tiramisu,,,Dessert box,,,,7,IDR,175000,0,0,175000,0,175000,7,1.0
+Japanese Blueberry,,,Japanese,,,,13,IDR,715000,0,0,715000,0,715000,13,1.0
+Japanese cake cheese,,,Japanese,,,,4,IDR,220000,0,0,220000,0,220000,4,1.0
+Japanese cake tiramisu,,,Japanese,,,,29,IDR,1740000,0,0,1740000,0,1740000,29,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,115,IDR,5750000,0,0,5750000,0,5750000,108,1.06
+Japanese greentea cake,,,Japanese,,,,38,IDR,1900000,0,0,1900000,0,1900000,38,1.0
+Japanese strawberry,,,Japanese,,,,261,IDR,13050000,5000,0,13045000,0,13045000,237,1.1
+Dus putih besar,,,Lilin,,,,9,IDR,18000,0,0,18000,0,18000,6,1.5
+Korek api,,,Lilin,,,,10,IDR,50000,0,0,50000,0,50000,10,1.0
+Lilin angka Gold,,,Lilin,,,,86,IDR,516000,0,0,516000,0,516000,67,1.28
+Lilin angka gold kecil,,,Lilin,,,,3,IDR,12000,0,0,12000,0,12000,3,1.0
+Lilin kecil Pcs,,,Lilin,,,,3,IDR,3000,0,0,3000,0,3000,1,3.0
+Lilin magic pack,,,Lilin,,,,30,IDR,210000,0,0,210000,0,210000,29,1.03
+Lilin spiral,,,Lilin,,,,275,IDR,687500,0,0,687500,0,687500,162,1.7
+Tas kain,,,Lilin,,,,7,IDR,14000,0,0,14000,0,14000,6,1.17
+Topper Birthday,,,Lilin,,,,9,IDR,63000,0,0,63000,0,63000,9,1.0
+Topper karakter,,,Lilin,,,,4,IDR,60000,0,0,60000,0,60000,4,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,2,IDR,96000,0,0,96000,0,96000,2,1.0
+macaron baby isi 30,,,Macaron,,,,4,IDR,252000,0,0,252000,0,252000,4,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,15,IDR,225000,0,0,225000,0,225000,11,1.36
+Macaron gift 18 pcs,,,Macaron,,,,3,IDR,210000,0,0,210000,0,210000,3,1.0
+Macaron gift isi 9,,,Macaron,,,,1,IDR,40000,0,0,40000,0,40000,1,1.0
+Macaron isi 18,,,Macaron,,,,12,IDR,600000,0,0,600000,0,600000,12,1.0
+Macaron isi 27,,,Macaron,,,,1,IDR,70000,0,0,70000,0,70000,1,1.0
+Macaron isi 48,,,Macaron,,,,1,IDR,100000,0,0,100000,0,100000,1,1.0
+Macaron isi 50 toples,,,Macaron,,,,1,IDR,85000,0,0,85000,0,85000,1,1.0
+Macaron isi 8,,,Macaron,,,,30,IDR,750000,5000,0,745000,0,745000,30,1.0
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Macaron Reguler,,,Macaron,,,,78,IDR,624000,0,0,624000,0,624000,41,1.9
+Macaron shell,,,Macaron,,,,14,IDR,168000,0,0,168000,0,168000,12,1.17
+Macaron super baby isi 50,,,Macaron,,,,4,IDR,200000,0,0,200000,0,200000,4,1.0
+Banana cake coklat,,,Menu,,,,16,IDR,560000,10000,0,550000,0,550000,11,1.45
+Banana cake keju,,,Menu,,,,2,IDR,74000,0,0,74000,0,74000,2,1.0
+Bangkok Crepes,,,Menu,,,,55,IDR,440000,0,0,440000,0,440000,54,1.02
+Bangkok Crepes 2,,,Menu,,,,114,IDR,855000,0,0,855000,0,855000,54,2.11
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,6,IDR,150000,0,0,150000,0,150000,6,1.0
+Florentine cookies Toples kc,,,Menu,,,,1,IDR,30000,0,0,30000,0,30000,1,1.0
+Hokkaido cookies,,,Menu,,,,13,IDR,65000,0,0,65000,0,65000,8,1.63
+Kartu capan,,,Menu,,,,7,IDR,21000,0,0,21000,0,21000,7,1.0
+Macaron Cracky,,,Menu,,,,8,IDR,200000,0,0,200000,0,200000,7,1.14
+Marmer brownies wisman slice,,,Menu,,,,34,IDR,340000,0,0,340000,0,340000,19,1.79
+Meringue,,,Menu,,,,2,IDR,24000,0,0,24000,0,24000,2,1.0
+Pancake durian pcs,,,Menu,,,,51,IDR,612000,0,0,612000,0,612000,40,1.28
+Pangsit batagor,,,Menu,,,,4,IDR,40000,0,0,40000,0,40000,4,1.0
+Pisang Bolen box isi 10,,,Menu,,,,18,IDR,450000,0,0,450000,0,450000,15,1.2
+Rice Choco Jar,,,Menu,,,,99,IDR,1485000,0,0,1485000,0,1485000,76,1.3
+Florentine Cookies,,Pcs,Menu,,,,1,IDR,4000,0,0,4000,0,4000,1,1.0
+Mille Crepes loyang,,,Mille Crepes,,,,11,IDR,2035000,0,0,2035000,0,2035000,11,1.0
+Mille Crepes Mix 5 Slice,,,Mille Crepes,,,,2,IDR,220000,0,0,220000,0,220000,2,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,70,IDR,1400000,0,0,1400000,0,1400000,62,1.13
+Mille Crepes Slice,,,Mille Crepes,,,,415,IDR,7470000,3000,0,7467000,0,7467000,298,1.39
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,736,IDR,13248000,5000,0,13243000,0,13243000,494,1.49
+Mochi daifuku pcs (mika),,,Mochi,,,,7,IDR,56000,0,0,56000,0,56000,5,1.4
+Mochi Daifuku pcs pouch,,,Mochi,,,,624,IDR,4368000,0,0,4368000,0,4368000,282,2.21
+Mochi durian,,,Mochi,,,,185,IDR,1480000,0,0,1480000,0,1480000,117,1.58
+Puding buah sedang,,,Puding,,,,35,IDR,2275000,0,0,2275000,0,2275000,33,1.06
+Puding coklat,,,Puding,,,,5,IDR,320000,0,0,320000,0,320000,5,1.0
+Puding cookie cream,,,Puding,,,,6,IDR,390000,0,0,390000,0,390000,6,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,34,IDR,1258000,12000,0,1246000,0,1246000,29,1.17
+Almond Choco Ganache 16 cm,,,Cake,,,,9,IDR,1170000,0,0,1170000,0,1170000,9,1.0
+Bento cake edible,,,Cake,,,,1,IDR,70000,0,0,70000,0,70000,1,1.0
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,42,IDR,2184000,1000,0,2183000,0,2183000,42,1.0
+Bento cake Mahkota,,,Cake,,,,11,IDR,715000,0,0,715000,0,715000,11,1.0
+Bento Cake polos,,,Cake,,,,231,IDR,11600000,0,-50000,11550000,0,11550000,224,1.03
+Bento Hias Karakter,,,Cake,,,,34,IDR,1870000,0,0,1870000,0,1870000,33,1.03
+Cake 16x6 cm,,,Cake,,,,1,IDR,130000,0,0,130000,0,130000,1,1.0
+Cake 18 cm hiasan polos,,,Cake,,,,20,IDR,3000000,0,0,3000000,0,3000000,20,1.0
+Cake 18 cm kupu-kupu,,,Cake,,,,18,IDR,2790000,0,0,2790000,0,2790000,18,1.0
+Cake 18 Hiasan Topper,,,Cake,,,,5,IDR,850000,10000,0,840000,0,840000,5,1.0
+Comic cake,,,Cake,,,,38,IDR,2470000,0,0,2470000,0,2470000,38,1.0
+Cookies karakter ikat,,,Cookies,,,,67,IDR,402000,0,0,402000,0,402000,28,2.39
+Cookies tangkai,,,Cookies,,,,27,IDR,189000,0,0,189000,0,189000,13,2.08
+Meringue tangkai,,,Cookies,,,,91,IDR,273000,0,0,273000,0,273000,19,4.79
+Pop Cake,,,Cookies,,,,104,IDR,728000,0,0,728000,0,728000,83,1.25
+Soft cookies,,,Cookies,,,,212,IDR,2120000,1000,0,2119000,0,2119000,131,1.62
+Cup cake birthday 4 pcs,,,Cup cake,,,,6,IDR,160000,0,0,160000,0,160000,6,1.0
+Cup cake mika bulat pcs,,,Cup cake,,,,414,IDR,2484000,0,0,2484000,0,2484000,119,3.48
+Paket bento dan 5 cupcake,,,Cup cake,,,,1,IDR,105000,0,0,105000,0,105000,1,1.0
+Paket cupcake isi 6,,,Cup cake,,,,2,IDR,92000,0,0,92000,0,92000,2,1.0
+Custom,,,CUSTOM,,,,176,IDR,13427000,500,0,13426500,0,13426500,106,1.66
+Dessert Box mini Triple Choco,,,Dessert box,,,,14,IDR,280000,0,0,280000,0,280000,11,1.27
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,14,IDR,350000,0,0,350000,0,350000,13,1.08
+Mini dessert box Tiramisu,,,Dessert box,,,,4,IDR,100000,0,0,100000,0,100000,4,1.0
+Japanese Blueberry,,,Japanese,,,,19,IDR,1045000,0,0,1045000,0,1045000,19,1.0
+Japanese cake cheese,,,Japanese,,,,11,IDR,605000,0,0,605000,0,605000,11,1.0
+Japanese cake tiramisu,,,Japanese,,,,25,IDR,1500000,0,0,1500000,0,1500000,25,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,120,IDR,6000000,10000,0,5990000,0,5990000,110,1.09
+Japanese greentea cake,,,Japanese,,,,45,IDR,2250000,0,0,2250000,0,2250000,44,1.02
+Japanese strawberry,,,Japanese,,,,229,IDR,11450000,0,0,11450000,0,11450000,217,1.06
+Dus putih besar,,,Lilin,,,,5,IDR,10000,0,0,10000,0,10000,4,1.25
+Korek api,,,Lilin,,,,14,IDR,70000,0,0,70000,0,70000,14,1.0
+Lilin angka,,,Lilin,,,,1,IDR,2500,0,0,2500,0,2500,1,1.0
+Lilin angka Gold,,,Lilin,,,,70,IDR,420000,0,0,420000,0,420000,49,1.43
+Lilin angka gold kecil,,,Lilin,,,,3,IDR,12000,0,0,12000,0,12000,3,1.0
+Lilin magic pack,,,Lilin,,,,25,IDR,175000,0,0,175000,0,175000,25,1.0
+Lilin spiral,,,Lilin,,,,308,IDR,770000,500,0,769500,0,769500,201,1.53
+Tas kain,,,Lilin,,,,4,IDR,8000,0,0,8000,0,8000,4,1.0
+Topper Birthday,,,Lilin,,,,11,IDR,77000,0,0,77000,0,77000,11,1.0
+Topper karakter,,,Lilin,,,,3,IDR,45000,3000,0,42000,0,42000,3,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,9,IDR,432000,0,0,432000,0,432000,8,1.13
+macaron baby isi 30,,,Macaron,,,,2,IDR,126000,0,0,126000,0,126000,2,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,19,IDR,319000,0,0,319000,0,319000,12,1.58
+Macaron gift 18 pcs,,,Macaron,,,,2,IDR,140000,0,0,140000,0,140000,2,1.0
+Macaron gift isi 12,,,Macaron,,,,1,IDR,55000,0,0,55000,0,55000,1,1.0
+Macaron gift isi 6 pcs,,,Macaron,,,,2,IDR,40000,0,0,40000,0,40000,2,1.0
+Macaron isi 18,,,Macaron,,,,6,IDR,300000,0,0,300000,0,300000,6,1.0
+Macaron isi 27,,,Macaron,,,,1,IDR,70000,0,0,70000,0,70000,1,1.0
+Macaron isi 48,,,Macaron,,,,2,IDR,200000,0,0,200000,0,200000,2,1.0
+Macaron isi 50 toples,,,Macaron,,,,1,IDR,85000,0,0,85000,0,85000,1,1.0
+Macaron isi 8,,,Macaron,,,,28,IDR,700000,0,0,700000,0,700000,26,1.08
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,1,IDR,27000,0,0,27000,0,27000,1,1.0
+Macaron Reguler,,,Macaron,,,,77,IDR,616000,0,0,616000,0,616000,35,2.2
+Macaron shell,,,Macaron,,,,18,IDR,216000,2000,0,214000,0,214000,16,1.13
+Banana cake coklat,,,Menu,,,,7,IDR,245000,0,0,245000,0,245000,7,1.0
+Banana cake keju,,,Menu,,,,5,IDR,185000,0,0,185000,0,185000,3,1.67
+Bangkok Crepes,,,Menu,,,,68,IDR,544000,0,0,544000,0,544000,67,1.01
+Bangkok Crepes 2,,,Menu,,,,74,IDR,555000,0,0,555000,0,555000,33,2.24
+Box kosong,,,Menu,,,,2,IDR,6000,0,0,6000,0,6000,1,2.0
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,4,IDR,100000,0,0,100000,0,100000,4,1.0
+Chiffon cake hias,,,Menu,,,,2,IDR,100000,0,0,100000,0,100000,2,1.0
+Cookies karakter Toples,,,Menu,,,,3,IDR,135000,0,0,135000,0,135000,3,1.0
+Florentine cookies Toples kc,,,Menu,,,,2,IDR,60000,0,0,60000,0,60000,2,1.0
+Florentine cookies toples kotak,,,Menu,,,,2,IDR,150000,0,0,150000,0,150000,2,1.0
+GOHYONG,,,Menu,,,,48,IDR,1200000,0,0,1200000,0,1200000,36,1.33
+Hokkaido cookies,,,Menu,,,,2,IDR,10000,0,0,10000,0,10000,2,1.0
+Kartu capan,,,Menu,,,,6,IDR,18000,0,0,18000,0,18000,6,1.0
+Macaron Cracky,,,Menu,,,,5,IDR,125000,0,0,125000,0,125000,5,1.0
+Marmer brownies wisman slice,,,Menu,,,,27,IDR,270000,0,0,270000,0,270000,21,1.29
+Meringue,,,Menu,,,,3,IDR,36000,0,0,36000,0,36000,3,1.0
+Pancake durian box,,,Menu,,,,1,IDR,80000,0,0,80000,0,80000,1,1.0
+Pancake durian pcs,,,Menu,,,,53,IDR,636000,0,0,636000,0,636000,37,1.43
+Pisang Bolen box isi 10,,,Menu,,,,4,IDR,100000,0,0,100000,0,100000,2,2.0
+Rice Choco Jar,,,Menu,,,,83,IDR,1245000,20000,0,1225000,0,1225000,59,1.41
+Florentine Cookies,,Pcs,Menu,,,,1,IDR,4000,0,0,4000,0,4000,1,1.0
+Thai Milk bun,,,Milk bun,,,,7,IDR,224000,0,0,224000,0,224000,7,1.0
+Mille Crepes loyang,,,Mille Crepes,,,,10,IDR,1850000,0,0,1850000,0,1850000,10,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,78,IDR,1560000,0,0,1560000,0,1560000,71,1.1
+Mille Crepes Slice,,,Mille Crepes,,,,366,IDR,6588000,5000,0,6583000,0,6583000,273,1.34
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,539,IDR,9702000,0,0,9702000,0,9702000,385,1.4
+Mochi daifuku pcs (mika),,,Mochi,,,,257,IDR,2056000,0,0,2056000,0,2056000,165,1.56
+Mochi Daifuku pcs pouch,,,Mochi,,,,359,IDR,2513000,0,0,2513000,0,2513000,147,2.44
+Mochi durian,,,Mochi,,,,134,IDR,1072000,0,0,1072000,0,1072000,92,1.46
+Puding buah sedang,,,Puding,,,,41,IDR,2665000,0,0,2665000,0,2665000,40,1.03
+Puding coklat,,,Puding,,,,12,IDR,780000,0,0,780000,0,780000,12,1.0
+Puding cookie cream,,,Puding,,,,26,IDR,1690000,0,0,1690000,0,1690000,25,1.04
+Puding lumer Buko pandan (promo),,,Puding,,,,15,IDR,300000,0,0,300000,0,300000,13,1.15
+Brownies Fuddgy box isi 20,,,Brownies,,,,1,IDR,70000,0,0,70000,0,70000,1,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,20,IDR,740000,2000,0,738000,0,738000,16,1.25
+Almond Choco Ganache 16 cm,,,Cake,,,,10,IDR,1300000,0,0,1300000,0,1300000,10,1.0
+Bento cake edible,,,Cake,,,,3,IDR,210000,0,0,210000,0,210000,2,1.5
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,33,IDR,1716000,0,0,1716000,0,1716000,32,1.03
+Bento cake Mahkota,,,Cake,,,,7,IDR,455000,0,0,455000,0,455000,7,1.0
+Bento Cake polos,,,Cake,,,,242,IDR,12100000,0,0,12100000,0,12100000,231,1.05
+Bento Hias Karakter,,,Cake,,,,23,IDR,1265000,0,0,1265000,0,1265000,22,1.05
+Cake 16x6 cm,,,Cake,,,,18,IDR,2340000,0,0,2340000,0,2340000,18,1.0
+Cake 18 cm hiasan polos,,,Cake,,,,19,IDR,2850000,0,0,2850000,0,2850000,19,1.0
+Cake 18 cm kupu-kupu,,,Cake,,,,9,IDR,1395000,0,0,1395000,0,1395000,9,1.0
+Cake 18 Hiasan Topper,,,Cake,,,,5,IDR,850000,0,0,850000,0,850000,5,1.0
+Comic cake,,,Cake,,,,31,IDR,2015000,0,0,2015000,0,2015000,31,1.0
+Cookies karakter ikat,,,Cookies,,,,36,IDR,216000,0,0,216000,0,216000,22,1.64
+Cookies tangkai,,,Cookies,,,,43,IDR,301000,0,0,301000,0,301000,14,3.07
+Kastengel kotak420 gr,,,Cookies,,,,2,IDR,180000,10000,0,170000,0,170000,2,1.0
+Kastengel toples kaca,,,Cookies,,,,4,IDR,200000,0,0,200000,0,200000,3,1.33
+Meringue tangkai,,,Cookies,,,,25,IDR,75000,0,0,75000,0,75000,15,1.67
+Pop Cake,,,Cookies,,,,77,IDR,539000,0,0,539000,0,539000,49,1.57
+Soft cookies,,,Cookies,,,,412,IDR,4120000,0,0,4120000,0,4120000,195,2.11
+Cup cake birthday 4 pcs,,,Cup cake,,,,1,IDR,27000,0,0,27000,0,27000,1,1.0
+Cup cake mika bulat pcs,,,Cup cake,,,,390,IDR,2340000,0,0,2340000,0,2340000,124,3.15
+Paket bento dan 5 cupcake,,,Cup cake,,,,2,IDR,210000,0,0,210000,0,210000,2,1.0
+Paket cupcake isi 6,,,Cup cake,,,,2,IDR,92000,0,0,92000,0,92000,2,1.0
+Custom,,,CUSTOM,,,,124,IDR,11762500,0,0,11762500,0,11762500,115,1.08
+Dessert Box mini Triple Choco,,,Dessert box,,,,10,IDR,200000,0,0,200000,0,200000,8,1.25
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,7,IDR,175000,0,0,175000,0,175000,7,1.0
+Mini dessert box Tiramisu,,,Dessert box,,,,4,IDR,100000,0,0,100000,0,100000,4,1.0
+Japanese Blueberry,,,Japanese,,,,13,IDR,715000,0,0,715000,0,715000,13,1.0
+Japanese cake cheese,,,Japanese,,,,6,IDR,330000,0,0,330000,0,330000,6,1.0
+Japanese cake tiramisu,,,Japanese,,,,26,IDR,1560000,0,0,1560000,0,1560000,25,1.04
+Japanese Choco Nougat cake,,,Japanese,,,,126,IDR,6300000,0,0,6300000,0,6300000,110,1.15
+Japanese greentea cake,,,Japanese,,,,24,IDR,1200000,0,0,1200000,0,1200000,22,1.09
+Japanese strawberry,,,Japanese,,,,232,IDR,11600000,0,0,11600000,0,11600000,202,1.15
+Dus putih besar,,,Lilin,,,,11,IDR,22000,0,0,22000,0,22000,6,1.83
+Korek api,,,Lilin,,,,8,IDR,40000,0,0,40000,0,40000,8,1.0
+Lilin angka Gold,,,Lilin,,,,55,IDR,330000,0,0,330000,0,330000,41,1.34
+Lilin kecil Pcs,,,Lilin,,,,20,IDR,20000,0,0,20000,0,20000,12,1.67
+Lilin magic pack,,,Lilin,,,,19,IDR,133000,0,0,133000,0,133000,19,1.0
+Lilin spiral,,,Lilin,,,,252,IDR,630000,500,0,629500,0,629500,165,1.53
+Tas kain,,,Lilin,,,,1,IDR,2000,0,0,2000,0,2000,1,1.0
+Topper Birthday,,,Lilin,,,,5,IDR,35000,0,0,35000,0,35000,5,1.0
+Topper karakter,,,Lilin,,,,1,IDR,15000,0,0,15000,0,15000,1,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,5,IDR,240000,0,0,240000,0,240000,4,1.25
+macaron baby isi 30,,,Macaron,,,,6,IDR,378000,0,0,378000,0,378000,4,1.5
+Macaron gift  isi 4 pcs,,,Macaron,,,,38,IDR,646000,0,0,646000,0,646000,13,2.92
+Macaron gift 16,,,Macaron,,,,1,IDR,65000,0,0,65000,0,65000,1,1.0
+Macaron gift 18 pcs,,,Macaron,,,,4,IDR,280000,0,0,280000,0,280000,4,1.0
+Macaron gift 32,,,Macaron,,,,2,IDR,220000,0,0,220000,0,220000,1,2.0
+Macaron gift isi 12,,,Macaron,,,,1,IDR,55000,0,0,55000,0,55000,1,1.0
+Macaron gift isi 6 pcs,,,Macaron,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Macaron gift isi 9,,,Macaron,,,,1,IDR,40000,0,0,40000,0,40000,1,1.0
+Macaron isi 18,,,Macaron,,,,3,IDR,150000,0,0,150000,0,150000,3,1.0
+Macaron isi 18 edisi Lebaran,,,Macaron,,,,3,IDR,165000,0,0,165000,0,165000,2,1.5
+Macaron isi 27,,,Macaron,,,,4,IDR,280000,0,0,280000,0,280000,3,1.33
+Macaron isi 48 edisi lebaran,,,Macaron,,,,5,IDR,525000,0,0,525000,0,525000,3,1.67
+Macaron isi 50 toples,,,Macaron,,,,3,IDR,255000,0,0,255000,0,255000,3,1.0
+Macaron isi 8,,,Macaron,,,,19,IDR,475000,0,0,475000,0,475000,19,1.0
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,10,IDR,270000,0,0,270000,0,270000,6,1.67
+Macaron Reguler,,,Macaron,,,,54,IDR,432000,0,0,432000,0,432000,34,1.59
+Macaron shell,,,Macaron,,,,17,IDR,204000,0,0,204000,0,204000,16,1.06
+Macaron super baby isi 50,,,Macaron,,,,6,IDR,300000,0,0,300000,0,300000,6,1.0
+Banana cake coklat,,,Menu,,,,14,IDR,490000,0,0,490000,0,490000,8,1.75
+Banana cake keju,,,Menu,,,,1,IDR,37000,0,0,37000,0,37000,1,1.0
+Bangkok Crepes,,,Menu,,,,56,IDR,448000,0,0,448000,0,448000,55,1.02
+Bangkok Crepes 2,,,Menu,,,,102,IDR,765000,0,0,765000,0,765000,43,2.37
+Basreng Neola,,,Menu,,,,6,IDR,90000,0,0,90000,0,90000,6,1.0
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,8,IDR,200000,0,0,200000,0,200000,7,1.14
+Cookies karakter,,,Menu,,,,2,IDR,100000,0,0,100000,0,100000,2,1.0
+Cookies karakter Toples,,,Menu,,,,3,IDR,135000,0,0,135000,0,135000,3,1.0
+Crunchy skippy butter cookies,,,Menu,,,,2,IDR,60000,0,0,60000,0,60000,1,2.0
+Florentine cookies Toples kc,,,Menu,,,,3,IDR,90000,0,0,90000,0,90000,3,1.0
+Florentine cookies toples kotak,,,Menu,,,,1,IDR,75000,0,0,75000,0,75000,1,1.0
+GOHYONG,,,Menu,,,,41,IDR,1025000,0,0,1025000,0,1025000,37,1.11
+Hokkaido cookies,,,Menu,,,,4,IDR,20000,0,0,20000,0,20000,3,1.33
+Kartu capan,,,Menu,,,,7,IDR,21000,0,0,21000,0,21000,7,1.0
+Macaron Cracky,,,Menu,,,,12,IDR,300000,0,0,300000,0,300000,10,1.2
+Marmer brownies wisman slice,,,Menu,,,,7,IDR,70000,0,0,70000,0,70000,6,1.17
+Meringue,,,Menu,,,,5,IDR,60000,0,0,60000,0,60000,3,1.67
+Nastar box premium,,,Menu,,,,2,IDR,150000,0,0,150000,0,150000,2,1.0
+Pancake durian box,,,Menu,,,,2,IDR,160000,0,0,160000,0,160000,2,1.0
+Pancake durian pcs,,,Menu,,,,40,IDR,480000,0,0,480000,0,480000,34,1.18
+Pisang Bolen box isi 10,,,Menu,,,,8,IDR,200000,0,0,200000,0,200000,7,1.14
+Rice Choco Jar,,,Menu,,,,65,IDR,975000,0,0,975000,0,975000,46,1.41
+Florentine Cookies,,Pcs,Menu,,,,2,IDR,8000,0,0,8000,0,8000,2,1.0
+Milk bun mini Tiramisu,,,Milk bun,,,,12,IDR,108000,0,0,108000,0,108000,12,1.0
+Milk bun Tiramisu,,,Milk bun,,,,16,IDR,598000,0,0,598000,0,598000,16,1.0
+Thai Milk bun,,,Milk bun,,,,353,IDR,11296000,0,0,11296000,0,11296000,276,1.28
+Thai Milk bun mini,,,Milk bun,,,,160,IDR,1280000,0,0,1280000,0,1280000,92,1.74
+Mille Crepes loyang,,,Mille Crepes,,,,4,IDR,740000,0,0,740000,0,740000,4,1.0
+Mille Crepes Mix 5 Slice,,,Mille Crepes,,,,1,IDR,110000,0,0,110000,0,110000,1,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,73,IDR,1460000,0,0,1460000,0,1460000,48,1.52
+Mille Crepes Slice,,,Mille Crepes,,,,411,IDR,7398000,0,0,7398000,0,7398000,267,1.54
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,418,IDR,7524000,0,0,7524000,0,7524000,329,1.27
+Mochi daifuku pcs (mika),,,Mochi,,,,117,IDR,936000,0,0,936000,0,936000,72,1.63
+Mochi Daifuku pcs pouch,,,Mochi,,,,526,IDR,3682000,0,0,3682000,0,3682000,212,2.48
+Mochi durian,,,Mochi,,,,123,IDR,984000,0,0,984000,0,984000,91,1.35
+Puding buah sedang,,,Puding,,,,48,IDR,3120000,0,0,3120000,0,3120000,44,1.09
+Puding coklat,,,Puding,,,,18,IDR,1170000,0,0,1170000,0,1170000,17,1.06
+Puding cookie cream,,,Puding,,,,22,IDR,1430000,0,0,1430000,0,1430000,21,1.05
+Puding lumer Buko pandan (promo),,,Puding,,,,29,IDR,558000,6000,0,552000,0,552000,23,1.26
+Brownies Fuddgy box isi 20,,,Brownies,,,,2,IDR,150000,0,0,150000,0,150000,2,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,19,IDR,741000,0,0,741000,0,741000,14,1.36
+Bento cake edible,,,Cake,,,,4,IDR,320000,0,0,320000,0,320000,4,1.0
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,34,IDR,1768000,0,0,1768000,0,1768000,33,1.03
+Bento cake Mahkota,,,Cake,,,,7,IDR,455000,0,0,455000,0,455000,7,1.0
+Bento Cake polos,,,Cake,,,,182,IDR,9100000,0,0,9100000,0,9100000,172,1.06
+Bento Hias Karakter,,,Cake,,,,15,IDR,825000,0,0,825000,0,825000,15,1.0
+Cake 16x6 cm,,,Cake,,,,12,IDR,1560000,0,0,1560000,0,1560000,12,1.0
+Cake 18 cm hiasan polos,,,Cake,,,,18,IDR,2700000,0,0,2700000,0,2700000,18,1.0
+Cake 18 cm kupu-kupu,,,Cake,,,,12,IDR,1860000,0,0,1860000,0,1860000,12,1.0
+Cake 18 Hiasan Topper,,,Cake,,,,6,IDR,1020000,0,0,1020000,0,1020000,6,1.0
+Comic cake,,,Cake,,,,18,IDR,1170000,0,0,1170000,0,1170000,18,1.0
+Cookies karakter ikat,,,Cookies,,,,9,IDR,54000,0,0,54000,0,54000,7,1.29
+Cookies tangkai,,,Cookies,,,,18,IDR,126000,0,0,126000,0,126000,10,1.8
+Crunchy skippy butter cookies toples KC,,,Cookies,,,,2,IDR,80000,0,0,80000,0,80000,2,1.0
+Kastengel kotak420 gr,,,Cookies,,,,2,IDR,175000,5000,0,170000,0,170000,2,1.0
+Kastengel toples kaca,,,Cookies,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Meringue tangkai,,,Cookies,,,,13,IDR,39000,0,0,39000,0,39000,9,1.44
+Nastar Toples kaca,,,Cookies,,,,1,IDR,45000,0,0,45000,0,45000,1,1.0
+Pop Cake,,,Cookies,,,,43,IDR,301000,0,0,301000,0,301000,33,1.3
+Soft cookies,,,Cookies,,,,249,IDR,2490000,0,0,2490000,0,2490000,125,1.99
+Cup cake birthday 4 pcs,,,Cup cake,,,,8,IDR,216000,0,0,216000,0,216000,8,1.0
+Cup cake isi 9,,,Cup cake,,,,1,IDR,65000,0,0,65000,0,65000,1,1.0
+Cup cake mika bulat pcs,,,Cup cake,,,,210,IDR,1260000,0,0,1260000,0,1260000,79,2.66
+Paket bento cupcake 2,,,Cup cake,,,,1,IDR,75000,0,0,75000,0,75000,1,1.0
+Paket bento dan 5 cupcake,,,Cup cake,,,,2,IDR,210000,0,0,210000,0,210000,2,1.0
+Paket cupcake isi 6,,,Cup cake,,,,2,IDR,92000,0,0,92000,0,92000,2,1.0
+Custom,,,CUSTOM,,,,117,IDR,10777000,0,0,10777000,0,10777000,86,1.36
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,5,IDR,125000,0,0,125000,0,125000,4,1.25
+Japanese Blueberry,,,Japanese,,,,15,IDR,825000,0,0,825000,0,825000,15,1.0
+Japanese cake cheese,,,Japanese,,,,6,IDR,330000,0,0,330000,0,330000,5,1.2
+Japanese cake tiramisu,,,Japanese,,,,13,IDR,780000,0,0,780000,0,780000,12,1.08
+Japanese Choco Nougat cake,,,Japanese,,,,193,IDR,9650000,15000,0,9635000,0,9635000,106,1.82
+Japanese greentea cake,,,Japanese,,,,34,IDR,1700000,0,0,1700000,0,1700000,33,1.03
+Japanese strawberry,,,Japanese,,,,202,IDR,10100000,0,0,10100000,0,10100000,166,1.22
+Dus putih besar,,,Lilin,,,,5,IDR,10000,0,0,10000,0,10000,3,1.67
+Korek api,,,Lilin,,,,10,IDR,50000,0,0,50000,0,50000,10,1.0
+Lilin angka Gold,,,Lilin,,,,37,IDR,222000,0,0,222000,0,222000,32,1.16
+Lilin angka gold kecil,,,Lilin,,,,2,IDR,8000,0,0,8000,0,8000,2,1.0
+Lilin kecil Pcs,,,Lilin,,,,16,IDR,16000,0,0,16000,0,16000,8,2.0
+Lilin magic pack,,,Lilin,,,,19,IDR,133000,0,0,133000,0,133000,19,1.0
+Lilin spiral,,,Lilin,,,,181,IDR,452500,0,0,452500,0,452500,128,1.41
+Papan ucapan (fondant),,,Lilin,,,,80,IDR,160000,0,0,160000,0,160000,71,1.13
+Tas kain,,,Lilin,,,,2,IDR,4000,0,0,4000,0,4000,2,1.0
+Topper Birthday,,,Lilin,,,,7,IDR,49000,0,0,49000,0,49000,7,1.0
+Topper karakter,,,Lilin,,,,2,IDR,30000,0,0,30000,0,30000,2,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,3,IDR,144000,0,0,144000,0,144000,3,1.0
+macaron baby isi 30,,,Macaron,,,,5,IDR,315000,0,0,315000,0,315000,4,1.25
+Macaron gift  isi 4 pcs,,,Macaron,,,,46,IDR,782000,0,0,782000,0,782000,18,2.56
+Macaron gift 25,,,Macaron,,,,10,IDR,850000,0,0,850000,0,850000,9,1.11
+Macaron gift 32,,,Macaron,,,,3,IDR,330000,0,0,330000,0,330000,3,1.0
+Macaron gift isi 12,,,Macaron,,,,2,IDR,110000,0,0,110000,0,110000,2,1.0
+Macaron isi 18,,,Macaron,,,,4,IDR,200000,0,0,200000,0,200000,4,1.0
+Macaron isi 18 edisi Lebaran,,,Macaron,,,,10,IDR,550000,0,0,550000,0,550000,7,1.43
+Macaron isi 27,,,Macaron,,,,10,IDR,700000,0,0,700000,0,700000,1,10.0
+Macaron isi 48,,,Macaron,,,,6,IDR,600000,0,0,600000,0,600000,5,1.2
+Macaron isi 48 edisi lebaran,,,Macaron,,,,2,IDR,210000,0,0,210000,0,210000,2,1.0
+Macaron isi 50 toples,,,Macaron,,,,1,IDR,85000,0,0,85000,0,85000,1,1.0
+Macaron isi 8,,,Macaron,,,,12,IDR,300000,0,0,300000,0,300000,12,1.0
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,41,IDR,1107000,0,0,1107000,0,1107000,16,2.56
+Macaron Reguler,,,Macaron,,,,50,IDR,400000,0,0,400000,0,400000,23,2.17
+Macaron shell,,,Macaron,,,,6,IDR,72000,0,0,72000,0,72000,5,1.2
+Macaron super baby isi 50,,,Macaron,,,,2,IDR,100000,0,0,100000,0,100000,2,1.0
+Banana cake coklat,,,Menu,,,,10,IDR,350000,0,0,350000,0,350000,5,2.0
+Banana cake keju,,,Menu,,,,3,IDR,111000,0,0,111000,0,111000,3,1.0
+Bangkok Crepes,,,Menu,,,,26,IDR,208000,0,0,208000,0,208000,26,1.0
+Bangkok Crepes 2,,,Menu,,,,82,IDR,615000,0,0,615000,0,615000,19,4.32
+Basreng Neola,,,Menu,,,,7,IDR,105000,0,0,105000,0,105000,5,1.4
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,6,IDR,150000,0,0,150000,0,150000,3,2.0
+Cookies karakter,,,Menu,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Cookies karakter Toples,,,Menu,,,,7,IDR,315000,0,0,315000,0,315000,5,1.4
+Cookies satuan,,,Menu,,,,1,IDR,5000,0,0,5000,0,5000,1,1.0
+Crunchy skippy butter cookies,,,Menu,,,,7,IDR,210000,0,0,210000,0,210000,4,1.75
+Florentine cookies Toples kc,,,Menu,,,,4,IDR,120000,0,0,120000,0,120000,4,1.0
+Florentine cookies toples kotak,,,Menu,,,,1,IDR,75000,0,0,75000,0,75000,1,1.0
+GOHYONG,,,Menu,,,,8,IDR,200000,0,0,200000,0,200000,7,1.14
+Hokkaido cookies,,,Menu,,,,6,IDR,30000,0,0,30000,0,30000,5,1.2
+Kartu capan,,,Menu,,,,20,IDR,60000,0,0,60000,0,60000,12,1.67
+Macaron Cracky,,,Menu,,,,8,IDR,200000,5000,0,195000,0,195000,8,1.0
+Marmer brownies wisman slice,,,Menu,,,,7,IDR,70000,0,0,70000,0,70000,6,1.17
+Meringue,,,Menu,,,,3,IDR,36000,0,0,36000,0,36000,3,1.0
+Pancake durian box,,,Menu,,,,1,IDR,80000,0,0,80000,0,80000,1,1.0
+Pancake durian pcs,,,Menu,,,,16,IDR,192000,0,0,192000,0,192000,12,1.33
+Pisang Bolen box isi 10,,,Menu,,,,8,IDR,200000,0,0,200000,0,200000,7,1.14
+Puding buah UK 22 cm,,,Menu,,,,1,IDR,120000,0,0,120000,0,120000,1,1.0
+Rice Choco Jar,,,Menu,,,,95,IDR,1425000,5000,0,1420000,0,1420000,43,2.21
+Florentine Cookies,,Pcs,Menu,,,,3,IDR,12000,2000,0,10000,0,10000,2,1.5
+Milk bun mini Tiramisu,,,Milk bun,,,,4,IDR,36000,0,0,36000,0,36000,4,1.0
+Milk bun Tiramisu,,,Milk bun,,,,5,IDR,190000,0,0,190000,0,190000,5,1.0
+Thai Milk bun,,,Milk bun,,,,110,IDR,3520000,0,0,3520000,0,3520000,98,1.12
+Thai Milk bun mini,,,Milk bun,,,,27,IDR,216000,0,0,216000,0,216000,21,1.29
+Mille Crepes loyang,,,Mille Crepes,,,,6,IDR,1110000,0,0,1110000,0,1110000,6,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,36,IDR,720000,0,0,720000,0,720000,30,1.2
+Mille Crepes Slice,,,Mille Crepes,,,,220,IDR,3960000,0,0,3960000,0,3960000,165,1.33
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,260,IDR,4680000,0,0,4680000,0,4680000,172,1.51
+Mochi daifuku pcs (mika),,,Mochi,,,,2,IDR,16000,0,0,16000,0,16000,1,2.0
+Mochi Daifuku pcs pouch,,,Mochi,,,,246,IDR,1722000,4000,0,1718000,0,1718000,141,1.74
+Mochi durian,,,Mochi,,,,39,IDR,317000,0,0,317000,0,317000,26,1.5
+Puding buah sedang,,,Puding,,,,65,IDR,4225000,65000,0,4160000,0,4160000,50,1.3
+Puding coklat,,,Puding,,,,13,IDR,845000,0,0,845000,0,845000,11,1.18
+Puding cookie cream,,,Puding,,,,24,IDR,1560000,0,0,1560000,0,1560000,21,1.14
+Puding lumer Buko pandan (promo),,,Puding,,,,9,IDR,162000,0,0,162000,0,162000,7,1.29
+Brownies Fudgy Box isi 10,,,Brownies,,,,28,IDR,1092000,9000,0,1083000,0,1083000,24,1.17
+Almond Choco Ganache 16 cm,,,Cake,,,,5,IDR,690000,0,0,690000,0,690000,5,1.0
+Bento cake edible,,,Cake,,,,4,IDR,320000,0,0,320000,0,320000,4,1.0
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,54,IDR,2808000,0,0,2808000,0,2808000,54,1.0
+Bento cake Mahkota,,,Cake,,,,13,IDR,845000,0,0,845000,0,845000,13,1.0
+Bento Cake polos,,,Cake,,,,229,IDR,11450000,0,0,11450000,0,11450000,225,1.02
+Bento Hias Karakter,,,Cake,,,,70,IDR,3850000,0,0,3850000,0,3850000,68,1.03
+Bogel Cake,,,Cake,,,,7,IDR,210000,0,0,210000,0,210000,6,1.17
+Cake 16x6 cm,,,Cake,,,,10,IDR,1300000,0,0,1300000,0,1300000,10,1.0
+Cake 18 cm hiasan polos,,,Cake,,,,10,IDR,1500000,0,0,1500000,0,1500000,9,1.11
+Cake 18 cm kupu-kupu,,,Cake,,,,13,IDR,2015000,0,0,2015000,0,2015000,13,1.0
+Cake 18 Hiasan Topper,,,Cake,,,,6,IDR,1020000,0,0,1020000,0,1020000,6,1.0
+Comic cake,,,Cake,,,,28,IDR,1820000,0,0,1820000,0,1820000,28,1.0
+Minni  chiffon pcs,,,Cake,,,,4,IDR,80000,0,0,80000,0,80000,4,1.0
+Minni chiffon isi 2,,,Cake,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Minni chiffon isi 4,,,Cake,,,,4,IDR,360000,0,0,360000,0,360000,4,1.0
+Cookies karakter ikat,,,Cookies,,,,64,IDR,384000,0,0,384000,0,384000,30,2.13
+Cookies tangkai,,,Cookies,,,,7,IDR,49000,0,0,49000,0,49000,7,1.0
+Meringue tangkai,,,Cookies,,,,18,IDR,54000,0,0,54000,0,54000,11,1.64
+Pop Cake,,,Cookies,,,,80,IDR,560000,0,0,560000,0,560000,60,1.33
+Soft cookies,,,Cookies,,,,276,IDR,2760000,4000,0,2756000,0,2756000,175,1.58
+Cup cake birthday 4 pcs,,,Cup cake,,,,5,IDR,135000,0,0,135000,0,135000,5,1.0
+Cup cake isi 9,,,Cup cake,,,,4,IDR,260000,0,0,260000,0,260000,4,1.0
+Cup cake mika bulat pcs,,,Cup cake,,,,269,IDR,1614000,0,0,1614000,0,1614000,93,2.89
+Paket bento cupcake 2,,,Cup cake,,,,1,IDR,75000,0,0,75000,0,75000,1,1.0
+Paket bento dan 5 cupcake,,,Cup cake,,,,3,IDR,315000,0,0,315000,0,315000,3,1.0
+Paket cupcake isi 6,,,Cup cake,,,,6,IDR,300000,0,0,300000,0,300000,5,1.2
+Custom,,,CUSTOM,,,,203,IDR,18241500,5000,0,18236500,0,18236500,141,1.44
+Dessert Box mini Triple Choco,,,Dessert box,,,,7,IDR,140000,0,0,140000,0,140000,7,1.0
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,5,IDR,125000,0,0,125000,0,125000,5,1.0
+Japanese Blueberry,,,Japanese,,,,20,IDR,1100000,0,0,1100000,0,1100000,20,1.0
+Japanese box mini choco noagat,,,Japanese,,,,112,IDR,2240000,14000,0,2226000,0,2226000,90,1.24
+Japanese box minni cheese/mixberry,,,Japanese,,,,23,IDR,506000,0,0,506000,0,506000,20,1.15
+Japanese box minni Tiramisu,,,Japanese,,,,8,IDR,192000,0,0,192000,0,192000,8,1.0
+Japanese cake cheese,,,Japanese,,,,11,IDR,605000,0,0,605000,0,605000,10,1.1
+Japanese cake tiramisu,,,Japanese,,,,24,IDR,1440000,0,0,1440000,0,1440000,24,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,101,IDR,5050000,0,0,5050000,0,5050000,95,1.06
+Japanese greentea cake,,,Japanese,,,,26,IDR,1300000,0,0,1300000,0,1300000,26,1.0
+Japanese lumer,,,Japanese,,,,2,IDR,60000,0,0,60000,0,60000,2,1.0
+Japanese strawberry,,,Japanese,,,,204,IDR,10200000,0,0,10200000,0,10200000,193,1.06
+Dus putih besar,,,Lilin,,,,5,IDR,10000,0,0,10000,0,10000,2,2.5
+Korek api,,,Lilin,,,,20,IDR,100000,0,0,100000,0,100000,20,1.0
+Lilin angka,,,Lilin,,,,9,IDR,22500,0,0,22500,0,22500,6,1.5
+Lilin angka Gold,,,Lilin,,,,112,IDR,672000,2000,0,670000,0,670000,81,1.38
+Lilin kecil Pcs,,,Lilin,,,,21,IDR,21000,0,0,21000,0,21000,11,1.91
+Lilin magic pack,,,Lilin,,,,30,IDR,210000,0,0,210000,0,210000,30,1.0
+Lilin spiral,,,Lilin,,,,326,IDR,815000,12000,0,803000,0,803000,195,1.67
+Papan ucapan (fondant),,,Lilin,,,,245,IDR,490000,0,0,490000,0,490000,225,1.09
+Tas kain,,,Lilin,,,,2,IDR,4000,0,0,4000,0,4000,2,1.0
+Topper bday mini,,,Lilin,,,,1,IDR,5000,0,0,5000,0,5000,1,1.0
+Topper Birthday,,,Lilin,,,,3,IDR,21000,0,0,21000,0,21000,3,1.0
+Topper karakter,,,Lilin,,,,4,IDR,60000,0,0,60000,0,60000,4,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,4,IDR,192000,0,0,192000,0,192000,4,1.0
+macaron baby isi 30,,,Macaron,,,,2,IDR,126000,0,0,126000,0,126000,2,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,17,IDR,289000,0,0,289000,0,289000,12,1.42
+Macaron gift 16,,,Macaron,,,,2,IDR,130000,0,0,130000,0,130000,2,1.0
+Macaron gift 18 pcs,,,Macaron,,,,2,IDR,140000,0,0,140000,0,140000,2,1.0
+Macaron gift 25,,,Macaron,,,,5,IDR,425000,0,0,425000,0,425000,5,1.0
+Macaron gift 32,,,Macaron,,,,1,IDR,110000,0,0,110000,0,110000,1,1.0
+Macaron gift isi 12,,,Macaron,,,,3,IDR,165000,0,0,165000,0,165000,3,1.0
+Macaron gift isi 6 pcs,,,Macaron,,,,2,IDR,40000,0,0,40000,0,40000,2,1.0
+Macaron gift isi 9,,,Macaron,,,,2,IDR,80000,0,0,80000,0,80000,2,1.0
+Macaron isi 18,,,Macaron,,,,3,IDR,150000,0,0,150000,0,150000,3,1.0
+Macaron isi 18 edisi Lebaran,,,Macaron,,,,1,IDR,55000,0,0,55000,0,55000,1,1.0
+Macaron isi 27,,,Macaron,,,,2,IDR,140000,0,0,140000,0,140000,2,1.0
+Macaron isi 50 toples,,,Macaron,,,,4,IDR,340000,0,0,340000,0,340000,3,1.33
+Macaron isi 8,,,Macaron,,,,16,IDR,400000,0,0,400000,0,400000,15,1.07
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,1,IDR,27000,0,0,27000,0,27000,1,1.0
+Macaron Reguler,,,Macaron,,,,52,IDR,416000,0,0,416000,0,416000,38,1.37
+Macaron shell,,,Macaron,,,,3,IDR,36000,0,0,36000,0,36000,3,1.0
+Macaron super baby isi 50,,,Macaron,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Air mineral botol,,,Menu,,,,6,IDR,18000,0,0,18000,0,18000,6,1.0
+Banana cake keju,,,Menu,,,,3,IDR,111000,0,0,111000,0,111000,2,1.5
+Bangkok Crepes,,,Menu,,,,75,IDR,600000,0,0,600000,0,600000,63,1.19
+Bangkok Crepes 2,,,Menu,,,,22,IDR,165000,0,0,165000,0,165000,11,2.0
+Basreng Neola,,,Menu,,,,1,IDR,15000,0,0,15000,0,15000,1,1.0
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,4,IDR,100000,0,0,100000,0,100000,3,1.33
+Cookies satuan,,,Menu,,,,2,IDR,10000,0,0,10000,0,10000,1,2.0
+GOHYONG,,,Menu,,,,5,IDR,125000,0,0,125000,0,125000,5,1.0
+Hokkaido cookies,,,Menu,,,,2,IDR,10000,0,0,10000,0,10000,2,1.0
+Kartu capan,,,Menu,,,,6,IDR,18000,0,0,18000,0,18000,6,1.0
+Macaron Cracky,,,Menu,,,,7,IDR,175000,0,0,175000,0,175000,7,1.0
+Marmer brownies wisman slice,,,Menu,,,,3,IDR,30000,0,0,30000,0,30000,3,1.0
+Meringue,,,Menu,,,,4,IDR,48000,0,0,48000,0,48000,3,1.33
+Pancake durian pcs,,,Menu,,,,17,IDR,204000,0,0,204000,0,204000,14,1.21
+Pisang Bolen box isi 10,,,Menu,,,,6,IDR,150000,0,0,150000,0,150000,6,1.0
+Puding buah UK 22 cm,,,Menu,,,,2,IDR,240000,0,0,240000,0,240000,2,1.0
+Rice Choco Jar,,,Menu,,,,82,IDR,1230000,0,0,1230000,0,1230000,51,1.61
+Florentine Cookies,,Pcs,Menu,,,,8,IDR,32000,0,0,32000,0,32000,4,2.0
+Milk bun mini Tiramisu,,,Milk bun,,,,23,IDR,207000,0,0,207000,0,207000,22,1.05
+Milk bun Tiramisu,,,Milk bun,,,,10,IDR,380000,0,0,380000,0,380000,9,1.11
+Thai Milk bun,,,Milk bun,,,,149,IDR,4768000,5000,0,4763000,0,4763000,130,1.15
+Thai Milk bun mini,,,Milk bun,,,,99,IDR,792000,10000,0,782000,0,782000,79,1.25
+Mille Crepes loyang,,,Mille Crepes,,,,8,IDR,1480000,0,0,1480000,0,1480000,8,1.0
+Mille Crepes Mix 5 Slice,,,Mille Crepes,,,,1,IDR,110000,0,0,110000,0,110000,1,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,50,IDR,1000000,0,0,1000000,0,1000000,46,1.09
+Mille Crepes Slice,,,Mille Crepes,,,,249,IDR,4482000,9000,0,4473000,0,4473000,201,1.24
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,334,IDR,6012000,3000,0,6009000,0,6009000,257,1.3
+Mochi daifuku pcs (mika),,,Mochi,,,,28,IDR,224000,0,0,224000,0,224000,22,1.27
+Mochi Daifuku pcs pouch,,,Mochi,,,,426,IDR,2982000,4000,0,2978000,0,2978000,252,1.69
+Mochi durian,,,Mochi,,,,38,IDR,342000,0,0,342000,0,342000,22,1.73
+Puding buah sedang,,,Puding,,,,40,IDR,2600000,5000,0,2595000,0,2595000,38,1.05
+Puding coklat,,,Puding,,,,4,IDR,260000,0,0,260000,0,260000,4,1.0
+Puding cookie cream,,,Puding,,,,16,IDR,1040000,0,0,1040000,0,1040000,15,1.07
+Brownies Fuddgy box isi 20,,,Brownies,,,,1,IDR,75000,0,0,75000,0,75000,1,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,20,IDR,780000,9000,0,771000,0,771000,18,1.11
+Almond Choco Ganache 16 cm,,,Cake,,,,7,IDR,980000,0,0,980000,0,980000,7,1.0
+Bento cake edible,,,Cake,,,,4,IDR,320000,0,0,320000,0,320000,4,1.0
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,44,IDR,2288000,0,0,2288000,0,2288000,41,1.07
+Bento cake Mahkota,,,Cake,,,,11,IDR,715000,0,0,715000,0,715000,10,1.1
+Bento Cake polos,,,Cake,,,,217,IDR,10850000,0,0,10850000,0,10850000,210,1.03
+Bento Hias Karakter,,,Cake,,,,86,IDR,4730000,0,0,4730000,0,4730000,84,1.02
+Bogel Cake,,,Cake,,,,15,IDR,450000,0,0,450000,0,450000,14,1.07
+Cake 16x6 cm,,,Cake,,,,12,IDR,1560000,0,0,1560000,0,1560000,12,1.0
+Cake 18 cm hiasan polos,,,Cake,,,,14,IDR,2100000,0,0,2100000,0,2100000,14,1.0
+Cake 18 cm kupu-kupu,,,Cake,,,,20,IDR,3100000,0,0,3100000,0,3100000,20,1.0
+Cake 18 Hiasan Topper,,,Cake,,,,5,IDR,850000,0,0,850000,0,850000,5,1.0
+Comic cake,,,Cake,,,,23,IDR,1495000,0,0,1495000,0,1495000,22,1.05
+Minni  chiffon pcs,,,Cake,,,,64,IDR,1280000,0,0,1280000,0,1280000,52,1.23
+Minni chiffon isi 2,,,Cake,,,,30,IDR,1500000,0,0,1500000,0,1500000,29,1.03
+Minni chiffon isi 4,,,Cake,,,,11,IDR,990000,0,0,990000,0,990000,11,1.0
+Cookies karakter ikat,,,Cookies,,,,85,IDR,510000,0,0,510000,0,510000,37,2.3
+Cookies tangkai,,,Cookies,,,,16,IDR,112000,0,0,112000,0,112000,13,1.23
+Meringue tangkai,,,Cookies,,,,27,IDR,81000,0,0,81000,0,81000,10,2.7
+Pop Cake,,,Cookies,,,,106,IDR,742000,0,0,742000,0,742000,68,1.56
+Soft cookies,,,Cookies,,,,244,IDR,2440000,0,0,2440000,0,2440000,152,1.61
+Cup cake birthday 4 pcs,,,Cup cake,,,,11,IDR,297000,0,0,297000,0,297000,10,1.1
+Cup cake isi 9,,,Cup cake,,,,6,IDR,390000,0,0,390000,0,390000,3,2.0
+Cup cake mika bulat pcs,,,Cup cake,,,,409,IDR,2454000,0,0,2454000,0,2454000,118,3.47
+Paket bento cupcake 2,,,Cup cake,,,,8,IDR,600000,0,0,600000,0,600000,8,1.0
+Paket bento dan 5 cupcake,,,Cup cake,,,,5,IDR,525000,0,0,525000,0,525000,5,1.0
+Paket cupcake isi 6,,,Cup cake,,,,8,IDR,400000,0,0,400000,0,400000,7,1.14
+Custom,,,CUSTOM,,,,204,IDR,18128000,15000,0,18113000,0,18113000,143,1.43
+Dessert Box mini Triple Choco,,,Dessert box,,,,3,IDR,60000,0,0,60000,0,60000,3,1.0
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Japanese Blueberry,,,Japanese,,,,13,IDR,715000,0,0,715000,0,715000,13,1.0
+Japanese box mini choco noagat,,,Japanese,,,,220,IDR,4400000,5000,0,4395000,0,4395000,178,1.24
+Japanese box minni cheese/mixberry,,,Japanese,,,,18,IDR,396000,0,0,396000,0,396000,17,1.06
+Japanese box minni Tiramisu,,,Japanese,,,,13,IDR,312000,0,0,312000,0,312000,12,1.08
+Japanese cake cheese,,,Japanese,,,,6,IDR,330000,0,0,330000,0,330000,6,1.0
+Japanese cake tiramisu,,,Japanese,,,,13,IDR,780000,0,0,780000,0,780000,13,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,142,IDR,7100000,0,0,7100000,0,7100000,120,1.18
+Japanese greentea cake,,,Japanese,,,,24,IDR,1200000,0,0,1200000,0,1200000,24,1.0
+Japanese strawberry,,,Japanese,,,,252,IDR,12600000,0,0,12600000,0,12600000,207,1.22
+Dus putih besar,,,Lilin,,,,7,IDR,14000,0,0,14000,0,14000,3,2.33
+Korek api,,,Lilin,,,,20,IDR,100000,0,0,100000,0,100000,20,1.0
+Lilin angka Gold,,,Lilin,,,,127,IDR,762000,3500,0,758500,0,758500,89,1.43
+Lilin kecil Pcs,,,Lilin,,,,37,IDR,37000,0,0,37000,0,37000,19,1.95
+Lilin magic pack,,,Lilin,,,,29,IDR,203000,0,0,203000,0,203000,29,1.0
+Lilin spiral,,,Lilin,,,,347,IDR,867500,1000,0,866500,0,866500,190,1.83
+Papan ucapan (fondant),,,Lilin,,,,293,IDR,586000,0,0,586000,0,586000,237,1.24
+Tas kain,,,Lilin,,,,5,IDR,10000,0,0,10000,0,10000,5,1.0
+Topper bday mini,,,Lilin,,,,1,IDR,5000,0,0,5000,0,5000,1,1.0
+Topper Birthday,,,Lilin,,,,7,IDR,49000,0,0,49000,0,49000,7,1.0
+Topper karakter,,,Lilin,,,,8,IDR,120000,0,0,120000,0,120000,8,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,1,IDR,48000,0,0,48000,0,48000,1,1.0
+macaron baby isi 30,,,Macaron,,,,2,IDR,126000,0,0,126000,0,126000,2,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,13,IDR,221000,0,0,221000,0,221000,13,1.0
+Macaron gift 16,,,Macaron,,,,2,IDR,130000,0,0,130000,0,130000,2,1.0
+Macaron gift 18 pcs,,,Macaron,,,,3,IDR,210000,0,0,210000,0,210000,3,1.0
+Macaron gift 25,,,Macaron,,,,1,IDR,85000,0,0,85000,0,85000,1,1.0
+Macaron gift 32,,,Macaron,,,,3,IDR,330000,0,0,330000,0,330000,3,1.0
+Macaron gift isi 12,,,Macaron,,,,4,IDR,220000,0,0,220000,0,220000,4,1.0
+Macaron gift isi 6 pcs,,,Macaron,,,,4,IDR,80000,0,0,80000,0,80000,4,1.0
+Macaron gift isi 9,,,Macaron,,,,1,IDR,40000,0,0,40000,0,40000,1,1.0
+Macaron isi 18,,,Macaron,,,,6,IDR,300000,0,0,300000,0,300000,6,1.0
+Macaron isi 18 edisi Lebaran,,,Macaron,,,,1,IDR,55000,0,0,55000,0,55000,1,1.0
+Macaron isi 27,,,Macaron,,,,3,IDR,210000,0,0,210000,0,210000,3,1.0
+Macaron isi 48,,,Macaron,,,,4,IDR,400000,0,0,400000,0,400000,3,1.33
+Macaron isi 50 toples,,,Macaron,,,,5,IDR,425000,0,0,425000,0,425000,3,1.67
+Macaron isi 8,,,Macaron,,,,22,IDR,550000,0,0,550000,0,550000,21,1.05
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,2,IDR,54000,0,0,54000,0,54000,2,1.0
+Macaron Reguler,,,Macaron,,,,62,IDR,496000,0,0,496000,0,496000,48,1.29
+Macaron shell,,,Macaron,,,,12,IDR,144000,0,0,144000,0,144000,9,1.33
+Air mineral botol,,,Menu,,,,17,IDR,51000,0,0,51000,0,51000,16,1.06
+Banana cake coklat,,,Menu,,,,4,IDR,140000,0,0,140000,0,140000,1,4.0
+Bangkok Crepes,,,Menu,,,,82,IDR,656000,0,0,656000,0,656000,52,1.58
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,4,IDR,100000,0,0,100000,0,100000,3,1.33
+Hokkaido cookies,,,Menu,,,,4,IDR,20000,0,0,20000,0,20000,3,1.33
+Kartu capan,,,Menu,,,,8,IDR,24000,0,0,24000,0,24000,7,1.14
+Macaron Cracky,,,Menu,,,,3,IDR,75000,0,0,75000,0,75000,3,1.0
+Pancake durian pcs,,,Menu,,,,10,IDR,120000,0,0,120000,0,120000,6,1.67
+Pisang Bolen box isi 10,,,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Rice Choco Jar,,,Menu,,,,46,IDR,690000,0,0,690000,0,690000,38,1.21
+Florentine Cookies,,Pcs,Menu,,,,23,IDR,92000,0,0,92000,0,92000,8,2.88
+Milk bun mini Tiramisu,,,Milk bun,,,,20,IDR,180000,0,0,180000,0,180000,19,1.05
+Milk bun Tiramisu,,,Milk bun,,,,16,IDR,608000,0,0,608000,0,608000,15,1.07
+Thai Milk bun,,,Milk bun,,,,99,IDR,3168000,0,0,3168000,0,3168000,90,1.1
+Thai Milk bun mini,,,Milk bun,,,,90,IDR,720000,0,0,720000,0,720000,71,1.27
+Mille Crepes loyang,,,Mille Crepes,,,,11,IDR,2035000,0,0,2035000,0,2035000,11,1.0
+Mille Crepes Mix 5 Slice,,,Mille Crepes,,,,3,IDR,330000,0,0,330000,0,330000,3,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,58,IDR,1160000,0,0,1160000,0,1160000,50,1.16
+Mille Crepes Slice,,,Mille Crepes,,,,316,IDR,5688000,0,0,5688000,0,5688000,238,1.33
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,341,IDR,6138000,0,0,6138000,0,6138000,269,1.27
+Mochi daifuku pcs (mika),,,Mochi,,,,8,IDR,64000,0,0,64000,0,64000,7,1.14
+Mochi Daifuku pcs pouch,,,Mochi,,,,347,IDR,2429000,0,0,2429000,0,2429000,221,1.57
+Mochi durian,,,Mochi,,,,22,IDR,198000,0,0,198000,0,198000,14,1.57
+Puding buah sedang,,,Puding,,,,67,IDR,4355000,0,0,4355000,0,4355000,63,1.06
+Puding coklat,,,Puding,,,,15,IDR,975000,0,0,975000,0,975000,12,1.25
+Puding cookie cream,,,Puding,,,,15,IDR,975000,0,0,975000,0,975000,14,1.07
+Brownies Fuddgy box isi 20,,,Brownies,,,,1,IDR,75000,0,0,75000,0,75000,1,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,14,IDR,546000,0,0,546000,0,546000,13,1.08
+Almond Choco Ganache 16 cm,,,Cake,,,,6,IDR,870000,0,0,870000,0,870000,6,1.0
+Bento cake edible,,,Cake,,,,4,IDR,320000,0,0,320000,0,320000,3,1.33
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,54,IDR,2808000,0,0,2808000,0,2808000,54,1.0
+Bento cake Mahkota,,,Cake,,,,8,IDR,520000,0,0,520000,0,520000,8,1.0
+Bento Cake polos,,,Cake,,,,224,IDR,11200000,0,0,11200000,0,11200000,217,1.03
+Bento Hias Karakter,,,Cake,,,,111,IDR,6105000,0,0,6105000,0,6105000,101,1.1
+Bogel Cake,,,Cake,,,,1,IDR,30000,0,0,30000,0,30000,1,1.0
+Cake 16x6 cm,,,Cake,,,,12,IDR,1560000,0,0,1560000,0,1560000,12,1.0
+Cake 18 cm hiasan polos,,,Cake,,,,13,IDR,1950000,0,0,1950000,0,1950000,13,1.0
+Cake 18 cm kupu-kupu,,,Cake,,,,13,IDR,2015000,0,0,2015000,0,2015000,13,1.0
+Cake 18 Hiasan Topper,,,Cake,,,,9,IDR,1530000,0,0,1530000,0,1530000,9,1.0
+Comic cake,,,Cake,,,,37,IDR,2405000,0,0,2405000,0,2405000,37,1.0
+Minni  chiffon pcs,,,Cake,,,,34,IDR,680000,0,0,680000,0,680000,29,1.17
+Minni chiffon isi 2,,,Cake,,,,19,IDR,950000,0,0,950000,0,950000,17,1.12
+Minni chiffon isi 4,,,Cake,,,,12,IDR,1080000,0,0,1080000,0,1080000,12,1.0
+Paket bento isi 2,,,Cake,,,,2,IDR,240000,0,0,240000,0,240000,2,1.0
+Cookies karakter ikat,,,Cookies,,,,28,IDR,168000,0,0,168000,0,168000,17,1.65
+Cookies tangkai,,,Cookies,,,,9,IDR,63000,0,0,63000,0,63000,6,1.5
+Meringue tangkai,,,Cookies,,,,18,IDR,54000,0,0,54000,0,54000,9,2.0
+Pop Cake,,,Cookies,,,,110,IDR,770000,0,0,770000,0,770000,71,1.55
+Soft cookies,,,Cookies,,,,386,IDR,3860000,10000,0,3850000,0,3850000,209,1.85
+Cup cake birthday 4 pcs,,,Cup cake,,,,2,IDR,54000,0,0,54000,0,54000,2,1.0
+Cup cake isi 9,,,Cup cake,,,,2,IDR,130000,0,0,130000,0,130000,2,1.0
+Cup cake mika bulat pcs,,,Cup cake,,,,329,IDR,1974000,0,0,1974000,0,1974000,121,2.72
+Paket bento cupcake 2,,,Cup cake,,,,7,IDR,525000,0,0,525000,0,525000,7,1.0
+Paket bento dan 5 cupcake,,,Cup cake,,,,5,IDR,525000,0,0,525000,0,525000,5,1.0
+Paket cupcake isi 6,,,Cup cake,,,,3,IDR,150000,0,0,150000,0,150000,3,1.0
+Custom,,,CUSTOM,,,,231,IDR,21635000,0,0,21635000,0,21635000,201,1.15
+Dessert Box mini Triple Choco,,,Dessert box,,,,4,IDR,80000,0,0,80000,0,80000,4,1.0
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,3,IDR,75000,0,0,75000,0,75000,3,1.0
+Gelato es krim small (Promo),,,Gelato es krim,,,,167,IDR,2338000,4000,0,2334000,0,2334000,118,1.42
+"Gelato es krim,Big (Promo)",,,Gelato es krim,,,,19,IDR,475000,0,0,475000,0,475000,15,1.27
+Japanese Blueberry,,,Japanese,,,,15,IDR,825000,0,0,825000,0,825000,15,1.0
+Japanese box mini choco noagat,,,Japanese,,,,248,IDR,4960000,5000,0,4955000,0,4955000,215,1.15
+Japanese box minni cheese/mixberry,,,Japanese,,,,12,IDR,264000,0,0,264000,0,264000,12,1.0
+Japanese box minni Tiramisu,,,Japanese,,,,19,IDR,456000,0,0,456000,0,456000,19,1.0
+Japanese cake cheese,,,Japanese,,,,5,IDR,275000,0,0,275000,0,275000,5,1.0
+Japanese cake tiramisu,,,Japanese,,,,23,IDR,1380000,0,0,1380000,0,1380000,23,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,115,IDR,5750000,0,0,5750000,0,5750000,104,1.11
+Japanese greentea cake,,,Japanese,,,,23,IDR,1150000,0,0,1150000,0,1150000,23,1.0
+Japanese strawberry,,,Japanese,,,,182,IDR,9100000,0,0,9100000,0,9100000,168,1.08
+Dus putih besar,,,Lilin,,,,6,IDR,12000,0,0,12000,0,12000,6,1.0
+Korek api,,,Lilin,,,,10,IDR,50000,0,0,50000,0,50000,10,1.0
+Lilin angka Gold,,,Lilin,,,,102,IDR,612000,2000,0,610000,0,610000,76,1.34
+Lilin kecil Pcs,,,Lilin,,,,19,IDR,19000,0,0,19000,0,19000,9,2.11
+Lilin magic pack,,,Lilin,,,,30,IDR,210000,0,0,210000,0,210000,30,1.0
+Lilin spiral,,,Lilin,,,,415,IDR,1037500,0,0,1037500,0,1037500,229,1.81
+Papan ucapan (fondant),,,Lilin,,,,211,IDR,422000,0,0,422000,0,422000,196,1.08
+Piring kertas,,,Lilin,,,,2,IDR,24000,0,0,24000,0,24000,2,1.0
+Tas kain,,,Lilin,,,,8,IDR,16000,0,0,16000,0,16000,7,1.14
+Topper bday mini,,,Lilin,,,,1,IDR,5000,0,0,5000,0,5000,1,1.0
+Topper Birthday,,,Lilin,,,,6,IDR,42000,0,0,42000,0,42000,6,1.0
+Topper karakter,,,Lilin,,,,5,IDR,75000,0,0,75000,0,75000,3,1.67
+Macaron baby isi 20 pcs,,,Macaron,,,,1,IDR,48000,0,0,48000,0,48000,1,1.0
+macaron baby isi 30,,,Macaron,,,,1,IDR,63000,0,0,63000,0,63000,1,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,13,IDR,221000,0,0,221000,0,221000,11,1.18
+Macaron gift 16,,,Macaron,,,,1,IDR,65000,0,0,65000,0,65000,1,1.0
+Macaron gift 18 pcs,,,Macaron,,,,3,IDR,210000,0,0,210000,0,210000,3,1.0
+Macaron gift 25,,,Macaron,,,,2,IDR,170000,0,0,170000,0,170000,2,1.0
+Macaron gift 32,,,Macaron,,,,3,IDR,330000,0,0,330000,0,330000,2,1.5
+Macaron gift isi 12,,,Macaron,,,,3,IDR,165000,0,0,165000,0,165000,3,1.0
+Macaron gift isi 6 pcs,,,Macaron,,,,8,IDR,160000,0,0,160000,0,160000,7,1.14
+Macaron gift isi 9,,,Macaron,,,,1,IDR,40000,0,0,40000,0,40000,1,1.0
+Macaron isi 18,,,Macaron,,,,5,IDR,250000,0,0,250000,0,250000,4,1.25
+Macaron isi 48,,,Macaron,,,,2,IDR,200000,0,0,200000,0,200000,2,1.0
+Macaron isi 50 toples,,,Macaron,,,,1,IDR,85000,0,0,85000,0,85000,1,1.0
+Macaron isi 8,,,Macaron,,,,23,IDR,575000,0,0,575000,0,575000,18,1.28
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,2,IDR,54000,0,0,54000,0,54000,2,1.0
+Macaron Reguler,,,Macaron,,,,99,IDR,792000,0,0,792000,0,792000,57,1.74
+Macaron shell,,,Macaron,,,,5,IDR,60000,0,0,60000,0,60000,4,1.25
+Macaron super baby isi 50,,,Macaron,,,,3,IDR,150000,0,0,150000,0,150000,2,1.5
+Air mineral botol,,,Menu,,,,12,IDR,36000,0,0,36000,0,36000,12,1.0
+Banana cake coklat,,,Menu,,,,1,IDR,35000,0,0,35000,0,35000,1,1.0
+Bangkok Crepes,,,Menu,,,,37,IDR,296000,0,0,296000,0,296000,28,1.32
+Burn cheesecake Singapure,,,Menu,,,,2,IDR,50000,0,0,50000,0,50000,2,1.0
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,3,IDR,75000,0,0,75000,0,75000,3,1.0
+Cookies nougat,,,Menu,,,,8,IDR,40000,0,0,40000,0,40000,8,1.0
+Florentine cookies toples kotak,,,Menu,,,,2,IDR,150000,0,0,150000,0,150000,2,1.0
+Hokkaido cookies,,,Menu,,,,5,IDR,25000,1000,0,24000,0,24000,4,1.25
+Kartu capan,,,Menu,,,,11,IDR,33000,0,0,33000,0,33000,6,1.83
+Macaron Cracky,,,Menu,,,,4,IDR,100000,0,0,100000,0,100000,4,1.0
+Marmer brownies wisman slice,,,Menu,,,,5,IDR,50000,0,0,50000,0,50000,4,1.25
+Meringue,,,Menu,,,,6,IDR,72000,0,0,72000,0,72000,4,1.5
+Meringue toples,,,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Pancake durian pcs,,,Menu,,,,13,IDR,156000,0,0,156000,0,156000,8,1.63
+Permen nougat,,,Menu,,,,7,IDR,21000,0,0,21000,0,21000,5,1.4
+Pisang Bolen box isi 10,,,Menu,,,,6,IDR,150000,0,0,150000,0,150000,6,1.0
+Puding buah UK 22 cm,,,Menu,,,,2,IDR,240000,0,0,240000,0,240000,2,1.0
+Rice Choco Jar,,,Menu,,,,79,IDR,1185000,5000,0,1180000,0,1180000,56,1.41
+Tokyo milk cookies,,,Menu,,,,18,IDR,94000,1000,0,93000,0,93000,13,1.38
+Milk bun mini Tiramisu,,,Milk bun,,,,19,IDR,171000,0,0,171000,0,171000,19,1.0
+Milk bun Tiramisu,,,Milk bun,,,,10,IDR,380000,0,0,380000,0,380000,10,1.0
+Thai Milk bun,,,Milk bun,,,,71,IDR,2272000,0,0,2272000,0,2272000,60,1.18
+Thai Milk bun mini,,,Milk bun,,,,87,IDR,696000,9000,0,687000,0,687000,62,1.4
+Mille Crepes loyang,,,Mille Crepes,,,,15,IDR,2775000,0,0,2775000,0,2775000,15,1.0
+Mille Crepes Mix 5 Slice,,,Mille Crepes,,,,5,IDR,550000,0,0,550000,0,550000,5,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,45,IDR,900000,0,0,900000,0,900000,41,1.1
+Mille Crepes Slice,,,Mille Crepes,,,,344,IDR,6192000,0,0,6192000,0,6192000,264,1.3
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,409,IDR,7362000,2000,0,7360000,0,7360000,305,1.34
+Mochi daifuku pcs (mika),,,Mochi,,,,3,IDR,24000,0,0,24000,0,24000,2,1.5
+Mochi Daifuku pcs pouch,,,Mochi,,,,398,IDR,2786000,0,0,2786000,0,2786000,230,1.73
+Mochi durian,,,Mochi,,,,33,IDR,297000,0,0,297000,0,297000,18,1.83
+Puding buah sedang,,,Puding,,,,42,IDR,2730000,0,0,2730000,0,2730000,39,1.08
+Puding coklat,,,Puding,,,,10,IDR,650000,0,0,650000,0,650000,10,1.0
+Puding cookie cream,,,Puding,,,,10,IDR,650000,0,0,650000,0,650000,10,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,38,IDR,1482000,14000,0,1468000,0,1468000,30,1.27
+Almond Choco Ganache 16 cm,,,Cake,,,,3,IDR,450000,0,0,450000,0,450000,3,1.0
+Bento cake edible,,,Cake,,,,4,IDR,320000,0,0,320000,0,320000,4,1.0
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,47,IDR,2444000,0,0,2444000,0,2444000,47,1.0
+Bento cake Mahkota,,,Cake,,,,19,IDR,1235000,0,0,1235000,0,1235000,18,1.06
+Bento Cake polos,,,Cake,,,,287,IDR,14350000,0,0,14350000,0,14350000,233,1.23
+Bento edible karakter mini,,,Cake,,,,14,IDR,840000,0,0,840000,0,840000,14,1.0
+Bento Hias Karakter,,,Cake,,,,91,IDR,5005000,0,0,5005000,0,5005000,89,1.02
+Bento Ugly cake,,,Cake,,,,3,IDR,180000,0,0,180000,0,180000,3,1.0
+Bogel cake,,,Cake,,,,13,IDR,455000,0,0,455000,0,455000,12,1.08
+Cake 16x6 cm,,,Cake,,,,15,IDR,1950000,0,0,1950000,0,1950000,15,1.0
+Cake 18 cm hiasan polos,,,Cake,,,,14,IDR,2100000,0,0,2100000,0,2100000,14,1.0
+Cake 18 cm kupu-kupu,,,Cake,,,,21,IDR,3255000,0,0,3255000,0,3255000,21,1.0
+Cake 18 Hiasan Topper,,,Cake,,,,5,IDR,850000,0,0,850000,0,850000,4,1.25
+Cheese Terrine,,,Cake,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Comic cake,,,Cake,,,,24,IDR,1560000,0,0,1560000,0,1560000,24,1.0
+Italian tiramisu slice promo,,,Cake,,,,6,IDR,90000,0,0,90000,0,90000,5,1.2
+Minni  chiffon pcs,,,Cake,,,,49,IDR,980000,0,0,980000,0,980000,35,1.4
+Minni chiffon isi 2,,,Cake,,,,31,IDR,1550000,0,0,1550000,0,1550000,31,1.0
+Minni chiffon isi 4,,,Cake,,,,15,IDR,1440000,0,-90000,1350000,0,1350000,16,0.94
+Paket bento isi 2,,,Cake,,,,5,IDR,620000,10000,0,610000,0,610000,5,1.0
+Cookies karakter ikat,,,Cookies,,,,63,IDR,378000,0,0,378000,0,378000,30,2.1
+Cookies tangkai,,,Cookies,,,,16,IDR,112000,0,0,112000,0,112000,12,1.33
+Meringue tangkai,,,Cookies,,,,28,IDR,84000,0,0,84000,0,84000,15,1.87
+Pop Cake,,,Cookies,,,,136,IDR,952000,0,0,952000,0,952000,83,1.64
+Soft cookies,,,Cookies,,,,497,IDR,4970000,0,0,4970000,0,4970000,217,2.29
+Cup cake birthday 4 pcs,,,Cup cake,,,,3,IDR,81000,0,0,81000,0,81000,2,1.5
+Cup cake mika bulat pcs,,,Cup cake,,,,391,IDR,2346000,0,0,2346000,0,2346000,96,4.07
+Paket bento cupcake 2,,,Cup cake,,,,9,IDR,675000,0,0,675000,0,675000,9,1.0
+Paket bento dan 5 cupcake,,,Cup cake,,,,15,IDR,1575000,10000,0,1565000,0,1565000,15,1.0
+Paket cupcake isi 6,,,Cup cake,,,,9,IDR,450000,0,0,450000,0,450000,8,1.13
+Custom,,,CUSTOM,,,,246,IDR,20898000,0,0,20898000,0,20898000,183,1.34
+Dessert Box mini Triple Choco,,,Dessert box,,,,3,IDR,60000,0,0,60000,0,60000,3,1.0
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,2,IDR,50000,0,0,50000,0,50000,2,1.0
+Gelato es krim small (Promo),,,Gelato es krim,,,,113,IDR,1582000,21000,0,1561000,0,1561000,96,1.18
+"Gelato es krim,Big (Promo)",,,Gelato es krim,,,,27,IDR,675000,0,0,675000,0,675000,22,1.23
+Japanese Blueberry,,,Japanese,,,,25,IDR,1375000,5000,0,1370000,0,1370000,25,1.0
+Japanese box mini choco noagat,,,Japanese,,,,219,IDR,4380000,0,0,4380000,0,4380000,191,1.15
+Japanese box minni cheese/mixberry,,,Japanese,,,,29,IDR,638000,0,0,638000,0,638000,28,1.04
+Japanese box minni Tiramisu,,,Japanese,,,,28,IDR,672000,0,0,672000,0,672000,27,1.04
+Japanese cake cheese,,,Japanese,,,,4,IDR,220000,0,0,220000,0,220000,4,1.0
+Japanese cake tiramisu,,,Japanese,,,,42,IDR,2520000,0,0,2520000,0,2520000,37,1.14
+Japanese Choco Nougat cake,,,Japanese,,,,118,IDR,5950000,0,-50000,5900000,0,5900000,89,1.33
+Japanese greentea cake,,,Japanese,,,,38,IDR,1900000,0,0,1900000,0,1900000,36,1.06
+Japanese strawberry,,,Japanese,,,,211,IDR,10550000,0,0,10550000,0,10550000,193,1.09
+Dus putih besar,,,Lilin,,,,5,IDR,10000,0,0,10000,0,10000,5,1.0
+Korek api,,,Lilin,,,,19,IDR,95000,0,0,95000,0,95000,19,1.0
+Lilin angka Gold,,,Lilin,,,,122,IDR,732000,0,0,732000,0,732000,91,1.34
+Lilin kecil Pcs,,,Lilin,,,,38,IDR,38000,0,0,38000,0,38000,16,2.38
+Lilin magic pack,,,Lilin,,,,35,IDR,245000,0,0,245000,0,245000,35,1.0
+Lilin spiral,,,Lilin,,,,417,IDR,1042500,0,0,1042500,0,1042500,231,1.81
+Papan ucapan (fondant),,,Lilin,,,,263,IDR,526000,0,0,526000,0,526000,238,1.11
+Piring kertas,,,Lilin,,,,3,IDR,36000,0,0,36000,0,36000,1,3.0
+Tas kain,,,Lilin,,,,3,IDR,6000,0,0,6000,0,6000,3,1.0
+Topper bday mini,,,Lilin,,,,3,IDR,15000,0,0,15000,0,15000,3,1.0
+Topper Birthday,,,Lilin,,,,9,IDR,63000,0,0,63000,0,63000,9,1.0
+Topper karakter,,,Lilin,,,,2,IDR,30000,0,0,30000,0,30000,2,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,2,IDR,96000,0,0,96000,0,96000,2,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,15,IDR,255000,0,0,255000,0,255000,14,1.07
+Macaron gift 18 pcs,,,Macaron,,,,3,IDR,210000,0,0,210000,0,210000,3,1.0
+Macaron gift 25,,,Macaron,,,,3,IDR,255000,0,0,255000,0,255000,3,1.0
+Macaron gift 32,,,Macaron,,,,1,IDR,110000,0,0,110000,0,110000,1,1.0
+Macaron gift isi 12,,,Macaron,,,,1,IDR,55000,0,0,55000,0,55000,1,1.0
+Macaron gift isi 6 pcs,,,Macaron,,,,10,IDR,200000,0,0,200000,0,200000,10,1.0
+Macaron gift isi 9,,,Macaron,,,,4,IDR,160000,0,0,160000,0,160000,4,1.0
+Macaron isi 18,,,Macaron,,,,3,IDR,150000,0,0,150000,0,150000,3,1.0
+Macaron isi 8,,,Macaron,,,,19,IDR,475000,0,0,475000,0,475000,18,1.06
+Macaron isi 8 edisi Lebaran,,,Macaron,,,,1,IDR,27000,0,0,27000,0,27000,1,1.0
+Macaron Reguler,,,Macaron,,,,66,IDR,528000,0,0,528000,0,528000,34,1.94
+Macaron shell,,,Macaron,,,,3,IDR,36000,0,0,36000,0,36000,3,1.0
+Macaron super baby isi 50,,,Macaron,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Air mineral botol,,,Menu,,,,21,IDR,63000,2000,0,61000,0,61000,20,1.05
+Banana cake coklat,,,Menu,,,,2,IDR,70000,0,0,70000,0,70000,1,2.0
+Bangkok Crepes,,,Menu,,,,45,IDR,360000,0,0,360000,0,360000,33,1.36
+Burn cheesecake Singapure,,,Menu,,,,6,IDR,150000,0,0,150000,0,150000,6,1.0
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,2,IDR,50000,0,0,50000,0,50000,2,1.0
+Cookies nougat,,,Menu,,,,11,IDR,55000,0,0,55000,0,55000,8,1.38
+Hokkaido cookies,,,Menu,,,,6,IDR,30000,0,0,30000,0,30000,4,1.5
+Kartu capan,,,Menu,,,,9,IDR,27000,0,0,27000,0,27000,7,1.29
+Macaron Cracky,,,Menu,,,,4,IDR,100000,0,0,100000,0,100000,4,1.0
+Meringue,,,Menu,,,,4,IDR,48000,0,0,48000,0,48000,4,1.0
+Meringue toples,,,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Pancake durian pcs,,,Menu,,,,31,IDR,372000,0,0,372000,0,372000,11,2.82
+Permen nougat,,,Menu,,,,11,IDR,33000,4000,0,29000,0,29000,6,1.83
+Puding buah UK 22 cm,,,Menu,,,,10,IDR,1200000,0,0,1200000,0,1200000,8,1.25
+Rice Choco Jar,,,Menu,,,,73,IDR,1095000,0,0,1095000,0,1095000,44,1.66
+Tokyo milk cookies,,,Menu,,,,30,IDR,150000,0,0,150000,0,150000,16,1.88
+Florentine Cookies,,Pcs,Menu,,,,2,IDR,8000,0,0,8000,0,8000,2,1.0
+Milk bun mini Tiramisu,,,Milk bun,,,,13,IDR,117000,0,0,117000,0,117000,13,1.0
+Milk bun Tiramisu,,,Milk bun,,,,2,IDR,76000,0,0,76000,0,76000,2,1.0
+Thai Milk bun,,,Milk bun,,,,42,IDR,1344000,0,0,1344000,0,1344000,39,1.08
+Thai Milk bun mini,,,Milk bun,,,,31,IDR,248000,0,0,248000,0,248000,30,1.03
+Mille Crepes loyang,,,Mille Crepes,,,,13,IDR,2405000,0,0,2405000,0,2405000,13,1.0
+Mille Crepes Mix 5 Slice,,,Mille Crepes,,,,1,IDR,110000,0,0,110000,0,110000,1,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,42,IDR,840000,0,0,840000,0,840000,39,1.08
+Mille Crepes Slice,,,Mille Crepes,,,,339,IDR,6102000,3000,0,6099000,0,6099000,240,1.41
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,395,IDR,7110000,3200,0,7106800,0,7106800,305,1.3
+Mochi daifuku pcs (mika),,,Mochi,,,,11,IDR,88000,0,0,88000,0,88000,6,1.83
+Mochi Daifuku pcs pouch,,,Mochi,,,,373,IDR,2611000,0,0,2611000,0,2611000,212,1.76
+Mochi durian,,,Mochi,,,,27,IDR,243000,0,0,243000,0,243000,14,1.93
+Puding buah sedang,,,Puding,,,,46,IDR,2990000,0,0,2990000,0,2990000,43,1.07
+Puding coklat,,,Puding,,,,8,IDR,520000,0,0,520000,0,520000,8,1.0
+Puding cookie cream,,,Puding,,,,15,IDR,975000,0,0,975000,0,975000,14,1.07
+Puding cup strawberry milk,,,Puding,,,,2,IDR,14000,0,0,14000,0,14000,2,1.0
+Brownies Fuddgy box isi 20,,,Brownies,,,,1,IDR,75000,0,0,75000,0,75000,1,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,21,IDR,819000,0,0,819000,0,819000,21,1.0
+Fudgy Brownies Bar,,,Brownies,,,,34,IDR,340000,0,0,340000,0,340000,23,1.48
+Almond Choco Ganache 16 cm,,,Cake,,,,2,IDR,300000,0,0,300000,0,300000,2,1.0
+Bento cake edible,,,Cake,,,,5,IDR,400000,0,0,400000,0,400000,5,1.0
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,26,IDR,1352000,0,0,1352000,0,1352000,26,1.0
+Bento cake Mahkota,,,Cake,,,,8,IDR,520000,0,0,520000,0,520000,8,1.0
+Bento Cake polos,,,Cake,,,,214,IDR,10700000,0,0,10700000,0,10700000,208,1.03
+Bento edible karakter mini,,,Cake,,,,25,IDR,1500000,0,0,1500000,0,1500000,24,1.04
+Bento Hias Karakter,,,Cake,,,,81,IDR,4455000,0,0,4455000,0,4455000,80,1.01
+Bento Ugly cake,,,Cake,,,,10,IDR,600000,0,0,600000,0,600000,10,1.0
+Bogel cake,,,Cake,,,,8,IDR,280000,0,0,280000,0,280000,8,1.0
+Cake 16x6 cm,,,Cake,,,,16,IDR,2080000,0,0,2080000,0,2080000,16,1.0
+Cake 18 cm hiasan polos,,,Cake,,,,25,IDR,3750000,0,0,3750000,0,3750000,25,1.0
+Cake 18 cm kupu-kupu,,,Cake,,,,14,IDR,2170000,0,0,2170000,0,2170000,14,1.0
+Cake 18 Hiasan Topper,,,Cake,,,,8,IDR,1360000,0,0,1360000,0,1360000,8,1.0
+Cake labubu 6x8,,,Cake,,,,4,IDR,400000,0,0,400000,0,400000,4,1.0
+Comic cake,,,Cake,,,,37,IDR,2405000,0,0,2405000,0,2405000,35,1.06
+Italian tiramisu slice promo,,,Cake,,,,56,IDR,840000,0,0,840000,0,840000,46,1.22
+Minni  chiffon pcs,,,Cake,,,,37,IDR,740000,0,0,740000,0,740000,31,1.19
+Minni chiffon isi 2,,,Cake,,,,33,IDR,1650000,20000,0,1630000,0,1630000,33,1.0
+Minni chiffon isi 4,,,Cake,,,,12,IDR,1080000,0,0,1080000,0,1080000,12,1.0
+Coklat melting bali,,,Coklat,,,,2,IDR,110000,0,0,110000,0,110000,2,1.0
+Truffel coklat,,,Coklat,,,,2,IDR,10000,0,0,10000,0,10000,2,1.0
+Truffel coklat 4 pc,,,Coklat,,,,2,IDR,40000,0,0,40000,0,40000,2,1.0
+Cookies karakter ikat,,,Cookies,,,,63,IDR,378000,0,0,378000,0,378000,36,1.75
+Cookies tangkai,,,Cookies,,,,23,IDR,161000,0,0,161000,0,161000,13,1.77
+Cookis labubu 10 cm,,,Cookies,,,,6,IDR,90000,0,0,90000,0,90000,3,2.0
+Cookis Labubu 6.5 cm,,,Cookies,,,,12,IDR,120000,1000,0,119000,0,119000,7,1.71
+Meringue tangkai,,,Cookies,,,,13,IDR,39000,0,0,39000,0,39000,4,3.25
+Pop Cake,,,Cookies,,,,69,IDR,483000,0,0,483000,0,483000,53,1.3
+Soft cookies,,,Cookies,,,,360,IDR,3600000,0,0,3600000,0,3600000,186,1.94
+Cup cake birthday 4 pcs,,,Cup cake,,,,1,IDR,27000,0,0,27000,0,27000,1,1.0
+Cup cake isi 9,,,Cup cake,,,,7,IDR,475000,0,0,475000,0,475000,6,1.17
+Cup cake mika bulat pcs,,,Cup cake,,,,261,IDR,1566000,0,0,1566000,0,1566000,89,2.93
+Paket bento cupcake 2,,,Cup cake,,,,8,IDR,600000,0,0,600000,0,600000,8,1.0
+Paket bento dan 5 cupcake,,,Cup cake,,,,6,IDR,630000,0,0,630000,0,630000,6,1.0
+Paket cupcake isi 6,,,Cup cake,,,,3,IDR,150000,0,0,150000,0,150000,3,1.0
+Custom,,,CUSTOM,,,,219,IDR,20691000,0,0,20691000,0,20691000,182,1.2
+Dessert Box mini Triple Choco,,,Dessert box,,,,3,IDR,60000,0,0,60000,0,60000,3,1.0
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,2,IDR,50000,0,0,50000,0,50000,2,1.0
+Gelato es krim small (Promo),,,Gelato es krim,,,,88,IDR,1232000,0,0,1232000,0,1232000,72,1.22
+"Gelato es krim,Big (Promo)",,,Gelato es krim,,,,21,IDR,525000,0,0,525000,0,525000,18,1.17
+Japanese Blueberry,,,Japanese,,,,10,IDR,550000,0,0,550000,0,550000,10,1.0
+Japanese box mini choco noagat,,,Japanese,,,,237,IDR,4740000,0,0,4740000,0,4740000,206,1.15
+Japanese box minni cheese/mixberry,,,Japanese,,,,26,IDR,572000,0,0,572000,0,572000,26,1.0
+Japanese box minni Tiramisu,,,Japanese,,,,18,IDR,432000,0,0,432000,0,432000,18,1.0
+Japanese cake cheese,,,Japanese,,,,7,IDR,385000,0,0,385000,0,385000,7,1.0
+Japanese cake tiramisu,,,Japanese,,,,12,IDR,720000,0,0,720000,0,720000,12,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,94,IDR,4700000,0,0,4700000,0,4700000,93,1.01
+Japanese greentea cake,,,Japanese,,,,28,IDR,1400000,0,0,1400000,0,1400000,26,1.08
+Japanese strawberry,,,Japanese,,,,130,IDR,6500000,0,0,6500000,0,6500000,126,1.03
+Dus putih besar,,,Lilin,,,,8,IDR,16000,0,0,16000,0,16000,7,1.14
+Korek api,,,Lilin,,,,23,IDR,115000,0,0,115000,0,115000,23,1.0
+Lilin angka Gold,,,Lilin,,,,119,IDR,714000,0,0,714000,0,714000,81,1.47
+Lilin kecil Pcs,,,Lilin,,,,37,IDR,37000,0,0,37000,0,37000,16,2.31
+Lilin magic pack,,,Lilin,,,,30,IDR,210000,0,0,210000,0,210000,29,1.03
+Lilin spiral,,,Lilin,,,,306,IDR,765000,1000,0,764000,0,764000,197,1.55
+Papan ucapan (fondant),,,Lilin,,,,200,IDR,400000,0,0,400000,0,400000,192,1.04
+Tas kain,,,Lilin,,,,2,IDR,4000,0,0,4000,0,4000,2,1.0
+Topper bday mini,,,Lilin,,,,1,IDR,5000,0,0,5000,0,5000,1,1.0
+Topper Birthday,,,Lilin,,,,3,IDR,21000,0,0,21000,0,21000,2,1.5
+Topper karakter,,,Lilin,,,,3,IDR,45000,0,0,45000,0,45000,3,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,3,IDR,144000,0,0,144000,0,144000,3,1.0
+macaron baby isi 30,,,Macaron,,,,1,IDR,63000,0,0,63000,0,63000,1,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,23,IDR,391000,0,0,391000,0,391000,19,1.21
+Macaron gift 16,,,Macaron,,,,4,IDR,260000,0,0,260000,0,260000,4,1.0
+Macaron gift 18 pcs,,,Macaron,,,,2,IDR,140000,0,0,140000,0,140000,2,1.0
+Macaron gift 25,,,Macaron,,,,1,IDR,85000,0,0,85000,0,85000,1,1.0
+Macaron gift 32,,,Macaron,,,,1,IDR,110000,0,0,110000,0,110000,1,1.0
+Macaron gift isi 12,,,Macaron,,,,7,IDR,385000,0,0,385000,0,385000,7,1.0
+Macaron gift isi 6 pcs,,,Macaron,,,,2,IDR,40000,0,0,40000,0,40000,2,1.0
+Macaron gift isi 9,,,Macaron,,,,1,IDR,40000,0,0,40000,0,40000,1,1.0
+Macaron isi 18,,,Macaron,,,,2,IDR,100000,0,0,100000,0,100000,2,1.0
+Macaron isi 27,,,Macaron,,,,1,IDR,70000,0,0,70000,0,70000,1,1.0
+Macaron isi 50 toples,,,Macaron,,,,1,IDR,85000,0,0,85000,0,85000,1,1.0
+Macaron isi 8,,,Macaron,,,,11,IDR,275000,0,0,275000,0,275000,10,1.1
+Macaron Reguler,,,Macaron,,,,51,IDR,408000,0,0,408000,0,408000,36,1.42
+Macaron shell,,,Macaron,,,,7,IDR,84000,0,0,84000,0,84000,7,1.0
+Air mineral botol,,,Menu,,,,18,IDR,54000,0,0,54000,0,54000,15,1.2
+Bangkok Crepes,,,Menu,,,,37,IDR,296000,0,0,296000,0,296000,32,1.16
+Burn cheesecake Singapure,,,Menu,,,,4,IDR,100000,0,0,100000,0,100000,4,1.0
+Cookies satuan,,,Menu,,,,4,IDR,20000,0,0,20000,0,20000,2,2.0
+Florentine cookies Toples kc,,,Menu,,,,1,IDR,30000,0,0,30000,0,30000,1,1.0
+Hokkaido cookies,,,Menu,,,,3,IDR,15000,0,0,15000,0,15000,3,1.0
+Kartu capan,,,Menu,,,,10,IDR,30000,0,0,30000,0,30000,9,1.11
+Macaron Cracky,,,Menu,,,,3,IDR,75000,0,0,75000,0,75000,3,1.0
+Meringue,,,Menu,,,,1,IDR,12000,0,0,12000,0,12000,1,1.0
+Pancake durian pcs,,,Menu,,,,18,IDR,216000,0,0,216000,0,216000,7,2.57
+Permen nougat,,,Menu,,,,8,IDR,24000,0,0,24000,0,24000,4,2.0
+Pisang Bolen box isi 10,,,Menu,,,,2,IDR,50000,0,0,50000,0,50000,2,1.0
+Puding buah UK 22 cm,,,Menu,,,,1,IDR,120000,0,0,120000,0,120000,1,1.0
+Rice Choco Jar,,,Menu,,,,47,IDR,705000,0,0,705000,0,705000,35,1.34
+Tokyo milk cookies,,,Menu,,,,14,IDR,70000,0,0,70000,0,70000,7,2.0
+Florentine Cookies,,Pcs,Menu,,,,3,IDR,12000,0,0,12000,0,12000,3,1.0
+Milk bun mini Tiramisu,,,Milk bun,,,,5,IDR,45000,0,0,45000,0,45000,4,1.25
+Milk bun Tiramisu,,,Milk bun,,,,2,IDR,76000,0,0,76000,0,76000,2,1.0
+Thai Milk bun,,,Milk bun,,,,25,IDR,800000,0,0,800000,0,800000,21,1.19
+Thai Milk bun mini,,,Milk bun,,,,50,IDR,400000,0,0,400000,0,400000,43,1.16
+Mille Crepes loyang,,,Mille Crepes,,,,13,IDR,2405000,0,0,2405000,0,2405000,13,1.0
+Mille Crepes Mix 5 Slice,,,Mille Crepes,,,,2,IDR,220000,0,0,220000,0,220000,2,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,36,IDR,720000,0,0,720000,0,720000,34,1.06
+Mille Crepes Slice,,,Mille Crepes,,,,281,IDR,5058000,9000,0,5049000,0,5049000,206,1.36
+Mochi bites susu,,,Mochi,,,,43,IDR,860000,0,0,860000,0,860000,30,1.43
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,312,IDR,5616000,0,0,5616000,0,5616000,262,1.19
+Mochi daifuku pcs (mika),,,Mochi,,,,1,IDR,8000,0,0,8000,0,8000,1,1.0
+Mochi Daifuku pcs pouch,,,Mochi,,,,320,IDR,2240000,0,0,2240000,0,2240000,183,1.75
+Mochi durian,,,Mochi,,,,40,IDR,360000,0,0,360000,0,360000,24,1.67
+Puding buah sedang,,,Puding,,,,38,IDR,2470000,0,0,2470000,0,2470000,34,1.12
+Puding coklat,,,Puding,,,,15,IDR,975000,0,0,975000,0,975000,15,1.0
+Puding cookie cream,,,Puding,,,,13,IDR,845000,0,0,845000,0,845000,13,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,34,IDR,1326000,14000,0,1312000,0,1312000,26,1.31
+Fudgy Brownies Bar,,,Brownies,,,,40,IDR,400000,0,0,400000,0,400000,27,1.48
+Almond Choco Ganache 16 cm,,,Cake,,,,1,IDR,150000,0,0,150000,0,150000,1,1.0
+Bento cake edible,,,Cake,,,,3,IDR,240000,0,0,240000,0,240000,3,1.0
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,66,IDR,3432000,19500,0,3412500,0,3412500,66,1.0
+Bento cake Mahkota,,,Cake,,,,9,IDR,585000,0,0,585000,0,585000,9,1.0
+Bento Cake polos,,,Cake,,,,135,IDR,6750000,0,0,6750000,0,6750000,133,1.02
+Bento edible karakter mini,,,Cake,,,,17,IDR,1020000,0,0,1020000,0,1020000,17,1.0
+Bento Hias Karakter,,,Cake,,,,200,IDR,11000000,0,0,11000000,0,11000000,185,1.08
+Bento Ugly cake,,,Cake,,,,7,IDR,420000,0,0,420000,0,420000,7,1.0
+Bogel cake,,,Cake,,,,8,IDR,280000,0,0,280000,0,280000,7,1.14
+Cake  ultah 12 cm,,,Cake,,,,2,IDR,220000,0,0,220000,0,220000,2,1.0
+Cake 16x6 cm,,,Cake,,,,25,IDR,3250000,0,0,3250000,0,3250000,25,1.0
+Cake 18 cm hiasan polos,,,Cake,,,,14,IDR,2100000,0,0,2100000,0,2100000,14,1.0
+Cake 18 cm kupu-kupu,,,Cake,,,,14,IDR,2170000,0,0,2170000,0,2170000,14,1.0
+Cake 18 Hiasan Topper,,,Cake,,,,2,IDR,340000,0,0,340000,0,340000,2,1.0
+Cake labubu 6x8,,,Cake,,,,14,IDR,1400000,0,0,1400000,0,1400000,13,1.08
+Comic cake,,,Cake,,,,32,IDR,2080000,0,0,2080000,0,2080000,31,1.03
+Italian tiramisu slice promo,,,Cake,,,,49,IDR,735000,0,0,735000,0,735000,43,1.14
+Minni  chiffon pcs,,,Cake,,,,36,IDR,720000,0,0,720000,0,720000,28,1.29
+Minni chiffon isi 2,,,Cake,,,,22,IDR,1100000,0,0,1100000,0,1100000,22,1.0
+Minni chiffon isi 4,,,Cake,,,,12,IDR,1080000,0,0,1080000,0,1080000,12,1.0
+Paket bento isi 2,,,Cake,,,,4,IDR,520000,0,0,520000,0,520000,4,1.0
+Coklat dubai kunafa medium uk 11x5,,,Coklat,,,,64,IDR,2855000,0,0,2855000,0,2855000,43,1.49
+"Coklat dubai kunafa mini uk 8,5x4,5",,,Coklat,,,,132,IDR,3096000,0,0,3096000,0,3096000,93,1.42
+Coklat melting bali,,,Coklat,,,,39,IDR,2145000,0,0,2145000,0,2145000,37,1.05
+Truffel coklat,,,Coklat,,,,15,IDR,75000,0,0,75000,0,75000,14,1.07
+Truffel coklat 4 pc,,,Coklat,,,,5,IDR,100000,0,0,100000,0,100000,5,1.0
+Truffel coklat isi 9,,,Coklat,,,,1,IDR,42000,0,0,42000,0,42000,1,1.0
+Cookies cinamoroll/melody,,,Cookies,,,,50,IDR,650000,0,0,650000,0,650000,46,1.09
+Cookies karakter ikat,,,Cookies,,,,35,IDR,210000,0,0,210000,0,210000,23,1.52
+Cookies tangkai,,,Cookies,,,,6,IDR,42000,0,0,42000,0,42000,6,1.0
+Cookis labubu 10 cm,,,Cookies,,,,157,IDR,2355000,0,0,2355000,0,2355000,104,1.51
+Cookis Labubu 6.5 cm,,,Cookies,,,,109,IDR,981000,0,0,981000,0,981000,67,1.63
+Meringue tangkai,,,Cookies,,,,8,IDR,24000,0,0,24000,0,24000,6,1.33
+Pop Cake,,,Cookies,,,,53,IDR,371000,0,0,371000,0,371000,38,1.39
+Soft cookies,,,Cookies,,,,364,IDR,3640000,0,0,3640000,0,3640000,179,2.03
+Cup cake birthday 4 pcs,,,Cup cake,,,,10,IDR,270000,0,0,270000,0,270000,7,1.43
+Cup cake mika bulat pcs,,,Cup cake,,,,258,IDR,1548000,0,0,1548000,0,1548000,84,3.07
+Paket bento cupcake 2,,,Cup cake,,,,10,IDR,750000,0,0,750000,0,750000,10,1.0
+Paket bento dan 5 cupcake,,,Cup cake,,,,10,IDR,1050000,5000,0,1045000,0,1045000,10,1.0
+Custom,,,CUSTOM,,,,347,IDR,28242000,0,0,28242000,0,28242000,256,1.36
+Dessert Box mini Triple Choco,,,Dessert box,,,,2,IDR,40000,0,0,40000,0,40000,1,2.0
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,2,IDR,50000,0,0,50000,0,50000,1,2.0
+Gelato es krim small (Promo),,,Gelato es krim,,,,119,IDR,1666000,0,0,1666000,0,1666000,91,1.31
+"Gelato es krim,Big (Promo)",,,Gelato es krim,,,,27,IDR,675000,0,0,675000,0,675000,24,1.13
+Japanese Blueberry,,,Japanese,,,,25,IDR,1375000,0,0,1375000,0,1375000,25,1.0
+Japanese box mini choco noagat,,,Japanese,,,,244,IDR,4880000,0,0,4880000,0,4880000,197,1.24
+Japanese box minni cheese/mixberry,,,Japanese,,,,34,IDR,748000,0,0,748000,0,748000,32,1.06
+Japanese box minni Tiramisu,,,Japanese,,,,16,IDR,384000,0,0,384000,0,384000,16,1.0
+Japanese cake cheese,,,Japanese,,,,6,IDR,330000,0,0,330000,0,330000,6,1.0
+Japanese cake tiramisu,,,Japanese,,,,21,IDR,1260000,0,0,1260000,0,1260000,21,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,77,IDR,3850000,0,0,3850000,0,3850000,72,1.07
+Japanese fruit cake anggur,,,Japanese,,,,1,IDR,180000,0,0,180000,0,180000,1,1.0
+Japanese fruit cake strawberry,,,Japanese,,,,1,IDR,170000,0,0,170000,0,170000,1,1.0
+Japanese greentea cake,,,Japanese,,,,35,IDR,1750000,0,0,1750000,0,1750000,33,1.06
+Japanese strawberry,,,Japanese,,,,166,IDR,8300000,25000,0,8275000,0,8275000,157,1.06
+Dus putih besar,,,Lilin,,,,7,IDR,14000,0,0,14000,0,14000,5,1.4
+Korek api,,,Lilin,,,,10,IDR,50000,0,0,50000,0,50000,10,1.0
+Lilin angka Gold,,,Lilin,,,,116,IDR,696000,0,0,696000,0,696000,84,1.38
+Lilin kecil Pcs,,,Lilin,,,,26,IDR,26000,0,0,26000,0,26000,16,1.63
+Lilin magic pack,,,Lilin,,,,23,IDR,161000,0,0,161000,0,161000,22,1.05
+Lilin spiral,,,Lilin,,,,352,IDR,880000,0,0,880000,0,880000,184,1.91
+Papan ucapan (fondant),,,Lilin,,,,212,IDR,424000,0,0,424000,0,424000,198,1.07
+Piring kertas,,,Lilin,,,,7,IDR,84000,0,0,84000,0,84000,5,1.4
+Tas kain,,,Lilin,,,,2,IDR,4000,0,0,4000,0,4000,2,1.0
+Topper bday mini,,,Lilin,,,,2,IDR,10000,0,0,10000,0,10000,2,1.0
+Topper Birthday,,,Lilin,,,,5,IDR,35000,0,0,35000,0,35000,5,1.0
+Topper karakter,,,Lilin,,,,1,IDR,15000,0,0,15000,0,15000,1,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,4,IDR,192000,0,0,192000,0,192000,4,1.0
+macaron baby isi 30,,,Macaron,,,,4,IDR,252000,0,0,252000,0,252000,4,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,19,IDR,323000,0,0,323000,0,323000,16,1.19
+Macaron gift 16,,,Macaron,,,,2,IDR,130000,0,0,130000,0,130000,2,1.0
+Macaron gift 18 pcs,,,Macaron,,,,7,IDR,490000,0,0,490000,0,490000,7,1.0
+Macaron gift 25,,,Macaron,,,,3,IDR,255000,0,0,255000,0,255000,3,1.0
+Macaron gift isi 12,,,Macaron,,,,3,IDR,165000,0,0,165000,0,165000,3,1.0
+Macaron gift isi 6 pcs,,,Macaron,,,,3,IDR,60000,0,0,60000,0,60000,3,1.0
+Macaron gift isi 9,,,Macaron,,,,1,IDR,40000,0,0,40000,0,40000,1,1.0
+Macaron isi 18,,,Macaron,,,,4,IDR,200000,0,0,200000,0,200000,4,1.0
+Macaron isi 27,,,Macaron,,,,2,IDR,140000,0,0,140000,0,140000,2,1.0
+Macaron isi 50 toples,,,Macaron,,,,1,IDR,85000,0,0,85000,0,85000,1,1.0
+Macaron isi 8,,,Macaron,,,,9,IDR,225000,0,0,225000,0,225000,9,1.0
+Macaron Reguler,,,Macaron,,,,39,IDR,312000,0,0,312000,0,312000,29,1.34
+Macaron shell,,,Macaron,,,,7,IDR,84000,0,0,84000,0,84000,7,1.0
+Air mineral botol,,,Menu,,,,13,IDR,39000,0,0,39000,0,39000,12,1.08
+Bangkok Crepes,,,Menu,,,,101,IDR,808000,0,0,808000,0,808000,72,1.4
+Cookies nougat,,,Menu,,,,13,IDR,65000,0,0,65000,0,65000,4,3.25
+Cookies satuan,,,Menu,,,,1,IDR,5000,0,0,5000,0,5000,1,1.0
+Hokkaido cookies,,,Menu,,,,4,IDR,20000,0,0,20000,0,20000,4,1.0
+Kartu capan,,,Menu,,,,12,IDR,36000,1000,0,35000,0,35000,12,1.0
+Macaron Cracky,,,Menu,,,,4,IDR,100000,0,0,100000,0,100000,4,1.0
+Meringue,,,Menu,,,,2,IDR,24000,0,0,24000,0,24000,2,1.0
+Mochi box isi 3,,,Menu,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Pancake durian pcs,,,Menu,,,,1,IDR,12000,0,0,12000,0,12000,1,1.0
+Permen nougat,,,Menu,,,,3,IDR,9000,0,0,9000,0,9000,3,1.0
+Pisang Bolen box isi 10,,,Menu,,,,5,IDR,125000,0,0,125000,0,125000,4,1.25
+Rice Choco Jar,,,Menu,,,,40,IDR,600000,0,0,600000,0,600000,32,1.25
+Tokyo milk cookies,,,Menu,,,,17,IDR,85000,0,0,85000,0,85000,8,2.13
+Florentine Cookies,,Pcs,Menu,,,,1,IDR,4000,0,0,4000,0,4000,1,1.0
+Milk bun mini Tiramisu,,,Milk bun,,,,6,IDR,54000,0,0,54000,0,54000,6,1.0
+Milk bun Tiramisu,,,Milk bun,,,,3,IDR,114000,0,0,114000,0,114000,3,1.0
+Thai Milk bun,,,Milk bun,,,,22,IDR,704000,0,0,704000,0,704000,21,1.05
+Thai Milk bun mini,,,Milk bun,,,,19,IDR,152000,0,0,152000,0,152000,14,1.36
+Mille Crepes loyang,,,Mille Crepes,,,,14,IDR,2590000,0,0,2590000,0,2590000,14,1.0
+Mille Crepes Mix 5 Slice,,,Mille Crepes,,,,2,IDR,220000,0,0,220000,0,220000,2,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,54,IDR,1080000,0,0,1080000,0,1080000,47,1.15
+Mille Crepes Slice,,,Mille Crepes,,,,291,IDR,5238000,0,0,5238000,0,5238000,215,1.35
+Mochi bites susu,,,Mochi,,,,15,IDR,300000,0,0,300000,0,300000,11,1.36
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,258,IDR,4644000,0,0,4644000,0,4644000,205,1.26
+Mochi daifuku pcs (mika),,,Mochi,,,,6,IDR,48000,0,0,48000,0,48000,5,1.2
+Mochi Daifuku pcs pouch,,,Mochi,,,,253,IDR,1771000,0,0,1771000,0,1771000,150,1.69
+Mochi durian,,,Mochi,,,,21,IDR,189000,0,0,189000,0,189000,10,2.1
+Puding buah sedang,,,Puding,,,,41,IDR,2665000,0,0,2665000,0,2665000,38,1.08
+Puding coklat,,,Puding,,,,12,IDR,780000,0,0,780000,0,780000,11,1.09
+Puding cookie cream,,,Puding,,,,17,IDR,1105000,0,0,1105000,0,1105000,17,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,21,IDR,832000,0,0,832000,0,832000,18,1.17
+Fudgy Brownies Bar,,,Brownies,,,,46,IDR,460000,0,0,460000,0,460000,38,1.21
+Almond Choco Ganache 16 cm,,,Cake,,,,2,IDR,300000,0,0,300000,0,300000,2,1.0
+Bento cake edible,,,Cake,,,,3,IDR,240000,0,0,240000,0,240000,3,1.0
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,43,IDR,2326000,0,0,2326000,0,2326000,41,1.05
+Bento cake Mahkota,,,Cake,,,,9,IDR,585000,0,0,585000,0,585000,9,1.0
+Bento Cake polos,,,Cake,,,,164,IDR,8200000,0,0,8200000,0,8200000,158,1.04
+Bento edible karakter mini,,,Cake,,,,17,IDR,1030000,0,0,1030000,0,1030000,17,1.0
+Bento Hias Karakter,,,Cake,,,,136,IDR,7750000,0,0,7750000,0,7750000,132,1.03
+Bento Ugly cake,,,Cake,,,,44,IDR,2640000,0,0,2640000,0,2640000,37,1.19
+Bogel cake,,,Cake,,,,9,IDR,315000,0,0,315000,0,315000,9,1.0
+Cake  ultah 12 cm,,,Cake,,,,4,IDR,440000,0,0,440000,0,440000,4,1.0
+Cake 16x6 cm,,,Cake,,,,21,IDR,2800000,0,0,2800000,0,2800000,21,1.0
+Cake 18 cm hiasan polos,,,Cake,,,,8,IDR,1200000,0,0,1200000,0,1200000,8,1.0
+Cake 18 cm kupu-kupu,,,Cake,,,,20,IDR,3170000,0,0,3170000,0,3170000,20,1.0
+cake 18x6 karakter,,,Cake,,,,21,IDR,3360000,0,0,3360000,0,3360000,20,1.05
+Cake labubu 6x8,,,Cake,,,,19,IDR,1900000,0,0,1900000,0,1900000,19,1.0
+cake uk 12x6 cm,,,Cake,,,,3,IDR,300000,0,0,300000,0,300000,3,1.0
+Comic cake,,,Cake,,,,41,IDR,2765000,0,0,2765000,0,2765000,40,1.03
+Italian tiramisu slice promo,,,Cake,,,,50,IDR,750000,0,0,750000,0,750000,40,1.25
+Minni  chiffon pcs,,,Cake,,,,25,IDR,500000,0,0,500000,0,500000,21,1.19
+Minni chiffon isi 2,,,Cake,,,,21,IDR,1050000,0,0,1050000,0,1050000,21,1.0
+Minni chiffon isi 4,,,Cake,,,,8,IDR,720000,0,0,720000,0,720000,8,1.0
+Paket bento isi 2,,,Cake,,,,5,IDR,650000,0,0,650000,0,650000,4,1.25
+Coklat dubai kunafa medium uk 11x5,,,Coklat,,,,313,IDR,17900000,0,0,17900000,0,17900000,239,1.31
+"Coklat dubai kunafa mini uk 8,5x4,5",,,Coklat,,,,531,IDR,15043000,0,0,15043000,0,15043000,376,1.41
+Coklat Dubai Large,,,Coklat,,,,6,IDR,1200000,0,0,1200000,0,1200000,6,1.0
+Coklat melting bali,,,Coklat,,,,93,IDR,5115000,0,0,5115000,0,5115000,38,2.45
+Truffel coklat,,,Coklat,,,,25,IDR,125000,0,0,125000,0,125000,17,1.47
+Truffel coklat 4 pc,,,Coklat,,,,7,IDR,140000,0,0,140000,0,140000,7,1.0
+Cookies cinamoroll/melody,,,Cookies,,,,69,IDR,897000,0,0,897000,0,897000,51,1.35
+Cookies karakter ikat,,,Cookies,,,,45,IDR,270000,0,0,270000,0,270000,27,1.67
+Cookies tangkai,,,Cookies,,,,19,IDR,133000,0,0,133000,0,133000,13,1.46
+Cookis labubu 10 cm,,,Cookies,,,,126,IDR,1890000,0,0,1890000,0,1890000,90,1.4
+Cookis Labubu 6.5 cm,,,Cookies,,,,186,IDR,1674000,0,0,1674000,0,1674000,107,1.74
+Meringue tangkai,,,Cookies,,,,7,IDR,21000,0,0,21000,0,21000,7,1.0
+Pop Cake,,,Cookies,,,,68,IDR,476000,0,0,476000,0,476000,48,1.42
+Soft cookies,,,Cookies,,,,425,IDR,4250000,0,0,4250000,0,4250000,212,2.0
+Cup cake birthday 4 pcs,,,Cup cake,,,,10,IDR,270000,0,0,270000,0,270000,10,1.0
+Cup cake isi 9,,,Cup cake,,,,7,IDR,490000,0,0,490000,0,490000,6,1.17
+Cup cake mika bulat pcs,,,Cup cake,,,,209,IDR,1254000,0,0,1254000,0,1254000,76,2.75
+Paket bento cupcake 2,,,Cup cake,,,,18,IDR,1350000,0,0,1350000,0,1350000,14,1.29
+Paket bento dan 5 cupcake,,,Cup cake,,,,6,IDR,630000,0,0,630000,0,630000,6,1.0
+Paket cupcake isi 6,,,Cup cake,,,,7,IDR,350000,0,0,350000,0,350000,6,1.17
+Custom,,,CUSTOM,,,,218,IDR,25739000,1000,0,25738000,0,25738000,212,1.03
+Dessert Box mini Triple Choco,,,Dessert box,,,,5,IDR,100000,0,0,100000,0,100000,3,1.67
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Gelato es krim small (Promo),,,Gelato es krim,,,,102,IDR,1428000,0,0,1428000,0,1428000,77,1.32
+"Gelato es krim,Big (Promo)",,,Gelato es krim,,,,25,IDR,625000,0,0,625000,0,625000,20,1.25
+Japanese Blueberry,,,Japanese,,,,25,IDR,1375000,0,0,1375000,0,1375000,25,1.0
+Japanese box mini choco noagat,,,Japanese,,,,253,IDR,5060000,0,0,5060000,0,5060000,218,1.16
+Japanese box minni cheese/mixberry,,,Japanese,,,,30,IDR,660000,0,0,660000,0,660000,30,1.0
+Japanese box minni Tiramisu,,,Japanese,,,,30,IDR,720000,0,0,720000,0,720000,30,1.0
+Japanese cake cheese,,,Japanese,,,,3,IDR,165000,0,0,165000,0,165000,3,1.0
+Japanese cake tiramisu,,,Japanese,,,,15,IDR,900000,0,0,900000,0,900000,15,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,127,IDR,6350000,20500,0,6329500,0,6329500,103,1.23
+Japanese fruit cake anggur,,,Japanese,,,,1,IDR,180000,0,0,180000,0,180000,1,1.0
+Japanese fruit cake strawberry,,,Japanese,,,,2,IDR,340000,0,0,340000,0,340000,2,1.0
+Japanese greentea cake,,,Japanese,,,,33,IDR,1650000,0,0,1650000,0,1650000,29,1.14
+Japanese strawberry,,,Japanese,,,,182,IDR,9100000,0,0,9100000,0,9100000,152,1.2
+Dus putih besar,,,Lilin,,,,5,IDR,10000,0,0,10000,0,10000,3,1.67
+Korek api,,,Lilin,,,,14,IDR,70000,0,0,70000,0,70000,14,1.0
+Lilin angka Gold,,,Lilin,,,,99,IDR,594000,0,0,594000,0,594000,65,1.52
+Lilin kecil Pcs,,,Lilin,,,,27,IDR,27000,0,0,27000,0,27000,16,1.69
+Lilin magic pack,,,Lilin,,,,8,IDR,56000,0,0,56000,0,56000,8,1.0
+Lilin spiral,,,Lilin,,,,346,IDR,865000,0,0,865000,0,865000,182,1.9
+Papan ucapan (fondant),,,Lilin,,,,283,IDR,566000,0,0,566000,0,566000,227,1.25
+Piring kertas,,,Lilin,,,,5,IDR,60000,0,0,60000,0,60000,4,1.25
+Tas kain,,,Lilin,,,,2,IDR,4000,0,0,4000,0,4000,2,1.0
+Topper bday mini,,,Lilin,,,,1,IDR,5000,0,0,5000,0,5000,1,1.0
+Topper Birthday,,,Lilin,,,,14,IDR,98000,0,0,98000,0,98000,13,1.08
+Topper karakter,,,Lilin,,,,1,IDR,15000,0,0,15000,0,15000,1,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,8,IDR,384000,0,0,384000,0,384000,8,1.0
+macaron baby isi 30,,,Macaron,,,,4,IDR,252000,0,0,252000,0,252000,4,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,19,IDR,323000,0,0,323000,0,323000,17,1.12
+Macaron gift 16,,,Macaron,,,,3,IDR,195000,0,0,195000,0,195000,2,1.5
+Macaron gift 18 pcs,,,Macaron,,,,3,IDR,210000,0,0,210000,0,210000,2,1.5
+Macaron gift isi 12,,,Macaron,,,,3,IDR,165000,0,0,165000,0,165000,3,1.0
+Macaron gift isi 6 pcs,,,Macaron,,,,6,IDR,120000,0,0,120000,0,120000,5,1.2
+Macaron gift isi 9,,,Macaron,,,,3,IDR,120000,0,0,120000,0,120000,3,1.0
+Macaron isi 18,,,Macaron,,,,6,IDR,300000,0,0,300000,0,300000,5,1.2
+Macaron isi 27,,,Macaron,,,,4,IDR,280000,0,0,280000,0,280000,3,1.33
+Macaron isi 48,,,Macaron,,,,1,IDR,100000,0,0,100000,0,100000,1,1.0
+Macaron isi 50 toples,,,Macaron,,,,1,IDR,85000,0,0,85000,0,85000,1,1.0
+Macaron isi 8,,,Macaron,,,,16,IDR,400000,0,0,400000,0,400000,15,1.07
+Macaron Reguler,,,Macaron,,,,24,IDR,192000,0,0,192000,0,192000,19,1.26
+Macaron shell,,,Macaron,,,,5,IDR,60000,0,0,60000,0,60000,4,1.25
+Air mineral botol,,,Menu,,,,4,IDR,12000,0,0,12000,0,12000,4,1.0
+Bangkok Crepes,,,Menu,,,,75,IDR,600000,0,0,600000,0,600000,47,1.6
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,4,IDR,100000,0,0,100000,0,100000,2,2.0
+Cookies nougat,,,Menu,,,,3,IDR,15000,0,0,15000,0,15000,3,1.0
+Cookies satuan,,,Menu,,,,1,IDR,5000,0,0,5000,0,5000,1,1.0
+Kacang,,,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Kartu capan,,,Menu,,,,7,IDR,21000,0,0,21000,0,21000,7,1.0
+Macaron Cracky,,,Menu,,,,5,IDR,125000,0,0,125000,0,125000,5,1.0
+Pancake durian pcs,,,Menu,,,,6,IDR,72000,0,0,72000,0,72000,4,1.5
+Permen nougat,,,Menu,,,,1,IDR,3000,0,0,3000,0,3000,1,1.0
+Pisang Bolen box isi 10,,,Menu,,,,16,IDR,400000,0,0,400000,0,400000,15,1.07
+Puding buah UK 22 cm,,,Menu,,,,2,IDR,240000,0,0,240000,0,240000,2,1.0
+Rice Choco Jar,,,Menu,,,,75,IDR,1125000,0,0,1125000,0,1125000,51,1.47
+Serundeng kacang teri medan toples,,,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Tokyo milk cookies,,,Menu,,,,6,IDR,30000,0,0,30000,0,30000,3,2.0
+Florentine Cookies,,Pcs,Menu,,,,5,IDR,20000,0,0,20000,0,20000,3,1.67
+Milk bun mini Tiramisu,,,Milk bun,,,,7,IDR,63000,0,0,63000,0,63000,7,1.0
+Milk bun Tiramisu,,,Milk bun,,,,2,IDR,76000,0,0,76000,0,76000,2,1.0
+Thai Milk bun,,,Milk bun,,,,21,IDR,672000,0,0,672000,0,672000,19,1.11
+Thai Milk bun mini,,,Milk bun,,,,22,IDR,176000,0,0,176000,0,176000,21,1.05
+Mille Crepes loyang,,,Mille Crepes,,,,13,IDR,2430000,0,0,2430000,0,2430000,13,1.0
+Mille Crepes Mix 5 Slice,,,Mille Crepes,,,,4,IDR,440000,0,0,440000,0,440000,4,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,34,IDR,680000,0,0,680000,0,680000,32,1.06
+Mille Crepes Slice,,,Mille Crepes,,,,324,IDR,5832000,0,0,5832000,0,5832000,218,1.49
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,208,IDR,3744000,0,0,3744000,0,3744000,172,1.21
+Mochi daifuku pcs (mika),,,Mochi,,,,8,IDR,64000,0,0,64000,0,64000,6,1.33
+Mochi Daifuku pcs pouch,,,Mochi,,,,219,IDR,1533000,0,0,1533000,0,1533000,136,1.61
+Mochi durian,,,Mochi,,,,4,IDR,36000,0,0,36000,0,36000,2,2.0
+Puding buah sedang,,,Puding,,,,38,IDR,2470000,0,0,2470000,0,2470000,37,1.03
+Puding coklat,,,Puding,,,,17,IDR,1105000,0,0,1105000,0,1105000,16,1.06
+Puding cookie cream,,,Puding,,,,8,IDR,520000,0,0,520000,0,520000,8,1.0
+Puding cup strawberry milk,,,Puding,,,,1,IDR,7000,0,0,7000,0,7000,1,1.0
+Brownies Fuddgy box isi 20,,,Brownies,,,,2,IDR,156000,10000,0,146000,0,146000,2,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,37,IDR,1480000,0,0,1480000,0,1480000,32,1.16
+Brownies Kunafa,,,Brownies,,,,31,IDR,775000,0,0,775000,0,775000,28,1.11
+Fudgy Brownies Bar,,,Brownies,,,,49,IDR,490000,0,0,490000,0,490000,40,1.23
+Bento cake edible,,,Cake,,,,12,IDR,960000,0,0,960000,0,960000,10,1.2
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,96,IDR,5280000,0,0,5280000,0,5280000,94,1.02
+Bento cake Mahkota,,,Cake,,,,10,IDR,650000,0,0,650000,0,650000,10,1.0
+Bento Cake polos,,,Cake,,,,195,IDR,9750000,0,0,9750000,0,9750000,182,1.07
+Bento edible karakter mini,,,Cake,,,,20,IDR,1300000,0,0,1300000,0,1300000,20,1.0
+Bento Hias Karakter,,,Cake,,,,139,IDR,8340000,0,0,8340000,0,8340000,138,1.01
+Bento Ugly cake,,,Cake,,,,6,IDR,385000,0,0,385000,0,385000,4,1.5
+Bogel cake,,,Cake,,,,6,IDR,210000,0,0,210000,0,210000,5,1.2
+Cake  ultah 12 cm,,,Cake,,,,2,IDR,230000,0,0,230000,0,230000,2,1.0
+Cake 16x6 cm,,,Cake,,,,20,IDR,2800000,0,0,2800000,0,2800000,20,1.0
+Cake 18 cm kupu-kupu,,,Cake,,,,26,IDR,4290000,0,0,4290000,0,4290000,26,1.0
+Cake 18 Hiasan Topper,,,Cake,,,,1,IDR,170000,0,0,170000,0,170000,1,1.0
+cake 18x6 karakter,,,Cake,,,,21,IDR,3360000,0,0,3360000,0,3360000,21,1.0
+Cake labubu 6x8,,,Cake,,,,22,IDR,2200000,0,0,2200000,0,2200000,22,1.0
+cake uk 12x6 cm,,,Cake,,,,1,IDR,100000,0,0,100000,0,100000,1,1.0
+Comic cake,,,Cake,,,,49,IDR,3430000,0,0,3430000,0,3430000,49,1.0
+Italian tiramisu slice promo,,,Cake,,,,84,IDR,1260000,0,0,1260000,0,1260000,68,1.24
+Minni  chiffon pcs,,,Cake,,,,50,IDR,1000000,0,0,1000000,0,1000000,37,1.35
+Minni chiffon isi 2,,,Cake,,,,26,IDR,1300000,0,0,1300000,0,1300000,26,1.0
+Minni chiffon isi 4,,,Cake,,,,8,IDR,720000,0,0,720000,0,720000,8,1.0
+Paket bento isi 2,,,Cake,,,,1,IDR,130000,0,0,130000,0,130000,1,1.0
+coklat dubai hazelnut,,,Coklat,,,,63,IDR,2655000,0,0,2655000,0,2655000,53,1.19
+Coklat dubai kunafa medium uk 11x5,,,Coklat,,,,414,IDR,24840000,4000,0,24836000,0,24836000,323,1.28
+"Coklat dubai kunafa mini uk 8,5x4,5",,,Coklat,,,,1322,IDR,39660000,0,0,39660000,0,39660000,854,1.55
+Coklat Dubai Large,,,Coklat,,,,37,IDR,7400000,0,0,7400000,0,7400000,36,1.03
+Coklat melting bali,,,Coklat,,,,42,IDR,2310000,0,0,2310000,0,2310000,37,1.14
+Truffel coklat,,,Coklat,,,,9,IDR,45000,0,0,45000,0,45000,7,1.29
+Truffel coklat 4 pc,,,Coklat,,,,5,IDR,100000,0,0,100000,0,100000,4,1.25
+Truffel coklat isi 9,,,Coklat,,,,1,IDR,42000,0,0,42000,0,42000,1,1.0
+Cookies cinamoroll/melody,,,Cookies,,,,24,IDR,312000,0,0,312000,0,312000,20,1.2
+Cookies karakter ikat,,,Cookies,,,,19,IDR,114000,0,0,114000,0,114000,15,1.27
+Cookies tangkai,,,Cookies,,,,15,IDR,105000,0,0,105000,0,105000,11,1.36
+Cookis labubu 10 cm,,,Cookies,,,,155,IDR,2325000,0,0,2325000,0,2325000,112,1.38
+Cookis Labubu 6.5 cm,,,Cookies,,,,103,IDR,927000,0,0,927000,0,927000,59,1.75
+Meringue tangkai,,,Cookies,,,,18,IDR,54000,0,0,54000,0,54000,9,2.0
+Pop Cake,,,Cookies,,,,40,IDR,280000,0,0,280000,0,280000,32,1.25
+Soft cookies,,,Cookies,,,,482,IDR,4820000,0,0,4820000,0,4820000,264,1.83
+Cup cake birthday 4 pcs,,,Cup cake,,,,14,IDR,378000,0,0,378000,0,378000,13,1.08
+Cup cake isi 9,,,Cup cake,,,,6,IDR,420000,0,0,420000,0,420000,6,1.0
+Cup cake mika bulat pcs,,,Cup cake,,,,259,IDR,1554000,0,0,1554000,0,1554000,104,2.49
+Paket bento cupcake 2,,,Cup cake,,,,16,IDR,1200000,0,0,1200000,0,1200000,16,1.0
+Paket bento dan 5 cupcake,,,Cup cake,,,,4,IDR,420000,0,0,420000,0,420000,4,1.0
+Paket cupcake isi 6,,,Cup cake,,,,24,IDR,1200000,0,0,1200000,0,1200000,21,1.14
+Custom,,,CUSTOM,,,,250,IDR,24653000,0,0,24653000,0,24653000,212,1.18
+Dessert Box mini Triple Choco,,,Dessert box,,,,3,IDR,60000,0,0,60000,0,60000,1,3.0
+Mini dessert box Tiramisu,,,Dessert box,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Gelato Blue Monster Cup kecil,,,Gelato es krim,,,,14,IDR,196000,0,0,196000,0,196000,11,1.27
+Gelato Coklat Cup K,,,Gelato es krim,,,,6,IDR,84000,0,0,84000,0,84000,4,1.5
+Gelato es krim small (Promo),,,Gelato es krim,,,,114,IDR,1596000,0,0,1596000,0,1596000,87,1.31
+"Gelato es krim,Big (Promo)",,,Gelato es krim,,,,16,IDR,400000,0,0,400000,0,400000,13,1.23
+Gelato Mix Rasa Cup K,,,Gelato es krim,,,,4,IDR,56000,0,0,56000,0,56000,3,1.33
+Gelato Thai tea Cup K,,,Gelato es krim,,,,2,IDR,28000,0,0,28000,0,28000,2,1.0
+Gelato ice cream Cone K,,Blue Monster,Gelato es krim,,,,3,IDR,42000,0,0,42000,0,42000,2,1.5
+Gelato ice cream Cone K,,coklat,Gelato es krim,,,,1,IDR,14000,0,0,14000,0,14000,1,1.0
+Gelato ice cream Cone K,,Matcha,Gelato es krim,,,,2,IDR,28000,0,0,28000,0,28000,2,1.0
+Gelato ice cream Cone K,,Mix Rasa,Gelato es krim,,,,2,IDR,28000,0,0,28000,0,28000,1,2.0
+Gelato ice cream Cone K,,Strawberry Cheese cake,Gelato es krim,,,,1,IDR,14000,0,0,14000,0,14000,1,1.0
+Gelato ice cream Cone K,,Vanilla Almond,Gelato es krim,,,,1,IDR,14000,0,0,14000,0,14000,1,1.0
+Japanese Blueberry,,,Japanese,,,,24,IDR,1320000,0,0,1320000,0,1320000,23,1.04
+Japanese box mini choco noagat,,,Japanese,,,,254,IDR,5080000,0,0,5080000,0,5080000,221,1.15
+Japanese box minni cheese/mixberry,,,Japanese,,,,38,IDR,836000,0,0,836000,0,836000,37,1.03
+Japanese box minni Tiramisu,,,Japanese,,,,34,IDR,816000,0,0,816000,0,816000,34,1.0
+Japanese cake cheese,,,Japanese,,,,5,IDR,275000,0,0,275000,0,275000,5,1.0
+Japanese cake tiramisu,,,Japanese,,,,32,IDR,1920000,0,0,1920000,0,1920000,32,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,131,IDR,6550000,0,0,6550000,0,6550000,103,1.27
+Japanese fruit cake strawberry,,,Japanese,,,,3,IDR,510000,0,0,510000,0,510000,3,1.0
+Japanese greentea cake,,,Japanese,,,,30,IDR,1500000,5000,0,1495000,0,1495000,30,1.0
+Japanese Matcha Almond Mini,,,Japanese,,,,11,IDR,220000,0,0,220000,0,220000,9,1.22
+Japanese Minni Strawberry,,,Japanese,,,,24,IDR,480000,0,0,480000,0,480000,21,1.14
+Japanese strawberry,,,Japanese,,,,185,IDR,9250000,25000,0,9225000,0,9225000,170,1.09
+Dus putih besar,,,Lilin,,,,6,IDR,12000,0,0,12000,0,12000,4,1.5
+Korek api,,,Lilin,,,,6,IDR,30000,0,0,30000,0,30000,6,1.0
+Lilin angka Gold,,,Lilin,,,,94,IDR,564000,0,0,564000,0,564000,71,1.32
+Lilin kecil Pcs,,,Lilin,,,,47,IDR,47000,0,0,47000,0,47000,21,2.24
+Lilin magic pack,,,Lilin,,,,22,IDR,154000,0,0,154000,0,154000,22,1.0
+Lilin spiral,,,Lilin,,,,335,IDR,837500,0,0,837500,0,837500,156,2.15
+Papan ucapan (fondant),,,Lilin,,,,243,IDR,486000,0,0,486000,0,486000,216,1.13
+Piring kertas,,,Lilin,,,,1,IDR,12000,0,0,12000,0,12000,1,1.0
+Tas kain,,,Lilin,,,,1,IDR,2000,0,0,2000,0,2000,1,1.0
+Topper bday mini,,,Lilin,,,,1,IDR,5000,0,0,5000,0,5000,1,1.0
+Topper Birthday,,,Lilin,,,,9,IDR,63000,0,0,63000,0,63000,8,1.13
+Topper karakter,,,Lilin,,,,3,IDR,45000,0,0,45000,0,45000,3,1.0
+Macaron baby isi 20 pcs,,,Macaron,,,,6,IDR,288000,0,0,288000,0,288000,6,1.0
+macaron baby isi 30,,,Macaron,,,,2,IDR,126000,0,0,126000,0,126000,2,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,6,IDR,102000,0,0,102000,0,102000,6,1.0
+Macaron gift 16,,,Macaron,,,,1,IDR,65000,0,0,65000,0,65000,1,1.0
+Macaron gift 18 pcs,,,Macaron,,,,2,IDR,140000,0,0,140000,0,140000,2,1.0
+Macaron gift 25,,,Macaron,,,,3,IDR,255000,0,0,255000,0,255000,3,1.0
+Macaron gift 32,,,Macaron,,,,1,IDR,110000,0,0,110000,0,110000,1,1.0
+Macaron gift isi 12,,,Macaron,,,,2,IDR,110000,0,0,110000,0,110000,2,1.0
+Macaron gift isi 6 pcs,,,Macaron,,,,4,IDR,80000,0,0,80000,0,80000,4,1.0
+Macaron gift isi 9,,,Macaron,,,,6,IDR,240000,0,0,240000,0,240000,6,1.0
+Macaron isi 18,,,Macaron,,,,4,IDR,200000,0,0,200000,0,200000,4,1.0
+Macaron isi 27,,,Macaron,,,,1,IDR,70000,0,0,70000,0,70000,1,1.0
+Macaron isi 8,,,Macaron,,,,4,IDR,100000,0,0,100000,0,100000,4,1.0
+Macaron Reguler,,,Macaron,,,,37,IDR,296000,0,0,296000,0,296000,28,1.32
+Macaron shell,,,Macaron,,,,4,IDR,48000,0,0,48000,0,48000,4,1.0
+Air mineral botol,,,Menu,,,,20,IDR,60000,0,0,60000,0,60000,17,1.18
+Bangkok Crepes,,,Menu,,,,83,IDR,664000,0,0,664000,0,664000,54,1.54
+Butter cookies Red velvet/Oreo/Matcha,,,Menu,,,,1,IDR,25000,0,0,25000,0,25000,1,1.0
+Kacang Goreng  bawang Toples,,,Menu,,,,1,IDR,45000,0,0,45000,0,45000,1,1.0
+Kartu capan,,,Menu,,,,6,IDR,18000,0,0,18000,0,18000,6,1.0
+kunafa tiramisu slice,,,Menu,,,,25,IDR,500000,0,0,500000,0,500000,23,1.09
+Macaron Cracky,,,Menu,,,,4,IDR,100000,0,0,100000,0,100000,4,1.0
+Mochi box isi 3,,,Menu,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Pisang Bolen box isi 10,,,Menu,,,,18,IDR,450000,0,0,450000,0,450000,15,1.2
+Puding buah UK 22 cm,,,Menu,,,,2,IDR,240000,0,0,240000,0,240000,2,1.0
+Rice Choco Jar,,,Menu,,,,76,IDR,1140000,0,0,1140000,0,1140000,59,1.29
+Serundeng kacang teri medan toples,,,Menu,,,,8,IDR,200000,0,0,200000,0,200000,7,1.14
+Florentine Cookies,,Pcs,Menu,,,,1,IDR,4000,0,0,4000,0,4000,1,1.0
+Mille Crepes loyang,,,Mille Crepes,,,,8,IDR,1520000,0,0,1520000,0,1520000,8,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,66,IDR,1320000,0,0,1320000,0,1320000,55,1.2
+Mille Crepes Slice,,,Mille Crepes,,,,360,IDR,6480000,0,0,6480000,0,6480000,284,1.27
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,255,IDR,4590000,0,0,4590000,0,4590000,201,1.27
+Mochi daifuku pcs (mika),,,Mochi,,,,23,IDR,184000,0,0,184000,0,184000,16,1.44
+Mochi Daifuku pcs pouch,,,Mochi,,,,255,IDR,1785000,0,0,1785000,0,1785000,143,1.78
+Mochi durian,,,Mochi,,,,19,IDR,171000,0,0,171000,0,171000,6,3.17
+Puding buah sedang,,,Puding,,,,54,IDR,3510000,0,0,3510000,0,3510000,49,1.1
+Puding coklat,,,Puding,,,,14,IDR,910000,0,0,910000,0,910000,13,1.08
+Puding cookie cream,,,Puding,,,,19,IDR,1235000,0,0,1235000,0,1235000,18,1.06
+Brownies Fudgy Box isi 10,,,Brownies,,,,25,IDR,1000000,0,0,1000000,0,1000000,19,1.32
+Brownies Kunafa,,,Brownies,,,,30,IDR,750000,0,0,750000,0,750000,26,1.15
+Fudgy Brownies Bar,,,Brownies,,,,18,IDR,180000,0,0,180000,0,180000,15,1.2
+Almond Choco Ganache 16 cm,,,Cake,,,,1,IDR,150000,0,0,150000,0,150000,1,1.0
+Bento cake edible,,,Cake,,,,7,IDR,560000,0,0,560000,0,560000,7,1.0
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,134,IDR,7370000,0,0,7370000,0,7370000,131,1.02
+Bento cake Mahkota,,,Cake,,,,14,IDR,910000,0,0,910000,0,910000,14,1.0
+Bento Cake polos,,,Cake,,,,93,IDR,4650000,0,0,4650000,0,4650000,91,1.02
+Bento edible karakter mini,,,Cake,,,,13,IDR,845000,0,0,845000,0,845000,12,1.08
+Bento Hias Karakter,,,Cake,,,,89,IDR,5340000,0,0,5340000,0,5340000,88,1.01
+Bento Ugly cake,,,Cake,,,,2,IDR,130000,0,0,130000,0,130000,2,1.0
+Bogel cake,,,Cake,,,,2,IDR,70000,0,0,70000,0,70000,2,1.0
+Burn CheeseCake,,,Cake,,,,9,IDR,252000,0,0,252000,0,252000,8,1.13
+Burn Cheesecake box,,,Cake,,,,2,IDR,200000,0,0,200000,0,200000,2,1.0
+Cake 16x6 cm,,,Cake,,,,20,IDR,2800000,0,0,2800000,0,2800000,20,1.0
+Cake 18 cm hiasan polos,,,Cake,,,,18,IDR,2880000,0,0,2880000,0,2880000,18,1.0
+Cake 18 cm kupu-kupu,,,Cake,,,,19,IDR,3135000,0,0,3135000,0,3135000,19,1.0
+cake 18x6 karakter,,,Cake,,,,3,IDR,510000,0,0,510000,0,510000,3,1.0
+Cake labubu 6x8,,,Cake,,,,16,IDR,1600000,0,0,1600000,0,1600000,16,1.0
+Cake Topper uk 18x6,,,Cake,,,,2,IDR,380000,0,0,380000,0,380000,2,1.0
+Comic cake,,,Cake,,,,36,IDR,2520000,0,0,2520000,0,2520000,34,1.06
+double cheese cake,,,Cake,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Italian tiramisu slice promo,,,Cake,,,,47,IDR,705000,0,0,705000,0,705000,39,1.21
+Minni  chiffon pcs,,,Cake,,,,29,IDR,580000,0,0,580000,0,580000,25,1.16
+Minni chiffon isi 2,,,Cake,,,,25,IDR,1250000,0,0,1250000,0,1250000,24,1.04
+Minni chiffon isi 4,,,Cake,,,,7,IDR,630000,0,0,630000,0,630000,7,1.0
+coklat dubai hazelnut,,,Coklat,,,,20,IDR,900000,0,0,900000,0,900000,18,1.11
+Coklat dubai kunafa medium uk 11x5,,,Coklat,,,,86,IDR,5160000,0,0,5160000,0,5160000,76,1.13
+"Coklat dubai kunafa mini uk 8,5x4,5",,,Coklat,,,,328,IDR,9840000,5000,0,9835000,0,9835000,236,1.39
+Coklat Dubai Large,,,Coklat,,,,8,IDR,1600000,0,0,1600000,0,1600000,8,1.0
+Coklat melting bali,,,Coklat,,,,24,IDR,1320000,0,0,1320000,0,1320000,24,1.0
+Truffel coklat,,,Coklat,,,,4,IDR,20000,0,0,20000,0,20000,4,1.0
+Truffel coklat 4 pc,,,Coklat,,,,3,IDR,66000,0,0,66000,0,66000,3,1.0
+Cookies cinamoroll/melody,,,Cookies,,,,8,IDR,104000,0,0,104000,0,104000,8,1.0
+Cookies karakter ikat,,,Cookies,,,,62,IDR,434000,0,0,434000,0,434000,32,1.94
+Cookies tangkai,,,Cookies,,,,7,IDR,49000,0,0,49000,0,49000,6,1.17
+Cookis labubu 10 cm,,,Cookies,,,,58,IDR,870000,0,0,870000,0,870000,43,1.35
+Cookis Labubu 6.5 cm,,,Cookies,,,,96,IDR,864000,0,0,864000,0,864000,52,1.85
+Meringue tangkai,,,Cookies,,,,53,IDR,159000,0,0,159000,0,159000,33,1.61
+Pop Cake,,,Cookies,,,,102,IDR,714000,0,0,714000,0,714000,69,1.48
+Soft cookies,,,Cookies,,,,443,IDR,4430000,2000,0,4428000,0,4428000,210,2.11
+Cup cake birthday 4 pcs,,,Cup cake,,,,2,IDR,60000,0,0,60000,0,60000,2,1.0
+Cup cake isi 9,,,Cup cake,,,,4,IDR,320000,0,0,320000,0,320000,4,1.0
+Cup cake mika bulat pcs,,,Cup cake,,,,225,IDR,1575000,0,0,1575000,0,1575000,54,4.17
+Paket bento cupcake 2,,,Cup cake,,,,8,IDR,600000,0,0,600000,0,600000,7,1.14
+Paket bento dan 5 cupcake,,,Cup cake,,,,3,IDR,330000,0,0,330000,0,330000,3,1.0
+Paket cupcake isi 6,,,Cup cake,,,,3,IDR,165000,0,0,165000,0,165000,3,1.0
+Custom,,,CUSTOM,,,,196,IDR,21226500,0,0,21226500,0,21226500,171,1.15
+Gelato Blue Monster Cup kecil,,,Gelato es krim,,,,45,IDR,630000,0,0,630000,0,630000,33,1.36
+Gelato Coklat Cup K,,,Gelato es krim,,,,5,IDR,70000,0,0,70000,0,70000,5,1.0
+Gelato Cup Strawberry Cheese cake K,,,Gelato es krim,,,,3,IDR,42000,0,0,42000,0,42000,3,1.0
+Gelato es krim small (Promo),,,Gelato es krim,,,,5,IDR,70000,0,0,70000,0,70000,5,1.0
+"Gelato es krim,Big (Promo)",,,Gelato es krim,,,,11,IDR,275000,0,0,275000,0,275000,10,1.1
+Gelato Matcha Cup K,,,Gelato es krim,,,,2,IDR,28000,0,0,28000,0,28000,2,1.0
+Gelato Mix Rasa Cup K,,,Gelato es krim,,,,21,IDR,294000,9000,0,285000,0,285000,13,1.62
+Gelato Vanilla Almond cup K,,,Gelato es krim,,,,1,IDR,14000,0,0,14000,0,14000,1,1.0
+Gelato ice cream Cone K,,Blue Monster,Gelato es krim,,,,3,IDR,42000,0,0,42000,0,42000,2,1.5
+Gelato ice cream Cone K,,coklat,Gelato es krim,,,,2,IDR,28000,0,0,28000,0,28000,2,1.0
+Gelato ice cream Cone K,,Mix Rasa,Gelato es krim,,,,7,IDR,98000,0,0,98000,0,98000,7,1.0
+Gelato ice cream Cone K,,Strawberry Cheese cake,Gelato es krim,,,,3,IDR,42000,0,0,42000,0,42000,3,1.0
+Gelato ice cream Cone K,,Tiramisu,Gelato es krim,,,,3,IDR,42000,0,0,42000,0,42000,3,1.0
+Japanese Blueberry,,,Japanese,,,,12,IDR,660000,0,0,660000,0,660000,12,1.0
+Japanese box mini choco noagat,,,Japanese,,,,45,IDR,990000,0,0,990000,0,990000,41,1.1
+Japanese box minni cheese/mixberry,,,Japanese,,,,15,IDR,330000,0,0,330000,0,330000,15,1.0
+Japanese box minni Tiramisu,,,Japanese,,,,11,IDR,264000,0,0,264000,0,264000,10,1.1
+Japanese cake cheese,,,Japanese,,,,5,IDR,275000,0,0,275000,0,275000,5,1.0
+Japanese cake tiramisu,,,Japanese,,,,4,IDR,240000,0,0,240000,0,240000,4,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,41,IDR,2255000,3000,0,2252000,0,2252000,41,1.0
+Japanese fruit cake anggur,,,Japanese,,,,1,IDR,190000,0,0,190000,0,190000,1,1.0
+Japanese fruit cake strawberry,,,Japanese,,,,3,IDR,510000,0,0,510000,0,510000,3,1.0
+Japanese greentea cake,,,Japanese,,,,13,IDR,650000,0,0,650000,0,650000,13,1.0
+Japanese Matcha Almond Mini,,,Japanese,,,,30,IDR,600000,0,0,600000,0,600000,30,1.0
+Japanese Minni Strawberry,,,Japanese,,,,134,IDR,2680000,0,0,2680000,0,2680000,97,1.38
+Japanese strawberry,,,Japanese,,,,138,IDR,6900000,0,0,6900000,0,6900000,128,1.08
+Dus putih besar,,,Lilin,,,,7,IDR,14000,0,0,14000,0,14000,3,2.33
+Korek api,,,Lilin,,,,7,IDR,35000,0,0,35000,0,35000,7,1.0
+Lilin angka Gold,,,Lilin,,,,96,IDR,576000,0,0,576000,0,576000,75,1.28
+Lilin kecil Pcs,,,Lilin,,,,31,IDR,31000,0,0,31000,0,31000,14,2.21
+Lilin magic pack,,,Lilin,,,,10,IDR,70000,0,0,70000,0,70000,10,1.0
+Lilin spiral,,,Lilin,,,,306,IDR,765000,0,0,765000,0,765000,148,2.07
+Papan ucapan (fondant),,,Lilin,,,,148,IDR,296000,0,0,296000,0,296000,141,1.05
+Piring kertas,,,Lilin,,,,3,IDR,36000,0,0,36000,0,36000,2,1.5
+Tas kain,,,Lilin,,,,3,IDR,6000,0,0,6000,0,6000,3,1.0
+Topper Birthday,,,Lilin,,,,10,IDR,70000,0,0,70000,0,70000,8,1.25
+Topper karakter,,,Lilin,,,,7,IDR,105000,0,0,105000,0,105000,6,1.17
+Macaron baby isi 20 pcs,,,Macaron,,,,3,IDR,144000,0,0,144000,0,144000,3,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,4,IDR,68000,0,0,68000,0,68000,3,1.33
+Macaron gift 16,,,Macaron,,,,2,IDR,130000,0,0,130000,0,130000,2,1.0
+Macaron gift 18 pcs,,,Macaron,,,,3,IDR,210000,0,0,210000,0,210000,3,1.0
+Macaron gift 32,,,Macaron,,,,1,IDR,110000,0,0,110000,0,110000,1,1.0
+Macaron gift isi 12,,,Macaron,,,,3,IDR,165000,0,0,165000,0,165000,3,1.0
+Macaron gift isi 6 pcs,,,Macaron,,,,2,IDR,40000,0,0,40000,0,40000,2,1.0
+Macaron gift isi 9,,,Macaron,,,,1,IDR,40000,0,0,40000,0,40000,1,1.0
+Macaron isi 18,,,Macaron,,,,8,IDR,400000,0,0,400000,0,400000,7,1.14
+Macaron isi 48,,,Macaron,,,,2,IDR,200000,0,0,200000,0,200000,2,1.0
+Macaron isi 8,,,Macaron,,,,12,IDR,300000,0,0,300000,0,300000,12,1.0
+Macaron Reguler,,,Macaron,,,,25,IDR,200000,0,0,200000,0,200000,18,1.39
+Macaron shell,,,Macaron,,,,1,IDR,12000,0,0,12000,0,12000,1,1.0
+Air mineral botol,,,Menu,,,,13,IDR,39000,0,0,39000,0,39000,12,1.08
+Bangkok Crepes,,,Menu,,,,59,IDR,472000,0,0,472000,0,472000,43,1.37
+Kartu capan,,,Menu,,,,4,IDR,12000,0,0,12000,0,12000,4,1.0
+kunafa tiramisu slice,,,Menu,,,,7,IDR,140000,0,0,140000,0,140000,6,1.17
+Paket Promo Dubai Medium 2 pcs,,,Menu,,,,16,IDR,1600000,0,0,1600000,0,1600000,16,1.0
+Paket Promo Dubai small 2 pcs,,,Menu,,,,76,IDR,3800000,0,0,3800000,0,3800000,68,1.12
+Pancake durian pcs,,,Menu,,,,10,IDR,120000,0,0,120000,0,120000,7,1.43
+Pisang Bolen box isi 10,,,Menu,,,,11,IDR,297000,0,0,297000,0,297000,10,1.1
+Puding buah UK 22 cm,,,Menu,,,,3,IDR,360000,0,0,360000,0,360000,3,1.0
+Rice Choco Jar,,,Menu,,,,73,IDR,1095000,0,0,1095000,0,1095000,24,3.04
+Milk bun mini Tiramisu,,,Milk bun,,,,2,IDR,18000,0,0,18000,0,18000,2,1.0
+Thai Milk bun,,,Milk bun,,,,13,IDR,416000,0,0,416000,0,416000,13,1.0
+Thai Milk bun mini,,,Milk bun,,,,11,IDR,88000,0,0,88000,0,88000,11,1.0
+Mille Crepes loyang,,,Mille Crepes,,,,9,IDR,1710000,0,0,1710000,0,1710000,9,1.0
+Mille Crepes Mix 5 Slice,,,Mille Crepes,,,,2,IDR,220000,0,0,220000,0,220000,2,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,50,IDR,1000000,0,0,1000000,0,1000000,45,1.11
+Mille Crepes Slice,,,Mille Crepes,,,,229,IDR,4122000,6000,0,4116000,0,4116000,177,1.29
+Mochi bites susu,,,Mochi,,,,1,IDR,20000,0,0,20000,0,20000,1,1.0
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,141,IDR,2810000,0,0,2810000,0,2810000,122,1.16
+Mochi daifuku pcs (mika),,,Mochi,,,,2,IDR,18000,0,0,18000,0,18000,2,1.0
+Mochi Daifuku pcs pouch,,,Mochi,,,,224,IDR,1790000,0,0,1790000,0,1790000,121,1.85
+Mochi durian,,,Mochi,,,,16,IDR,160000,0,0,160000,0,160000,12,1.33
+Puding buah sedang,,,Puding,,,,29,IDR,1885000,25000,0,1860000,0,1860000,26,1.12
+Puding coklat,,,Puding,,,,11,IDR,715000,0,0,715000,0,715000,10,1.1
+Puding cookie cream,,,Puding,,,,14,IDR,910000,0,0,910000,0,910000,14,1.0
+Brownies Fudgy Box isi 10,,,Brownies,,,,23,IDR,920000,0,0,920000,0,920000,22,1.05
+Brownies Kunafa,,,Brownies,,,,40,IDR,1000000,0,0,1000000,0,1000000,36,1.11
+Fudgy Brownies Bar,,,Brownies,,,,40,IDR,400000,0,0,400000,0,400000,30,1.33
+Bento cake edible,,,Cake,,,,3,IDR,240000,0,0,240000,0,240000,3,1.0
+"Bento cake kupu-kupu,bunga-bunga,Hiasan pinggir",,,Cake,,,,126,IDR,6930000,0,0,6930000,0,6930000,124,1.02
+Bento cake Mahkota,,,Cake,,,,10,IDR,650000,0,0,650000,0,650000,10,1.0
+Bento Cake polos,,,Cake,,,,86,IDR,4300000,0,0,4300000,0,4300000,84,1.02
+Bento edible karakter mini,,,Cake,,,,17,IDR,1105000,0,0,1105000,0,1105000,17,1.0
+Bento Hias Karakter,,,Cake,,,,59,IDR,3540000,0,0,3540000,0,3540000,59,1.0
+Bento Ugly cake,,,Cake,,,,2,IDR,130000,0,0,130000,0,130000,2,1.0
+Bogel cake,,,Cake,,,,2,IDR,70000,0,0,70000,0,70000,2,1.0
+Bolu Gulungg,,,Cake,,,,1,IDR,10000,0,0,10000,0,10000,1,1.0
+Burn CheeseCake,,,Cake,,,,13,IDR,364000,0,0,364000,0,364000,11,1.18
+Cake  ultah 12 cm,,,Cake,,,,1,IDR,120000,0,0,120000,0,120000,1,1.0
+Cake 16x6 cm,,,Cake,,,,16,IDR,2240000,0,0,2240000,0,2240000,16,1.0
+Cake 18 cm hiasan polos,,,Cake,,,,16,IDR,2560000,0,0,2560000,0,2560000,16,1.0
+Cake 18 cm kupu-kupu,,,Cake,,,,12,IDR,1980000,0,0,1980000,0,1980000,12,1.0
+cake 18x6 karakter,,,Cake,,,,5,IDR,850000,0,0,850000,0,850000,5,1.0
+Cake labubu 6x8,,,Cake,,,,13,IDR,1300000,0,0,1300000,0,1300000,13,1.0
+Comic cake,,,Cake,,,,20,IDR,1400000,0,0,1400000,0,1400000,20,1.0
+double cheese cake,,,Cake,,,,1,IDR,50000,0,0,50000,0,50000,1,1.0
+Italian tiramisu slice promo,,,Cake,,,,38,IDR,570000,0,0,570000,0,570000,34,1.12
+Mini Chiffon isi 1,,,Cake,,,,2,IDR,60000,0,0,60000,0,60000,2,1.0
+Minni  chiffon pcs,,,Cake,,,,32,IDR,640000,0,0,640000,0,640000,25,1.28
+Minni chiffon isi 2,,,Cake,,,,15,IDR,750000,0,0,750000,0,750000,15,1.0
+Minni chiffon isi 4,,,Cake,,,,9,IDR,810000,0,0,810000,0,810000,9,1.0
+coklat dubai hazelnut,,,Coklat,,,,17,IDR,765000,0,0,765000,0,765000,15,1.13
+Coklat dubai kunafa medium uk 11x5,,,Coklat,,,,70,IDR,4200000,0,0,4200000,0,4200000,59,1.19
+"Coklat dubai kunafa mini uk 8,5x4,5",,,Coklat,,,,209,IDR,6270000,0,0,6270000,0,6270000,148,1.41
+Coklat Dubai Large,,,Coklat,,,,7,IDR,1400000,0,0,1400000,0,1400000,7,1.0
+Coklat melting bali,,,Coklat,,,,13,IDR,715000,0,0,715000,0,715000,13,1.0
+Coklat truffel isi 25,,,Coklat,,,,2,IDR,190000,0,0,190000,0,190000,2,1.0
+Dubai Gold Chocolate,,,Coklat,,,,4,IDR,410000,0,0,410000,0,410000,4,1.0
+Dubai Gold Pcs,,,Coklat,,,,9,IDR,63000,0,0,63000,0,63000,6,1.5
+Truffel coklat,,,Coklat,,,,5,IDR,25000,0,0,25000,0,25000,3,1.67
+Truffel coklat 4 pc,,,Coklat,,,,6,IDR,132000,0,0,132000,0,132000,6,1.0
+Truffel coklat isi 9,,,Coklat,,,,1,IDR,47000,0,0,47000,0,47000,1,1.0
+Cookies cinamoroll/melody,,,Cookies,,,,13,IDR,169000,0,0,169000,0,169000,12,1.08
+Cookies cream pie,,,Cookies,,,,6,IDR,90000,4000,0,86000,0,86000,4,1.5
+Cookies karakter ikat,,,Cookies,,,,92,IDR,644000,0,0,644000,0,644000,42,2.19
+Cookies tangkai,,,Cookies,,,,6,IDR,42000,0,0,42000,0,42000,5,1.2
+Cookis labubu 10 cm,,,Cookies,,,,49,IDR,735000,0,0,735000,0,735000,34,1.44
+Cookis Labubu 6.5 cm,,,Cookies,,,,72,IDR,648000,0,0,648000,0,648000,40,1.8
+Meringue tangkai,,,Cookies,,,,46,IDR,138000,0,0,138000,0,138000,22,2.09
+Pop Cake,,,Cookies,,,,47,IDR,329000,0,0,329000,0,329000,37,1.27
+Soft cookies,,,Cookies,,,,364,IDR,3640000,0,0,3640000,0,3640000,154,2.36
+Cup cake birthday 4 pcs,,,Cup cake,,,,5,IDR,150000,0,0,150000,0,150000,5,1.0
+Cup cake mika bulat pcs,,,Cup cake,,,,280,IDR,1960000,0,0,1960000,0,1960000,52,5.38
+Paket bento cupcake 2,,,Cup cake,,,,6,IDR,450000,0,0,450000,0,450000,5,1.2
+Paket bento dan 5 cupcake,,,Cup cake,,,,5,IDR,550000,0,0,550000,0,550000,5,1.0
+Paket cupcake isi 6,,,Cup cake,,,,12,IDR,660000,0,0,660000,0,660000,12,1.0
+Custom,,,CUSTOM,,,,162,IDR,18812000,0,0,18812000,0,18812000,160,1.01
+Mini Dessert Blueberry Cheese,,,Dessert box,,,,2,IDR,50000,0,0,50000,0,50000,2,1.0
+Gelato Blue Monster Cup kecil,,,Gelato es krim,,,,31,IDR,434000,0,0,434000,0,434000,28,1.11
+Gelato Coklat Cup K,,,Gelato es krim,,,,4,IDR,56000,0,0,56000,0,56000,4,1.0
+Gelato Cup Strawberry Cheese cake K,,,Gelato es krim,,,,1,IDR,14000,0,0,14000,0,14000,1,1.0
+Gelato es krim small (Promo),,,Gelato es krim,,,,13,IDR,182000,0,0,182000,0,182000,11,1.18
+"Gelato es krim,Big (Promo)",,,Gelato es krim,,,,5,IDR,125000,0,0,125000,0,125000,5,1.0
+Gelato Matcha Cup K,,,Gelato es krim,,,,1,IDR,14000,0,0,14000,0,14000,1,1.0
+Gelato Mix Rasa Cup K,,,Gelato es krim,,,,18,IDR,252000,0,0,252000,0,252000,13,1.38
+Gelato Tiramisu Cup K,,,Gelato es krim,,,,1,IDR,14000,0,0,14000,0,14000,1,1.0
+Gelato Vanilla Almond cup K,,,Gelato es krim,,,,3,IDR,42000,0,0,42000,0,42000,2,1.5
+Gelato ice cream Cone K,,Blue Monster,Gelato es krim,,,,1,IDR,14000,0,0,14000,0,14000,1,1.0
+Gelato ice cream Cone K,,coklat,Gelato es krim,,,,2,IDR,28000,0,0,28000,0,28000,2,1.0
+Gelato ice cream Cone K,,Matcha,Gelato es krim,,,,1,IDR,14000,0,0,14000,0,14000,1,1.0
+Gelato ice cream Cone K,,Mix Rasa,Gelato es krim,,,,4,IDR,56000,0,0,56000,0,56000,3,1.33
+Gelato ice cream Cone K,,Vanilla Almond,Gelato es krim,,,,2,IDR,28000,0,0,28000,0,28000,2,1.0
+Japanese Blueberry,,,Japanese,,,,14,IDR,770000,0,0,770000,0,770000,14,1.0
+Japanese box mini choco noagat,,,Japanese,,,,51,IDR,1122000,0,0,1122000,0,1122000,44,1.16
+Japanese box minni cheese/mixberry,,,Japanese,,,,14,IDR,308000,0,0,308000,0,308000,14,1.0
+Japanese box minni Tiramisu,,,Japanese,,,,13,IDR,312000,0,0,312000,0,312000,13,1.0
+Japanese cake cheese,,,Japanese,,,,5,IDR,275000,0,0,275000,0,275000,5,1.0
+Japanese cake tiramisu,,,Japanese,,,,12,IDR,720000,0,0,720000,0,720000,12,1.0
+Japanese Choco Nougat cake,,,Japanese,,,,48,IDR,2640000,0,0,2640000,0,2640000,46,1.04
+Japanese fruit cake strawberry,,,Japanese,,,,4,IDR,680000,0,0,680000,0,680000,4,1.0
+Japanese greentea cake,,,Japanese,,,,19,IDR,950000,0,0,950000,0,950000,17,1.12
+Japanese Matcha Almond Mini,,,Japanese,,,,39,IDR,780000,0,0,780000,0,780000,34,1.15
+Japanese Minni Strawberry,,,Japanese,,,,79,IDR,1580000,0,0,1580000,0,1580000,75,1.05
+Japanese strawberry,,,Japanese,,,,104,IDR,5200000,0,0,5200000,0,5200000,98,1.06
+kopita (kopi susu asli)Special,,,kopi,,,,1,IDR,14000,0,0,14000,0,14000,1,1.0
+kopita(kopi susu asli ),,,kopi,,,,6,IDR,60000,0,0,60000,0,60000,3,2.0
+Dus putih besar,,,Lilin,,,,14,IDR,28000,0,0,28000,0,28000,8,1.75
+Korek api,,,Lilin,,,,6,IDR,30000,0,0,30000,0,30000,6,1.0
+Lilin angka Gold,,,Lilin,,,,71,IDR,426000,0,0,426000,0,426000,53,1.34
+Lilin kecil Pcs,,,Lilin,,,,24,IDR,24000,0,0,24000,0,24000,12,2.0
+Lilin magic pack,,,Lilin,,,,19,IDR,133000,0,0,133000,0,133000,19,1.0
+Lilin spiral,,,Lilin,,,,246,IDR,615000,1000,0,614000,0,614000,121,2.03
+Papan ucapan (fondant),,,Lilin,,,,143,IDR,286000,0,0,286000,0,286000,133,1.08
+Piring kertas,,,Lilin,,,,4,IDR,48000,0,0,48000,0,48000,4,1.0
+Topper Birthday,,,Lilin,,,,4,IDR,28000,0,0,28000,0,28000,4,1.0
+Topper karakter,,,Lilin,,,,11,IDR,165000,0,0,165000,0,165000,10,1.1
+Macaron baby isi 20 pcs,,,Macaron,,,,3,IDR,144000,0,0,144000,0,144000,3,1.0
+macaron baby isi 30,,,Macaron,,,,1,IDR,63000,0,0,63000,0,63000,1,1.0
+Macaron gift  isi 4 pcs,,,Macaron,,,,8,IDR,136000,0,0,136000,0,136000,8,1.0
+Macaron gift 16,,,Macaron,,,,1,IDR,70000,0,0,70000,0,70000,1,1.0
+Macaron gift 18 pcs,,,Macaron,,,,1,IDR,70000,0,0,70000,0,70000,1,1.0
+Macaron gift 25,,,Macaron,,,,3,IDR,260000,0,0,260000,0,260000,3,1.0
+Macaron gift 32,,,Macaron,,,,1,IDR,110000,0,0,110000,0,110000,1,1.0
+Macaron gift isi 9,,,Macaron,,,,4,IDR,172000,0,0,172000,0,172000,4,1.0
+Macaron isi 50 toples,,,Macaron,,,,1,IDR,90000,0,0,90000,0,90000,1,1.0
+Macaron isi 8,,,Macaron,,,,7,IDR,175000,0,0,175000,0,175000,7,1.0
+Macaron Reguler,,,Macaron,,,,40,IDR,320000,0,0,320000,0,320000,17,2.35
+Air mineral botol,,,Menu,,,,11,IDR,33000,0,0,33000,0,33000,11,1.0
+Bangkok Crepes,,,Menu,,,,74,IDR,592000,0,0,592000,0,592000,50,1.48
+Kartu capan,,,Menu,,,,8,IDR,24000,0,0,24000,0,24000,4,2.0
+Macaron Cracky,,,Menu,,,,4,IDR,108000,0,0,108000,0,108000,2,2.0
+Pancake durian pcs,,,Menu,,,,11,IDR,132000,0,0,132000,0,132000,5,2.2
+Pisang Bolen box isi 10,,,Menu,,,,16,IDR,432000,0,0,432000,0,432000,15,1.07
+Puding buah UK 22 cm,,,Menu,,,,3,IDR,360000,0,0,360000,0,360000,3,1.0
+Rice Choco Jar,,,Menu,,,,24,IDR,360000,0,0,360000,0,360000,15,1.6
+Roll cake peanut/Almond caramel,,,Menu,,,,6,IDR,84000,12000,0,72000,0,72000,6,1.0
+stick keju,,,Menu,,,,4,IDR,72000,0,0,72000,0,72000,4,1.0
+Tokyo milk cookies,,,Menu,,,,3,IDR,15000,0,0,15000,0,15000,3,1.0
+Milk bun mini Tiramisu,,,Milk bun,,,,1,IDR,9000,0,0,9000,0,9000,1,1.0
+Milk bun Tiramisu,,,Milk bun,,,,2,IDR,76000,0,0,76000,0,76000,2,1.0
+Thai Milk bun,,,Milk bun,,,,18,IDR,576000,0,0,576000,0,576000,13,1.38
+Thai Milk bun mini,,,Milk bun,,,,10,IDR,80000,0,0,80000,0,80000,8,1.25
+Mille Crepes loyang,,,Mille Crepes,,,,10,IDR,1900000,0,0,1900000,0,1900000,10,1.0
+Mille Crepes Mix 5 Slice,,,Mille Crepes,,,,2,IDR,220000,0,0,220000,0,220000,2,1.0
+Mille Crepes Rainbow,,,Mille Crepes,,,,36,IDR,720000,0,0,720000,0,720000,31,1.16
+Mille Crepes Slice,,,Mille Crepes,,,,230,IDR,4140000,0,0,4140000,0,4140000,160,1.44
+Mochi box isi 3 (Harga Promo),,,Mochi,,,,124,IDR,2480000,0,0,2480000,0,2480000,98,1.27
+Mochi daifuku pcs (mika),,,Mochi,,,,1,IDR,9000,0,0,9000,0,9000,1,1.0
+Mochi Daifuku pcs pouch,,,Mochi,,,,120,IDR,960000,0,0,960000,0,960000,74,1.62
+Mochi durian,,,Mochi,,,,16,IDR,160000,0,0,160000,0,160000,11,1.45
+Puding buah sedang,,,Puding,,,,30,IDR,1950000,0,0,1950000,0,1950000,30,1.0
+Puding coklat,,,Puding,,,,10,IDR,650000,0,0,650000,0,650000,10,1.0
+Puding cookie cream,,,Puding,,,,15,IDR,975000,0,0,975000,0,975000,14,1.07

@@ -1,0 +1,4 @@
+category,model,m,trend,seasonal,alpha,beta,gamma,initialization_method,composite_wmape,wmape_holdout,wmape_cv
+Cake,Holt-Winters Mul,26,,mul,0.4489,0.0,0.0,estimated,16.5,19.26,13.75
+Japanese,Holt-Winters Mul,26,,mul,0.3995,0.0,0.0,estimated,19.87,15.33,24.42
+Mille Crepes,Holt-Winters Mul,8,,mul,0.4977,0.0,0.0,estimated,18.0,21.68,14.32

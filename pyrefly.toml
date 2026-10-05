@@ -1,0 +1,10 @@
+project-includes = [
+    "**/*.py",
+]
+project-excludes = [
+    "**/*.ipynb",
+]
+python-interpreter-path = "C:/Users/admin/miniconda3/envs/skripsi_env/python.exe"
+site-package-path = [
+    "C:/Users/admin/miniconda3/envs/skripsi_env/Lib/site-packages",
+]
