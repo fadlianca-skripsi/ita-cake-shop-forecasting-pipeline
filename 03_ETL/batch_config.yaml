@@ -1,0 +1,98 @@
+# ==============================================================================
+# BATCH CONFIGURATION: ITA CAKE SHOP BIGQUERY SANDBOX PIPELINE
+# Standar Operasional Batch Mingguan (W-MON) & Sandbox-Compatible Production
+# Sesuai Kaidah Ekonometrika umkm-forecasting.md & Hasil Grid Search Notebook 03
+# ==============================================================================
+
+gcp:
+  project_id_env: "GCP_PROJECT_ID"
+  project_id_default: "ita-cake-shop-bi"
+  dataset_id: "ita_cake_shop_dw"
+  location: "asia-southeast2"  # Jakarta (atau US untuk default sandbox)
+  credentials_env: "GOOGLE_APPLICATION_CREDENTIALS"
+  sa_key_b64_env: "GCP_SA_KEY"
+
+bigquery_sandbox:
+  enabled: true
+  write_disposition: "WRITE_TRUNCATE"  # Me-reset batas kedaluwarsa 60 hari setiap Senin
+  use_dml: false                       # DILARANG: Tidak menggunakan DML berbayar (INSERT/UPDATE/DELETE)
+  use_gcs: false                       # DILARANG: Tidak menggunakan Cloud Storage berbayar (load direct via API)
+
+google_drive:
+  folder_id_env: "GDRIVE_FOLDER_ID"
+  file_pattern: "Item Penjualan berdasarkan Tanggal*.xlsx"
+  download_dir: "./incoming_pos"
+
+pipeline:
+  official_start_date: "2023-02-20"
+  target_categories:
+    - "Cake"
+    - "Japanese"
+    - "Mille Crepes"
+  idul_fitri_ranges:
+    - ["2023-04-08", "2023-04-25"]
+    - ["2024-03-27", "2024-04-13"]
+    - ["2025-03-17", "2025-04-03"]
+    - ["2026-03-07", "2026-03-24"]
+  iqr_capping:
+    Cake: 215.25
+    Japanese: 216.38
+    Mille Crepes: 180.25
+
+champion_models:
+  Cake:
+    model: "Holt-Winters Mul"
+    seasonal: "mul"
+    m: 26
+    trend: null
+    alpha: 0.4489
+    beta: 0.0
+    gamma: 0.0
+    initialization_method: "estimated"
+    composite_wmape: 16.50
+    wmape_holdout: 19.26
+    wmape_cv: 13.75
+  Japanese:
+    model: "Holt-Winters Mul"
+    seasonal: "mul"
+    m: 26
+    trend: null
+    alpha: 0.3995
+    beta: 0.0
+    gamma: 0.0
+    initialization_method: "estimated"
+    composite_wmape: 19.87
+    wmape_holdout: 15.33
+    wmape_cv: 24.42
+  Mille Crepes:
+    model: "Holt-Winters Mul"
+    seasonal: "mul"
+    m: 8
+    trend: null
+    alpha: 0.4977
+    beta: 0.0
+    gamma: 0.0
+    initialization_method: "estimated"
+    composite_wmape: 18.00
+    wmape_holdout: 21.68
+    wmape_cv: 14.32
+
+disaggregation:
+  dow_window_days: 28     # 4 pekan historis terakhir untuk porsi hari adaptif
+  sku_window_days: 84     # 12 pekan historis (84 hari) untuk rolling share SKU aktif
+  service_level: 0.95     # 95% target kepuasan layanan
+  z_score: 1.65           # Z-Score satu sisi untuk SL 95%
+  mto_threshold: 0.5      # Jika Raw_Target < 0.5 -> 0 (Made-to-Order), jika >= 0.5 -> np.round()
+  use_ceiling: false      # DILARANG MUTLAK menggunakan np.ceil (mencegah akumulasi food waste)
+
+storage:
+  output_dir: "./Data_Output"
+  tables:
+    dim_date: "dim_date"
+    dim_product: "dim_product"
+    fact_sales: "fact_sales"
+    plan_production_daily: "plan_production_daily"
+    forecast_recommendations: "forecast_recommendations"
+  views:
+    v_looker_performance_overview: "v_looker_performance_overview"
+    v_looker_production_planning: "v_looker_production_planning"

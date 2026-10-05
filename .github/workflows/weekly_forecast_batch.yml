@@ -1,0 +1,125 @@
+name: Weekly Demand Forecasting & BigQuery Batch Pipeline
+
+on:
+  schedule:
+    # Berjalan otomatis setiap hari Senin pukul 01:00 UTC (08:00 WIB) — W-MON
+    - cron: '0 1 * * 1'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Jalankan dalam mode simulasi luring (Dry-Run)?'
+        required: true
+        type: boolean
+        default: false
+      cutoff_date:
+        description: 'Batas tanggal simulasi opsional (YYYY-MM-DD)'
+        required: false
+        type: string
+        default: ''
+
+jobs:
+  weekly-batch-forecast:
+    name: Run BigQuery Sandbox Weekly Batch Pipeline
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: read
+
+    steps:
+      - name: 1. Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 2. Set Up Python 3.10
+        uses: setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: 3. Install Production Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas numpy statsmodels scipy openpyxl google-cloud-bigquery PyYAML google-api-python-client google-auth
+
+      - name: 4. Configure GCP Service Account Credentials
+        if: ${{ !inputs.dry_run }}
+        env:
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
+        run: |
+          if [ -z "$GCP_SA_KEY" ]; then
+            echo "ERROR: Rahasia GCP_SA_KEY belum disetel di GitHub Secrets!"
+            exit 1
+          fi
+          # Decode Service Account JSON dari Base64
+          echo "$GCP_SA_KEY" | base64 --decode > /tmp/gcp_sa_key.json
+          chmod 600 /tmp/gcp_sa_key.json
+          echo "GOOGLE_APPLICATION_CREDENTIALS=/tmp/gcp_sa_key.json" >> $GITHUB_ENV
+          echo "Kredensial Google Service Account berhasil dikonfigurasi secara aman."
+
+      - name: 5. Download New POS Export from Google Drive (Jika Folder ID tersedia)
+        if: ${{ !inputs.dry_run && secrets.GDRIVE_FOLDER_ID != '' }}
+        env:
+          GDRIVE_FOLDER_ID: ${{ secrets.GDRIVE_FOLDER_ID }}
+        run: |
+          python -c "
+          import os, sys
+          from pathlib import Path
+          folder_id = os.environ.get('GDRIVE_FOLDER_ID')
+          key_path = os.environ.get('GOOGLE_APPLICATION_CREDENTIALS')
+          print(f'Mengecek file baru di Google Drive folder: {folder_id}...')
+          try:
+              from google.oauth2 import service_account
+              from googleapiclient.discovery import build
+              from googleapiclient.http import MediaIoBaseDownload
+              import io
+
+              creds = service_account.Credentials.from_service_account_file(
+                  key_path,
+                  scopes=['https://www.googleapis.com/auth/drive.readonly']
+              )
+              drive_service = build('drive', 'v3', credentials=creds)
+              query = f\"'{folder_id}' in parents and mimeType != 'application/vnd.google-apps.folder' and trashed = false\"
+              results = drive_service.files().list(q=query, fields='files(id, name, createdTime)').execute()
+              items = results.get('files', [])
+              print(f'Ditemukan {len(items)} file di Google Drive.')
+              target_dir = Path('FINAL_BERSIH/03_ETL/incoming_pos')
+              target_dir.mkdir(parents=True, exist_ok=True)
+              for item in items:
+                  if 'Item Penjualan' in item['name'] or item['name'].endswith('.xlsx'):
+                      print(f'Mengunduh {item[\"name\"]}...')
+                      request = drive_service.files().get_media(fileId=item['id'])
+                      file_path = target_dir / item['name']
+                      with open(file_path, 'wb') as fh:
+                          downloader = MediaIoBaseDownload(fh, request)
+                          done = False
+                          while not done:
+                              status, done = downloader.next_chunk()
+                      print(f'Berhasil disimpan: {file_path}')
+          except Exception as e:
+              print(f'Peringatan sinkronisasi Drive (non-fatal): {e}')
+          "
+
+      - name: 6. Execute Weekly Batch Pipeline
+        env:
+          GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
+          BIGQUERY_DATASET: 'ita_cake_shop_dw'
+        run: |
+          DRY_RUN_FLAG=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_FLAG="--dry-run"
+          fi
+          
+          CUTOFF_FLAG=""
+          if [ -n "${{ inputs.cutoff_date }}" ]; then
+            CUTOFF_FLAG="--cutoff-date ${{ inputs.cutoff_date }}"
+          fi
+
+          echo "Menjalankan batch pipeline: python 03_ETL/weekly_batch.py $DRY_RUN_FLAG $CUTOFF_FLAG"
+          cd FINAL_BERSIH/03_ETL
+          python weekly_batch.py $DRY_RUN_FLAG $CUTOFF_FLAG
+
+      - name: 7. Secure Cleanup Credentials & Scratch Files
+        if: always()
+        run: |
+          echo "Membersihkan berkas kredensial sensitif..."
+          rm -f /tmp/gcp_sa_key.json
+          echo "Pembersihan kredensial selesai (Zero Credentials Remains)."
