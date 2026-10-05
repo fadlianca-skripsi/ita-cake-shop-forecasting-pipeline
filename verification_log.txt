@@ -1,5 +1,5 @@
 === VERIFICATION AUDIT LOG: ITA CAKE SHOP THESIS ===
-Timestamp: 2026-10-06 03:14:57
+Timestamp: 2026-10-06 05:59:15
 Working Directory: C:\Users\admin\Documents\Semester 8 & 9\Skripsi(2)\FINAL_BERSIH
 Python: 3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:38:44) [MSC v.1944 64 bit (AMD64)]
 =================================================================
@@ -8,17 +8,17 @@ MEMULAI PROSES VERIFIKASI REPRODUSIBILITAS OTOMATIS...
 
 >>> [CHECK 1/6] VALIDASI EKSEKUSI 6 JUPYTER NOTEBOOK
   Executing 01_EDA_Raw_and_Cleaning.ipynb in 01_data_ITA-Cake-Shop...
-  [PASS] 01_EDA_Raw_and_Cleaning.ipynb selesai tanpa error dalam 130.94s
+  [PASS] 01_EDA_Raw_and_Cleaning.ipynb selesai tanpa error dalam 136.90s
   Executing 02_EDA_Clean_Analysis.ipynb in 01_data_ITA-Cake-Shop...
-  [PASS] 02_EDA_Clean_Analysis.ipynb selesai tanpa error dalam 17.79s
+  [PASS] 02_EDA_Clean_Analysis.ipynb selesai tanpa error dalam 18.75s
   Executing 03_Teori_Sparsitas_dan_GridSearch.ipynb in 02_modeling_ITA-Cake-Shop...
-  [PASS] 03_Teori_Sparsitas_dan_GridSearch.ipynb selesai tanpa error dalam 81.31s
+  [PASS] 03_Teori_Sparsitas_dan_GridSearch.ipynb selesai tanpa error dalam 82.46s
   Executing 04_Operational_Simulation.ipynb in 02_modeling_ITA-Cake-Shop...
-  [PASS] 04_Operational_Simulation.ipynb selesai tanpa error dalam 11.44s
+  [PASS] 04_Operational_Simulation.ipynb selesai tanpa error dalam 11.89s
   Executing 05_Operational_Simulation_Disaggregation.ipynb in 02_modeling_ITA-Cake-Shop...
-  [PASS] 05_Operational_Simulation_Disaggregation.ipynb selesai tanpa error dalam 9.62s
+  [PASS] 05_Operational_Simulation_Disaggregation.ipynb selesai tanpa error dalam 10.20s
   Executing 01_ETL_Pipeline.ipynb in 03_ETL...
-  [PASS] 01_ETL_Pipeline.ipynb selesai tanpa error dalam 65.42s
+  [PASS] 01_ETL_Pipeline.ipynb selesai tanpa error dalam 65.58s
 
 >>> [CHECK 2/6] VALIDASI ARTEFAK DATA UTAMA (ROW COUNTS & CONTINUITY)
   - weekly_clean_final.csv: 155 baris (Rentang: 2023-02-20 s/d 2026-02-02)
@@ -43,29 +43,56 @@ MEMULAI PROSES VERIFIKASI REPRODUSIBILITAS OTOMATIS...
     * Mille Crepes: Holdout=21.68%, CV=14.32%, Composite=18.00%
   [PASS] forecast_recommendations.csv terbukti valid dengan metrik riil non-zero.
 
->>> [CHECK 5/6] EVALUASI EMPIRIS OUT-OF-SAMPLE (MAR-SEPT 2026, 31 PEKAN)
-  - Periode Latih Resmi : 2023-02-20 s/d 2026-02-02 (155 pekan)
-  - Periode Uji OOS     : 2026-02-09 s/d 2026-09-07 (31 pekan)
+>>> [CHECK 5/6] EVALUASI EMPIRIS OUT-OF-SAMPLE DUAL-HORIZON (30 PEKAN KONTINU & 25 PEKAN OPERASIONAL)
+  - Periode Latih Resmi         : 2023-02-20 s/d 2026-02-02 (155 pekan)
+  - Horizon 1 (Kontinu 30 Pekan): 2026-02-09 s/d 2026-08-31 (30 pekan)
+  - Horizon 2 (Operasional 25W) : 2026-03-16 s/d 2026-08-31 (25 pekan)
+  [PASS] Zero Data Leakage terverifikasi: Data latih dan uji terpisah secara sempurna.
 
-  --- Hasil Kategori Cake (h=31 pekan) ---
-    * Holt-Winters Champion : WMAPE = 29.02% | MAE = 29.45 | RMSE = 41.32
-    * Seasonal Naive Baseline: WMAPE = 32.45% | MAE = 32.94 | RMSE = 51.56
-    * Margin Keunggulan HW  : +3.44% (HW UNGGUL)
+  ===============================================================
+  === HORIZON 1: EVALUASI KONTINU 30 PEKAN (Feb - Agu 2026)   ===
+  ===============================================================
 
-  --- Hasil Kategori Japanese (h=31 pekan) ---
-    * Holt-Winters Champion : WMAPE = 31.17% | MAE = 16.12 | RMSE = 23.94
-    * Seasonal Naive Baseline: WMAPE = 51.65% | MAE = 26.71 | RMSE = 36.05
-    * Margin Keunggulan HW  : +20.49% (HW UNGGUL)
+  --- [Horizon 1 - 30W] Kategori Cake ---
+    * Holt-Winters Champion  : WMAPE = 28.19% | MAE = 28.45 | RMSE = 41.71
+    * Seasonal Naive Baseline: WMAPE = 35.20% | MAE = 35.53 | RMSE = 53.09
+    * Margin Keunggulan HW   : +7.02% (HW UNGGUL)
 
-  --- Hasil Kategori Mille Crepes (h=31 pekan) ---
-    * Holt-Winters Champion : WMAPE = 91.94% | MAE = 26.72 | RMSE = 31.76
-    * Seasonal Naive Baseline: WMAPE = 97.89% | MAE = 28.45 | RMSE = 32.64
-    * Margin Keunggulan HW  : +5.95% (HW UNGGUL)
+  --- [Horizon 1 - 30W] Kategori Japanese ---
+    * Holt-Winters Champion  : WMAPE = 33.32% | MAE = 17.17 | RMSE = 25.31
+    * Seasonal Naive Baseline: WMAPE = 49.74% | MAE = 25.63 | RMSE = 34.38
+    * Margin Keunggulan HW   : +16.43% (HW UNGGUL)
+
+  --- [Horizon 1 - 30W] Kategori Mille Crepes ---
+    * Holt-Winters Champion  : WMAPE = 94.85% | MAE = 27.25 | RMSE = 31.13
+    * Seasonal Naive Baseline: WMAPE = 100.35% | MAE = 28.83 | RMSE = 33.19
+    * Margin Keunggulan HW   : +5.50% (HW UNGGUL)
+
+  ===============================================================
+  === HORIZON 2: EVALUASI OPERASIONAL 25 PEKAN (Mar - Agu 2026) ===
+  ===============================================================
+
+  --- [Horizon 2 - 25W] Kategori Cake ---
+    * Holt-Winters Champion  : WMAPE = 19.92% | MAE = 23.42 | RMSE = 27.69
+    * Seasonal Naive Baseline: WMAPE = 15.44% | MAE = 18.16 | RMSE = 23.99
+    * Margin Keunggulan HW   : -4.48% (SNAIVE UNGGUL)
+    * [MANDAT R2 CATATAN KHUSUS]: Seasonal Naive mengungguli Holt-Winters sebesar 4.48% (15.44% vs 19.92%).
+
+  --- [Horizon 2 - 25W] Kategori Japanese ---
+    * Holt-Winters Champion  : WMAPE = 21.29% | MAE = 12.85 | RMSE = 16.99
+    * Seasonal Naive Baseline: WMAPE = 32.21% | MAE = 19.44 | RMSE = 24.90
+    * Margin Keunggulan HW   : +10.91% (HW UNGGUL)
+
+  --- [Horizon 2 - 25W] Kategori Mille Crepes ---
+    * Holt-Winters Champion  : WMAPE = 66.67% | MAE = 22.08 | RMSE = 24.91
+    * Seasonal Naive Baseline: WMAPE = 72.71% | MAE = 24.08 | RMSE = 27.05
+    * Margin Keunggulan HW   : +6.04% (HW UNGGUL)
 
   [PASS] File evaluasi out-of-sample berhasil disimpan ke:
          - C:\Users\admin\Documents\Semester 8 & 9\Skripsi(2)\FINAL_BERSIH\out_of_sample_eval_2026.csv
          - C:\Users\admin\Documents\Semester 8 & 9\Skripsi(2)\FINAL_BERSIH\02_modeling_ITA-Cake-Shop\Data_Output\out_of_sample_eval_2026.csv
-  [PASS] Seluruh angka evaluasi Out-of-Sample 2026 tervalidasi 100% konsisten dengan analisis ekonometrika.
+  [PASS] Seluruh angka evaluasi Horizon 1 (30 Pekan Kontinu) tervalidasi 100% presisi.
+  [PASS] Seluruh angka evaluasi Horizon 2 (25 Pekan Operasional) tervalidasi 100% presisi.
 
 >>> [CHECK 6/6] VALIDASI ASSET VISUALISASI MODELING (10 PNG REGENERATED)
   - cv_walk_forward_scheme.png                :  186,268 bytes [PASS]
@@ -81,5 +108,5 @@ MEMULAI PROSES VERIFIKASI REPRODUSIBILITAS OTOMATIS...
   [PASS] 10 file visualisasi operasional dan evaluasi cross-validation valid dan beresolusi tinggi.
 
 =================================================================
-VERIFIKASI BERHASIL 100%! SEMUA 6 UJI KELAYAKAN LULUS (TOTAL WAKTU: 316.92s)
+VERIFIKASI BERHASIL 100%! SEMUA 6 UJI KELAYAKAN LULUS (TOTAL WAKTU: 326.17s)
 =================================================================
