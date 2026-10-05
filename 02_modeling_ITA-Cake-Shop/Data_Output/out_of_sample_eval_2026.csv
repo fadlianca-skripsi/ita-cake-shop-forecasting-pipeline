@@ -1,0 +1,7 @@
+Category,Model,Horizon_Weeks,Test_Start,Test_End,Actual_Volume,Forecast_Volume,WMAPE_Pct,MAE,RMSE,Status_vs_Baseline
+Cake,Holt-Winters Champion,31,2026-02-09,2026-09-07,3146.0,3132.96,29.02,29.45,41.32,HW UNGGUL
+Cake,Seasonal Naive Baseline,31,2026-02-09,2026-09-07,3146.0,3899.0,32.45,32.94,51.56,Benchmark
+Japanese,Holt-Winters Champion,31,2026-02-09,2026-09-07,1603.0,1817.14,31.17,16.12,23.94,HW UNGGUL
+Japanese,Seasonal Naive Baseline,31,2026-02-09,2026-09-07,1603.0,2227.0,51.65,26.71,36.05,Benchmark
+Mille Crepes,Holt-Winters Champion,31,2026-02-09,2026-09-07,901.0,1727.35,91.94,26.72,31.76,HW UNGGUL
+Mille Crepes,Seasonal Naive Baseline,31,2026-02-09,2026-09-07,901.0,1779.0,97.89,28.45,32.64,Benchmark

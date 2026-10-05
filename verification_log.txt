@@ -1,0 +1,85 @@
+=== VERIFICATION AUDIT LOG: ITA CAKE SHOP THESIS ===
+Timestamp: 2026-10-06 03:14:57
+Working Directory: C:\Users\admin\Documents\Semester 8 & 9\Skripsi(2)\FINAL_BERSIH
+Python: 3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:38:44) [MSC v.1944 64 bit (AMD64)]
+=================================================================
+
+MEMULAI PROSES VERIFIKASI REPRODUSIBILITAS OTOMATIS...
+
+>>> [CHECK 1/6] VALIDASI EKSEKUSI 6 JUPYTER NOTEBOOK
+  Executing 01_EDA_Raw_and_Cleaning.ipynb in 01_data_ITA-Cake-Shop...
+  [PASS] 01_EDA_Raw_and_Cleaning.ipynb selesai tanpa error dalam 130.94s
+  Executing 02_EDA_Clean_Analysis.ipynb in 01_data_ITA-Cake-Shop...
+  [PASS] 02_EDA_Clean_Analysis.ipynb selesai tanpa error dalam 17.79s
+  Executing 03_Teori_Sparsitas_dan_GridSearch.ipynb in 02_modeling_ITA-Cake-Shop...
+  [PASS] 03_Teori_Sparsitas_dan_GridSearch.ipynb selesai tanpa error dalam 81.31s
+  Executing 04_Operational_Simulation.ipynb in 02_modeling_ITA-Cake-Shop...
+  [PASS] 04_Operational_Simulation.ipynb selesai tanpa error dalam 11.44s
+  Executing 05_Operational_Simulation_Disaggregation.ipynb in 02_modeling_ITA-Cake-Shop...
+  [PASS] 05_Operational_Simulation_Disaggregation.ipynb selesai tanpa error dalam 9.62s
+  Executing 01_ETL_Pipeline.ipynb in 03_ETL...
+  [PASS] 01_ETL_Pipeline.ipynb selesai tanpa error dalam 65.42s
+
+>>> [CHECK 2/6] VALIDASI ARTEFAK DATA UTAMA (ROW COUNTS & CONTINUITY)
+  - weekly_clean_final.csv: 155 baris (Rentang: 2023-02-20 s/d 2026-02-02)
+  [PASS] weekly_clean_final.csv memenuhi syarat tepat 155 pekan kontinu W-MON.
+  - Master_Clean_Feb2023_Feb2026.csv: 106,539 baris transaksi
+  [PASS] Master_Clean_Feb2023_Feb2026.csv memenuhi syarat tepat 106,539 baris.
+
+>>> [CHECK 3/6] VALIDASI PARAMETER CHAMPION (champion_parameters.json)
+  - Cake        : Comp WMAPE=16.50% (Exp: 16.50%), Holdout=19.26%, CV=13.75%, m=26, gamma=0.0
+  - Japanese    : Comp WMAPE=19.87% (Exp: 19.87%), Holdout=15.33%, CV=24.42%, m=26, gamma=0.0
+  - Mille Crepes: Comp WMAPE=18.00% (Exp: 18.00%), Holdout=21.68%, CV=14.32%, m=8, gamma=0.0
+  [PASS] champion_parameters.json diverifikasi 100% presisi matematis.
+
+>>> [CHECK 4/6] VALIDASI TABEL REKOMENDASI FORECAST (forecast_recommendations.csv)
+  - 01_data_ITA-Cake-Shop/forecast_recommendations.csv: Bebas dari '0.00%'
+    * Cake: Holdout=19.26%, CV=13.75%, Composite=16.50%
+    * Japanese: Holdout=15.33%, CV=24.42%, Composite=19.87%
+    * Mille Crepes: Holdout=21.68%, CV=14.32%, Composite=18.00%
+  - 03_ETL/forecast_recommendations.csv: Bebas dari '0.00%'
+    * Cake: Holdout=19.26%, CV=13.75%, Composite=16.50%
+    * Japanese: Holdout=15.33%, CV=24.42%, Composite=19.87%
+    * Mille Crepes: Holdout=21.68%, CV=14.32%, Composite=18.00%
+  [PASS] forecast_recommendations.csv terbukti valid dengan metrik riil non-zero.
+
+>>> [CHECK 5/6] EVALUASI EMPIRIS OUT-OF-SAMPLE (MAR-SEPT 2026, 31 PEKAN)
+  - Periode Latih Resmi : 2023-02-20 s/d 2026-02-02 (155 pekan)
+  - Periode Uji OOS     : 2026-02-09 s/d 2026-09-07 (31 pekan)
+
+  --- Hasil Kategori Cake (h=31 pekan) ---
+    * Holt-Winters Champion : WMAPE = 29.02% | MAE = 29.45 | RMSE = 41.32
+    * Seasonal Naive Baseline: WMAPE = 32.45% | MAE = 32.94 | RMSE = 51.56
+    * Margin Keunggulan HW  : +3.44% (HW UNGGUL)
+
+  --- Hasil Kategori Japanese (h=31 pekan) ---
+    * Holt-Winters Champion : WMAPE = 31.17% | MAE = 16.12 | RMSE = 23.94
+    * Seasonal Naive Baseline: WMAPE = 51.65% | MAE = 26.71 | RMSE = 36.05
+    * Margin Keunggulan HW  : +20.49% (HW UNGGUL)
+
+  --- Hasil Kategori Mille Crepes (h=31 pekan) ---
+    * Holt-Winters Champion : WMAPE = 91.94% | MAE = 26.72 | RMSE = 31.76
+    * Seasonal Naive Baseline: WMAPE = 97.89% | MAE = 28.45 | RMSE = 32.64
+    * Margin Keunggulan HW  : +5.95% (HW UNGGUL)
+
+  [PASS] File evaluasi out-of-sample berhasil disimpan ke:
+         - C:\Users\admin\Documents\Semester 8 & 9\Skripsi(2)\FINAL_BERSIH\out_of_sample_eval_2026.csv
+         - C:\Users\admin\Documents\Semester 8 & 9\Skripsi(2)\FINAL_BERSIH\02_modeling_ITA-Cake-Shop\Data_Output\out_of_sample_eval_2026.csv
+  [PASS] Seluruh angka evaluasi Out-of-Sample 2026 tervalidasi 100% konsisten dengan analisis ekonometrika.
+
+>>> [CHECK 6/6] VALIDASI ASSET VISUALISASI MODELING (10 PNG REGENERATED)
+  - cv_walk_forward_scheme.png                :  186,268 bytes [PASS]
+  - cv_fold_predictions_cake.png              : 1,096,440 bytes [PASS]
+  - cv_fold_predictions_japanese.png          :  949,022 bytes [PASS]
+  - cv_fold_predictions_millecrepes.png       : 1,150,132 bytes [PASS]
+  - cv_metric_comparison.png                  :  351,515 bytes [PASS]
+  - operational_simulation_12w_tracking.png   :  865,428 bytes [PASS]
+  - operational_dow_adaptive_profiles.png     :  173,186 bytes [PASS]
+  - operational_sku_pareto_distribution.png   :  434,066 bytes [PASS]
+  - operational_daily_production_vs_demand.png:  932,303 bytes [PASS]
+  - operational_waste_and_fill_rate.png       :  246,365 bytes [PASS]
+  [PASS] 10 file visualisasi operasional dan evaluasi cross-validation valid dan beresolusi tinggi.
+
+=================================================================
+VERIFIKASI BERHASIL 100%! SEMUA 6 UJI KELAYAKAN LULUS (TOTAL WAKTU: 316.92s)
+=================================================================
