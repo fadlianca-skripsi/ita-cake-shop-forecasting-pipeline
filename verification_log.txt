@@ -1,5 +1,5 @@
 === VERIFICATION AUDIT LOG: ITA CAKE SHOP THESIS ===
-Timestamp: 2026-10-06 05:59:15
+Timestamp: 2026-10-06 06:44:56
 Working Directory: C:\Users\admin\Documents\Semester 8 & 9\Skripsi(2)\FINAL_BERSIH
 Python: 3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:38:44) [MSC v.1944 64 bit (AMD64)]
 =================================================================
@@ -7,18 +7,13 @@ Python: 3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:38:44) [MSC v
 MEMULAI PROSES VERIFIKASI REPRODUSIBILITAS OTOMATIS...
 
 >>> [CHECK 1/6] VALIDASI EKSEKUSI 6 JUPYTER NOTEBOOK
-  Executing 01_EDA_Raw_and_Cleaning.ipynb in 01_data_ITA-Cake-Shop...
-  [PASS] 01_EDA_Raw_and_Cleaning.ipynb selesai tanpa error dalam 136.90s
-  Executing 02_EDA_Clean_Analysis.ipynb in 01_data_ITA-Cake-Shop...
-  [PASS] 02_EDA_Clean_Analysis.ipynb selesai tanpa error dalam 18.75s
-  Executing 03_Teori_Sparsitas_dan_GridSearch.ipynb in 02_modeling_ITA-Cake-Shop...
-  [PASS] 03_Teori_Sparsitas_dan_GridSearch.ipynb selesai tanpa error dalam 82.46s
-  Executing 04_Operational_Simulation.ipynb in 02_modeling_ITA-Cake-Shop...
-  [PASS] 04_Operational_Simulation.ipynb selesai tanpa error dalam 11.89s
-  Executing 05_Operational_Simulation_Disaggregation.ipynb in 02_modeling_ITA-Cake-Shop...
-  [PASS] 05_Operational_Simulation_Disaggregation.ipynb selesai tanpa error dalam 10.20s
-  Executing 01_ETL_Pipeline.ipynb in 03_ETL...
-  [PASS] 01_ETL_Pipeline.ipynb selesai tanpa error dalam 65.58s
+  [INFO] Parameter --skip-notebooks aktif: Memverifikasi keberadaan dan integritas struktur notebook...
+  [PASS] 01_EDA_Raw_and_Cleaning.ipynb (Valid JSON, 23 sel)
+  [PASS] 02_EDA_Clean_Analysis.ipynb (Valid JSON, 26 sel)
+  [PASS] 03_Teori_Sparsitas_dan_GridSearch.ipynb (Valid JSON, 30 sel)
+  [PASS] 04_Operational_Simulation.ipynb (Valid JSON, 8 sel)
+  [PASS] 05_Operational_Simulation_Disaggregation.ipynb (Valid JSON, 8 sel)
+  [PASS] 01_ETL_Pipeline.ipynb (Valid JSON, 23 sel)
 
 >>> [CHECK 2/6] VALIDASI ARTEFAK DATA UTAMA (ROW COUNTS & CONTINUITY)
   - weekly_clean_final.csv: 155 baris (Rentang: 2023-02-20 s/d 2026-02-02)
@@ -108,5 +103,5 @@ MEMULAI PROSES VERIFIKASI REPRODUSIBILITAS OTOMATIS...
   [PASS] 10 file visualisasi operasional dan evaluasi cross-validation valid dan beresolusi tinggi.
 
 =================================================================
-VERIFIKASI BERHASIL 100%! SEMUA 6 UJI KELAYAKAN LULUS (TOTAL WAKTU: 326.17s)
+VERIFIKASI BERHASIL 100%! SEMUA 6 UJI KELAYAKAN LULUS (TOTAL WAKTU: 0.64s)
 =================================================================
