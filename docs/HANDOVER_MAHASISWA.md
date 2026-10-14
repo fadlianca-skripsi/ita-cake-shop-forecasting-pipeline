@@ -536,7 +536,7 @@ Mahasiswa cukup menjalankan 5 langkah berikut untuk mengaktifkan seluruh ekosist
 +----------------------------------------------------------------------------------------------------+
 |                         PANDUAN 5 LANGKAH SETUP CLOUD OPERASIONAL MAHASISWA                        |
 +----------------------------------------------------------------------------------------------------+
-| [Langkah 1] Buat Project GCP & Dataset BigQuery Sandbox (ita_cake_shop_dw)                         |
+| [Langkah 1] Buat Project GCP & Dataset BigQuery Sandbox (ita_cake_shop_datamart)                         |
 |      ↓                                                                                             |
 | [Langkah 2] Buat Service Account, Unduh Kunci JSON, & Bagikan Folder Google Drive Kasir POS        |
 |      ↓                                                                                             |
@@ -553,7 +553,7 @@ Mahasiswa cukup menjalankan 5 langkah berikut untuk mengaktifkan seluruh ekosist
 2. Buat proyek baru (*New Project*) dengan nama: `ITA Cake Shop BI`. Catat **Project ID** Anda (misal: `ita-cake-shop-bi-2026`).
 3. Buka menu **BigQuery Studio** (Navigation Menu > BigQuery).
 4. Klik titik tiga (⋮) di samping Project ID, pilih **Create dataset**.
-5. Masukkan Dataset ID: `ita_cake_shop_dw` *(Wajib persis)*. Pilih Region: `asia-southeast2 (Jakarta)` atau `US`.
+5. Masukkan Dataset ID: `ita_cake_shop_datamart` *(Wajib persis)*. Pilih Region: `asia-southeast2 (Jakarta)` atau `US`.
 6. Klik **Create dataset**. *(Selesai, 100% gratis tanpa kartu kredit!)*
 
 #### Langkah 2: Pembuatan Service Account & Berbagi Akses Google Drive
@@ -573,7 +573,7 @@ Mahasiswa cukup menjalankan 5 langkah berikut untuk mengaktifkan seluruh ekosist
    - `GCP_PROJECT_ID`: Masukkan Project ID GCP Anda (dari Langkah 1).
    - `GCP_SA_KEY`: Buka file JSON Service Account dengan Notepad, salin seluruh isinya dan tempel di sini.
    - `GDRIVE_FOLDER_ID`: Buka folder Google Drive di browser, salin kode unik di ujung URL (setelah `/folders/...`).
-   - `BIGQUERY_DATASET`: Masukkan teks `ita_cake_shop_dw`.
+   - `BIGQUERY_DATASET`: Masukkan teks `ita_cake_shop_datamart`.
 5. Buka tab **Actions** di GitHub, aktifkan workflow. Sistem akan otomatis berjalan tiap Senin jam 07:00 WIB!
 
 #### Langkah 4: Uji Coba Simulasi Sidang via Google Colab Demo
@@ -584,7 +584,7 @@ Mahasiswa cukup menjalankan 5 langkah berikut untuk mengaktifkan seluruh ekosist
 #### Langkah 5: Penautan Sumber Data BigQuery ke Looker Studio
 1. Buka Looker Studio: 👉 **https://lookerstudio.google.com/**.
 2. Buat laporan baru (*Blank Report*). Pilih konektor: **BigQuery**.
-3. Pilih proyek Anda > Dataset `ita_cake_shop_dw` > Pilih View:
+3. Pilih proyek Anda > Dataset `ita_cake_shop_datamart` > Pilih View:
    - Untuk Halaman 1 (Analisis Penjualan): Pilih `v_looker_performance_overview`.
    - Untuk Halaman 2 (Perencanaan Produksi): Pilih `v_looker_production_planning`.
 4. Visualisasi di Looker Studio akan langsung terhubung secara dinamis!
@@ -594,7 +594,7 @@ Mahasiswa cukup menjalankan 5 langkah berikut untuk mengaktifkan seluruh ekosist
 ### 5.4 Pemetaan Prototipe Dashboard PDF ke SQL View & Matriks Black Box Testing
 
 #### A. Pemetaan Halaman 1 (Business Intelligence Dashboard)
-*Sumber Data:* `ita_cake_shop_dw.v_looker_performance_overview`
+*Sumber Data:* `ita_cake_shop_datamart.v_looker_performance_overview`
 1. **Scorecard TOTAL REVENUE:** Formula `SUM(net_amount)` $\rightarrow$ Menampilkan **Rp4.05B**.
 2. **Scorecard TOTAL QTY SOLD:** Formula `SUM(qty_sold)` $\rightarrow$ Menampilkan **148,513**.
 3. **Scorecard TOP CATEGORY:** Dimensi `category_name`, Metrik `SUM(net_amount)` $\rightarrow$ Menampilkan **Cake**.
@@ -604,7 +604,7 @@ Mahasiswa cukup menjalankan 5 langkah berikut untuk mengaktifkan seluruh ekosist
 7. **Tabel Kinerja Produk:** Dimensi `product_name`, Metrik `SUM(qty_sold)` dan `SUM(net_amount)`.
 
 #### B. Pemetaan Halaman 2 (Production Planning & Inventory Dashboard)
-*Sumber Data:* `ita_cake_shop_dw.v_looker_production_planning`
+*Sumber Data:* `ita_cake_shop_datamart.v_looker_production_planning`
 1. **Scorecard TOTAL TARGET (7 Hari):** Formula `SUM(target_produksi)` $\rightarrow$ Menampilkan **766 Unit**.
 2. **Scorecard forecast_murni:** Formula `SUM(forecast_murni)` $\rightarrow$ Menampilkan **209 Unit**.
 3. **Scorecard safety_stock:** Formula `SUM(safety_stock)` $\rightarrow$ Menampilkan **557 Unit**.

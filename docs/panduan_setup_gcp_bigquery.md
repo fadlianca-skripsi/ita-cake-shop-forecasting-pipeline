@@ -2,7 +2,7 @@
 ## Panduan Konfigurasi Cloud Bebas Biaya (Tanpa Kartu Kredit) untuk Skripsi ITA Cake Shop
 
 **Sasaran:** Google BigQuery Sandbox (100% Gratis & Legal)  
-**Lingkup Kerja:** Pembuatan Proyek GCP, Inisialisasi Dataset `ita_cake_shop_dw`, & Pemahaman Batasan Sandbox  
+**Lingkup Kerja:** Pembuatan Proyek GCP, Inisialisasi Dataset `ita_cake_shop_datamart`, & Pemahaman Batasan Sandbox  
 **Bahasa:** Bahasa Indonesia  
 **Penyusun:** Tim Teknis Skripsi (Worker M3)  
 
@@ -49,7 +49,7 @@ Google BigQuery Sandbox adalah lingkungan kerja BigQuery yang disediakan oleh Go
 
 ---
 
-## 4. Langkah 3: Membuat Dataset `ita_cake_shop_dw`
+## 4. Langkah 3: Membuat Dataset `ita_cake_shop_datamart`
 
 1. Buka antarmuka BigQuery Studio melalui menu navigasi samping:
    👉 **Navigation Menu (☰) > BigQuery > BigQuery Studio**  
@@ -57,13 +57,13 @@ Google BigQuery Sandbox adalah lingkungan kerja BigQuery yang disediakan oleh Go
 2. Pada panel **Explorer** di sisi kiri, klik ikon titik tiga (⋮) di samping nama Project ID Anda.
 3. Pilih **Create dataset** (Buat dataset).
 4. Isi formulir konfigurasi dataset berikut:
-   - **Dataset ID:** `ita_cake_shop_dw` *(Wajib persis sesuai konfigurasi pipeline)*
+   - **Dataset ID:** `ita_cake_shop_datamart` *(Wajib persis sesuai konfigurasi pipeline)*
    - **Data location:** Pilih salah satu:
      - `asia-southeast2 (Jakarta)` *(Disarankan untuk latensi terendah di Indonesia)*
      - atau `US (multiple regions in United States)` *(Default sandbox)*
    - **Enable table expiration:** Biarkan tercentang default (60 days untuk Sandbox).
 5. Klik tombol biru **Create dataset**.
-6. Dataset `ita_cake_shop_dw` sekarang akan muncul di panel Explorer di bawah nama project Anda.
+6. Dataset `ita_cake_shop_datamart` sekarang akan muncul di panel Explorer di bawah nama project Anda.
 
 ---
 
@@ -73,7 +73,7 @@ Setelah dataset terbentuk, Anda dapat menguji coba query SQL DDL pembuatan tabel
 
 ```sql
 -- Uji coba membuat view performa Looker Studio (dijalankan setelah tabel terunggah)
-SELECT * FROM `ita_cake_shop_dw.v_looker_performance_overview` LIMIT 10;
+SELECT * FROM `ita_cake_shop_datamart.v_looker_performance_overview` LIMIT 10;
 ```
 
 ---
@@ -82,5 +82,5 @@ SELECT * FROM `ita_cake_shop_dw.v_looker_performance_overview` LIMIT 10;
 
 - [ ] Project GCP berhasil dibuat tanpa memasukkan nomor kartu kredit.
 - [ ] BigQuery API berstatus Enabled.
-- [ ] Dataset `ita_cake_shop_dw` telah terbentuk di region `asia-southeast2` atau `US`.
+- [ ] Dataset `ita_cake_shop_datamart` telah terbentuk di region `asia-southeast2` atau `US`.
 - [ ] Project ID telah dicatat untuk digunakan pada langkah GitHub Secrets dan Looker Studio.

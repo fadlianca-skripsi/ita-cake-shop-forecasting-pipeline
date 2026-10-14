@@ -7,7 +7,7 @@
 gcp:
   project_id_env: "GCP_PROJECT_ID"
   project_id_default: "ita-cake-shop-bi"
-  dataset_id: "ita_cake_shop_dw"
+  dataset_id: "ita_cake_shop_datamart"
   location: "asia-southeast2"  # Jakarta (atau US untuk default sandbox)
   credentials_env: "GOOGLE_APPLICATION_CREDENTIALS"
   sa_key_b64_env: "GCP_SA_KEY"

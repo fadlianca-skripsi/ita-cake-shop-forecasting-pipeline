@@ -543,7 +543,7 @@ def upload_to_bigquery_sandbox(tables: Dict[str, pd.DataFrame], config: dict) ->
         raise
 
     project_id = os.environ.get(config['gcp']['project_id_env'], config['gcp']['project_id_default'])
-    dataset_id = config['gcp']['dataset_id']
+    dataset_id = os.environ.get("BIGQUERY_DATASET") or config['gcp'].get('dataset_id', 'ita_cake_shop_datamart')
     location = config['gcp']['location']
 
     logger.info(f"Menghubungkan ke BigQuery Project: {project_id}, Dataset: {dataset_id} ({location})...")

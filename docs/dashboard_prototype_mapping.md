@@ -2,7 +2,7 @@
 ## Dokumentasi Arsitektur Kimball Data Mart & Pemetaan Visualisasi ITA Cake Shop Antapani
 
 **Dokumen Rujukan:** `Sidang/Prototype_dashboard_ITA_Cake_shop.pdf`  
-**Sasaran Data Layer:** Google BigQuery Sandbox (`ita_cake_shop_dw`)  
+**Sasaran Data Layer:** Google BigQuery Sandbox (`ita_cake_shop_datamart`)  
 **Metodologi BI:** Ralph Kimball Dimensional Lifecycle (Star Schema + Dimensional Conformed Marts)  
 **Penyusun:** Tim Teknis Skripsi (Worker M3)  
 **Status:** VALIDATED & PRODUCTION-READY  
@@ -15,7 +15,7 @@ Prototipe dashboard Looker Studio ITA Cake Shop Antapani dirancang untuk menyaji
 1. **Halaman 1 (Tingkat Makro / Strategis):** *Business Intelligence Dashboard* yang menyajikan evaluasi kinerja penjualan historis toko (Februari 2023 s.d. Februari 2026 / September 2026), pola musiman omzet harian, distribusi kategori produk, dan peringkat kontribusi produk.
 2. **Halaman 2 (Tingkat Mikro / Operasional):** *Production Planning & Inventory Dashboard* yang menyajikan proyeksi kebutuhan produksi harian per SKU selama 7 hari kalender ke depan (Senin s.d. Minggu) berbasis model *Holt-Winters Multiplicative*, persediaan pengaman (*safety stock* $Z=1.65$), dan pemutus limbah *Made-to-Order* (MTO Threshold).
 
-Seluruh elemen visual dipetakan secara ketat dan konsisten ke dalam arsitektur **Star Schema Kimball** pada dataset `ita_cake_shop_dw` melalui dua *Analytical Mart Views*:
+Seluruh elemen visual dipetakan secara ketat dan konsisten ke dalam arsitektur **Star Schema Kimball** pada dataset `ita_cake_shop_datamart` melalui dua *Analytical Mart Views*:
 - `v_looker_performance_overview` (Mendukung 100% visual Halaman 1)
 - `v_looker_production_planning` (Mendukung 100% visual Halaman 2)
 
@@ -74,7 +74,7 @@ Seluruh elemen visual dipetakan secara ketat dan konsisten ke dalam arsitektur *
 Halaman 1 berfokus pada analisis historis omzet toko. Seluruh komponen bersumber dari view analitis `v_looker_performance_overview`.
 
 ```sql
-CREATE OR REPLACE VIEW `ita_cake_shop_dw.v_looker_performance_overview` AS
+CREATE OR REPLACE VIEW `ita_cake_shop_datamart.v_looker_performance_overview` AS
 SELECT
     f.order_no,
     PARSE_DATE('%Y-%m-%d', d.tanggal_penuh) AS order_date,
@@ -90,9 +90,9 @@ SELECT
     f.gross_amount,
     f.discount_amount,
     f.net_amount
-FROM `ita_cake_shop_dw.fact_sales` f
-JOIN `ita_cake_shop_dw.dim_date` d ON f.date_id = d.date_id
-JOIN `ita_cake_shop_dw.dim_product` p ON f.product_id = p.product_id;
+FROM `ita_cake_shop_datamart.fact_sales` f
+JOIN `ita_cake_shop_datamart.dim_date` d ON f.date_id = d.date_id
+JOIN `ita_cake_shop_datamart.dim_product` p ON f.product_id = p.product_id;
 ```
 
 ### Matriks Pemetaan Elemen Halaman 1 (Visual ke SQL)
@@ -116,7 +116,7 @@ JOIN `ita_cake_shop_dw.dim_product` p ON f.product_id = p.product_id;
 Halaman 2 berfokus pada rencana operasional pabrikasi/dapur untuk 7 hari ke depan. Seluruh komponen bersumber dari view operasional `v_looker_production_planning`.
 
 ```sql
-CREATE OR REPLACE VIEW `ita_cake_shop_dw.v_looker_production_planning` AS
+CREATE OR REPLACE VIEW `ita_cake_shop_datamart.v_looker_production_planning` AS
 SELECT
     PARSE_DATE('%Y-%m-%d', forecast_date) AS forecast_date,
     category_name,
@@ -126,7 +126,7 @@ SELECT
     target_produksi,
     FORMAT_DATE('%a, %d %b %Y', PARSE_DATE('%Y-%m-%d', forecast_date)) AS formatted_date,
     batch_execution_timestamp
-FROM `ita_cake_shop_dw.plan_production_daily`
+FROM `ita_cake_shop_datamart.plan_production_daily`
 ORDER BY forecast_date ASC, target_produksi DESC;
 ```
 

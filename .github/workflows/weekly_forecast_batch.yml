@@ -106,7 +106,7 @@ jobs:
       - name: 6. Execute Weekly Batch Pipeline
         env:
           GCP_PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }}
-          BIGQUERY_DATASET: 'ita_cake_shop_dw'
+          BIGQUERY_DATASET: ${{ secrets.BIGQUERY_DATASET || 'ita_cake_shop_datamart' }}
         run: |
           DRY_RUN_FLAG=""
           if [ "${{ inputs.dry_run }}" = "true" ]; then

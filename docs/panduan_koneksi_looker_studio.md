@@ -25,7 +25,7 @@ Google Looker Studio adalah platform *Business Intelligence* (BI) dan visualisas
 5. Pada panel navigasi konektor:
    - Pilih tab: **MY PROJECTS**
    - Pilih **Project**: Nama Project ID Anda (misal: `ita-cake-shop-bi-2026`)
-   - Pilih **Dataset**: `ita_cake_shop_dw`
+   - Pilih **Dataset**: `ita_cake_shop_datamart`
    - Pilih **Table/View**: `v_looker_performance_overview`
 6. Di sudut kanan atas, klik tombol biru **CONNECT** (Hubungkan).
 7. Periksa kolom-kolom data:
@@ -41,7 +41,7 @@ Google Looker Studio adalah platform *Business Intelligence* (BI) dan visualisas
 Sebelum mendesain visualisasi, tambahkan sumber data kedua untuk rencana produksi:
 1. Di bilah menu atas Looker Studio, klik: **Resource > Manage added data sources** (Kelola sumber data yang ditambahkan).
 2. Klik **+ ADD A DATA SOURCE**.
-3. Pilih konektor **BigQuery > MY PROJECTS > [Project Anda] > ita_cake_shop_dw > v_looker_production_planning**.
+3. Pilih konektor **BigQuery > MY PROJECTS > [Project Anda] > ita_cake_shop_datamart > v_looker_production_planning**.
 4. Klik **CONNECT**.
 5. Ubah namanya menjadi: `DS_Production_Planning`.
 6. Klik **ADD TO REPORT**.
