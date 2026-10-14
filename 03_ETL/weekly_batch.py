@@ -657,7 +657,7 @@ def simulate_looker_views_locally(tables: Dict[str, pd.DataFrame]) -> Tuple[pd.D
 def main():
     parser = argparse.ArgumentParser(description="Weekly Demand Forecasting & BigQuery Batch Runner")
     parser.add_argument("--config", type=str, default="batch_config.yaml", help="Path ke file konfigurasi YAML")
-    parser.add_argument("--dry-run", action="store_true", help="Jalankan secara luring 100% tanpa GCP/BigQuery")
+    parser.add_argument("--dry-run", action="store_true", help="Jalankan secara luring 100 persen tanpa GCP/BigQuery")
     parser.add_argument("--pos-dir", type=str, default=None, help="Direktori file POS Excel lokal")
     parser.add_argument("--output-dir", type=str, default=None, help="Direktori penyimpanan file CSV")
     parser.add_argument("--cutoff-date", type=str, default=None, help="Tanggal batas simulasi (YYYY-MM-DD)")
