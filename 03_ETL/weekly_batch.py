@@ -681,14 +681,21 @@ def main():
     if args.pos_dir:
         pos_dir = Path(args.pos_dir)
     else:
-        # Default auto-discovery
-        candidate_dirs = [
-            base_script_dir / "../01_data_ITA-Cake-Shop/ITA CAKE SHOP ANTAPANI (maret 2025-september 2026)",
-            base_script_dir / "../01_data_ITA-Cake-Shop/ITA CAKE SHOP ANTAPANI (feb 2023-feb 2026)/LAPORAN PENJUALAN",
-            base_script_dir / "../../Data Skripsi/Data Baru/data_itacakeshop_antapani_terbaru",
-            base_script_dir / "incoming_pos"
-        ]
-        pos_dir = next((d for d in candidate_dirs if d.exists()), candidate_dirs[0])
+        # Default auto-discovery: cek incoming_pos terlebih dahulu jika ada file baru
+        incoming = base_script_dir / "incoming_pos"
+        incoming_files = list(incoming.glob("*.xlsx")) if incoming.exists() else []
+        if incoming_files:
+            pos_dir = incoming
+            logger.info(f"Ditemukan {len(incoming_files)} file POS baru di incoming_pos.")
+        else:
+            candidate_dirs = [
+                base_script_dir / "../01_data_ITA-Cake-Shop",
+                base_script_dir / "../01_data_ITA-Cake-Shop/ITA CAKE SHOP ANTAPANI (feb 2023-feb 2026)/LAPORAN PENJUALAN",
+                base_script_dir / "../01_data_ITA-Cake-Shop/ITA CAKE SHOP ANTAPANI (maret 2025-september 2026)",
+                base_script_dir / "../../Data Skripsi/Data Baru/data_itacakeshop_antapani_terbaru",
+                incoming
+            ]
+            pos_dir = next((d for d in candidate_dirs if d.exists()), candidate_dirs[0])
 
     df_raw = load_raw_pos_files(pos_dir)
 
@@ -712,14 +719,16 @@ def main():
         logger.info("Menjalankan pembersihan data POS mentah...")
         df_clean = clean_pos_dataset(df_raw)
 
-    logger.info(f"Data transaksi bersih siap diproses: {len(df_clean):,} baris.")
-
     # 2. Penentuan Tanggal Horizon & Cutoff
     official_start = pd.to_datetime(config['pipeline']['official_start_date'])
     if args.cutoff_date:
         cutoff_dt = pd.to_datetime(args.cutoff_date)
+        df_clean = df_clean[df_clean['order date'] <= cutoff_dt]
+        logger.info(f"Data difilter sesuai batas cutoff: {cutoff_dt.date()} ({len(df_clean):,} baris).")
     else:
         cutoff_dt = df_clean['order date'].max().normalize()
+
+    logger.info(f"Data transaksi bersih siap diproses: {len(df_clean):,} baris.")
 
     # Tentukan Senin awal pekan target peramalan (W-MON)
     # Jika cutoff adalah Minggu, pekan depan mulai Senin esoknya
