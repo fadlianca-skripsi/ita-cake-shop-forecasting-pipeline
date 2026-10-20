@@ -277,13 +277,13 @@ Tabel berikut merupakan **sumber kebenaran tunggal (*single source of truth*)** 
 | **Total Potongan Diskon POS** | **Rp 9.565.315** | `Master_Clean_Feb2023_Feb2026.csv` | `discount_amount.sum()` | Akumulasi diskon promosi kasir |
 | **Total Omzet Bersih (Net)** | **Rp 4.045.367.745** | `Master_Clean_Feb2023_Feb2026.csv` | `net_amount.sum()` | Pendapatan riil kas masuk toko |
 | **Total Kuantitas Fisik Terjual** | **148.493 Unit (Pcs)** | `Master_Clean_Feb2023_Feb2026.csv` | `qty.sum()` | Seluruh produk di toko |
-| **Jumlah Nota Pembayaran Unik** | **58.375 Faktur** | `Master_Clean_Feb2023_Feb2026.csv` | `order_id.nunique()` | Ditampilkan di Scorecard: 58.4K |
+| **Jumlah Nota Pembayaran Unik** | **58.363 Faktur** | `Master_Clean_Feb2023_Feb2026.csv` | `order_no.nunique()` | Ditampilkan di Scorecard: 58.4K |
 | **Pangsa Omzet 3 Kategori Target**| **50,58%** | `Master_Clean_Feb2023_Feb2026.csv` | Sel 20 NB01 | Rp 2.045.962.961 dari total Rp 4.045B |
 | **Omzet Bersih 3 Kategori Target**| **Rp 2.045.962.961** | `Master_Clean_Feb2023_Feb2026.csv` | Filter `item group in Target` | Cake + Japanese + Mille Crepes |
 | **Volume Fisik 3 Kategori Target** | **45.795 Unit (Pcs)** | `Master_Clean_Feb2023_Feb2026.csv` | Filter `item group in Target` | Kontribusi volume fisik 3 kategori |
 | **Total SKU pada 3 Kategori** | **87 SKU** | `sku_sparsity_distribution.csv` | `len(df_sku) == 87` | Portofolio varian produk target |
-| **Jumlah SKU Aktif (12 Pekan)** | **49 SKU** | `sku_sparsity_distribution.csv` | Kolom `is_active_12w == True` | Terjual >0 unit dalam 84 hari |
-| **Jumlah SKU Mati / Zero Sales** | **38 SKU** | `sku_sparsity_distribution.csv` | Kolom `is_active_12w == False` | Penjualan = 0 unit dalam 84 hari |
+| **Jumlah SKU Aktif (12 Pekan)** | **48–49 SKU** | `dim_product.csv` | Kolom `is_active_12w == True` | Terjual >0 unit dalam 84 hari (48 SKU pada cutoff batch) |
+| **Jumlah SKU Mati / Zero Sales** | **38–39 SKU** | `dim_product.csv` | Kolom `is_active_12w == False` | Penjualan = 0 unit dalam 84 hari |
 
 ---
 
@@ -291,22 +291,19 @@ Tabel berikut merupakan **sumber kebenaran tunggal (*single source of truth*)** 
 
 | Variabel / Pengukuran | Nilai Empiris | Dokumen Sumber | Keterangan & Makna Ilmiah |
 | :--- | :---: | :--- | :--- |
-| **Sparsitas Harian SKU (Grid Penuh)** | **85,35%** | `02_EDA_Clean_Analysis.ipynb` Sel 8 | Rata-rata 87 SKU $\times$ 1.086 hari kalender |
+| **Sparsitas Harian SKU (Grid Penuh)** | **85,35%** | `02_EDA_Clean_Analysis.ipynb` Sel 8 | Rata-rata 87 SKU $\times$ 1.086 hari kalender (80.642 dari 94.482 kombinasi) |
 | **Sparsitas Harian SKU (Lifespan)** | **53,39%** | `02_EDA_Clean_Analysis.ipynb` Sel 8 | Dihitung murni dalam masa aktif hidup varian |
 | **Zero Sales Harian Kategori Cake** | **5,87%** | `palugada_sparsity_matrix.csv` | Agregasi kategori mereduksi sparsitas ekstrem |
 | **Zero Sales Harian Japanese** | **10,09%** | `palugada_sparsity_matrix.csv` | Mengalami 11 pekan awal kosong (fase rilis) |
 | **Zero Sales Harian Mille Crepes** | **5,41%** | `palugada_sparsity_matrix.csv` | Penjualan harian sangat aktif |
 | **Rata-rata Zero Sales 3 Kategori** | **7,13%** | `02_EDA_Clean_Analysis.ipynb` Sel 9 | Turun drastis dari 85,35% pada level SKU |
 | **Volatilitas CV Harian (Agregat)** | **70,40%** | `02_EDA_Clean_Analysis.ipynb` Sel 10 | Sangat volatil pada tingkat transaksi harian |
-| **Volatilitas CV Mingguan (Cake)** | **39,67%** | `02_EDA_Clean_Analysis.ipynb` Sel 10 | Masuk kategori permintaan *Smooth* ($CV^2 < 0.49$) |
-| **Volatilitas CV Mingguan (Japanese)**| **51,21%** | `02_EDA_Clean_Analysis.ipynb` Sel 10 | Menunjukkan fluktuasi semesteran musiman |
-| **Volatilitas CV Mingguan (Mille Crepes)**| **45,44%** | `02_EDA_Clean_Analysis.ipynb` Sel 10 | Masuk kategori permintaan *Smooth* |
-| **Uji ADF Stasioneritas: Cake** | **p-value = 0.032** | `02_EDA_Clean_Analysis.ipynb` Sel 11 | Menolak $H_0$ pada $\alpha=0.05$ (Stasioner) |
-| **Uji ADF Stasioneritas: Japanese** | **p-value = 0.094** | `02_EDA_Clean_Analysis.ipynb` Sel 11 | Tren melandai di awal (Non-stasioner lemah) |
-| **Uji ADF Stasioneritas: Mille Crepes**| **p-value = 0.045** | `02_EDA_Clean_Analysis.ipynb` Sel 11 | Menolak $H_0$ pada $\alpha=0.05$ (Stasioner) |
-| **Korelasi Mean-Std: Cake** | **$r = 0.612$** | `02_EDA_Clean_Analysis.ipynb` Sel 12 | Mendukung kuat formulasi Multiplicative |
-| **Korelasi Mean-Std: Japanese** | **$r = 0.548$** | `02_EDA_Clean_Analysis.ipynb` Sel 12 | Mendukung kuat formulasi Multiplicative |
-| **Korelasi Mean-Std: Mille Crepes** | **$r = 0.381$** | `02_EDA_Clean_Analysis.ipynb` Sel 12 | Konsisten dengan formulasi Multiplicative |
+| **Volatilitas CV Mingguan (Cake)** | **39,67%** | `02_EDA_Clean_Analysis.ipynb` Sel 10 | Masuk kategori permintaan *Smooth* ($CV^2 = 0.1574 < 0.49$) |
+| **Volatilitas CV Mingguan (Japanese)**| **51,21%** | `02_EDA_Clean_Analysis.ipynb` Sel 10 | Masuk kategori permintaan *Smooth* ($CV^2 = 0.2622 < 0.49$) |
+| **Volatilitas CV Mingguan (Mille Crepes)**| **45,44%** | `02_EDA_Clean_Analysis.ipynb` Sel 10 | Masuk kategori permintaan *Smooth* ($CV^2 = 0.2064 < 0.49$) |
+| **Korelasi Mean-Std: Cake** | **$r = 0.5607$ ($p = 0.0004$)** | `verify_statistical_claims.py` | Mendukung kuat formulasi Multiplicative |
+| **Korelasi Mean-Std: Japanese** | **$r = 0.5826$ ($p = 0.0002$)** | `verify_statistical_claims.py` | Mendukung kuat formulasi Multiplicative |
+| **Korelasi Mean-Std: Mille Crepes** | **$r = 0.3802$ ($p = 0.0222$)** | `verify_statistical_claims.py` | Konsisten dengan formulasi Multiplicative |
 
 ---
 
@@ -331,17 +328,17 @@ Tabel berikut merupakan **sumber kebenaran tunggal (*single source of truth*)** 
 
 ### 3.4 Hasil Evaluasi Validasi Silang In-Sample & Harsh Environment
 
-| Kategori Produk | Model Dievaluasi | Skema Pengujian | Metrik WMAPE (%) | MAE | RMSE | Status vs Baseline |
-| :--- | :--- | :--- | :---: | :---: | :---: | :---: |
-| **Cake** | Holt-Winters Champion | 3-Fold Walk-Forward CV | **13.75%** | 13.91 | 18.23 | **UNGGUL** |
-| **Cake** | Holt-Winters Champion | 5-Fold Harsh Environment| **14.82%** | 14.65 | 19.12 | **UNGGUL** |
-| **Cake** | Seasonal Naive Baseline | 5-Fold Harsh Environment| **24.18%** | 23.80 | 31.45 | Benchmark Dasar |
-| **Japanese** | Holt-Winters Champion | 3-Fold Walk-Forward CV | **24.42%** | 12.45 | 16.89 | **UNGGUL** |
-| **Japanese** | Holt-Winters Champion | 5-Fold Harsh Environment| **22.15%** | 11.20 | 15.34 | **UNGGUL** |
-| **Japanese** | Seasonal Naive Baseline | 5-Fold Harsh Environment| **35.74%** | 18.10 | 23.65 | Benchmark Dasar |
-| **Mille Crepes**| Holt-Winters Champion | 3-Fold Walk-Forward CV | **14.32%** | 15.10 | 20.45 | **UNGGUL** |
-| **Mille Crepes**| Holt-Winters Champion | 5-Fold Harsh Environment| **16.20%** | 16.85 | 21.90 | **UNGGUL** |
-| **Mille Crepes**| Seasonal Naive Baseline | 5-Fold Harsh Environment| **28.45%** | 29.50 | 37.12 | Benchmark Dasar |
+| Kategori Produk | Model Dievaluasi | Skema Pengujian | Metrik WMAPE (%) | MAPE (%) | MAE | RMSE | Status vs Baseline |
+| :--- | :--- | :--- | :---: | :---: | :---: | :---: | :---: |
+| **Cake** | Holt-Winters Champion | 3-Fold Walk-Forward CV | **13.75%** | — | — | — | **UNGGUL** |
+| **Cake** | Holt-Winters Champion | 5-Fold Harsh Environment| **21.45%** | **22.11%** | 28.46 | 33.07 | **UNGGUL (+2.97%)** |
+| **Cake** | Seasonal Naive Baseline ($m=26$) | 5-Fold Harsh Environment| **24.42%** | **25.84%** | 31.39 | 35.64 | Benchmark Dasar |
+| **Japanese** | Holt-Winters Champion | 3-Fold Walk-Forward CV | **24.42%** | — | — | — | **UNGGUL** |
+| **Japanese** | Holt-Winters Champion | 5-Fold Harsh Environment| **24.73%** | **26.04%** | 18.32 | 20.81 | **UNGGUL (+20.37%)** |
+| **Japanese** | Seasonal Naive Baseline ($m=26$) | 5-Fold Harsh Environment| **45.10%** | **47.53%** | 34.06 | 38.07 | Benchmark Dasar |
+| **Mille Crepes**| Holt-Winters Champion | 3-Fold Walk-Forward CV | **14.32%** | — | — | — | **UNGGUL** |
+| **Mille Crepes**| Holt-Winters Champion | 5-Fold Harsh Environment| **22.81%** | **25.08%** | 13.06 | 17.24 | **UNGGUL (+11.29%)** |
+| **Mille Crepes**| Seasonal Naive Baseline ($m=26$) | 5-Fold Harsh Environment| **34.10%** | **36.14%** | 19.93 | 22.00 | Benchmark Dasar |
 
 ---
 
@@ -364,13 +361,13 @@ Tabel berikut merupakan **sumber kebenaran tunggal (*single source of truth*)** 
 
 | Komponen Disagregasi | Formula / Nilai Konfigurasi | Sumber Kode | Keterangan Operasional |
 | :--- | :--- | :--- | :--- |
-| **Day-of-Week Share** | Rata-rata proporsi 4 minggu historis terakhir | NB05 Sel 4 | Menangkap lonjakan permintaan akhir pekan (*weekend lift*) |
-| **SKU Share** | Rolling window 12 minggu (84 hari kalender) | NB05 Sel 4 | Mencegah alokasi pada varian produk mati |
-| **Faktor Pengali Service Level**| **$Z = 1.65$** (Tingkat Pelayanan 95%) | NB05 Sel 5 | Standar industri manajemen persediaan *perishable* |
-| **Formula Safety Stock Harian** | $SS_{SKU} = 1.65 \times \frac{\sigma_{residual} \times \text{SKU Share}}{\sqrt{7}}$ | NB05 Sel 5 | Membobotkan ketidakpastian residual mingguan ke harian |
-| **Ambang Batas MTO (Threshold)**| Jika $Target_{raw} < 0.5 \implies \mathbf{0}$ | NB05 Sel 5 | Varian dialihkan ke Made-to-Order / Pre-Order |
-| **Fungsi Pembulatan Fisik** | Jika $Target_{raw} \ge 0.5 \implies \mathbf{\text{np.round}(Target_{raw})}$ | NB05 Sel 5 | Pembulatan terdekat, dilarang keras `np.ceil()` |
-| **Scorecard Target 7 Hari** | **766 Unit** ($Forecast = 209, SS = 557$) | Looker / Batch | Konsiliasi matematis $209 + 557 = 766$ terbukti 100% |
+| **Day-of-Week Share** | Rata-rata proporsi 4 minggu historis terakhir | NB05 & `weekly_batch.py` | Menangkap lonjakan permintaan akhir pekan (*weekend lift*) |
+| **SKU Share** | Rolling window 12 minggu (84 hari kalender) | NB05 & `weekly_batch.py` | Mencegah alokasi pada varian produk mati |
+| **Faktor Pengali Service Level**| **$Z = 1.645$** (Tingkat Pelayanan 95%) | NB05 & `weekly_batch.py` | Standar industri manajemen persediaan *perishable* (`norm.ppf(0.95)`) |
+| **Formula Safety Stock Harian** | $SS_{SKU,d} = (Z \times \sigma_{resid,26w}) \times \text{Share}_{SKU} \times \text{DoW}_d$ | NB05 & `weekly_batch.py` | Membobotkan ketidakpastian residual 26 pekan terakhir secara proporsional |
+| **Ambang Batas MTO (Threshold)**| Jika $Target_{raw} < 0.5$ atau $Forecast_{raw} < 0.25 \implies \mathbf{0}$ | NB05 & `weekly_batch.py` | Varian dialihkan ke Made-to-Order / Pre-Order |
+| **Fungsi Pembulatan Aditif** | $Target_{final} = \text{round}(Forecast_{raw}) + \text{round}(SS_{raw})$ | NB05 & `weekly_batch.py` | Pembulatan integer 100% aditif (`forecast_murni + safety_stock == target_produksi`) |
+| **Scorecard Target 7 Hari** | **318 Unit** ($Forecast = 232, SS = 86$) | Looker / Batch | Konsiliasi matematis $232 + 86 = 318$ terbukti 100% (155 jadwal MTS & 181 jadwal MTO) |
 
 ---
 
@@ -443,21 +440,21 @@ Berdasarkan fitting model untuk memaksimalkan Maximum Likelihood Estimation (MLE
 
 <del style="color:red;">Nilai γ = 0 pada Cake dan Japanese menunjukkan bahwa komponen musiman bersifat statis dan berulang sama persis setiap siklus, sedangkan nilai γ = 0.1087 pada Mille Crepes mengindikasikan bahwa pola musiman kategori ini lebih responsif dalam memperbarui diri terhadap data terbaru.</del><ins style="color:green; font-weight:bold;">Nilai $\gamma = 0.0000$ pada seluruh kategori merepresentasikan mekanisme regularisasi penyusutan ($L_0$ Shrinkage Regularization) yang optimal. Pada durasi sampel 155 minggu (<3 tahun), membiarkan $\gamma > 0$ memicu Dynamic Seasonal Overfitting di mana lonjakan pesanan katering temporer diserap keliru sebagai musiman tahunan permanen. Mengunci $\gamma = 0.0000$ mengisolasi vektor musiman pada estimasi global MLE, memberikan kekebalan terhadap anomali lokal.</ins>
 
-#### Paragraf 1138 (Penyisipan Tabel 4.2 Evaluasi Model Resmi):
-*Gantikan placeholder teks lama dengan Tabel 4.2 resmi berikut:*
+#### Paragraf 1138 (Penyisipan Tabel 4.1 Evaluasi Model Resmi):
+*Gantikan tabel lama dengan Tabel 4.1 resmi berikut:*
 
-**Tabel 4.2 Hasil Evaluasi Akurasi Model Champion Holt-Winters vs Seasonal Naive**
-| Kategori Produk | Model Peramalan | Composite WMAPE | Holdout WMAPE | CV WMAPE (3-Fold) | WMAPE (5-Fold Harsh) | Status vs Baseline |
-| :--- | :--- | :---: | :---: | :---: | :---: | :---: |
-| **Cake** | **Holt-Winters Champion** | **16.50%** | **19.26%** | **13.75%** | **14.82%** | **UNGGUL (+9.36%)** |
-| Cake | Seasonal Naive Baseline | N/A | N/A | N/A | 24.18% | Benchmark |
-| **Japanese** | **Holt-Winters Champion** | **19.87%** | **15.33%** | **24.42%** | **22.15%** | **UNGGUL (+13.59%)** |
-| Japanese | Seasonal Naive Baseline | N/A | N/A | N/A | 35.74% | Benchmark |
-| **Mille Crepes**| **Holt-Winters Champion** | **18.00%** | **21.68%** | **14.32%** | **16.20%** | **UNGGUL (+12.25%)** |
-| Mille Crepes | Seasonal Naive Baseline | N/A | N/A | N/A | 28.45% | Benchmark |
+**Tabel 4.1 Hasil Evaluasi Akurasi Model Champion Holt-Winters vs Seasonal Naive**
+| Kategori Produk | Model Peramalan | Composite WMAPE (NB03) | Holdout WMAPE | CV WMAPE (3-Fold) | WMAPE (5-Fold Harsh) | MAPE (5-Fold) | RMSE (5-Fold) | Status vs Baseline |
+| :--- | :--- | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
+| **Cake** | **Holt-Winters Champion** | **16.50%** | **19.26%** | **13.75%** | **21.45%** | **22.11%** | **33.07** | **UNGGUL (+2.97%)** |
+| Cake | Seasonal Naive ($m=26$) | N/A | N/A | N/A | 24.42% | 25.84% | 35.64 | Benchmark |
+| **Japanese** | **Holt-Winters Champion** | **19.87%** | **15.33%** | **24.42%** | **24.73%** | **26.04%** | **20.81** | **UNGGUL (+20.37%)** |
+| Japanese | Seasonal Naive ($m=26$) | N/A | N/A | N/A | 45.10% | 47.53% | 38.07 | Benchmark |
+| **Mille Crepes**| **Holt-Winters Champion** | **18.00%** | **21.68%** | **14.32%** | **22.81%** | **25.08%** | **17.24** | **UNGGUL (+11.29%)** |
+| Mille Crepes | Seasonal Naive ($m=26$) | N/A | N/A | N/A | 34.10% | 36.14% | 22.00 | Benchmark |
 
 #### Paragraf 1139 (Disagregasi Dinamis & Aturan MTO):
-Berdasarkan hasil peramalan murni dari model, kalkulasi target produksi adaptif sistem kemudian menghitung tingkat ketidakpastian melalui standar deviasi residual kesalahan model dengan Safety Stock Service Level 95% ($Z=1.65$). <del style="color:red;">Hasil akhirnya diekspansi secara otomatis menjadi angka Target Produksi harian per kategori (dibagi rata dalam 7 hari operasi).</del><ins style="color:green; font-weight:bold;">Proses disagregasi mingguan ke tingkat harian dieksekusi secara dinamis menggunakan rata-rata proporsi Day-of-Week 4 minggu terakhir untuk menangkap lonjakan akhir pekan, serta proporsi varian SKU menggunakan Rolling 12-Week Share (84 hari). Guna mencegah penumpukan limbah makanan (Food Waste Trap), sistem menerapkan ambang batas Made-to-Order (MTO Threshold): jika target produksi kotor kurang dari 0.5 unit ($Target_{raw} < 0.5$), target fisik dialihkan menjadi 0 unit (sistem pre-order). Jika target mencapai $\ge 0.5$ unit, dilakukan pembulatan terdekat np.round(). Mekanisme ini memutus alokasi persediaan harian pada 38 SKU mati tanpa memaksa dapur memproduksi 1 unit semu per hari.</ins>
+Berdasarkan hasil peramalan murni dari model, kalkulasi target produksi adaptif sistem kemudian menghitung tingkat ketidakpastian melalui standar deviasi residual kesalahan model dengan Safety Stock Service Level 95% ($Z=1.645$). <del style="color:red;">Hasil akhirnya diekspansi secara otomatis menjadi angka Target Produksi harian per kategori (dibagi rata dalam 7 hari operasi).</del><ins style="color:green; font-weight:bold;">Proses disagregasi mingguan ke tingkat harian dieksekusi secara dinamis menggunakan rata-rata proporsi Day-of-Week 4 minggu terakhir untuk menangkap lonjakan akhir pekan, serta proporsi varian SKU menggunakan Rolling 12-Week Share (84 hari). Guna mencegah penumpukan limbah makanan (Food Waste Trap), sistem menerapkan ambang batas Made-to-Order (MTO Threshold): jika target produksi kotor kurang dari 0.5 unit ($Target_{raw} < 0.5$), target fisik dialihkan menjadi 0 unit (sistem pre-order). Jika target mencapai $\ge 0.5$ unit, dilakukan pembulatan integer aditif ($Target = \text{round}(Forecast) + \text{round}(SS)$). Mekanisme ini memutus alokasi persediaan harian pada SKU tidak aktif tanpa memaksa dapur memproduksi 1 unit semu per hari.</ins>
 
 ---
 
@@ -595,31 +592,31 @@ Mahasiswa cukup menjalankan 5 langkah berikut untuk mengaktifkan seluruh ekosist
 
 #### A. Pemetaan Halaman 1 (Business Intelligence Dashboard)
 *Sumber Data:* `ita_cake_shop_datamart.v_looker_performance_overview`
-1. **Scorecard TOTAL REVENUE:** Formula `SUM(net_amount)` $\rightarrow$ Menampilkan **Rp4.05B**.
-2. **Scorecard TOTAL QTY SOLD:** Formula `SUM(qty_sold)` $\rightarrow$ Menampilkan **148,513**.
-3. **Scorecard TOP CATEGORY:** Dimensi `category_name`, Metrik `SUM(net_amount)` $\rightarrow$ Menampilkan **Cake**.
-4. **Scorecard order_no:** Formula `COUNT_DISTINCT(order_no)` $\rightarrow$ Menampilkan **58.4K**.
-5. **Grafik Tren Penjualan:** Dimensi `order_date`, Metrik `SUM(net_amount)` $\rightarrow$ Kurva fluktuasi omzet harian.
-6. **Donut Chart Pangsa Kategori:** Dimensi `category_name`, Metrik `SUM(net_amount)` $\rightarrow$ Proporsi omzet kategori (Cake 26.1%, Japanese 16.0%, Custom 13.8%, Mille Crepes 7.8%, Others 14.8%).
+1. **Scorecard TOTAL REVENUE:** Formula `SUM(net_amount)` $\rightarrow$ Menampilkan **Rp4.05B** (`Rp 4.045.367.745`).
+2. **Scorecard TOTAL QTY SOLD:** Formula `SUM(qty_sold)` $\rightarrow$ Menampilkan **148,493**.
+3. **Scorecard TOP CATEGORY:** Dimensi `category_name`, Metrik `SUM(net_amount)` $\rightarrow$ Menampilkan **Cake** (`26.1%`).
+4. **Scorecard order_no:** Formula `COUNT_DISTINCT(order_no)` $\rightarrow$ Menampilkan **58.4K** (`58,363` struk unik).
+5. **Grafik Tren Penjualan:** Dimensi `order_date`, Metrik `SUM(net_amount)` $\rightarrow$ Kurva fluktuasi omzet harian/mingguan.
+6. **Donut Chart Pangsa Kategori:** Dimensi `category_name`, Metrik `SUM(net_amount)` $\rightarrow$ Proporsi omzet kategori (Cake 26.1%, Japanese 16.0%, Custom 13.8%, Mille Crepes 7.8%, Mochi 5.7%, Coklat 5.1%, Cookies 4.0%, Lainnya 21.4%).
 7. **Tabel Kinerja Produk:** Dimensi `product_name`, Metrik `SUM(qty_sold)` dan `SUM(net_amount)`.
 
 #### B. Pemetaan Halaman 2 (Production Planning & Inventory Dashboard)
 *Sumber Data:* `ita_cake_shop_datamart.v_looker_production_planning`
-1. **Scorecard TOTAL TARGET (7 Hari):** Formula `SUM(target_produksi)` $\rightarrow$ Menampilkan **766 Unit**.
-2. **Scorecard forecast_murni:** Formula `SUM(forecast_murni)` $\rightarrow$ Menampilkan **209 Unit**.
-3. **Scorecard safety_stock:** Formula `SUM(safety_stock)` $\rightarrow$ Menampilkan **557 Unit**.
-   - *Verifikasi Konsiliasi Matematis:* $209 + 557 = 766$ (Lulus 100%).
-4. **Tabel Rencana Produksi Harian:** Dimensi `forecast_date`, `category_name`, `product_name`, Metrik `forecast_murni`, `safety_stock`, `target_produksi`.
+1. **Scorecard TOTAL TARGET (7 Hari):** Formula `SUM(target_produksi)` $\rightarrow$ Menampilkan **318 Unit**.
+2. **Scorecard forecast_murni:** Formula `SUM(forecast_murni)` $\rightarrow$ Menampilkan **232 Unit**.
+3. **Scorecard safety_stock:** Formula `SUM(safety_stock)` $\rightarrow$ Menampilkan **86 Unit**.
+   - *Verifikasi Konsiliasi Matematis:* $232 + 86 = 318$ (Lulus 100% aditif integer).
+4. **Tabel Rencana Produksi Harian:** Dimensi `forecast_date`, `category_name`, `product_name`, `status_rekomendasi`, Metrik `forecast_murni`, `safety_stock`, `target_produksi` (336 jadwal SKU-hari = 48 SKU aktif × 7 hari: 155 jadwal MTS & 181 jadwal MTO).
 
 #### C. Ringkasan Matriks Pengujian Kotak Hitam (Black Box Testing 12 Skenario)
 *Status Verifikasi:* **12/12 SKENARIO LULUS (PASS 100%)**
-- **BB-01 (Scorecard KPI Hal 1):** Tampilan awal kartu skor Rp4.05B, 148,513, Cake, 58.4K $\rightarrow$ **PASS**.
+- **BB-01 (Scorecard KPI Hal 1):** Tampilan awal kartu skor Rp4.05B, 148,493, Cake, 58.4K $\rightarrow$ **PASS**.
 - **BB-02 (Filter Dropdown Kategori):** Interaktivitas pemfilteran kategori Japanese instan $\rightarrow$ **PASS**.
 - **BB-03 (Date Range Control):** Pemotongan rentang tanggal kalender 1 Jan - 31 Des 2025 $\rightarrow$ **PASS**.
 - **BB-04 (Donut Chart Pangsa):** Distribusi persentase omzet kategori terbagi proporsional $\rightarrow$ **PASS**.
 - **BB-05 (Sorting & Paginasi Tabel):** Pengurutan kuantitas terjual menurun dan navigasi 100 baris $\rightarrow$ **PASS**.
-- **BB-06 (Konsiliasi Skor Hal 2):** Keseimbangan penjumlahan $209 + 557 = 766$ tepat $\rightarrow$ **PASS**.
-- **BB-07 (Integritas Horizon 7 Hari):** Tanggal ramalan berurutan tepat 7 hari kalender (Senin–Minggu) $\rightarrow$ **PASS**.
+- **BB-06 (Konsiliasi Skor Hal 2):** Keseimbangan penjumlahan integer aditif $232 + 86 = 318$ tepat $\rightarrow$ **PASS**.
+- **BB-07 (Integritas Horizon 7 Hari):** Tanggal ramalan berurutan tepat 7 hari kalender (Senin–Minggu, 16–22 Feb 2026) $\rightarrow$ **PASS**.
 - **BB-08 (Aturan Pemutus Limbah MTO):** Varian slow-moving menghasilkan target 0 (sistem MTO) $\rightarrow$ **PASS**.
 - **BB-09 (Toleransi Berkas Hilang):** Pipeline menangani missing file secara aman (*graceful fallback*) $\rightarrow$ **PASS**.
 - **BB-10 (Toleransi Kerusakan Kolom):** Validasi mendeteksi skema tidak valid dan mencegah korupsi tabel $\rightarrow$ **PASS**.

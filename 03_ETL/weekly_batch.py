@@ -219,17 +219,15 @@ def build_star_schema(
     dim_product['product_id'] = dim_product.index + 1
     dim_product['scd_type'] = 'Type1'
 
-    # 12-Week Active SKU Flag
-    cutoff_12w = horizon_end - pd.Timedelta(days=84)
+    # 12-Week Active SKU Flag (aligned with forecast_week_start - 84 days)
+    cutoff_12w = (horizon_end - pd.Timedelta(days=6)) - pd.Timedelta(days=84)
     target_clean = df_clean[df_clean['item group'].isin(target_categories)]
     sales_12w = target_clean[target_clean['order date'] >= cutoff_12w].groupby('item name')['qty'].sum()
     active_skus = set(sales_12w[sales_12w > 0].index)
 
     dim_product['is_active_12w'] = dim_product['product_name'].apply(
         lambda name: True if name in active_skus else False
-    ).astype(object)
-    # Non-target categories set to None/NULL
-    dim_product.loc[~dim_product['category_name'].isin(target_categories), 'is_active_12w'] = None
+    ).astype(bool)
 
     dim_product = dim_product[[
         'product_id', 'product_name', 'category_name',
@@ -271,7 +269,9 @@ def build_star_schema(
 def run_forecasting_and_disaggregation(
     df_clean: pd.DataFrame,
     config: dict,
-    forecast_week_start: pd.Timestamp
+    forecast_week_start: pd.Timestamp,
+    dim_date: Optional[pd.DataFrame] = None,
+    dim_product: Optional[pd.DataFrame] = None
 ) -> Tuple[pd.DataFrame, pd.DataFrame]:
     """
     Menjalankan pemodelan Holt-Winters mingguan makro dan disagregasi mikro:
@@ -280,7 +280,7 @@ def run_forecasting_and_disaggregation(
     3. Fit Holt-Winters Multiplicative terkunci (replace 0 -> 0.1).
     4. Proyeksi 1 pekan ke depan (h=1).
     5. Disagregasi porsi hari adaptif 4 pekan & rolling SKU share 12 pekan.
-    6. Safety stock (Z=1.65) & Ambang batas MTO (<0.5 = 0, np.round).
+    6. Safety stock proporsional (Z=1.65) & Ambang batas MTO (<0.5 = 0, pembulatan aditif).
     7. Pembuatan tabel rekomendasi manajerial.
     """
     logger.info(f"Memulai peramalan operasional untuk pekan: {forecast_week_start.strftime('%Y-%m-%d')}...")
@@ -325,14 +325,18 @@ def run_forecasting_and_disaggregation(
 
     weekly_clean = weekly_clean.interpolate(method='linear').bfill().ffill()
 
-    # 2. Outlier Capping (Tukey IQR)
+    # 2. Outlier Capping (Tukey IQR in-sample pada data historis sebelum cutoff)
     for cat in target_categories:
-        up_bound = capping_bounds.get(cat, weekly_clean[cat].quantile(0.75) * 1.5)
+        q1 = weekly_clean[cat].quantile(0.25)
+        q3 = weekly_clean[cat].quantile(0.75)
+        iqr_bound = float(q3 + 1.5 * (q3 - q1))
+        up_bound = capping_bounds.get(cat, iqr_bound)
         weekly_clean[cat] = np.where(weekly_clean[cat] > up_bound, up_bound, weekly_clean[cat])
 
     # 3. Model Fitting & Forecasting
     weekly_forecasts = {}
     residuals_std = {}
+    resid_window = int(disagg_cfg.get('residual_window_weeks', 26))
 
     for cat in target_categories:
         series = weekly_clean[cat].copy()
@@ -357,12 +361,21 @@ def run_forecasting_and_disaggregation(
 
         fc_1w = float(max(0.0, fitted.forecast(1).values[0]))
         weekly_forecasts[cat] = fc_1w
-        residuals_std[cat] = float(np.std(fitted.resid))
-        logger.info(f"Forecast Mingguan [{cat}]: {fc_1w:.2f} pcs | Residual Std: {residuals_std[cat]:.2f}")
+        recent_resid = fitted.resid.iloc[-resid_window:] if len(fitted.resid) >= resid_window else fitted.resid
+        residuals_std[cat] = float(np.std(recent_resid, ddof=1))
+        logger.info(f"Forecast Mingguan [{cat}]: {fc_1w:.2f} pcs | Residual Std ({resid_window}w): {residuals_std[cat]:.2f}")
 
     # 4. Disagregasi Mikro ke SKU Harian (7 Hari Kalender)
     forecast_dates = pd.date_range(forecast_week_start, periods=7, freq='D')
     batch_ts = datetime.datetime.now(datetime.timezone.utc).isoformat()
+
+    date_lookup = {}
+    if dim_date is not None and not dim_date.empty:
+        date_lookup = dict(zip(dim_date['tanggal_penuh'].astype(str), dim_date['date_id'].astype(int)))
+
+    prod_lookup = {}
+    if dim_product is not None and not dim_product.empty:
+        prod_lookup = dict(zip(dim_product['product_name'].astype(str), dim_product['product_id'].astype(int)))
 
     daily_sku_target = df_clean[
         (df_clean['order date'] < forecast_week_start) &
@@ -406,36 +419,53 @@ def run_forecasting_and_disaggregation(
             sku_share = {sku: 1.0 / max(1, len(skus)) for sku in skus}
 
         for dt in forecast_dates:
+            dt_str = dt.strftime('%Y-%m-%d')
+            date_id_val = int(date_lookup.get(dt_str, int(dt.strftime('%Y%m%d'))))
             day_dow = dt.dayofweek
-            day_fc_cat = w_fc * dow_share.get(day_dow, 1.0 / 7.0)
+            dow_val = dow_share.get(day_dow, 1.0 / 7.0)
+            day_fc_cat = w_fc * dow_val
 
             for sku, share in sku_share.items():
                 if share <= 0:
                     continue
 
                 sku_day_base = day_fc_cat * share
-                safety_stock = z_score * std_resid * share / np.sqrt(7)
-                raw_target = sku_day_base + safety_stock
+                # Disagregasi safety stock proporsional ke SKU & hari (skala variansi harian /sqrt(7) dan bobot hari)
+                # Menggunakan bobot proporsional (dow_val * sqrt(7)) agar akumulasi mingguan konsisten dgn Z * sigma / sqrt(7)
+                safety_stock_raw = (z_score * std_resid / np.sqrt(7.0)) * share * (dow_val * np.sqrt(7.0))
+                raw_target = sku_day_base + safety_stock_raw
 
-                # MTO Threshold: raw_target < 0.5 -> 0, else np.round()
-                if raw_target < disagg_cfg['mto_threshold']:
+                # MTO Threshold & Pembulatan Integer Aditif (forecast_murni + safety_stock == target_produksi)
+                if raw_target < disagg_cfg['mto_threshold'] or sku_day_base < 0.25:
+                    fm_int = 0
+                    ss_int = 0
                     final_target = 0
+                    status_rek = "Jangan Produksi (Make-to-Order / By Request)"
                 else:
-                    final_target = int(np.round(raw_target))
+                    fm_int = int(np.round(sku_day_base))
+                    ss_int = int(np.round(safety_stock_raw))
+                    if fm_int == 0 and raw_target >= disagg_cfg['mto_threshold']:
+                        fm_int = 1
+                    final_target = fm_int + ss_int
+                    status_rek = "Produksi (Make-to-Stock)"
 
+                prod_id_val = int(prod_lookup.get(str(sku), 0))
                 plan_records.append({
-                    'forecast_date': dt.strftime('%Y-%m-%d'),
+                    'date_id': date_id_val,
+                    'forecast_date': dt_str,
+                    'product_id': prod_id_val,
                     'category_name': cat,
                     'product_name': sku,
-                    'forecast_murni': int(np.round(sku_day_base)),
-                    'safety_stock': int(np.round(safety_stock)),
+                    'forecast_murni': fm_int,
+                    'safety_stock': ss_int,
                     'target_produksi': final_target,
+                    'status_rekomendasi': status_rek,
                     'batch_execution_timestamp': batch_ts
                 })
 
     df_plan = pd.DataFrame(plan_records)
     # Urutkan berdasarkan tanggal ASC, target DESC
-    df_plan.sort_values(by=['forecast_date', 'target_produksi'], ascending=[True, False], inplace=True)
+    df_plan.sort_values(by=['forecast_date', 'target_produksi', 'product_name'], ascending=[True, False, True], inplace=True)
     df_plan.reset_index(drop=True, inplace=True)
 
     # 5. Tabel Rekomendasi Manajerial
@@ -492,6 +522,8 @@ def validate_schemas(tables: Dict[str, pd.DataFrame]) -> bool:
             errors.append("dim_product: Ditemukan duplikasi pada product_id!")
         if df_prod['product_name'].isnull().any():
             errors.append("dim_product: Ditemukan nilai NULL pada product_name!")
+        if df_prod['is_active_12w'].isnull().any():
+            errors.append("dim_product: Ditemukan nilai NULL pada is_active_12w!")
 
     # Validasi fact_sales
     df_fact = tables.get('fact_sales')
@@ -510,6 +542,14 @@ def validate_schemas(tables: Dict[str, pd.DataFrame]) -> bool:
             errors.append("plan_production_daily: Ditemukan target produksi negatif!")
         if df_plan['forecast_date'].isnull().any():
             errors.append("plan_production_daily: Ditemukan tanggal NULL!")
+        if not (df_plan['forecast_murni'] + df_plan['safety_stock'] == df_plan['target_produksi']).all():
+            errors.append("plan_production_daily: Pelanggaran aditivitas forecast_murni + safety_stock != target_produksi!")
+        if df_date is not None and 'date_id' in df_plan.columns:
+            if not df_plan['date_id'].isin(set(df_date['date_id'])).all():
+                errors.append("plan_production_daily: Ditemukan orphan date_id yang tidak ada di dim_date!")
+        if df_prod is not None and 'product_id' in df_plan.columns:
+            if not df_plan['product_id'].isin(set(df_prod['product_id'])).all():
+                errors.append("plan_production_daily: Ditemukan orphan product_id yang tidak ada di dim_product!")
 
     if errors:
         for err in errors:
@@ -604,12 +644,18 @@ def upload_to_bigquery_sandbox(tables: Dict[str, pd.DataFrame], config: dict) ->
         'v_looker_production_planning': f"""
             CREATE OR REPLACE VIEW `{project_id}.{dataset_id}.v_looker_production_planning` AS
             SELECT
+                date_id,
                 PARSE_DATE('%Y-%m-%d', forecast_date) AS forecast_date,
+                product_id,
                 category_name,
                 product_name,
                 forecast_murni,
                 safety_stock,
                 target_produksi,
+                CASE
+                    WHEN target_produksi > 0 THEN 'Produksi (Make-to-Stock)'
+                    ELSE 'Jangan Produksi (Make-to-Order / By Request)'
+                END AS status_rekomendasi,
                 FORMAT_DATE('%a, %d %b %Y', PARSE_DATE('%Y-%m-%d', forecast_date)) AS formatted_date,
                 batch_execution_timestamp
             FROM `{project_id}.{dataset_id}.plan_production_daily`
@@ -660,7 +706,7 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="Jalankan secara luring 100 persen tanpa GCP/BigQuery")
     parser.add_argument("--pos-dir", type=str, default=None, help="Direktori file POS Excel lokal")
     parser.add_argument("--output-dir", type=str, default=None, help="Direktori penyimpanan file CSV")
-    parser.add_argument("--cutoff-date", type=str, default=None, help="Tanggal batas simulasi (YYYY-MM-DD)")
+    parser.add_argument("--cutoff-date", type=str, default=None, help="Tanggal batas simulasi (YYYY-MM-DD atau 'latest')")
 
     args = parser.parse_args()
 
@@ -676,53 +722,65 @@ def main():
     logger.info(f"Mode Operasi: {'LOCAL DRY-RUN (Luring)' if args.dry_run else 'PRODUCTION BIGQUERY SANDBOX'}")
     logger.info("=" * 70)
 
-    # 1. Pemuatan Data POS
-    # Cari direktori POS
+    # 1. Pemuatan Data POS Historis + Penggabungan Ingesti Baru (incoming_pos)
+    df_clean = pd.DataFrame()
     if args.pos_dir:
-        pos_dir = Path(args.pos_dir)
-    else:
-        # Default auto-discovery: cek incoming_pos terlebih dahulu jika ada file baru
-        incoming = base_script_dir / "incoming_pos"
-        incoming_files = list(incoming.glob("*.xlsx")) if incoming.exists() else []
-        if incoming_files:
-            pos_dir = incoming
-            logger.info(f"Ditemukan {len(incoming_files)} file POS baru di incoming_pos.")
+        df_raw = load_raw_pos_files(Path(args.pos_dir))
+        if not df_raw.empty:
+            df_clean = clean_pos_dataset(df_raw)
+
+    if df_clean.empty:
+        master_csv_candidates = [
+            base_script_dir / "Data_Output/Master_Clean_Feb2023_Feb2026.csv",
+            base_script_dir / "../01_data_ITA-Cake-Shop/Data_Output/Master_Clean_Feb2023_Feb2026.csv",
+            base_script_dir / "Data_Output/Master_Clean_Feb2023_Sept2026.csv",
+            base_script_dir / "../01_data_ITA-Cake-Shop/Data_Output/Master_Clean_Feb2023_Sept2026.csv",
+        ]
+        # Jika cutoff-date lebih dari 2026-02-09 atau 'latest', prioritaskan Sept2026
+        cutoff_req = args.cutoff_date or config['pipeline'].get('default_cutoff_date', '2026-02-09')
+        if str(cutoff_req).lower() == 'latest' or pd.to_datetime(cutoff_req) > pd.to_datetime('2026-02-09'):
+            master_csv_candidates = [
+                base_script_dir / "Data_Output/Master_Clean_Feb2023_Sept2026.csv",
+                base_script_dir / "../01_data_ITA-Cake-Shop/Data_Output/Master_Clean_Feb2023_Sept2026.csv",
+                base_script_dir / "Data_Output/Master_Clean_Feb2023_Feb2026.csv",
+                base_script_dir / "../01_data_ITA-Cake-Shop/Data_Output/Master_Clean_Feb2023_Feb2026.csv",
+            ]
+        master_file = next((f for f in master_csv_candidates if f.exists()), None)
+        if master_file:
+            logger.info(f"Menggunakan Master Clean Dataset dari: {master_file}")
+            df_clean = pd.read_csv(master_file)
+            df_clean['order date'] = pd.to_datetime(df_clean['order date'])
+            df_clean.rename(columns={'order no': 'order_no'}, inplace=True)
         else:
             candidate_dirs = [
                 base_script_dir / "../01_data_ITA-Cake-Shop",
                 base_script_dir / "../01_data_ITA-Cake-Shop/ITA CAKE SHOP ANTAPANI (feb 2023-feb 2026)/LAPORAN PENJUALAN",
                 base_script_dir / "../01_data_ITA-Cake-Shop/ITA CAKE SHOP ANTAPANI (maret 2025-september 2026)",
                 base_script_dir / "../../Data Skripsi/Data Baru/data_itacakeshop_antapani_terbaru",
-                incoming
             ]
             pos_dir = next((d for d in candidate_dirs if d.exists()), candidate_dirs[0])
+            df_raw = load_raw_pos_files(pos_dir)
+            if df_raw.empty:
+                raise RuntimeError("Tidak ditemukan file POS mentah maupun Master Clean Dataset!")
+            df_clean = clean_pos_dataset(df_raw)
 
-    df_raw = load_raw_pos_files(pos_dir)
-
-    # Jika file mentah kosong (misal di folder incoming_pos baru belum ada), cek file Master_Clean
-    if df_raw.empty:
-        master_csv_candidates = [
-            base_script_dir / "Data_Output/Master_Clean_Feb2023_Sept2026.csv",
-            base_script_dir / "Data_Output/Master_Clean_Feb2023_Feb2026.csv",
-            base_script_dir / "../01_data_ITA-Cake-Shop/Data_Output/Master_Clean_Feb2023_Sept2026.csv",
-            base_script_dir / "../01_data_ITA-Cake-Shop/Data_Output/Master_Clean_Feb2023_Feb2026.csv",
-        ]
-        master_file = next((f for f in master_csv_candidates if f.exists()), None)
-        if master_file:
-            logger.info(f"Menggunakan Master Clean Dataset cadangan dari: {master_file}")
-            df_clean = pd.read_csv(master_file)
-            df_clean['order date'] = pd.to_datetime(df_clean['order date'])
-            df_clean.rename(columns={'order no': 'order_no'}, inplace=True)
-        else:
-            raise RuntimeError("Tidak ditemukan file POS mentah maupun Master Clean Dataset!")
-    else:
-        logger.info("Menjalankan pembersihan data POS mentah...")
-        df_clean = clean_pos_dataset(df_raw)
+    # Cek apakah ada file POS baru di incoming_pos untuk digabungkan (concat + deduplicate)
+    incoming = base_script_dir / "incoming_pos"
+    incoming_files = list(incoming.glob("*.xlsx")) if incoming.exists() else []
+    if incoming_files and (not args.pos_dir or Path(args.pos_dir).resolve() != incoming.resolve()):
+        logger.info(f"Menggabungkan {len(incoming_files)} file POS baru dari incoming_pos ke data historis...")
+        df_inc_raw = load_raw_pos_files(incoming)
+        if not df_inc_raw.empty:
+            df_inc_clean = clean_pos_dataset(df_inc_raw)
+            df_clean = pd.concat([df_clean, df_inc_clean], ignore_index=True)
+            dedup_cols = ['order_no', 'order date', 'item name', 'qty', 'price', 'amount']
+            df_clean = df_clean.drop_duplicates(subset=[c for c in dedup_cols if c in df_clean.columns], keep='first')
 
     # 2. Penentuan Tanggal Horizon & Cutoff
     official_start = pd.to_datetime(config['pipeline']['official_start_date'])
-    if args.cutoff_date:
-        cutoff_dt = pd.to_datetime(args.cutoff_date)
+    cutoff_cfg = args.cutoff_date or config['pipeline'].get('default_cutoff_date')
+    if cutoff_cfg and str(cutoff_cfg).lower() != 'latest':
+        cutoff_dt = pd.to_datetime(cutoff_cfg)
         df_clean = df_clean[df_clean['order date'] <= cutoff_dt]
         logger.info(f"Data difilter sesuai batas cutoff: {cutoff_dt.date()} ({len(df_clean):,} baris).")
     else:
@@ -731,11 +789,9 @@ def main():
     logger.info(f"Data transaksi bersih siap diproses: {len(df_clean):,} baris.")
 
     # Tentukan Senin awal pekan target peramalan (W-MON)
-    # Jika cutoff adalah Minggu, pekan depan mulai Senin esoknya
     if cutoff_dt.dayofweek == 6:  # Minggu
         forecast_week_start = cutoff_dt + pd.Timedelta(days=1)
     else:
-        # Mundur ke Senin pekan berjalan atau maju ke Senin depan
         forecast_week_start = cutoff_dt + pd.Timedelta(days=(7 - cutoff_dt.dayofweek))
 
     horizon_end = forecast_week_start + pd.Timedelta(days=6)
@@ -755,7 +811,9 @@ def main():
     plan_daily, forecast_recs = run_forecasting_and_disaggregation(
         df_clean=df_clean,
         config=config,
-        forecast_week_start=forecast_week_start
+        forecast_week_start=forecast_week_start,
+        dim_date=dim_date,
+        dim_product=dim_product
     )
 
     tables = {

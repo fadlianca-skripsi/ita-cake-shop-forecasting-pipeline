@@ -1,4 +1,4 @@
 kategori,model_arsitektur,periode_musiman_m,smoothing_alpha,smoothing_gamma,holdout_wmape,cv_wmape_3fold,composite_wmape,rekomendasi_operasional,kebijakan_safety_stock
-Cake,Holt-Winters Mul,26,0.4489,0.0,19.26%,13.75%,16.50%,Model menangkap tren level optimal.,Z-score standar diturunkan secara formal untuk menutupi 95% varians error (asumsi distribusi normal pada residual).
-Japanese,Holt-Winters Mul,26,0.3995,0.0,15.33%,24.42%,19.87%,Pola musiman semesteran (m=26) terbukti optimal menangkap siklus libur sekolah Bandung.,Z-score standar diturunkan secara formal untuk menutupi 95% varians error (asumsi distribusi normal pada residual).
-Mille Crepes,Holt-Winters Mul,8,0.4977,0.0,21.68%,14.32%,18.00%,Hipotesis: m=8 menangkap perputaran tren rasa bulanan/dwibulanan.,Z-score standar diturunkan secara formal untuk menutupi 95% varians error (asumsi distribusi normal pada residual).
+Cake,Holt-Winters Mul,26,0.4489,0.0,19.26%,13.75%,16.50%,Model menangkap tren level optimal (m=26 semesteran kalender).,Z-score 1.65 diturunkan secara formal untuk Service Level 95% (distribusi normal).
+Japanese,Holt-Winters Mul,26,0.3995,0.0,15.33%,24.42%,19.87%,Pola musiman semesteran (m=26) terbukti optimal menangkap siklus libur sekolah Bandung.,Z-score 1.65 diturunkan secara formal untuk Service Level 95% (distribusi normal).
+Mille Crepes,Holt-Winters Mul,8,0.4977,0.0,21.68%,14.32%,18.00%,Hipotesis: m=8 menangkap perputaran tren rasa bulanan/dwibulanan.,Z-score 1.65 diturunkan secara formal untuk Service Level 95% (distribusi normal).

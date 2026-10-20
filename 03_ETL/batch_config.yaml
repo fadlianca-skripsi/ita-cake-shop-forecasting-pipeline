@@ -6,7 +6,7 @@
 
 gcp:
   project_id_env: "GCP_PROJECT_ID"
-  project_id_default: "ita-cake-shop-bi"
+  project_id_default: "ita-cake-shop-bi-2026"
   dataset_id: "ita_cake_shop_datamart"
   location: "asia-southeast2"  # Jakarta (atau US untuk default sandbox)
   credentials_env: "GOOGLE_APPLICATION_CREDENTIALS"
@@ -25,6 +25,7 @@ google_drive:
 
 pipeline:
   official_start_date: "2023-02-20"
+  default_cutoff_date: "2026-02-09"
   target_categories:
     - "Cake"
     - "Japanese"
@@ -33,7 +34,7 @@ pipeline:
     - ["2023-04-08", "2023-04-25"]
     - ["2024-03-27", "2024-04-13"]
     - ["2025-03-17", "2025-04-03"]
-    - ["2026-03-07", "2026-03-24"]
+    - ["2026-02-09", "2026-03-24"]
   iqr_capping:
     Cake: 215.25
     Japanese: 216.38
@@ -80,6 +81,7 @@ champion_models:
 disaggregation:
   dow_window_days: 28     # 4 pekan historis terakhir untuk porsi hari adaptif
   sku_window_days: 84     # 12 pekan historis (84 hari) untuk rolling share SKU aktif
+  residual_window_weeks: 26 # 26 pekan terakhir (1 semester) untuk deviasi standar residual adaptif
   service_level: 0.95     # 95% target kepuasan layanan
   z_score: 1.65           # Z-Score satu sisi untuk SL 95%
   mto_threshold: 0.5      # Jika Raw_Target < 0.5 -> 0 (Made-to-Order), jika >= 0.5 -> np.round()

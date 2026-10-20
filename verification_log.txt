@@ -1,5 +1,5 @@
 === VERIFICATION AUDIT LOG: ITA CAKE SHOP THESIS ===
-Timestamp: 2026-10-06 06:44:56
+Timestamp: 2026-10-17 15:36:34
 Working Directory: C:\Users\admin\Documents\Semester 8 & 9\Skripsi(2)\FINAL_BERSIH
 Python: 3.10.21 | packaged by conda-forge | (main, Aug 21 2026, 22:38:44) [MSC v.1944 64 bit (AMD64)]
 =================================================================
@@ -9,7 +9,7 @@ MEMULAI PROSES VERIFIKASI REPRODUSIBILITAS OTOMATIS...
 >>> [CHECK 1/6] VALIDASI EKSEKUSI 6 JUPYTER NOTEBOOK
   [INFO] Parameter --skip-notebooks aktif: Memverifikasi keberadaan dan integritas struktur notebook...
   [PASS] 01_EDA_Raw_and_Cleaning.ipynb (Valid JSON, 23 sel)
-  [PASS] 02_EDA_Clean_Analysis.ipynb (Valid JSON, 26 sel)
+  [PASS] 02_EDA_Clean_Analysis.ipynb (Valid JSON, 31 sel)
   [PASS] 03_Teori_Sparsitas_dan_GridSearch.ipynb (Valid JSON, 30 sel)
   [PASS] 04_Operational_Simulation.ipynb (Valid JSON, 8 sel)
   [PASS] 05_Operational_Simulation_Disaggregation.ipynb (Valid JSON, 8 sel)
@@ -37,6 +37,8 @@ MEMULAI PROSES VERIFIKASI REPRODUSIBILITAS OTOMATIS...
     * Japanese: Holdout=15.33%, CV=24.42%, Composite=19.87%
     * Mille Crepes: Holdout=21.68%, CV=14.32%, Composite=18.00%
   [PASS] forecast_recommendations.csv terbukti valid dengan metrik riil non-zero.
+  [PASS] leaderboard_cv_final.csv: Champion HW mengungguli Seasonal Naive pada ketiga kategori utama.
+  [PASS] production_targets_daily_final.csv & waste_analysis_final.csv: 100% aditif integer & rasio waste terkendali.
 
 >>> [CHECK 5/6] EVALUASI EMPIRIS OUT-OF-SAMPLE DUAL-HORIZON (30 PEKAN KONTINU & 25 PEKAN OPERASIONAL)
   - Periode Latih Resmi         : 2023-02-20 s/d 2026-02-02 (155 pekan)
@@ -91,17 +93,17 @@ MEMULAI PROSES VERIFIKASI REPRODUSIBILITAS OTOMATIS...
 
 >>> [CHECK 6/6] VALIDASI ASSET VISUALISASI MODELING (10 PNG REGENERATED)
   - cv_walk_forward_scheme.png                :  186,268 bytes [PASS]
-  - cv_fold_predictions_cake.png              : 1,096,440 bytes [PASS]
-  - cv_fold_predictions_japanese.png          :  949,022 bytes [PASS]
-  - cv_fold_predictions_millecrepes.png       : 1,150,132 bytes [PASS]
-  - cv_metric_comparison.png                  :  351,515 bytes [PASS]
-  - operational_simulation_12w_tracking.png   :  865,428 bytes [PASS]
+  - cv_fold_predictions_cake.png              : 1,106,375 bytes [PASS]
+  - cv_fold_predictions_japanese.png          :  959,028 bytes [PASS]
+  - cv_fold_predictions_millecrepes.png       : 1,062,202 bytes [PASS]
+  - cv_metric_comparison.png                  :  355,705 bytes [PASS]
+  - operational_simulation_12w_tracking.png   :  896,733 bytes [PASS]
   - operational_dow_adaptive_profiles.png     :  173,186 bytes [PASS]
   - operational_sku_pareto_distribution.png   :  434,066 bytes [PASS]
-  - operational_daily_production_vs_demand.png:  932,303 bytes [PASS]
-  - operational_waste_and_fill_rate.png       :  246,365 bytes [PASS]
+  - operational_daily_production_vs_demand.png: 1,029,095 bytes [PASS]
+  - operational_waste_and_fill_rate.png       :  268,410 bytes [PASS]
   [PASS] 10 file visualisasi operasional dan evaluasi cross-validation valid dan beresolusi tinggi.
 
 =================================================================
-VERIFIKASI BERHASIL 100%! SEMUA 6 UJI KELAYAKAN LULUS (TOTAL WAKTU: 0.64s)
+VERIFIKASI BERHASIL 100%! SEMUA 6 UJI KELAYAKAN LULUS (TOTAL WAKTU: 0.51s)
 =================================================================

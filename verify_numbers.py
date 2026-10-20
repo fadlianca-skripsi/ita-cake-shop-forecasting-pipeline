@@ -190,6 +190,23 @@ def check_forecast_recommendations():
             
     logger.log("  [PASS] forecast_recommendations.csv terbukti valid dengan metrik riil non-zero.")
 
+    # Validasi tambahan hasil audit: Leaderboard 5-Fold CV & Simulasi Operasional 12 Pekan
+    lb_path = BASE_DIR / "02_modeling_ITA-Cake-Shop" / "Data_Output" / "leaderboard_cv_final.csv"
+    df_lb = pd.read_csv(lb_path)
+    for cat in ["Cake", "Japanese", "Mille Crepes"]:
+        hw_w = df_lb[(df_lb["Category"] == cat) & (df_lb["Model"] == "Champion HW")]["WMAPE"].iloc[0]
+        sn_w = df_lb[(df_lb["Category"] == cat) & (df_lb["Model"] == "Seasonal Naive")]["WMAPE"].iloc[0]
+        assert hw_w < sn_w, f"5-Fold CV {cat}: Champion HW ({hw_w:.2f}%) tidak mengungguli Seasonal Naive ({sn_w:.2f}%)!"
+    logger.log("  [PASS] leaderboard_cv_final.csv: Champion HW mengungguli Seasonal Naive pada ketiga kategori utama.")
+
+    pt_path = BASE_DIR / "02_modeling_ITA-Cake-Shop" / "Data_Output" / "production_targets_daily_final.csv"
+    df_pt = pd.read_csv(pt_path)
+    assert ((df_pt["Forecast_Base"] + df_pt["Safety_Stock"]) == df_pt["Final_Production_Target"]).all(), "Pelanggaran aditivitas integer pada production_targets_daily_final.csv!"
+    ws_path = BASE_DIR / "02_modeling_ITA-Cake-Shop" / "Data_Output" / "waste_analysis_final.csv"
+    df_ws = pd.read_csv(ws_path)
+    assert (df_ws["Waste_Ratio_%"] < 20.0).all(), "Waste ratio melebihi 20%!"
+    logger.log("  [PASS] production_targets_daily_final.csv & waste_analysis_final.csv: 100% aditif integer & rasio waste terkendali.")
+
 def run_out_of_sample_evaluation():
     logger.log("\n>>> [CHECK 5/6] EVALUASI EMPIRIS OUT-OF-SAMPLE DUAL-HORIZON (30 PEKAN KONTINU & 25 PEKAN OPERASIONAL)")
     

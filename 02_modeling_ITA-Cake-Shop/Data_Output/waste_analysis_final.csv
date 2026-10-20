@@ -1,4 +1,4 @@
-Category,Final_Production_Target,Actual_Sales,Waste_Overproduction,Waste_Ratio_%
-Cake,2521,1544,1331,52.8
-Japanese,2134,868,1370,64.2
-Mille Crepes,2166,677,1496,69.07
+Category,Forecast_Base,Safety_Stock,Final_Production_Target,Actual_Sales,Fulfilled_Qty,Waste_Overproduction,Lost_Sales_Shortage,Fill_Rate_%,Waste_Ratio_%
+Cake,1666,404,2070,1564,1318,317,246,84.27,15.31
+Japanese,963,253,1216,868,763,200,105,87.9,16.45
+Mille Crepes,666,411,1077,677,654,47,23,96.6,4.36

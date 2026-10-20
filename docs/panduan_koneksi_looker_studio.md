@@ -72,7 +72,7 @@ Beri nama Halaman 1: `Business Intelligence Dashboard`.
 2. **TOTAL QTY SOLD:**
    - Tambahkan Scorecard kedua.
    - **Metric:** `qty_sold` (Agregasi: SUM).
-   - Label: `TOTAL QTY SOLD` (Menampilkan `148,513`).
+   - Label: `TOTAL QTY SOLD` (Menampilkan `148,493`).
 3. **TOP CATEGORY:**
    - Tambahkan Scorecard ketiga.
    - **Metric / Dimension:** `category_name`.
@@ -80,7 +80,7 @@ Beri nama Halaman 1: `Business Intelligence Dashboard`.
 4. **order_no:**
    - Tambahkan Scorecard keempat.
    - **Metric:** `order_no` (Ubah agregasi menjadi `Count Distinct`).
-   - Pada tab Style: Centang **Compact numbers** (Menampilkan `58.4K`).
+   - Pada tab Style: Centang **Compact numbers** (Menampilkan `58.4K` / `58,363` struk unik).
 
 ### C. Grafik Garis Tren Omzet Harian (Line Chart):
 1. Klik **Add a chart > Time series chart**.
@@ -95,7 +95,7 @@ Beri nama Halaman 1: `Business Intelligence Dashboard`.
 2. **Dimension:** `category_name`.
 3. **Metric:** `net_amount` (SUM).
 4. Pada tab Style:
-   - Slices: 10 irisan.
+   - Slices: 8–10 irisan.
    - Hole size (Ukuran lubang): 40%.
    - Slice order: Berdasarkan nilai menurun.
 
@@ -120,16 +120,16 @@ Klik menu bilah kiri: **Add a page** (Tambah halaman). Beri nama: `Production Pl
 1. **TOTAL TARGET PRODUKSI (7 HARI):**
    - Tambahkan Scorecard.
    - **Metric:** `target_produksi` (Agregasi: SUM).
-   - Menampilkan angka: **766** (atau sesuai pekan batch aktif).
+   - Menampilkan angka: **318** unit (untuk pekan target 16–22 Feb 2026).
 2. **forecast_murni:**
    - Tambahkan Scorecard.
    - **Metric:** `forecast_murni` (Agregasi: SUM).
-   - Menampilkan angka: **209**.
+   - Menampilkan angka: **232** unit.
 3. **safety_stock:**
    - Tambahkan Scorecard.
    - **Metric:** `safety_stock` (Agregasi: SUM).
-   - Menampilkan angka: **557**.
-   *(Perhatikan bahwa $209 + 557 = 766$ persis!)*
+   - Menampilkan angka: **86** unit.
+   *(Perhatikan bahwa $232 + 86 = 318$ persis — 100% aditif integer!)*
 
 ### B. Tabel Rencana Target Produksi Harian:
 1. Klik **Add a chart > Table**.
@@ -137,6 +137,7 @@ Klik menu bilah kiri: **Add a page** (Tambah halaman). Beri nama: `Production Pl
    - `formatted_date` (atau `forecast_date`)
    - `category_name`
    - `product_name`
+   - `status_rekomendasi`
 3. **Metrics:**
    - `forecast_murni`
    - `safety_stock`
@@ -148,7 +149,7 @@ Klik menu bilah kiri: **Add a page** (Tambah halaman). Beri nama: `Production Pl
      - Kolom `forecast_murni`: Nuansa biru muda.
      - Kolom `safety_stock`: Nuansa oranye muda.
      - Kolom `target_produksi`: Nuansa ungu muda.
-   - Tampilkan 100 baris per halaman.
+   - Tampilkan 100 baris per halaman (total 336 jadwal SKU-hari = 48 SKU aktif × 7 hari; 155 jadwal MTS & 181 jadwal MTO).
 
 ---
 
@@ -164,7 +165,7 @@ Klik menu bilah kiri: **Add a page** (Tambah halaman). Beri nama: `Production Pl
 
 ## 7. Checklist Verifikasi Mahasiswa
 
-- [ ] Sumber data `DS_Performance_Overview` dan `DS_Production_Planning` terhubung tanpa pesan galat (*error*).
-- [ ] Halaman 1 menampilkan angka yang cocok dengan prototipe PDF (Rp4.05B, 148,513, Cake, 58.4K).
-- [ ] Halaman 2 menampilkan rencana 7 hari dan keseimbangan konsiliasi ($209 + 557 = 766$).
+- [ ] Sumber data `DS_Performance_Overview` dan `DS_Production_Planning` pada project `ita-cake-shop-bi-2026` terhubung tanpa pesan galat (*error*).
+- [ ] Halaman 1 menampilkan angka yang cocok dengan Data Mart (`Rp 4,05 Miliar`, `148.493 pcs`, `Cake (26,1%)`, `58.363 struk`).
+- [ ] Halaman 2 menampilkan rencana 7 hari dan keseimbangan konsiliasi aditif ($232 + 86 = 318$ unit).
 - [ ] Tautan publik dashboard telah dicatat dan siap dipresentasikan di sidang meja hijau.

@@ -119,23 +119,27 @@ def main():
         assert not df_prod['product_id'].duplicated().any(), "PK product_id duplikat di dim_product!"
         print("    [OK] Keunikan Primary Key (dim_date & dim_product) lulus.")
 
-        # B. Cek Integritas Referensial (FK pada fact_sales)
+        # B. Cek Integritas Referensial (FK pada fact_sales & plan_production_daily)
         date_id_set = set(df_date['date_id'])
         prod_id_set = set(df_prod['product_id'])
         assert df_fact['date_id'].isin(date_id_set).all(), "Ditemukan orphan date_id di fact_sales!"
         assert df_fact['product_id'].isin(prod_id_set).all(), "Ditemukan orphan product_id di fact_sales!"
-        print("    [OK] Integritas Referensial FK -> PK lulus 100%.")
+        assert df_plan['date_id'].isin(date_id_set).all(), "Ditemukan orphan date_id di plan_production_daily!"
+        assert df_plan['product_id'].isin(prod_id_set).all(), "Ditemukan orphan product_id di plan_production_daily!"
+        assert df_prod['is_active_12w'].isnull().sum() == 0, "Ditemukan NULL pada dim_product.is_active_12w!"
+        print("    [OK] Integritas Referensial FK -> PK (fact_sales & plan_production_daily) & Non-Null Boolean lulus 100%.")
 
         # C. Cek Aturan Bisnis Fakta Penjualan
         assert (df_fact['qty_sold'] > 0).all(), "Ditemukan kuantitas penjualan <= 0!"
         assert (df_fact['net_amount'] > 0).all(), "Ditemukan omzet bersih <= 0!"
         print("    [OK] Validitas Nilai Bisnis (qty > 0, net_amount > 0) lulus.")
 
-        # D. Cek Rencana Produksi & MTO Threshold
+        # D. Cek Rencana Produksi, MTO Threshold, & Aditivitas Integer
         assert (df_plan['target_produksi'] >= 0).all(), "Ditemukan target produksi negatif!"
-        # Verifikasi bahwa target produksi adalah integer bulat (bukan pecahan float)
         assert (df_plan['target_produksi'] % 1 == 0).all(), "Target produksi bukan bilangan bulat!"
-        print("    [OK] Integritas Target Produksi Harian (MTO threshold & integer rounding) lulus.")
+        assert ((df_plan['forecast_murni'] + df_plan['safety_stock']) == df_plan['target_produksi']).all(), "Pelanggaran aditivitas integer pada plan_production_daily!"
+        assert 'status_rekomendasi' in df_plan.columns, "Kolom status_rekomendasi absen di plan_production_daily!"
+        print("    [OK] Integritas Target Produksi Harian (MTO threshold & 100% additive integer rounding) lulus.")
 
         # E. Cek Rekomendasi Manajerial (3 Target Kategori)
         assert len(df_recs) == 3, f"Ekspektasi 3 kategori di rekomendasi, ditemukan {len(df_recs)}"
