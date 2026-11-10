@@ -79,7 +79,8 @@ def run_notebook_verification(skip_run=False):
             assert nb_path.exists(), f"Notebook tidak ditemukan: {nb_path}"
             with open(nb_path, "r", encoding="utf-8") as f:
                 nb = nbformat.read(f, as_version=4)
-            logger.log(f"  [PASS] {nb_path.name} (Valid JSON, {len(nb.cells)} sel)")
+            assert isinstance(nb, nbformat.NotebookNode)
+            logger.log(f"  [PASS] {nb_path.name} (Valid JSON, {len(nb['cells'])} sel)")
         return True
 
     all_passed = True
@@ -91,6 +92,7 @@ def run_notebook_verification(skip_run=False):
         try:
             with open(nb_path, "r", encoding="utf-8") as f:
                 nb = nbformat.read(f, as_version=4)
+            assert isinstance(nb, nbformat.NotebookNode)
             ep.preprocess(nb, {"metadata": {"path": str(nb_path.parent)}})
             elapsed = time.time() - t0
             logger.log(f"  [PASS] {nb_path.name} selesai tanpa error dalam {elapsed:.2f}s")
@@ -213,7 +215,7 @@ def run_out_of_sample_evaluation():
     # 1. Data Latih Resmi: 155 pekan (2023-02-20 s/d 2026-02-02)
     weekly_path = BASE_DIR / "01_data_ITA-Cake-Shop" / "Data_Output" / "weekly_clean_final.csv"
     df_train = pd.read_csv(weekly_path, parse_dates=["date"], index_col="date")
-    df_train.index.freq = "W-MON"
+    df_train.index = pd.DatetimeIndex(df_train.index, freq="W-MON")
     
     # 2. Data Extended: s/d Sept 2026
     ext_path = BASE_DIR / "01_data_ITA-Cake-Shop" / "Data_Output" / "Master_Clean_Feb2023_Sept2026.csv"
@@ -265,7 +267,7 @@ def run_out_of_sample_evaluation():
     for cat in target_cats:
         p = champ[cat]
         train_series = df_train[cat].astype(float).replace(0, 0.1)
-        train_series.index.freq = "W-MON"
+        train_series.index = pd.DatetimeIndex(train_series.index, freq="W-MON")
         test_series = test_30w[cat].astype(float)
         
         # Fit Holt-Winters Champion
@@ -281,15 +283,15 @@ def run_out_of_sample_evaluation():
             smoothing_seasonal=p["gamma"],
             optimized=False
         )
-        pred_hw = hw.forecast(h_30).values
+        pred_hw = np.asarray(hw.forecast(h_30), dtype=float)
         
         # Seasonal Naive Benchmark
         m = p["m"]
-        last_m = df_train[cat].iloc[-m:].values
+        last_m = np.asarray(df_train[cat].iloc[-m:], dtype=float)
         pred_sn = np.tile(last_m, int(np.ceil(h_30 / m)))[:h_30]
         
         # Metrik HW
-        y_true = test_series.values
+        y_true = np.asarray(test_series, dtype=float)
         vol_actual = float(np.sum(y_true))
         vol_pred_hw = float(np.sum(pred_hw))
         wmape_hw = float(np.sum(np.abs(y_true - pred_hw)) / vol_actual * 100)
@@ -349,7 +351,7 @@ def run_out_of_sample_evaluation():
     for cat in target_cats:
         p = champ[cat]
         train_series = df_train[cat].astype(float).replace(0, 0.1)
-        train_series.index.freq = "W-MON"
+        train_series.index = pd.DatetimeIndex(train_series.index, freq="W-MON")
         test_series = test_25w[cat].astype(float)
         
         # Fit Holt-Winters Champion
@@ -365,15 +367,15 @@ def run_out_of_sample_evaluation():
             smoothing_seasonal=p["gamma"],
             optimized=False
         )
-        pred_hw = hw.forecast(h_25).values
+        pred_hw = np.asarray(hw.forecast(h_25), dtype=float)
         
         # Seasonal Naive Benchmark
         m = p["m"]
-        last_m = df_train[cat].iloc[-m:].values
+        last_m = np.asarray(df_train[cat].iloc[-m:], dtype=float)
         pred_sn = np.tile(last_m, int(np.ceil(h_25 / m)))[:h_25]
         
         # Metrik HW
-        y_true = test_series.values
+        y_true = np.asarray(test_series, dtype=float)
         vol_actual = float(np.sum(y_true))
         vol_pred_hw = float(np.sum(pred_hw))
         wmape_hw = float(np.sum(np.abs(y_true - pred_hw)) / vol_actual * 100)

@@ -100,16 +100,19 @@ def clean_pos_dataset(df_raw: pd.DataFrame) -> pd.DataFrame:
     df = df.dropna(subset=['order date', 'item name', 'item group', 'qty', 'amount'])
 
     # Sanitasi numerik
-    df['qty'] = pd.to_numeric(df['qty'], errors='coerce').fillna(0)
+    df['qty'] = pd.Series(pd.to_numeric(df['qty'], errors='coerce'), index=df.index).fillna(0)
     price_col = 'price' if 'price' in df.columns else 'unit price'
     if price_col in df.columns:
-        df['price'] = pd.to_numeric(df[price_col], errors='coerce').fillna(0)
+        df['price'] = pd.Series(pd.to_numeric(df[price_col], errors='coerce'), index=df.index).fillna(0)
     else:
         df['price'] = (df['amount'] / df['qty']).replace([np.inf, -np.inf], 0).fillna(0)
 
-    df['amount'] = pd.to_numeric(df['amount'], errors='coerce').fillna(0)
+    df['amount'] = pd.Series(pd.to_numeric(df['amount'], errors='coerce'), index=df.index).fillna(0)
     discount_col = 'discount amount' if 'discount amount' in df.columns else 'discount'
-    df['discount amount'] = pd.to_numeric(df.get(discount_col, 0), errors='coerce').fillna(0)
+    if discount_col in df.columns:
+        df['discount amount'] = pd.Series(pd.to_numeric(df[discount_col], errors='coerce'), index=df.index).fillna(0)
+    else:
+        df['discount amount'] = 0.0
 
     # KOREKSI FINANSIAL: Olsera POS mencatat 'amount' sudah dipotong diskon
     df['gross_amount'] = df['qty'] * df['price']
@@ -117,17 +120,17 @@ def clean_pos_dataset(df_raw: pd.DataFrame) -> pd.DataFrame:
 
     # Filter status transaksi tuntas
     if 'order status' in df.columns:
-        df = df[df['order status'] == 'Z']
+        df = pd.DataFrame(df.loc[df['order status'] == 'Z'])
 
     # Filter kuantitas dan omzet positif
-    df = df[(df['qty'] > 0) & (df['omzet_bersih'] > 0)]
+    df = pd.DataFrame(df.loc[(df['qty'] > 0) & (df['omzet_bersih'] > 0)])
 
     # Deduplikasi komposit
     order_col = 'order no' if 'order no' in df.columns else 'order_no'
     if order_col in df.columns:
         dedup_cols = [order_col, 'order date', 'item name', 'qty', 'price', 'amount']
-        df = df.drop_duplicates(subset=dedup_cols, keep='first')
-        df.rename(columns={order_col: 'order_no'}, inplace=True)
+        df = df.drop_duplicates(subset=dedup_cols, keep='first').copy()
+        df = df.rename(columns={order_col: 'order_no'})
     else:
         df['order_no'] = [f"ORD-{i+1:08d}" for i in range(len(df))]
 
@@ -202,19 +205,19 @@ def build_star_schema(
         dim_date.loc[mask, 'is_idulfitri_mask_window'] = True
 
     dim_date['tanggal_penuh'] = dim_date['tanggal_penuh'].dt.strftime('%Y-%m-%d')
-    dim_date = dim_date[[
+    dim_date = pd.DataFrame(dim_date[[
         'date_id', 'tanggal_penuh', 'nama_hari', 'nama_bulan',
         'minggu_ke', 'tahun', 'is_weekend', 'is_idulfitri_mask_window'
-    ]]
+    ]])
 
     # 2. DIM_PRODUCT
     latest_prod = df_clean.sort_values('order date').groupby('item name').tail(1)
-    dim_product = latest_prod[['item name', 'item group', 'price']].copy()
-    dim_product.rename(columns={
+    dim_product = pd.DataFrame(latest_prod[['item name', 'item group', 'price']].copy())
+    dim_product = dim_product.rename(columns={
         'item name': 'product_name',
         'item group': 'category_name',
         'price': 'sell_price_current'
-    }, inplace=True)
+    })
     dim_product.reset_index(drop=True, inplace=True)
     dim_product['product_id'] = dim_product.index + 1
     dim_product['scd_type'] = 'Type1'
@@ -229,13 +232,13 @@ def build_star_schema(
         lambda name: True if name in active_skus else False
     ).astype(bool)
 
-    dim_product = dim_product[[
+    dim_product = pd.DataFrame(dim_product[[
         'product_id', 'product_name', 'category_name',
         'sell_price_current', 'scd_type', 'is_active_12w'
-    ]]
+    ]])
 
     # 3. FACT_SALES
-    date_lookup = dict(zip(pd.to_datetime(dim_date['tanggal_penuh']).dt.date, dim_date['date_id']))
+    date_lookup = dict(zip(pd.Series(pd.to_datetime(dim_date['tanggal_penuh'])).dt.date, dim_date['date_id']))
     prod_lookup = dict(zip(dim_product['product_name'], dim_product['product_id']))
 
     fact = df_clean.copy()
@@ -243,10 +246,10 @@ def build_star_schema(
     fact['product_id'] = fact['item name'].map(prod_lookup)
     fact.dropna(subset=['date_id', 'product_id'], inplace=True)
 
-    fact = fact[[
+    fact = pd.DataFrame(fact[[
         'order_no', 'date_id', 'product_id', 'price', 'qty',
         'gross_amount', 'discount amount', 'omzet_bersih'
-    ]].copy()
+    ]].copy())
     fact.columns = [
         'order_no', 'date_id', 'product_id', 'unit_price', 'qty_sold',
         'gross_amount', 'discount_amount', 'net_amount'
@@ -369,13 +372,13 @@ def run_forecasting_and_disaggregation(
     forecast_dates = pd.date_range(forecast_week_start, periods=7, freq='D')
     batch_ts = datetime.datetime.now(datetime.timezone.utc).isoformat()
 
-    date_lookup = {}
+    date_lookup: Dict[str, int] = {}
     if dim_date is not None and not dim_date.empty:
-        date_lookup = dict(zip(dim_date['tanggal_penuh'].astype(str), dim_date['date_id'].astype(int)))
+        date_lookup = {str(k): int(v) for k, v in zip(dim_date['tanggal_penuh'], dim_date['date_id'])}
 
-    prod_lookup = {}
+    prod_lookup: Dict[str, int] = {}
     if dim_product is not None and not dim_product.empty:
-        prod_lookup = dict(zip(dim_product['product_name'].astype(str), dim_product['product_id'].astype(int)))
+        prod_lookup = {str(k): int(v) for k, v in zip(dim_product['product_name'], dim_product['product_id'])}
 
     daily_sku_target = df_clean[
         (df_clean['order date'] < forecast_week_start) &
@@ -420,7 +423,7 @@ def run_forecasting_and_disaggregation(
 
         for dt in forecast_dates:
             dt_str = dt.strftime('%Y-%m-%d')
-            date_id_val = int(date_lookup.get(dt_str, int(dt.strftime('%Y%m%d'))))
+            date_id_val = date_lookup.get(dt_str, int(dt.strftime('%Y%m%d')))
             day_dow = dt.dayofweek
             dow_val = dow_share.get(day_dow, 1.0 / 7.0)
             day_fc_cat = w_fc * dow_val
@@ -449,7 +452,7 @@ def run_forecasting_and_disaggregation(
                     final_target = fm_int + ss_int
                     status_rek = "Produksi (Make-to-Stock)"
 
-                prod_id_val = int(prod_lookup.get(str(sku), 0))
+                prod_id_val = prod_lookup.get(str(sku), 0)
                 plan_records.append({
                     'date_id': date_id_val,
                     'forecast_date': dt_str,
@@ -687,15 +690,17 @@ def simulate_looker_views_locally(tables: Dict[str, pd.DataFrame]) -> Tuple[pd.D
     # Simulasi v_looker_performance_overview
     m1 = fact_sales.merge(dim_date, on='date_id', how='inner')
     v_overview = m1.merge(dim_product, on='product_id', how='inner')
-    v_overview = v_overview[[
+    v_overview = pd.DataFrame(v_overview[[
         'order_no', 'tanggal_penuh', 'nama_hari', 'nama_bulan',
         'minggu_ke', 'tahun', 'is_weekend', 'product_id', 'product_name',
         'category_name', 'qty_sold', 'gross_amount', 'discount_amount', 'net_amount'
-    ]].rename(columns={'tanggal_penuh': 'order_date'})
+    ]]).rename(columns={'tanggal_penuh': 'order_date'})
 
     # Simulasi v_looker_production_planning
     v_planning = plan_daily.copy()
-    v_planning['formatted_date'] = pd.to_datetime(v_planning['forecast_date']).dt.strftime('%a, %d %b %Y')
+    v_planning['formatted_date'] = pd.Series(
+        pd.to_datetime(v_planning['forecast_date']), index=v_planning.index
+    ).dt.strftime('%a, %d %b %Y')
 
     return v_overview, v_planning
 
@@ -781,7 +786,7 @@ def main():
     cutoff_cfg = args.cutoff_date or config['pipeline'].get('default_cutoff_date')
     if cutoff_cfg and str(cutoff_cfg).lower() != 'latest':
         cutoff_dt = pd.to_datetime(cutoff_cfg)
-        df_clean = df_clean[df_clean['order date'] <= cutoff_dt]
+        df_clean = pd.DataFrame(df_clean.loc[df_clean['order date'] <= cutoff_dt])
         logger.info(f"Data difilter sesuai batas cutoff: {cutoff_dt.date()} ({len(df_clean):,} baris).")
     else:
         cutoff_dt = df_clean['order date'].max().normalize()

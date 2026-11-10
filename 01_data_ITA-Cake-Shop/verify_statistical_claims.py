@@ -40,7 +40,7 @@ print(f"Unique target SKUs count: {num_skus}")
 print(f"Expected grid size (days * skus): {total_days} * {num_skus} = {total_days * num_skus}")
 
 dates = pd.date_range(min_date, max_date, freq='D')
-full_idx = pd.MultiIndex.from_product([dates, unique_skus], names=['order date', 'item name'])
+full_idx = pd.MultiIndex.from_product([dates, pd.Index(unique_skus)], names=['order date', 'item name'])
 daily_grid = df_target.groupby(['order date', 'item name'])['qty'].sum().reindex(full_idx, fill_value=0).reset_index()
 
 total_sku_days = len(daily_grid)
@@ -158,8 +158,9 @@ IDUL_FITRI_WINDOWS = [
 ]
 
 cleaned_weekly = weekly_clean.copy()
+weekly_dt_idx = pd.DatetimeIndex(cleaned_weekly.index)
 for start_dt, end_dt in IDUL_FITRI_WINDOWS:
-    mask = (cleaned_weekly.index + pd.Timedelta(days=6) >= start_dt) & (cleaned_weekly.index <= end_dt)
+    mask = (weekly_dt_idx + pd.Timedelta(days=6) >= start_dt) & (weekly_dt_idx <= end_dt)
     cleaned_weekly.loc[mask, :] = np.nan
 
 cleaned_weekly = cleaned_weekly.interpolate(method='linear').bfill().ffill()

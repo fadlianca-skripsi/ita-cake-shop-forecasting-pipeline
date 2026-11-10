@@ -95,7 +95,10 @@ def main():
             for col in compare_cols:
                 if pd.api.types.is_numeric_dtype(df1[col]):
                     np.testing.assert_allclose(
-                        df1[col].values, df2[col].values, rtol=1e-5, atol=1e-5,
+                        np.asarray(df1[col], dtype=float),
+                        np.asarray(df2[col], dtype=float),
+                        rtol=1e-5,
+                        atol=1e-5,
                         err_msg=f"Diskrepansi numerik pada tabel {table}, kolom {col}"
                     )
                 else:
