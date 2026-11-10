@@ -20,3 +20,4 @@ token.pickle
 # Temporary test folders
 temp_idempotency_*/
 incoming_pos/*.xlsx
+*_ORIGINAL_FULL.csv

@@ -25,7 +25,7 @@ google_drive:
 
 pipeline:
   official_start_date: "2023-02-20"
-  default_cutoff_date: "2026-02-09"
+  default_cutoff_date: "latest"
   target_categories:
     - "Cake"
     - "Japanese"

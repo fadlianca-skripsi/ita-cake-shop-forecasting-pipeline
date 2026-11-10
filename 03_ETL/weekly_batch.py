@@ -736,9 +736,9 @@ def main():
             base_script_dir / "Data_Output/Master_Clean_Feb2023_Sept2026.csv",
             base_script_dir / "../01_data_ITA-Cake-Shop/Data_Output/Master_Clean_Feb2023_Sept2026.csv",
         ]
-        # Jika cutoff-date lebih dari 2026-02-09 atau 'latest', prioritaskan Sept2026
-        cutoff_req = args.cutoff_date or config['pipeline'].get('default_cutoff_date', '2026-02-09')
-        if str(cutoff_req).lower() == 'latest' or pd.to_datetime(cutoff_req) > pd.to_datetime('2026-02-09'):
+        # Prioritaskan Sept2026 hanya jika cutoff-date secara eksplisit lebih dari 2026-02-09
+        cutoff_req = args.cutoff_date or config['pipeline'].get('default_cutoff_date', 'latest')
+        if str(cutoff_req).lower() not in ['latest', ''] and pd.to_datetime(cutoff_req) > pd.to_datetime('2026-02-09'):
             master_csv_candidates = [
                 base_script_dir / "Data_Output/Master_Clean_Feb2023_Sept2026.csv",
                 base_script_dir / "../01_data_ITA-Cake-Shop/Data_Output/Master_Clean_Feb2023_Sept2026.csv",
